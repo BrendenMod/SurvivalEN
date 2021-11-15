@@ -1,0 +1,77 @@
+format-version: '2'
+config:
+  msgToConsole: true
+  enableLeftClick: false
+armor_stands:
+  loc(-41,81,76):
+    commands:
+    - console shop open Miner %player%
+  loc(21,82,-46):
+    commands:
+    - 'player protections '
+  loc(38,82,-53):
+    commands:
+    - 'console shop open Dyes %player% '
+  loc(85,84,-24):
+    commands:
+    - 'console dm open Llaves %player% '
+  loc(-4,98,-22):
+    commands:
+    - 'console tp %player% -10.172 91 -37.540 '
+  loc(12,85,15):
+    commands:
+    - 'console shop open Miner %player% '
+  loc(24,82,-69):
+    commands:
+    - 'console shop open equip %player% '
+  loc(-8,85,-20):
+    commands:
+    - 'console tp %player% -2.408 85 -16.407 '
+  loc(-24,84,-61):
+    commands:
+    - 'player encantamientos '
+  loc(11,82,72):
+    commands:
+    - 'console gui openfor %player% tradeos '
+  loc(26,82,65):
+    commands:
+    - 'console dm open dungeon %player% '
+  loc(0,109,-3):
+    commands:
+    - 'player daily '
+  loc(18,110,-19):
+    commands:
+    - 'player ranks '
+  loc(21,109,-40):
+    commands:
+    - 'console dm open rtp %player% '
+  loc(48,111,7):
+    commands:
+    - 'console dm open kitsvips %player% '
+  loc(23,110,-10):
+    commands:
+    - 'player menu '
+  loc(-12,110,-4):
+    commands:
+    - 'player upgrades '
+  loc(-1,82,60):
+    commands:
+    - 'console rec bank forceopen %player% '
+  loc(16,82,61):
+    commands:
+    - 'console shop open blocks %player% '
+  loc(26,82,82):
+    commands:
+    - 'console dm open spawner %player% '
+  loc(21,82,80):
+    commands:
+    - 'console shop open mobdrops %player% '
+  loc(54,103,-27):
+    commands:
+    - 'console dm open warp %player% '
+  loc(19,113,4):
+    commands:
+    - 'player skills '
+  loc(23,113,4):
+    commands:
+    - 'player skill '

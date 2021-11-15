@@ -1,0 +1,14 @@
+cianita:
+  Id: GRAY_DYE
+  Data: 0
+  Display: '&3&lKyanite'
+  Lore:
+  - '&8══════&c❋&8══════'
+  - '&e➤ &f&oRarity:&r &9&oRare'
+  - '&e➤ &f&oType: &3&oWisdom'
+  - '&8═════════════'
+  - '&e➤ &f&oDescription:'
+  - '&e➤ &c&oStone worth'
+  - '&c&oexchange in store'
+  - '&c&oof spawn dungeons.'
+  - '&8══════&c❋&8══════'

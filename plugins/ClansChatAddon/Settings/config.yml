@@ -1,0 +1,4 @@
+Command: chat
+CommandToggleChat: toggleChat
+PermissionClanChat: clans.chat
+PermissionClanToggleChat: clans.togglechat

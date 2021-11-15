@@ -1,0 +1,33 @@
+name: builder
+permissions:
+- essentials.*
+- mv.bypass.gamemode.*
+- worldedit.*
+- worldguard.*
+- astools.clone
+- astools.command
+- astools.use
+- autorank.exclude
+- chatformat.VIP
+- chatformat.default:
+    value: false
+- djp.VIP4:
+    value: false
+- djp.VIP5+:
+    value: false
+- djp.aquiles:
+    value: false
+- djp.glifo:
+    value: false
+- djp.pegaso:
+    value: false
+- ezchat.default:
+    value: false
+- ezchat.vip
+- fawe.admin
+- fawe.bypass
+parents:
+- default
+prefixes:
+- '&8&lBUILDER &f':
+    priority: 50

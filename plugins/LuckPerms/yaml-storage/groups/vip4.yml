@@ -1,0 +1,31 @@
+name: vip4
+permissions:
+- libsdisguises.disguise.rabbit.*
+- MyPet.leash.parrot
+- MyPet.leash.villager
+- MyPet.leash.vindicator
+- color.VIP4
+- djp.VIP4
+- emotes.dealwithit
+- essentials.back.ondeath
+- essentials.kits.VIP1:
+    value: false
+- essentials.kits.VIP2:
+    value: false
+- essentials.kits.VIP3:
+    value: false
+- essentials.kits.VIP4
+- ezcolors.color.purple
+- mypet.petstorage.limit.25
+- preciousstones.limit8
+- reward.VIP4
+- reward.pegaso:
+    value: false
+parents:
+- g-bukkit_default
+- g-essentials_vip4
+- g-groupmanager_default
+- vip3
+prefixes:
+- '&5[&e⌖&f&ki&c&lVIP&f&ki&e⌖&5] &f':
+    priority: 38

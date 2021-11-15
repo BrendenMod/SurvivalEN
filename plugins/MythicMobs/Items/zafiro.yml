@@ -1,0 +1,14 @@
+zafiro:
+  Id: CYAN_DYE
+  Display: '&9&lSapphire'
+  Data: 0
+  Lore:
+  - '&8══════&c❋&8══════'
+  - '&e➤ &f&oRarity:&r &9&oRare'
+  - '&e➤ &f&oType: &9&oValue'
+  - '&8═════════════'
+  - '&e➤ &f&oDescription:'
+  - '&e➤ &c&oStone worth'
+  - '&c&oexchange in store'
+  - '&c&oof spawn dungeons.'
+  - '&8══════&c❋&8══════'

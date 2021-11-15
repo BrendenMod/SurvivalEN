@@ -1,0 +1,279 @@
+menu_title: '&0Spawner Shop'
+open_command:
+- shopspawner123
+size: 36
+items:
+  'Decoration':
+    display_name: '&7'
+    material: gray_stained_glass_pane
+    slots:
+    - 10
+    - 16
+    - 19
+    - 25
+  'Decoration-1':
+    display_name: '&7'
+    material: black_stained_glass_pane
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 17
+    - 18
+    - 26
+    - 27
+    - 28
+    - 29
+    - 30
+    - 31
+    - 32
+    - 33
+    - 34
+    - 35
+  'Chicken':
+    material: spawner
+    priority: 1
+    slots:
+    - 11
+    display_name: '&bChicken Spawner'
+    lore: 
+    - ''
+    - '&7Price: &2$450.000 &d⛁'
+    - ''
+    - '&eLeft click to purchase'
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 450000
+          deny_commands:
+          - '[message] &b&lSPAWNERS &8» &fYou need &a$450.000&f to acquire this'  
+    left_click_commands:
+    - '[close]'
+    - '[console] ms give %player_name% Chicken 1'
+    - '[console] eco take %player_name% 450000'
+    - '[message] &b&lSPAWNERS &8» &7You have successfully acquired this spawner'
+  'Pig':
+    material: spawner
+    priority: 1
+    slots:
+    - 12
+    display_name: '&bPig Spawner'
+    lore: 
+    - ''
+    - '&7Price: &2$150.000 &d⛁'
+    - ''
+    - '&eLeft click to purchase'
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 150000
+          deny_commands:
+          - '[message] &b&lSPAWNERS &8» &fYou need &a$150.000&f to acquire this'  
+    left_click_commands:
+    - '[close]'
+    - '[console] ms give %player_name% Pig 1'
+    - '[console] eco take %player_name% 150000'
+    - '[message] &b&lSPAWNERS &8» &7You have successfully acquired this spawner'
+  'Sheep':
+    material: spawner
+    priority: 1
+    slots:
+    - 13
+    display_name: '&bSheep Spawner'
+    lore: 
+    - ''
+    - '&7Price: &2$250.000 &d⛁'
+    - ''
+    - '&eLeft click to purchase'
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 250000
+          deny_commands:
+          - '[message] &b&lSPAWNERS &8» &fYou need &a$250.000&f to acquire this'  
+    left_click_commands:
+    - '[close]'
+    - '[console] ms give %player_name% sheep 1'
+    - '[console] eco take %player_name% 250000'
+    - '[message] &b&lSPAWNERS &8» &7You have successfully acquired this spawner'
+  'Cow':
+    material: spawner
+    priority: 1
+    slots:
+    - 14
+    display_name: '&bCow Spawner'
+    lore: 
+    - ''
+    - '&7Price: &2$350.000 &d⛁'
+    - ''
+    - '&eLeft click to purchase'
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 350000
+          deny_commands:
+          - '[message] &b&lSPAWNERS &8» &fYou need &a$350.000&f to acquire this'  
+    left_click_commands:
+    - '[close]'
+    - '[console] ms give %player_name% cow 1'
+    - '[console] eco take %player_name% 350000'
+    - '[message] &b&lSPAWNERS &8» &7You have successfully acquired this spawner'
+  'Rabbit':
+    material: spawner
+    priority: 1
+    slots:
+    - 15
+    display_name: '&bRabbit Spawner'
+    lore: 
+    - ''
+    - '&7Price: &2$400.000 &d⛁'
+    - ''
+    - '&eLeft click to purchase'
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 400000
+          deny_commands:
+          - '[message] &b&lSPAWNERS &8» &fYou need &a$400.000&f to acquire this'  
+    left_click_commands:
+    - '[close]'
+    - '[console] ms give %player_name% rabbit 1'
+    - '[console] eco take %player_name% 400000'
+    - '[message] &b&lSPAWNERS &8» &7You have successfully acquired this spawner'
+  'Zombie':
+    material: spawner
+    priority: 1
+    slots:
+    - 20
+    display_name: '&bZombie Spawner'
+    lore: 
+    - ''
+    - '&7Price: &2$450.000 &d⛁'
+    - ''
+    - '&eLeft click to purchase'
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 450000
+          deny_commands:
+          - '[message] &b&lSPAWNERS &8» &fYou need &a450.000&f to acquire this'  
+    left_click_commands:
+    - '[close]'
+    - '[console] ms give %player_name% zombie 1'
+    - '[console] eco take %player_name% 450000'
+    - '[message] &b&lSPAWNERS &8» &7You have successfully acquired this spawner'
+  'Skeleton':
+    material: spawner
+    priority: 1
+    slots:
+    - 21
+    display_name: '&bSkeleton Spawner'
+    lore: 
+    - ''
+    - '&7Price: &2$550.000 &d⛁'
+    - ''
+    - '&eLeft click to purchase'
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 550000
+          deny_commands:
+          - '[message] &b&lSPAWNERS &8» &fYou need &a$550.000&f to acquire this'  
+    left_click_commands:
+    - '[close]'
+    - '[console] ms give %player_name% Skeleton 1'
+    - '[console] eco take %player_name% 550000'
+    - '[message] &b&lSPAWNERS &8» &7You have successfully acquired this spawner'
+  'Creeper':
+    material: spawner
+    priority: 1
+    slots:
+    - 22
+    display_name: '&bCreeper Spawner'
+    lore: 
+    - ''
+    - '&7Price: &2$850.000 &d⛁'
+    - ''
+    - '&eLeft click to purchase'
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 850000
+          deny_commands:
+          - '[message] &b&lSPAWNERS &8» &fYou need &a$850.000&f to acquire this'  
+    left_click_commands:
+    - '[close]'
+    - '[console] ms give %player_name% Creeper 1'
+    - '[console] eco take %player_name% 850000'
+    - '[message] &b&lSPAWNERS &8» &7You have successfully acquired this spawner'
+  'Blaze':
+    material: spawner
+    priority: 1
+    slots:
+    - 23
+    display_name: '&bBlaze Spawner'
+    lore: 
+    - ''
+    - '&7Price: &2$1.250.000 &d⛁'
+    - ''
+    - '&eLeft click to purchase'
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 1250000
+          deny_commands:
+          - '[message] &b&lSPAWNERS &8» &fYou need &a$1.250.000&f to acquire this'  
+    left_click_commands:
+    - '[close]'
+    - '[console] ms give %player_name% Blaze 1'
+    - '[console] eco take %player_name% 1250000'
+    - '[message] &b&lSPAWNERS &8» &7You have successfully acquired this spawner'
+  'Witch':
+    material: spawner
+    priority: 1
+    slots:
+    - 24
+    display_name: '&bWitch Spawner'
+    lore: 
+    - ''
+    - '&7Price: &2$1.850.000 &d⛁'
+    - ''
+    - '&eLeft click to purchase'
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 1850000
+          deny_commands:
+          - '[message] &b&lSPAWNERS &8» &fYou need &a$1.850.000&f to acquire this'  
+    left_click_commands:
+    - '[close]'
+    - '[console] ms give %player_name% Witch 1'
+    - '[console] eco take %player_name% 1850000'
+    - '[message] &b&lSPAWNERS &8» &7You have successfully acquired this spawner'

@@ -1,0 +1,38 @@
+name: manager
+permissions:
+- mv.bypass.gamemode.*
+- '*'
+- autorank.exclude
+- chatformat.Zeeik:
+    value: false
+- chatformat.danyelcou:
+    value: false
+- djp.VIP4:
+    value: false
+- djp.VIP5:
+    value: false
+- djp.aquiles:
+    value: false
+- djp.glifo:
+    value: false
+- djp.pegaso:
+    value: false
+- fawe.admin
+- fawe.bypass
+- litebans.dupeip.viewip
+- vanish.nochat:
+    value: false
+- vanish.nofollow:
+    value: false
+- vanish.nointeract:
+    value: false
+- vanish.nopickup:
+    value: false
+parents:
+- g-bukkit_default
+- g-essentials_administrador
+- g-groupmanager_default
+- jadmin
+prefixes:
+- '&4&lMANAGER &f':
+    priority: 55

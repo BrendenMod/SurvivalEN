@@ -1,0 +1,26 @@
+name: g-essentials_administrador
+permissions:
+- essentials.ban
+- essentials.ban.offline
+- essentials.broadcast
+- essentials.chat.spy
+- essentials.enderchest.others
+- essentials.fly
+- essentials.fly.safelogin
+- essentials.gc
+- essentials.home.others
+- essentials.invsee
+- essentials.invsee.equip
+- essentials.silentjoin
+- essentials.silentjoin.vanish
+- essentials.silentquit
+- essentials.socialspy
+- essentials.tempban
+- essentials.tempban.offline
+- essentials.tp
+- essentials.tp.others
+- essentials.unban
+- essentials.unbanip
+- essentials.vanish
+- essentials.vanish.effect
+- essentials.vanish.interact

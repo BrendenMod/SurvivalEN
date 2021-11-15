@@ -1,0 +1,398 @@
+# EZRanksPro rankups.yml file
+# Create your rankups in this file.
+# If you need a default template, delete the rankups: section and
+# let it regenerate an example rankup.
+# 
+# rankup_actions are a list of 
+# actions which will be executed
+# when a player successfully ranks up
+# 
+# You must include required arguments
+# <required>, (optional)
+# rankup_action list:
+# [consolecommand] <command> - perform a console command
+# [playercommand] <command> - make the player perform a command
+# [message] <message> - send the player a message
+# [broadcast] <message> - send the server a message
+# [jsonmessage] <json>- send the player a json message
+# [jsonbroadcast] <json> - send the server a json message
+# [actionbarmessage] <message> - send the player an actionbar message
+# [actionbarbroadcast] <message> - send the server an actionbar message
+# [addgroup] <group> (world) - add the player to a permissions group
+# [removegroup] <group> (world) - remove the player from a permissions group
+# [addpermission] <permission> (world) - add a permission node to the player
+# [removepermission] <permission> (world) - remove a permission node from a player
+# [setprefix] <prefix> - set the players prefix
+# [setsuffix] <suffix> - set the players suffix
+# [effect] <effect> - play an effect at the players location
+# [sound] <sound> <volume> <pitch> - play a sound at the players location
+# 
+# You can delay any of the rankup actions being performed by ending the action with
+# <delay=(time in seconds)>
+# example:
+# [consolecommand] eco give %player% 100 <delay=10>
+# 
+# Placeholders can be used in your rankup actions and messages:
+# 
+# %player% - players name
+# %displayname% - players displayname
+# %world% - players current world
+# %rank% - players current rank
+# %rankup% - players next rank (if they have one)
+# %cost% - cost to rankup
+# %cost_formatted% - formatted cost to rankup
+# %balance% - players balance
+# %balance_formatted% - players formatted balance
+# %difference% - amount still needed
+# %difference_formatted% - formatted amount still needede
+# %progress% - rounded progress % based on cost - balance
+# %progressexact% - exact progress % based on cost - balance
+# %progressbar% - custom progressbar based on cost - balance
+# %rankprefix% - players current rank prefix defined in this file
+# %rankupprefix% - players next rank prefix defined in this file
+# %lastrank% - last rank available
+# %lastrankprefix% - last rank available prefix
+# %rankup_cost_<rankname>% - show the cost for a specific rank
+# %rankup_cost_formatted_<rankname>% - show the formatted cost for a specific rank
+# %rankup_is_completed_<rankname>% - show if a player has completed the specified rank
+
+last_rank:
+  rank: Divinity
+  prefix: '&8[&4Divinity&8] '
+requirement_message:
+- '&e&m----------------------------------------------------'
+- '&eRanks &cYou need: &a$%cost% &cTo rise to rank: %rankupprefix%'
+- '&e&m----------------------------------------------------'
+rankups:
+  Default:
+    order: 1
+    prefix: '&8[&7Visitor&8] '
+    rankup_to: Farmer
+    cost: 7500.0
+    rankup_actions:
+    - '[broadcast] &e%player% &bRankUP to &c➱ %rankupprefix%'
+    - '[consolecommand] lp user %player% parent add Farmer'
+    - '[consolecommand] lp user %player% permission set ezranks.rank.Farmer'
+  Farmer:
+    order: 2
+    prefix: '&8[&eFarmer&8] '
+    rankup_to: Looter
+    cost: 15000.0
+    rankup_actions:
+    - '[broadcast] &e%player% &bRankUP to &c➱ %rankupprefix%'
+    - '[consolecommand] lp user %player% parent add Looter'
+    - '[consolecommand] lp user %player% permission set ezranks.rank.Looter'
+    - '[consolecommand] lp user %player% parent remove Farmer'
+    - '[consolecommand] lp user %player% permission unset ezranks.rank.Farmer'
+  Looter:
+    order: 3
+    prefix: '&8[&eLooter&8] '
+    rankup_to: Apprentice
+    cost: 30000.0
+    rankup_actions:
+    - '[broadcast] &e%player% &bRankUP to &c➱ %rankupprefix%'
+    - '[consolecommand] lp user %player% parent add Apprentice'
+    - '[consolecommand] lp user %player% permission set ezranks.rank.Apprentice'
+    - '[consolecommand] lp user %player% parent remove Looter'
+    - '[consolecommand] lp user %player% permission unset ezranks.rank.Looter'
+  Apprentice:
+    order: 4
+    prefix: '&8[&eApprentice&8] '
+    rankup_to: Craftsman
+    cost: 50000.0
+    rankup_actions:
+    - '[broadcast] &e%player% &bRankUP to &c➱ %rankupprefix%'
+    - '[consolecommand] lp user %player% parent add Craftsman'
+    - '[consolecommand] lp user %player% permission set ezranks.rank.Craftsman'
+    - '[consolecommand] lp user %player% parent remove Apprentice'
+    - '[consolecommand] lp user %player% permission unset ezranks.rank.Apprentice'
+  Craftsman:
+    order: 5
+    prefix: '&8[&6Craftsman&8] '
+    rankup_to: Bourgeois
+    cost: 100000.0
+    rankup_actions:
+    - '[broadcast] &e%player% &bRankUP to &c➱ %rankupprefix%'
+    - '[consolecommand] lp user %player% parent add Bourgeois'
+    - '[consolecommand] lp user %player% permission set ezranks.rank.Bourgeois'
+    - '[consolecommand] lp user %player% parent remove Craftsman'
+    - '[consolecommand] lp user %player% permission unset ezranks.rank.Craftsman'
+  Bourgeois:
+    order: 6
+    prefix: '&8[&6Bourgeois&8] '
+    rankup_to: Professor
+    cost: 200000.0
+    rankup_actions:
+    - '[broadcast] &e%player% &bRankUP to &c➱ %rankupprefix%'
+    - '[consolecommand] lp user %player% parent add Professor'
+    - '[consolecommand] lp user %player% permission set ezranks.rank.Professor'
+    - '[consolecommand] lp user %player% parent remove Bourgeois'
+    - '[consolecommand] lp user %player% permission unset ezranks.rank.Bourgeois'
+  Professor:
+    order: 7
+    prefix: '&8[&6Professor&8] '
+    rankup_to: Foreman
+    cost: 300000.0
+    rankup_actions:
+    - '[broadcast] &e%player% &bRankUP to &c➱ %rankupprefix%'
+    - '[consolecommand] lp user %player% parent add Foreman'
+    - '[consolecommand] lp user %player% permission set ezranks.rank.Foreman'
+    - '[consolecommand] lp user %player% parent remove Professor'
+    - '[consolecommand] lp user %player% permission unset ezranks.rank.Professor'
+  Foreman:
+    order: 8
+    prefix: '&8[&aCapatáz&8] '
+    rankup_to: Priest
+    cost: 400000.0
+    rankup_actions:
+    - '[broadcast] &e%player% &bRankUP to &c➱ %rankupprefix%'
+    - '[consolecommand] lp user %player% parent add Priest'
+    - '[consolecommand] lp user %player% permission set ezranks.rank.Priest'
+    - '[consolecommand] lp user %player% parent remove Foreman'
+    - '[consolecommand] lp user %player% permission unset ezranks.rank.Foreman'
+  Priest:
+    order: 9
+    prefix: '&8[&aPriest&8] '
+    rankup_to: Cleric
+    cost: 500000.0
+    rankup_actions:
+    - '[broadcast] &e%player% &bRankUP to &c➱ %rankupprefix%'
+    - '[consolecommand] lp user %player% parent add Cleric'
+    - '[consolecommand] lp user %player% permission set ezranks.rank.Cleric'
+    - '[consolecommand] lp user %player% parent remove Priest'
+    - '[consolecommand] lp user %player% permission unset ezranks.rank.Priest'
+  Cleric:
+    order: 10
+    prefix: '&8[&aClérigo '
+    rankup_to: Squire
+    cost: 600000.0
+    rankup_actions:
+    - '[broadcast] &e%player% &bRankUP to &c➱ %rankupprefix%'
+    - '[consolecommand] lp user %player% parent add Squire'
+    - '[consolecommand] lp user %player% permission set ezranks.rank.Squire'
+    - '[consolecommand] lp user %player% parent remove Cleric'
+    - '[consolecommand] lp user %player% permission unset ezranks.rank.Cleric'
+  Squire:
+    order: 11
+    prefix: '&8[&2Squire&8] '
+    rankup_to: Soldier
+    cost: 650000.0
+    rankup_actions:
+    - '[broadcast] &e%player% &bRankUP to &c➱ %rankupprefix%'
+    - '[consolecommand] lp user %player% parent add Soldier'
+    - '[consolecommand] lp user %player% permission set ezranks.rank.Soldier'
+    - '[consolecommand] lp user %player% parent remove Squire'
+    - '[consolecommand] lp user %player% permission unset ezranks.rank.Squire'
+  Soldier:
+    order: 12
+    prefix: '&8[&2Soldier&8] '
+    rankup_to: Commander
+    cost: 700000.0
+    rankup_actions:
+    - '[broadcast] &e%player% &bRankUP to &c➱ %rankupprefix%'
+    - '[consolecommand] lp user %player% parent add Commander'
+    - '[consolecommand] lp user %player% permission set ezranks.rank.Commander'
+    - '[consolecommand] lp user %player% parent remove Soldier'
+    - '[consolecommand] lp user %player% permission unset ezranks.rank.Soldier'
+  Commander:
+    order: 13
+    prefix: '&8[&2Commander&8] '
+    rankup_to: Noble
+    cost: 750000.0
+    rankup_actions:
+    - '[broadcast] &e%player% &bRankUP to &c➱ %rankupprefix%'
+    - '[consolecommand] lp user %player% parent add Noble'
+    - '[consolecommand] lp user %player% permission set ezranks.rank.Noble'
+    - '[consolecommand] lp user %player% parent remove Commander'
+    - '[consolecommand] lp user %player% permission unset ezranks.rank.Commander'
+  Noble:
+    order: 14
+    prefix: '&8[&bNoble&8] '
+    rankup_to: Warrior
+    cost: 800000.0
+    rankup_actions:
+    - '[broadcast] &e%player% &bRankUP to &c➱ %rankupprefix%'
+    - '[consolecommand] lp user %player% parent add Warrior'
+    - '[consolecommand] lp user %player% permission set ezranks.rank.Warrior'
+    - '[consolecommand] lp user %player% parent remove Noble'
+    - '[consolecommand] lp user %player% permission unset ezranks.rank.Noble'
+  Warrior:
+    order: 15
+    prefix: '&8[&bWarrior&8] '
+    rankup_to: Gentleman
+    cost: 850000.0
+    rankup_actions:
+    - '[broadcast] &e%player% &bRankUP to &c➱ %rankupprefix%'
+    - '[consolecommand] lp user %player% parent add Gentleman'
+    - '[consolecommand] lp user %player% permission set ezranks.rank.Gentleman'
+    - '[consolecommand] lp user %player% parent remove Warrior'
+    - '[consolecommand] lp user %player% permission unset ezranks.rank.Warrior'
+  Gentleman:
+    order: 16
+    prefix: '&8[&bGentleman&8] '
+    rankup_to: Lord
+    cost: 900000.0
+    rankup_actions:
+    - '[broadcast] &e%player% &bRankUP to &c➱ %rankupprefix%'
+    - '[consolecommand] lp user %player% parent add Lord'
+    - '[consolecommand] lp user %player% permission set ezranks.rank.Lord'
+    - '[consolecommand] lp user %player% parent remove Gentleman'
+    - '[consolecommand] lp user %player% permission unset ezranks.rank.Gentleman'
+  Lord:
+    order: 17
+    prefix: '&8[&3Lord&8] '
+    rankup_to: Leader
+    cost: 950000.0
+    rankup_actions:
+    - '[broadcast] &e%player% &bRankUP to &c➱ %rankupprefix%'
+    - '[consolecommand] lp user %player% parent add Leader'
+    - '[consolecommand] lp user %player% permission set ezranks.rank.Leader'
+    - '[consolecommand] lp user %player% parent remove Lord'
+    - '[consolecommand] lp user %player% permission unset ezranks.rank.Señor'
+  Leader:
+    order: 18
+    prefix: '&8[&3Leader&8] '
+    rankup_to: Baron
+    cost: 1000000.0
+    rankup_actions:
+    - '[broadcast] &e%player% &bRankUP to &c➱ %rankupprefix%'
+    - '[consolecommand] lp user %player% parent add Baron'
+    - '[consolecommand] lp user %player% permission set ezranks.rank.Baron'
+    - '[consolecommand] lp user %player% parent remove Leader'
+    - '[consolecommand] lp user %player% permission unset ezranks.rank.Leader'
+  Baron:
+    order: 19
+    prefix: '&8[&3Baron&8] '
+    rankup_to: Viscount
+    cost: 1500000.0
+    rankup_actions:
+    - '[broadcast] &e%player% &bRankUP to &c➱ %rankupprefix%'
+    - '[consolecommand] lp user %player% parent add Viscount'
+    - '[consolecommand] lp user %player% permission set ezranks.rank.Viscount'
+    - '[consolecommand] lp user %player% parent remove Baron'
+    - '[consolecommand] lp user %player% permission unset ezranks.rank.Baron'
+  Viscount:
+    order: 20
+    prefix: '&8[&9VizCount&8] '
+    rankup_to: Count
+    cost: 2000000.0
+    rankup_actions:
+    - '[broadcast] &e%player% &bRankUP to &c➱ %rankupprefix%'
+    - '[consolecommand] lp user %player% parent add Count'
+    - '[consolecommand] lp user %player% permission set ezranks.rank.Count'
+    - '[consolecommand] lp user %player% parent remove Viscount'
+    - '[consolecommand] lp user %player% permission unset ezranks.rank.Viscount'
+  Count:
+    order: 21
+    prefix: '&8[&9Count&8] '
+    rankup_to: Marquis
+    cost: 2500000.0
+    rankup_actions:
+    - '[broadcast] &e%player% &bRankUP to &c➱ %rankupprefix%'
+    - '[consolecommand] lp user %player% parent add Marquis'
+    - '[consolecommand] lp user %player% permission set ezranks.rank.Marquis'
+    - '[consolecommand] lp user %player% parent remove Count'
+    - '[consolecommand] lp user %player% permission unset ezranks.rank.Count'
+  Marquis:
+    order: 22
+    prefix: '&8[&9Marquis&8] '
+    rankup_to: Infant
+    cost: 3000000.0
+    rankup_actions:
+    - '[broadcast] &e%player% &bRankUP to &c➱ %rankupprefix%'
+    - '[consolecommand] lp user %player% parent add Infant'
+    - '[consolecommand] lp user %player% permission set ezranks.rank.Infant'
+    - '[consolecommand] lp user %player% parent remove Marquis'
+    - '[consolecommand] lp user %player% permission unset ezranks.rank.Marquis'
+  Infant:
+    order: 23
+    prefix: '&8[&dInfant&8] '
+    rankup_to: Prince
+    cost: 4000000.0
+    rankup_actions:
+    - '[broadcast] &e%player% &bRankUP to &c➱ %rankupprefix%'
+    - '[consolecommand] lp user %player% parent add Prince'
+    - '[consolecommand] lp user %player% permission set ezranks.rank.Prince'
+    - '[consolecommand] lp user %player% parent remove Infant'
+    - '[consolecommand] lp user %player% permission unset ezranks.rank.Infant'
+  Prince:
+    order: 24
+    prefix: '&8[&dPrince&8] '
+    rankup_to: Duke
+    cost: 5000000.0
+    rankup_actions:
+    - '[broadcast] &e%player% &bRankUP to &c➱ %rankupprefix%'
+    - '[consolecommand] lp user %player% parent add Duke'
+    - '[consolecommand] lp user %player% permission set ezranks.rank.Duke'
+    - '[consolecommand] lp user %player% parent remove Prince'
+    - '[consolecommand] lp user %player% permission unset ezranks.rank.Prince'
+  Duke:
+    order: 25
+    prefix: '&8[&dDuke&8] '
+    rankup_to: Grandfather
+    cost: 5500000.0
+    rankup_actions:
+    - '[broadcast] &e%player% &bRankUP to &c➱ %rankupprefix%'
+    - '[consolecommand] lp user %player% parent add Grandfather'
+    - '[consolecommand] lp user %player% permission set ezranks.rank.Grandfather'
+    - '[consolecommand] lp user %player% parent remove Duke'
+    - '[consolecommand] lp user %player% permission unset ezranks.rank.Duke'
+  Grandfather:
+    order: 26
+    prefix: '&8[&5Grandfather&8] '
+    rankup_to: Archduke
+    cost: 6500000.0
+    rankup_actions:
+    - '[broadcast] &e%player% &bRankUP to &c➱ %rankupprefix%'
+    - '[consolecommand] lp user %player% parent add Archduke'
+    - '[consolecommand] lp user %player% permission set ezranks.rank.Archduke'
+    - '[consolecommand] lp user %player% parent remove Grandfather'
+    - '[consolecommand] lp user %player% permission unset ezranks.rank.Grandfather'
+  Archduke:
+    order: 27
+    prefix: '&8[&5Archduke&8] '
+    rankup_to: Monarch
+    cost: 7500000.0
+    rankup_actions:
+    - '[broadcast] &e%player% &bRankUP to &c➱ %rankupprefix%'
+    - '[consolecommand] lp user %player% parent add Monarch'
+    - '[consolecommand] lp user %player% permission set ezranks.rank.Monarch'
+    - '[consolecommand] lp user %player% parent remove Archduke'
+    - '[consolecommand] lp user %player% permission unset ezranks.rank.Archduke'
+  Monarch:
+    order: 28
+    prefix: '&8[&5Monarch&8] '
+    rankup_to: King
+    cost: 1.0E7
+    rankup_actions:
+    - '[broadcast] &e%player% &bRankUP to &c➱ %rankupprefix%'
+    - '[consolecommand] lp user %player% parent add King'
+    - '[consolecommand] lp user %player% permission set ezranks.rank.King'
+    - '[consolecommand] lp user %player% parent remove Monarch'
+    - '[consolecommand] lp user %player% permission unset ezranks.rank.Monarch'
+  King:
+    order: 29
+    prefix: '&8[&cKing&8] '
+    rankup_to: Emperor
+    cost: 1.25E7
+    rankup_actions:
+    - '[broadcast] &e%player% &bRankUP to &c➱ %rankupprefix%'
+    - '[consolecommand] lp user %player% parent add Emperor'
+    - '[consolecommand] lp user %player% permission set ezranks.rank.Emperor'
+    - '[consolecommand] lp user %player% parent remove King'
+    - '[consolecommand] lp user %player% permission unset ezranks.rank.King'
+  Emperor:
+    order: 30
+    prefix: '&8[&cEmperor&8] '
+    rankup_to: Divinity
+    cost: 1.5E7
+    rankup_actions:
+    - '[broadcast] &e%player% &bRankUP to &c➱ %rankupprefix%'
+    - '[consolecommand] lp user %player% parent add Divinity'
+    - '[consolecommand] lp user %player% permission set ezranks.rank.Divinity'
+    - '[consolecommand] lp user %player% parent remove Emperor'
+    - '[consolecommand] lp user %player% permission unset ezranks.rank.Emperor'
+    - '[consolecommand] lp user %player% permission set ezranks.lastrank'
+  Divinity:
+    order: 31
+    prefix: '&8[&4Divinity&8] '

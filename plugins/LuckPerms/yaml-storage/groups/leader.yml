@@ -1,0 +1,13 @@
+name: leader
+permissions:
+- acceso.dungeon5
+- emotes.surprised
+- ezranks.rank.Leader
+parents:
+- g-bukkit_default
+- g-essentials_default
+- g-groupmanager_default
+- lord
+prefixes:
+- '&f':
+    priority: 20

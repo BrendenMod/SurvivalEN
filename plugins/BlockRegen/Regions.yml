@@ -1,0 +1,12 @@
+# BlockRegen
+# 
+# Developer(s): Aurorion, Wertik1206
+# Version: 3.5.8
+
+Regions:
+  mina:
+    Min: lobby;-77.0;77.0;48.0
+    Max: lobby;-22.0;94.0;100.0
+  mian2:
+    Min: lobby;-6.0;78.0;-28.0
+    Max: lobby;40.0;96.0;33.0

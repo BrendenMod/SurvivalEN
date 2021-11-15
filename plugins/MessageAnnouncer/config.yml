@@ -1,0 +1,43 @@
+# MessageAnnouncer v1.12.2 Main configuration
+announcer_enabled: true
+announcer_random: false
+announce_interval: 500
+sound:
+  enabled: false
+  sound_name: ENTITY_WOLF_HOWL
+  volume: 10
+  pitch: 1
+interval_announcement_list:
+- daily
+- kits
+- prestiges
+- jobs
+- enchants
+- rankup
+- protes
+announcements:
+  daily:
+  - '{"text": "&b&lADVERTISEMENTS &8» &fRemember to claim the rewards &3daily&7/&bweekly
+    &fwith the command &e(/daily&e)&f, remember you can buy &a&lVIP &fin (&dstore.server.com&7)"}'
+  kits:
+  - '{"text": "&b&lADVERTISEMENTS &8» &fGo up from RankUP and you can claim various
+    &c&lKITS&f use the command &e(/kits)"}'
+  prestiges:
+  - '{"text": "&b&lADVERTISEMENTS &8» &fYou can prestige if you reach the level &8[&265&8]
+    &fyou can get great rewards for prestige! &7(Kill entities to get points)"}'
+  jobs:
+  - '{"text": "&b&lADVERTISEMENTS &8» &fJoin a job so you can get money!, purchase
+    job upgrades, thus increasing your maximum capacity of available jobs. &7(Use
+    the command /upgrade)"}'
+  enchants:
+  - '{"text": "&b&lADVERTISEMENTS &8» &fRedeem miscellaneous items in the enchantment
+    area &dspecials&f, These will give you various enchantments for your &barmor&7/&ctools&7/&6weapons&f.
+    &7(Some enchantments can be found in shop.server.com)"}'
+  rankup:
+  - '{"text": "&b&lADVERTISEMENTS &8» &fWe have 30 Money Ranges in this mode!, use
+    the command &e(/ranks)&f and look at the information for each range. &7(The &a&lVIPS&7
+    they can rank up too)"}'
+  protes:
+  - '{"text": "&b&lADVERTISEMENTS &8» &fVisit the dungeons to get various items to
+    trade, in this way you can get special tools / weapons / armor which will help
+    you progress faster."}'

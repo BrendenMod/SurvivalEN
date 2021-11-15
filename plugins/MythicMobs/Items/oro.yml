@@ -1,0 +1,11 @@
+oro:
+  Id: PRISMARINE_CRYSTALS
+  Display: '&c&l&oGold coin!'
+  Data: 0
+  Lore:
+  - '&8══════&c❋&8══════'
+  - '&e➤ &f&oDescription:'
+  - '&e➤ &c&oCoin worth'
+  - '&c&oexchange in store'
+  - '&c&oof spawn dungeons.'
+  - '&8══════&c❋&8══════'

@@ -1,0 +1,13 @@
+name: soldier
+permissions:
+- acceso.dungeon4
+- emotes.wink
+- ezranks.rank.Soldier
+parents:
+- g-bukkit_default
+- g-essentials_default
+- g-groupmanager_default
+- squire
+prefixes:
+- '&f':
+    priority: 14

@@ -1,0 +1,63 @@
+name: admin
+permissions:
+- preciousstones.admin.*
+- autorank.exclude
+- combatlogx.bypass
+- coreprotect.inspect
+- coreprotect.lookup
+- deluxechat.socialspy
+- djp.VIP4:
+    value: false
+- djp.VIP5:
+    value: false
+- djp.aquiles:
+    value: false
+- djp.glifo:
+    value: false
+- djp.pegaso:
+    value: false
+- essentials.ban
+- essentials.ban.offline
+- essentials.broadcast
+- essentials.chat.spy
+- essentials.enderchest.others
+- essentials.fly
+- essentials.fly.safelogin
+- essentials.gc
+- essentials.home.others
+- essentials.invsee
+- essentials.invsee.equip
+- essentials.silentjoin
+- essentials.silentjoin.vanish
+- essentials.silentquit
+- essentials.socialspy
+- essentials.tempban
+- essentials.tempban.offline
+- essentials.tp
+- essentials.tp.others
+- essentials.unban
+- essentials.unbanip
+- essentials.vanish
+- essentials.vanish.effect
+- essentials.vanish.interact
+- litebans.ban
+- litebans.banlist
+- litebans.dupeip.viewip
+- litebans.group.unlimited
+- litebans.ipban
+- litebans.kick
+- litebans.mutechat
+- litebans.mutechat.bypass
+- litebans.tempban
+- litebans.unban
+- litebans.unban.own
+- vanish.nopickup:
+    value: false
+parents:
+- g-bukkit_default
+- g-essentials_administrador
+- g-groupmanager_default
+- jmod
+prefixes:
+- '&c&lADMIN &f':
+    priority: 53

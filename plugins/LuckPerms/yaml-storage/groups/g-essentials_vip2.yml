@@ -1,0 +1,12 @@
+name: g-essentials_vip2
+permissions:
+- essentials.enderchest
+- essentials.heal
+- essentials.kits.Vip1:
+    value: false
+- essentials.kits.Vip2
+- essentials.recipe
+- essentials.sethome.multiple
+- essentials.sethome.multiple.vip2
+- essentials.signs.format
+- essentials.signs.magic

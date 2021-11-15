@@ -1,0 +1,117 @@
+# This file is DELETED and REGENERATED on every server restart!
+# Create a NEW FILE for custom language translations!
+# For more information, see the wiki: http://serversigns.de/cfg
+
+rightclick_bind_command: Haz click derecho en el cartel para vincular el comando
+set_command: El comando fue agregado exitosamente
+rightclick_list: Haz click derecho en cualquier cartel para enumerar los comandos en el
+rightclick_set_price: Haz click derecho en el cartel para establecer el precio
+set_price: El precio fue agregado exitosamente
+rightclick_bind_permission: Haz click derecho en el cartel para establecer permisos
+set_permission: Se estableció correctamente el/los permiso(s) del cartel
+rightclick_set_cooldown: Haz click derecho en cualquier cartel para establecer un tiempo de cooldown
+set_cooldown: El tiempo de cooldown se agregó exitosamente
+rightclick_copy: Selecciona un cartel haciendo click derecho
+rightclick_paste: Ahora haz click derecho en otro cartel para pegarlo
+rightclick_del_command: Haz click derecho en cualquier cartel para eliminar el comando
+del_command: El comando fue eliminado exitosamente
+rightclick_del_permission: Haz click derecho en el cartel para eliminar permisos
+del_permission: Se eliminó correctamente el/los permiso(s) del cartel
+commands_removed: Todos los comandos eliminados de este cartel
+edit_command: El comando fue editado exitosamente
+rightclick_reset_cooldown: Haz click derecho en un cartel para restablecer el tiempo de cooldown
+reset_cooldown: Los tiempos de cooldown se reiniciaron
+no_number: Este no es un valor de tiempo válido
+not_ready: Debes esperar <cooldown> para poder usar esto.
+line_not_found: No se encontró la línea dada
+not_enough_permissions: No tienes suficientes permisos
+not_enough_money: No tienes suficiente dinero
+cannot_destroy: No tienes permiso para destruir este cartel
+need_confirmation_cost: El precio del cartel <currency><price>. /svs yes o da click de nuevo
+need_confirmation: Confirma el cartel con /svs yes o da click de nuevo
+all_cooldowns_reset: Todos los tiempos de cooldown se reiniciaron
+reload_success: ServerSigns fue recargado
+invalid_itemid: Itemid no válido
+priceitem_success: El artículo de precio se agregó correctamente
+priceitem_bind: Haz click derecho en cualquier cartel para establecer un precio
+not_enough_items: 'Necesitas los siguientes elementos para usar este cartel:'
+priceitem_remove: Haz click derecho en cualquier cartel para eliminar el precio
+priceitem_removed: Artículo de precio eliminado con éxito de este cartel
+xpcost_bind: Haz click derecho en cualquier signo para establecer un costo de nivel de EXP
+set_xp: Costo de nivel de EXP aplicado con éxito al cartel
+itemcriteria_boolean: 'Tus argumentos deben ser *verdaderos* o *falsos*'
+not_enough_xp: No tienes suficiente EXP para usar este cartel
+funds_withdrawn: '<number> <currency> ha sido eliminado de tu saldo'
+permissions_required: No se puede continuar, se requieren Vault o permisos config-defined  para esta característica
+priceitemcriteria_bind: 'Haz click cderecho en cualquier cartel para establecer un criterio de precio establecido'
+priceitemcriteria_set: Se estableció correctamente los criterios de precio del artículo en este cartel
+persistance_on: Has habilitado la persistencia de copia, desactívala con '/svs copy persist'
+persistance_off: Has deshabilitado la persistencia de copia
+must_sneak: Debes hacer shift para destruir ServerSigns
+set_confirmation: 'Confirmación de el cartel establecida en <boolean>'
+invalid_hand_item: 'Debes estar con un item en la mano'
+invalid_index: 'No existen comandos en el índice dado para este cartel. Por favor intente con otro cartel'
+delay_greater_than_zero: 'El delay debe ser mayor que cero'
+set_loops: 'Se estableció con éxito datos de el ciclo para este cartel'
+rightclick_bind_loops: 'Haz click derecho en cualquier signo para establecer los datos del ciclo'
+loop_must_finish: '¡El ciclo actualmente programado debe terminar primero!'
+need_confirmation_price_items: 'Este cartel tomará los siguientes items:'
+need_confirmation_xp: 'Este cartel tomará <integer> niveles de experiencia'
+levels_needed: '¡Necesitas <integer> más niveles!'
+holding_bind: 'Haz click derecho en cualquier cartel para agregar una opción de requisito de elemento retenido'
+holding_success: 'Opción de requisito de elemento retenido agregado exitosamente'
+holding_remove: 'Haz click derecho en cualquier cartel para eliminar todas las opciones de requisitos de elementos retenidos'
+holding_removed: 'Se eliminó con éxito todas las opciones de requisitos de elementos retenidos'
+helditemcriteria_bind: 'Haz click derecho en cualquier cartel para establecer los criterios del elemento retenido'
+helditemcriteria_set: 'Se estableció correctamente los criterios del elemento retenido en este signo'
+need_confirmation_held_items: 'Este cartel requiere que tengas cualquiera de los siguientes:'
+must_be_holding: 'Debes tener cualquiera de los siguientes elementos para usar este signo:'
+blocked_command: '¡Ese comando no puede ser ejecutado por ServerSigns!'
+player_not_found: 'Ningún jugador encontrado por el nombre <string> (case sensitive)'
+cooldowns_reset: 'Se restableció exitosamente todos los tiempos de cooldown para <string>'
+long_command_again: 'Usa /svs long cuando estés listo para vincular tu comando a un cartel'
+long_type_to_chat: 'Ahora puedes escribir el comando que deseas vincular en el chat, en varias líneas'
+long_cancelled: '¡No has ingresado ninguna información! Cancelado.'
+uses_greater_zero: '¡El argumento de número de usos debe ser 0 o mayor!'
+rightclick_remove_uses: 'Haz click derecho en cualquier cartel para eliminar el límite de uso'
+rightclick_set_uses: 'Haz click derecho en cualquier cartel para establecer el límite de uso'
+uses_success: 'Se ha Establecido correctamente el límite de uso para este ServerSign'
+set_cancel_mode: 'El modo Cancelar evento se ha establecido en <mode> para este cartel'
+rightclick_bind_cancel_permission: 'Haz click derecho en cualquier cartel para vincular el permiso de cancelación'
+set_cancel_permission: 'Se ha establecido correctamente el permiso de cancelación para este ServerSign'
+cancelled_due_to_permission: 'Tus permisos actuales te impiden usar este ServerSign'
+reload_config_success: 'ServerSigns config.yml y traducciones recargados exitosamente'
+reload_signs_success: 'Todos los ServerSigns almacenados se han vuelto a cargar desde el disco'
+features_not_available: 'Este ServerSign requiere características que no están disponibles actualmente. Informa a un administrador'
+invalid_command: '¡No se puede analizar su comando!'
+reload_signs_fail: '¡Se encontró un error que pudo haber impedido la carga de ServerSign!'
+reload_config_fail: '¡Se produjo un error al cargar las configuraciones! Deshabilita el plugin por seguridad'
+copy_success: 'Se creó con éxito un clon de ServerSign'
+right_click_create: 'Haz click derecho en el bloque para crear un nuevo ServerSign'
+create_success: 'Se creó con éxito un nuevo ServerSign'
+block_protected: 'Este bloque está protegido por un ServerSign!' 
+list_persist_on: 'Has habilitado la persistencia de la lista, desactívala con "/svs list false"'
+list_persist_off: 'Has inhabilitado la persistencia de la lista'
+xp_removed: '<levels> niveles de experiencia han sido removidos'
+silent_success: 'Se ha establecido el modo silencioso de este ServerSign' 
+right_click_select: 'Haz click derecho en un cartel para seleccionarlo para la aplicación de comando automático'
+sign_selected: 'Se seleccionó correctamente este cartel para la aplicación de comando automático'
+sign_deselected: 'Los comandos ya no se aplicarán automáticamente al cartel'
+timelimit_invalid: 'Formato de fecha y hora no válido, el formato debe ser DDMMAA, HHMMSS usando Día Mes Año, Hora Minuto Segundo'
+timelimit_success: 'Se aplicó con éxito el límite de tiempo especificado al ServerSign'
+rightclick_apply: 'Haz click derecho en cualquier ServerSign para aplicar este comando'
+rightclick_view_list: 'Haz click derecho en cualquier ServerSign para ver información detallada al respecto'
+timelimit_expired: '¡Demasiado tarde! Este ServerSign expiró hace <string>'
+timelimit_waiting: 'Este ServerSign estará disponible en <string>'
+option_create_w_question: '¡Debe declarar nuevos ID de opción con una pregunta!'
+option_invalid_answer: '&c¡Esa no es una respuesta válida! Inténtalo de nuevo o escribe "exit"'
+option_set: 'Se aplicó con éxito la opción especificada al ServerSign'
+option_label_unique: '¡Las etiquetas de respuesta de opción deben ser únicas!'
+unable_to_execute_cmd: '&cImposible ejecutar "<string>" ya que no se encontraron comandos coincidentes'
+import_file_not_found: 'Archivo no encontrado en esa ruta desde el directorio raíz del servidor'
+import_success: 'Se immportó correctamente el archivo "<string>"'
+import_select_sign: 'Haz click derecho en un ServerSign existente para importar los comandos a'
+option_label_desc_separator: ' - '
+xp_cost_removed: 'Se eliminó con éxito el costo de EXP de este ServerSign'
+xp_cost_invalid: 'El costo del nivel de EXP debe ser un número entero mayor que -1'
+permissions_removed: 'Permisos eliminados con éxito de este cartel'

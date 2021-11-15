@@ -1,0 +1,786 @@
+ama1:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2584
+    type: DIAMOND_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §7[§5*§7] §5Armor of §5§lAMETHYST §7[§5*§7]
+      lore:
+      - §a
+      - §8§m---------------
+      - §b§oRequirements
+      - §7x10 §5Amethyst
+      - §7x12 §cGold coin
+      - §8§m---------------
+      enchants:
+        WATER_WORKER: 7
+        PROTECTION_FIRE: 8
+        MENDING: 2
+        PROTECTION_PROJECTILE: 8
+        PROTECTION_ENVIRONMENTAL: 7
+        DURABILITY: 7
+ama2:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2584
+    type: DIAMOND_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §7[§5*§7] §5Armor of §5§lAMETHYST §7[§5*§7]
+      lore:
+      - §a
+      - §8§m---------------
+      - §b§oRequirements
+      - §7x64 §5Amethyst
+      - §7x48 §cGold coin
+      - §8§m---------------
+      enchants:
+        PROTECTION_FIRE: 8
+        MENDING: 2
+        PROTECTION_PROJECTILE: 8
+        PROTECTION_ENVIRONMENTAL: 7
+        DURABILITY: 7
+ama3:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2584
+    type: DIAMOND_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §7[§5*§7] §5Armor of §5§lAMETHYST §7[§5*§7]
+      lore:
+      - §a
+      - §8§m---------------
+      - §b§oRequirements
+      - §7x32 §5Amethyst
+      - §7x24 §cGold coin
+      - §8§m---------------
+      enchants:
+        PROTECTION_FIRE: 8
+        MENDING: 2
+        PROTECTION_PROJECTILE: 8
+        PROTECTION_ENVIRONMENTAL: 7
+        DURABILITY: 7
+ama4:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2584
+    type: DIAMOND_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §7[§5*§7] §5Armor of §5§lAMETHYST §7[§5*§7]
+      lore:
+      - §a
+      - §8§m---------------
+      - §b§oRequirements
+      - §7x16 §5Amethyst
+      - §7x12 §cGold coin
+      - §8§m---------------
+      enchants:
+        PROTECTION_FALL: 5
+        PROTECTION_FIRE: 8
+        MENDING: 2
+        PROTECTION_PROJECTILE: 8
+        PROTECTION_ENVIRONMENTAL: 7
+        DURABILITY: 7
+agu1:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2584
+    type: IRON_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §7[§b*§7] §bArmor of §b§lAQUAMARINE §7[§b*§7]
+      lore:
+      - §a
+      - §8§m---------------
+      - §b§oRequirements
+      - §7x16 §dAquamarine
+      - §7x8 §6Silver coin
+      - §8§m---------------
+      enchants:
+        PROTECTION_EXPLOSIONS: 4
+        PROTECTION_FIRE: 3
+        PROTECTION_PROJECTILE: 4
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 7
+agu2:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2584
+    type: IRON_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §7[§b*§7] §bArmor of §b§lAQUAMARINE §7[§b*§7]
+      lore:
+      - §a
+      - §8§m---------------
+      - §b§oRequirements
+      - §7x48 §bAquamarine
+      - §7x32 §6Silver coin
+      - §8§m---------------
+      enchants:
+        PROTECTION_EXPLOSIONS: 4
+        PROTECTION_FIRE: 3
+        PROTECTION_PROJECTILE: 4
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 7
+agu3:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2584
+    type: LEATHER_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: LEATHER_ARMOR
+      display-name: §7[§b*§7] §bArmor of §b§lAQUAMARINE §7[§b*§7]
+      lore:
+      - §a
+      - §8§m---------------
+      - §b§oRequirements
+      - §7x32 §bAquamarine
+      - §7x16 §6Silver coin
+      - §8§m---------------
+      enchants:
+        PROTECTION_EXPLOSIONS: 4
+        PROTECTION_FIRE: 3
+        PROTECTION_PROJECTILE: 4
+        PROTECTION_ENVIRONMENTAL: 6
+        DURABILITY: 7
+      color:
+        ==: Color
+        RED: 124
+        BLUE: 41
+        GREEN: 153
+agu4:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2584
+    type: IRON_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §7[§b*§7] §bArmor of §b§lAQUAMARINE §7[§b*§7]
+      lore:
+      - §a
+      - §8§m---------------
+      - §b§oRequirements
+      - §7x8 §bAquamarine
+      - §7x8 §6Silver coin
+      - §8§m---------------
+      enchants:
+        PROTECTION_EXPLOSIONS: 4
+        PROTECTION_FIRE: 3
+        PROTECTION_PROJECTILE: 4
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 7
+j1:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2584
+    type: DIAMOND_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §7[§a*§7] §aHelmet of §a§lJADE §7[§a*§7]
+      lore:
+      - §a
+      - §8§m---------------
+      - §b§oRequirements
+      - §7x6 §aJade
+      - §7x32 §6Silver coin
+      - §8§m---------------
+      enchants:
+        PROTECTION_EXPLOSIONS: 5
+        MENDING: 1
+        PROTECTION_PROJECTILE: 5
+        PROTECTION_ENVIRONMENTAL: 6
+        THORNS: 4
+        DURABILITY: 7
+j2:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2584
+    type: DIAMOND_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §7[§a*§7] §aChest of §a§lJADE §7[§a*§7]
+      lore:
+      - ''
+      - §8§l§m--------------
+      - §b§oRequirements
+      - §7x16 §aJade
+      - §7x32 §6Silver coin
+      - §8§l§m--------------
+      enchants:
+        PROTECTION_EXPLOSIONS: 5
+        MENDING: 1
+        PROTECTION_PROJECTILE: 5
+        PROTECTION_ENVIRONMENTAL: 6
+        THORNS: 4
+        DURABILITY: 7
+j3:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2584
+    type: DIAMOND_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §7[§a*§7] §aPants of §a§lJADE §7[§a*§7]
+      lore:
+      - §a
+      - §8§m---------------
+      - §b§oRequirements
+      - §7x8 §aJade
+      - §7x32 §6Silver coin
+      - §8§m---------------
+      enchants:
+        PROTECTION_EXPLOSIONS: 5
+        MENDING: 1
+        PROTECTION_PROJECTILE: 5
+        PROTECTION_ENVIRONMENTAL: 6
+        THORNS: 4
+        DURABILITY: 7
+j4:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2584
+    type: DIAMOND_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §7[§a*§7] §aBoots of §a§lJADE §7[§a*§7]
+      lore:
+      - §a
+      - §8§m---------------
+      - §b§oRequirements
+      - §7x6 §aJade
+      - §7x32 §6Silver coin
+      - §8§m---------------
+      enchants:
+        PROTECTION_EXPLOSIONS: 5
+        MENDING: 1
+        PROTECTION_PROJECTILE: 5
+        PROTECTION_ENVIRONMENTAL: 6
+        THORNS: 4
+        DURABILITY: 7
+a1:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2584
+    type: DIAMOND_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §7[§d*§7] §dHelmet of §d§lOPAL §7[§d*§7]
+      lore:
+      - §a
+      - §8§m---------------
+      - §b§oRequirements
+      - §7x9 §dOpal
+      - §7x12 §eCopper Coin
+      - §8§m---------------
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 3
+        THORNS: 2
+        DURABILITY: 2
+a2:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2584
+    type: DIAMOND_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §7[§d*§7] §dChest of §d§lOPAL §7[§d*§7]
+      lore:
+      - §a
+      - §8§m---------------
+      - §b§oRequirements
+      - §7x13 §dOpal
+      - §7x12 §eCopper Coin
+      - §8§m---------------
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 3
+        THORNS: 2
+        DURABILITY: 2
+a3:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2584
+    type: DIAMOND_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §7[§d*§7] §dPants of §d§lOPAL §7[§d*§7]
+      lore:
+      - §a
+      - §8§m---------------
+      - §b§oRequirements
+      - §7x10 §dOpal
+      - §7x12 §eCopper Coin
+      - §8§m---------------
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 3
+        THORNS: 2
+        DURABILITY: 2
+a4:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2584
+    type: DIAMOND_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §7[§d*§7] §dBoots of §d§lOPAL §7[§d*§7]
+      lore:
+      - §a
+      - §8§m---------------
+      - §b§oRequirements
+      - §7x7 §dOpal
+      - §7x12 §6Silver coin
+      - §8§m---------------
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 3
+        THORNS: 2
+        DURABILITY: 2
+arma5:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2584
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §8[§7*§8] §7Sword of §7§lHEMATITA §8[§7*§8]
+      lore:
+      - §a
+      - §8§m---------------
+      - §b§oRequirements
+      - §7x64 §7Hematita
+      - §7x32 §cGold coin
+      - §8§m---------------
+      enchants:
+        DAMAGE_ARTHROPODS: 7
+        FIRE_ASPECT: 2
+        LOOT_BONUS_MOBS: 4
+        MENDING: 1
+        DAMAGE_ALL: 7
+        DAMAGE_UNDEAD: 7
+        DURABILITY: 10
+arma2:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2584
+    type: IRON_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §7[§5*§7] §5Sword of §5§lTOPAZ §7[§5*§7]
+      lore:
+      - §a
+      - §8§m---------------
+      - §b§oRequirements
+      - §7x48 §5Topaz
+      - §7x32 §eCopper Coin
+      - §8§m---------------
+      enchants:
+        DAMAGE_ARTHROPODS: 4
+        FIRE_ASPECT: 3
+        KNOCKBACK: 2
+        LOOT_BONUS_MOBS: 5
+        DAMAGE_ALL: 7
+        DAMAGE_UNDEAD: 6
+        DURABILITY: 6
+arma4:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2584
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §7[§2*§7] §2Sword of §2§lMALAQUITA §7[§2*§7]
+      lore:
+      - §a
+      - §8§m---------------
+      - §b§oRequirements
+      - §7x64 §2Malaquita
+      - §7x32 §6Silver coin
+      - §8§m---------------
+      enchants:
+        DAMAGE_ARTHROPODS: 6
+        FIRE_ASPECT: 5
+        KNOCKBACK: 3
+        LOOT_BONUS_MOBS: 4
+        DAMAGE_ALL: 6
+        DAMAGE_UNDEAD: 7
+        DURABILITY: 5
+'2':
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2584
+    type: IRON_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §7[§3*§7] §3Peak of §3§lCYANITE §7[§3*§7]
+      lore:
+      - §a
+      - §8§m---------------
+      - §b§oRequirements
+      - §7x64 §3Cyanite
+      - §7x64 §eCopper Coin
+      - §8§m---------------
+      enchants:
+        DIG_SPEED: 7
+        LOOT_BONUS_BLOCKS: 5
+        MENDING: 2
+        DURABILITY: 5
+arma3:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2584
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §7[§a*§7] §aSword of §a§lCITRINE §7[§a*§7]
+      lore:
+      - §8§m---------------
+      - §b§oRequirements
+      - §7x48 §aCitrine
+      - §7x32 §6Silver coin
+      - §8§m---------------
+      enchants:
+        DAMAGE_ARTHROPODS: 3
+        FIRE_ASPECT: 1
+        MENDING: 1
+        DAMAGE_ALL: 6
+        DAMAGE_UNDEAD: 5
+        DURABILITY: 6
+arma1:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2584
+    type: STONE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §7[§e*§7] §eSword of §e§lAMBAR §7[§e*§7]
+      lore:
+      - §a
+      - §8§m---------------
+      - §b§oRequirements
+      - §7x32 §6Ambar
+      - §7x16 §eCopper Coin
+      - §8§m---------------
+      enchants:
+        FIRE_ASPECT: 3
+        KNOCKBACK: 1
+        LOOT_BONUS_MOBS: 4
+        MENDING: 2
+        DAMAGE_ALL: 7
+        DAMAGE_UNDEAD: 6
+        DURABILITY: 5
+'3':
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2584
+    type: DIAMOND_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §7[§b*§7] §bAxe §b§lAZURITE §7[§b*§7]
+      lore:
+      - §a
+      - §8§m---------------
+      - §b§oRequirements
+      - §7x64 §bAzurite
+      - §7x64 §6Silver coin
+      - §8§m---------------
+      enchants:
+        DIG_SPEED: 7
+        MENDING: 1
+        DAMAGE_ALL: 7
+        SILK_TOUCH: 1
+        DURABILITY: 4
+'1':
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2584
+    type: GOLDEN_SHOVEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §7[§c*§7] §cShovel §c§lRUBY §7[§c*§7]
+      lore:
+      - §a
+      - §8§m---------------
+      - §b§oRequirements
+      - §7x64 §cRuby
+      - §7x64 §eCopper Coin
+      - §8§m---------------
+      enchants:
+        DIG_SPEED: 7
+        MENDING: 3
+        SILK_TOUCH: 2
+        DURABILITY: 6
+c1:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: DIAMOND_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Helmet
+        "},{"italic":false,"color":"dark_green","text":"Catacombs"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Requirements:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x42
+        "},{"italic":false,"color":"gold","text":"Calcite"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x16
+        "},{"italic":false,"color":"yellow","text":"Epidote"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x6
+        "},{"italic":false,"color":"red","text":"Gold coins"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+      enchants:
+        WATER_WORKER: 6
+        PROTECTION_EXPLOSIONS: 9
+        PROTECTION_FIRE: 9
+        MENDING: 6
+        PROTECTION_PROJECTILE: 9
+        PROTECTION_ENVIRONMENTAL: 9
+        DURABILITY: 8
+c2:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: DIAMOND_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Chestplate
+        "},{"italic":false,"color":"dark_green","text":"Catacombs"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Requirements:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x64
+        "},{"italic":false,"color":"gold","text":"Calcite"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x48
+        "},{"italic":false,"color":"yellow","text":"Epidote"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x10
+        "},{"italic":false,"color":"red","text":"Gold coins"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+      enchants:
+        PROTECTION_EXPLOSIONS: 9
+        PROTECTION_FIRE: 9
+        MENDING: 6
+        PROTECTION_PROJECTILE: 9
+        PROTECTION_ENVIRONMENTAL: 9
+        DURABILITY: 8
+c3:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: DIAMOND_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Leggings
+        "},{"italic":false,"color":"dark_green","text":"Catacombs"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Requirements:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x48
+        "},{"italic":false,"color":"gold","text":"Calcite"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x32
+        "},{"italic":false,"color":"yellow","text":"Epidote"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x8
+        "},{"italic":false,"color":"red","text":"Gold coins"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+      enchants:
+        PROTECTION_EXPLOSIONS: 9
+        PROTECTION_FIRE: 9
+        MENDING: 6
+        PROTECTION_PROJECTILE: 9
+        PROTECTION_ENVIRONMENTAL: 9
+        DURABILITY: 8
+c4:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: DIAMOND_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Boots
+        "},{"italic":false,"color":"dark_green","text":"Catacombs"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Requirements:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x32
+        "},{"italic":false,"color":"gold","text":"Calcite"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x8
+        "},{"italic":false,"color":"yellow","text":"Epidote"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x4
+        "},{"italic":false,"color":"red","text":"Gold coins"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+      enchants:
+        PROTECTION_EXPLOSIONS: 9
+        PROTECTION_FALL: 7
+        PROTECTION_FIRE: 9
+        MENDING: 6
+        PROTECTION_PROJECTILE: 9
+        PROTECTION_ENVIRONMENTAL: 9
+        SOUL_SPEED: 5
+        DURABILITY: 8
+c5:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Sword
+        "},{"italic":false,"color":"dark_green","text":"Catacombs"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Requirements:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x64
+        "},{"italic":false,"color":"white","text":"Quartz"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x48
+        "},{"italic":false,"color":"red","text":"Andesina"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x12
+        "},{"italic":false,"color":"red","text":"Gold coins"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+      enchants:
+        DAMAGE_ARTHROPODS: 8
+        FIRE_ASPECT: 5
+        LOOT_BONUS_MOBS: 6
+        MENDING: 5
+        DAMAGE_ALL: 8
+        DAMAGE_UNDEAD: 8
+        DURABILITY: 6
+c6:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: DIAMOND_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Axe
+        "},{"italic":false,"color":"dark_green","text":"Catacombs"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Requirements:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x32
+        "},{"italic":false,"color":"white","text":"Quartz"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x16
+        "},{"italic":false,"color":"red","text":"Andesina"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x8
+        "},{"italic":false,"color":"red","text":"Gold coins"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+      enchants:
+        DIG_SPEED: 8
+        MENDING: 5
+        SILK_TOUCH: 1
+        DURABILITY: 6
+c7:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: DIAMOND_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Pickaxe
+        "},{"italic":false,"color":"dark_green","text":"Catacombs"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Requirements:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x48
+        "},{"italic":false,"color":"white","text":"Quartz"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x32
+        "},{"italic":false,"color":"red","text":"Andesina"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x10
+        "},{"italic":false,"color":"red","text":"Gold coins"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+      enchants:
+        DIG_SPEED: 8
+        LOOT_BONUS_BLOCKS: 5
+        MENDING: 5
+        DURABILITY: 6
+c8:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: DIAMOND_SHOVEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Shovel
+        "},{"italic":false,"color":"dark_green","text":"Catacombs"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Requirements:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x32
+        "},{"italic":false,"color":"white","text":"Quartz"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x16
+        "},{"italic":false,"color":"red","text":"Andesina"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x6
+        "},{"italic":false,"color":"red","text":"Gold coins"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+      enchants:
+        DIG_SPEED: 8
+        MENDING: 5
+        SILK_TOUCH: 1
+        DURABILITY: 6
+c9:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: SHIELD
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Overpower
+        "},{"italic":false,"color":"gold","text":"Shield"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x48
+        "},{"italic":false,"color":"blue","text":"Sapphire"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x48
+        "},{"italic":false,"color":"dark_gray","text":"Onix"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x32
+        "},{"italic":false,"color":"green","text":"Aventurine"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x32
+        "},{"italic":false,"color":"yellow","text":"Alexandrite"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+      enchants:
+        MENDING: 6
+        DURABILITY: 4
+      blockMaterial: SHIELD

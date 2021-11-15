@@ -1,0 +1,730 @@
+12-21-2020 23:52 [INFO] [MyPet] Error-Reporter ENABLED
+12-21-2020 23:53 [INFO] [MyPet] Enabling MyPet v3.11
+12-21-2020 23:53 [WARNING] [MyPet] Loaded class {0} from {1} which is not a depend, softdepend or loadbefore of this plugin.
+12-21-2020 23:53 [INFO] [MyPet] ##################################################
+12-21-2020 23:53 [INFO] [MyPet] #  A new build is available: 3.11-SNAPSHOT #1586 #
+12-21-2020 23:53 [INFO] [MyPet] #  https://mypet-plugin.de/download              #
+12-21-2020 23:53 [INFO] [MyPet] ##################################################
+12-21-2020 23:53 [INFO] [MyPet] Custom entity registry found: net.citizensnpcs.nms.v1_16_R3.util.CustomEntityRegistry
+12-21-2020 23:53 [INFO] [MyPet] Compat mode for v1_16_R3 loaded.
+12-21-2020 23:53 [INFO] [MyPet] Exp calculation mode: MyPet
+12-21-2020 23:53 [INFO] [MyPet] Current Exp-Cache is invalid, it will be recalculated.
+12-21-2020 23:53 [INFO] [MyPet] Loading WorldGroups...
+12-21-2020 23:53 [INFO] [MyPet]    added world to 'default' group.
+12-21-2020 23:53 [INFO] [MyPet]    added spawn to 'default' group.
+12-21-2020 23:53 [INFO] [MyPet]    added catacumbas to 'default' group.
+12-21-2020 23:53 [INFO] [MyPet] Default skilltree files created.
+12-21-2020 23:53 [INFO] [MyPet] Connect to SQLite database...
+12-21-2020 23:53 [INFO] [MyPet] SQLite connection successful.
+12-21-2020 23:53 [INFO] [MyPet] Citizens (2.0.27-SNAPSHOT (build 2170)) hook activated.
+12-21-2020 23:53 [INFO] [MyPet] CombatLogX (9.8.4.0) hook activated.
+12-21-2020 23:53 [INFO] [MyPet] MythicMobs (4.10.1-3456) hook activated.
+12-21-2020 23:53 [INFO] [MyPet] PlaceholderAPI (2.10.6) hook activated.
+12-21-2020 23:53 [INFO] [MyPet] ProtocolLib (4.6.0-SNAPSHOT-b480) hook activated.
+12-21-2020 23:53 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: Essentials Economy) (Permissions: GroupManager) hook activated.
+12-21-2020 23:53 [INFO] [MyPet] Version 3.11-SNAPSHOT-b1585 ENABLED
+12-22-2020 00:35 [INFO] [MyPet] Disabling MyPet v3.11
+12-22-2020 00:35 [INFO] [MyPet] Error-Reporter ENABLED
+12-22-2020 00:36 [INFO] [MyPet] Enabling MyPet v3.11
+12-22-2020 00:36 [WARNING] [MyPet] Loaded class {0} from {1} which is not a depend, softdepend or loadbefore of this plugin.
+12-22-2020 00:36 [INFO] [MyPet] ##################################################
+12-22-2020 00:36 [INFO] [MyPet] #  A new build is available: 3.11-SNAPSHOT #1586 #
+12-22-2020 00:36 [INFO] [MyPet] #  https://mypet-plugin.de/download              #
+12-22-2020 00:36 [INFO] [MyPet] ##################################################
+12-22-2020 00:36 [INFO] [MyPet] Custom entity registry found: net.citizensnpcs.nms.v1_16_R3.util.CustomEntityRegistry
+12-22-2020 00:36 [INFO] [MyPet] Compat mode for v1_16_R3 loaded.
+12-22-2020 00:36 [INFO] [MyPet] Exp calculation mode: MyPet
+12-22-2020 00:36 [INFO] [MyPet] Loading WorldGroups...
+12-22-2020 00:36 [INFO] [MyPet]    added 'world' to 'default'
+12-22-2020 00:36 [INFO] [MyPet]    added 'spawn' to 'default'
+12-22-2020 00:36 [INFO] [MyPet]    added 'catacumbas' to 'default'
+12-22-2020 00:36 [INFO] [MyPet] Connect to SQLite database...
+12-22-2020 00:36 [INFO] [MyPet] SQLite connection successful.
+12-22-2020 00:36 [INFO] [MyPet] Citizens (2.0.27-SNAPSHOT (build 2170)) hook activated.
+12-22-2020 00:36 [INFO] [MyPet] CombatLogX (9.8.4.0) hook activated.
+12-22-2020 00:36 [INFO] [MyPet] MythicMobs (4.10.1-3456) hook activated.
+12-22-2020 00:36 [INFO] [MyPet] PlaceholderAPI (2.10.6) hook activated.
+12-22-2020 00:36 [INFO] [MyPet] ProtocolLib (4.6.0-SNAPSHOT-b480) hook activated.
+12-22-2020 00:36 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: Essentials Economy) (Permissions: GroupManager) hook activated.
+12-22-2020 00:36 [INFO] [MyPet] WorldGuard (7.0.4-beta1;bc551da) hook activated.
+12-22-2020 00:36 [INFO] [MyPet] Version 3.11-SNAPSHOT-b1585 ENABLED
+12-22-2020 00:49 [INFO] [MyPet] Disabling MyPet v3.11
+12-22-2020 00:50 [INFO] [MyPet] Error-Reporter ENABLED
+12-22-2020 00:51 [INFO] [MyPet] Enabling MyPet v3.11
+12-22-2020 00:51 [WARNING] [MyPet] Loaded class {0} from {1} which is not a depend, softdepend or loadbefore of this plugin.
+12-22-2020 00:51 [INFO] [MyPet] ##################################################
+12-22-2020 00:51 [INFO] [MyPet] #  A new build is available: 3.11-SNAPSHOT #1586 #
+12-22-2020 00:51 [INFO] [MyPet] #  https://mypet-plugin.de/download              #
+12-22-2020 00:51 [INFO] [MyPet] ##################################################
+12-22-2020 00:51 [INFO] [MyPet] Custom entity registry found: net.citizensnpcs.nms.v1_16_R3.util.CustomEntityRegistry
+12-22-2020 00:51 [INFO] [MyPet] Compat mode for v1_16_R3 loaded.
+12-22-2020 00:51 [INFO] [MyPet] Exp calculation mode: MyPet
+12-22-2020 00:51 [INFO] [MyPet] Loading WorldGroups...
+12-22-2020 00:51 [INFO] [MyPet]    added 'world' to 'default'
+12-22-2020 00:51 [INFO] [MyPet]    added 'spawn' to 'default'
+12-22-2020 00:51 [INFO] [MyPet]    added 'catacumbas' to 'default'
+12-22-2020 00:51 [INFO] [MyPet] Connect to SQLite database...
+12-22-2020 00:51 [INFO] [MyPet] SQLite connection successful.
+12-22-2020 00:51 [INFO] [MyPet] Citizens (2.0.27-SNAPSHOT (build 2170)) hook activated.
+12-22-2020 00:51 [INFO] [MyPet] CombatLogX (9.8.4.0) hook activated.
+12-22-2020 00:51 [INFO] [MyPet] MythicMobs (4.10.1-3456) hook activated.
+12-22-2020 00:51 [INFO] [MyPet] PlaceholderAPI (2.10.6) hook activated.
+12-22-2020 00:51 [INFO] [MyPet] ProtocolLib (4.6.0-SNAPSHOT-b480) hook activated.
+12-22-2020 00:51 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: RoyaleEconomy) (Permissions: GroupManager) hook activated.
+12-22-2020 00:51 [INFO] [MyPet] WorldGuard (7.0.4-beta1;bc551da) hook activated.
+12-22-2020 00:51 [INFO] [MyPet] Version 3.11-SNAPSHOT-b1585 ENABLED
+12-22-2020 03:06 [INFO] [MyPet] Disabling MyPet v3.11
+12-22-2020 03:22 [INFO] [MyPet] Error-Reporter ENABLED
+12-22-2020 03:23 [INFO] [MyPet] Enabling MyPet v3.11
+12-22-2020 03:23 [WARNING] [MyPet] Loaded class {0} from {1} which is not a depend, softdepend or loadbefore of this plugin.
+12-22-2020 03:23 [INFO] [MyPet] ##################################################
+12-22-2020 03:23 [INFO] [MyPet] #  A new build is available: 3.11-SNAPSHOT #1586 #
+12-22-2020 03:23 [INFO] [MyPet] #  https://mypet-plugin.de/download              #
+12-22-2020 03:23 [INFO] [MyPet] ##################################################
+12-22-2020 03:23 [INFO] [MyPet] Custom entity registry found: net.citizensnpcs.nms.v1_16_R3.util.CustomEntityRegistry
+12-22-2020 03:23 [INFO] [MyPet] Compat mode for v1_16_R3 loaded.
+12-22-2020 03:23 [INFO] [MyPet] Exp calculation mode: MyPet
+12-22-2020 03:23 [INFO] [MyPet] Loading WorldGroups...
+12-22-2020 03:23 [INFO] [MyPet]    added 'world' to 'default'
+12-22-2020 03:23 [INFO] [MyPet]    added 'spawn' to 'default'
+12-22-2020 03:23 [INFO] [MyPet]    added 'catacumbas' to 'default'
+12-22-2020 03:23 [INFO] [MyPet] Connect to SQLite database...
+12-22-2020 03:23 [INFO] [MyPet] SQLite connection successful.
+12-22-2020 03:23 [INFO] [MyPet] Citizens (2.0.27-SNAPSHOT (build 2170)) hook activated.
+12-22-2020 03:23 [INFO] [MyPet] CombatLogX (9.8.4.0) hook activated.
+12-22-2020 03:23 [INFO] [MyPet] MythicMobs (4.10.1-3456) hook activated.
+12-22-2020 03:23 [INFO] [MyPet] PlaceholderAPI (2.10.6) hook activated.
+12-22-2020 03:23 [INFO] [MyPet] ProtocolLib (4.6.0-SNAPSHOT-b480) hook activated.
+12-22-2020 03:23 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: RoyaleEconomy) (Permissions: GroupManager) hook activated.
+12-22-2020 03:23 [INFO] [MyPet] WorldGuard (7.0.4-beta1;bc551da) hook activated.
+12-22-2020 03:23 [INFO] [MyPet] Version 3.11-SNAPSHOT-b1585 ENABLED
+12-22-2020 05:01 [INFO] [MyPet] Disabling MyPet v3.11
+12-22-2020 05:01 [INFO] [MyPet] Error-Reporter ENABLED
+12-22-2020 05:02 [INFO] [MyPet] Enabling MyPet v3.11
+12-22-2020 05:02 [WARNING] [MyPet] Loaded class {0} from {1} which is not a depend, softdepend or loadbefore of this plugin.
+12-22-2020 05:02 [INFO] [MyPet] ##################################################
+12-22-2020 05:02 [INFO] [MyPet] #  A new build is available: 3.11-SNAPSHOT #1586 #
+12-22-2020 05:02 [INFO] [MyPet] #  https://mypet-plugin.de/download              #
+12-22-2020 05:02 [INFO] [MyPet] ##################################################
+12-22-2020 05:02 [INFO] [MyPet] Custom entity registry found: net.citizensnpcs.nms.v1_16_R3.util.CustomEntityRegistry
+12-22-2020 05:02 [INFO] [MyPet] Compat mode for v1_16_R3 loaded.
+12-22-2020 05:02 [INFO] [MyPet] Exp calculation mode: MyPet
+12-22-2020 05:02 [INFO] [MyPet] Loading WorldGroups...
+12-22-2020 05:02 [INFO] [MyPet]    added 'world' to 'default'
+12-22-2020 05:02 [INFO] [MyPet]    added 'spawn' to 'default'
+12-22-2020 05:02 [INFO] [MyPet]    added 'catacumbas' to 'default'
+12-22-2020 05:02 [INFO] [MyPet] Connect to SQLite database...
+12-22-2020 05:02 [INFO] [MyPet] SQLite connection successful.
+12-22-2020 05:02 [INFO] [MyPet] Citizens (2.0.27-SNAPSHOT (build 2170)) hook activated.
+12-22-2020 05:02 [INFO] [MyPet] CombatLogX (9.8.4.0) hook activated.
+12-22-2020 05:02 [INFO] [MyPet] MythicMobs (4.10.1-3456) hook activated.
+12-22-2020 05:02 [INFO] [MyPet] PlaceholderAPI (2.10.6) hook activated.
+12-22-2020 05:02 [INFO] [MyPet] ProtocolLib (4.6.0-SNAPSHOT-b480) hook activated.
+12-22-2020 05:02 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: RoyaleEconomy) (Permissions: GroupManager) hook activated.
+12-22-2020 05:02 [INFO] [MyPet] WorldGuard (7.0.4-beta1;bc551da) hook activated.
+12-22-2020 05:02 [INFO] [MyPet] Version 3.11-SNAPSHOT-b1585 ENABLED
+12-23-2020 05:01 [INFO] [MyPet] Disabling MyPet v3.11
+12-23-2020 05:01 [INFO] [MyPet] Error-Reporter ENABLED
+12-23-2020 05:02 [INFO] [MyPet] Enabling MyPet v3.11
+12-23-2020 05:02 [WARNING] [MyPet] Loaded class {0} from {1} which is not a depend, softdepend or loadbefore of this plugin.
+12-23-2020 05:02 [INFO] [MyPet] ##################################################
+12-23-2020 05:02 [INFO] [MyPet] #  A new build is available: 3.11-SNAPSHOT #1586 #
+12-23-2020 05:02 [INFO] [MyPet] #  https://mypet-plugin.de/download              #
+12-23-2020 05:02 [INFO] [MyPet] ##################################################
+12-23-2020 05:02 [INFO] [MyPet] Custom entity registry found: net.citizensnpcs.nms.v1_16_R3.util.CustomEntityRegistry
+12-23-2020 05:02 [INFO] [MyPet] Compat mode for v1_16_R3 loaded.
+12-23-2020 05:02 [INFO] [MyPet] Exp calculation mode: MyPet
+12-23-2020 05:02 [INFO] [MyPet] Loading WorldGroups...
+12-23-2020 05:02 [INFO] [MyPet]    added 'world' to 'default'
+12-23-2020 05:02 [INFO] [MyPet]    added 'spawn' to 'default'
+12-23-2020 05:02 [INFO] [MyPet]    added 'catacumbas' to 'default'
+12-23-2020 05:02 [INFO] [MyPet] Connect to SQLite database...
+12-23-2020 05:02 [INFO] [MyPet] SQLite connection successful.
+12-23-2020 05:02 [INFO] [MyPet] Citizens (2.0.27-SNAPSHOT (build 2170)) hook activated.
+12-23-2020 05:02 [INFO] [MyPet] CombatLogX (9.8.4.0) hook activated.
+12-23-2020 05:02 [INFO] [MyPet] MythicMobs (4.10.1-3456) hook activated.
+12-23-2020 05:02 [INFO] [MyPet] PlaceholderAPI (2.10.6) hook activated.
+12-23-2020 05:02 [INFO] [MyPet] ProtocolLib (4.6.0-SNAPSHOT-b480) hook activated.
+12-23-2020 05:02 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: RoyaleEconomy) (Permissions: GroupManager) hook activated.
+12-23-2020 05:02 [INFO] [MyPet] WorldGuard (7.0.4-beta1;bc551da) hook activated.
+12-23-2020 05:02 [INFO] [MyPet] Version 3.11-SNAPSHOT-b1585 ENABLED
+12-24-2020 05:01 [INFO] [MyPet] Disabling MyPet v3.11
+12-24-2020 05:01 [INFO] [MyPet] Error-Reporter ENABLED
+12-24-2020 05:02 [INFO] [MyPet] Enabling MyPet v3.11
+12-24-2020 05:02 [WARNING] [MyPet] Loaded class {0} from {1} which is not a depend, softdepend or loadbefore of this plugin.
+12-24-2020 05:02 [INFO] [MyPet] ##################################################
+12-24-2020 05:02 [INFO] [MyPet] #  A new build is available: 3.11-SNAPSHOT #1586 #
+12-24-2020 05:02 [INFO] [MyPet] #  https://mypet-plugin.de/download              #
+12-24-2020 05:02 [INFO] [MyPet] ##################################################
+12-24-2020 05:02 [INFO] [MyPet] Custom entity registry found: net.citizensnpcs.nms.v1_16_R3.util.CustomEntityRegistry
+12-24-2020 05:02 [INFO] [MyPet] Compat mode for v1_16_R3 loaded.
+12-24-2020 05:02 [INFO] [MyPet] Exp calculation mode: MyPet
+12-24-2020 05:02 [INFO] [MyPet] Loading WorldGroups...
+12-24-2020 05:02 [INFO] [MyPet]    added 'world' to 'default'
+12-24-2020 05:02 [INFO] [MyPet]    added 'spawn' to 'default'
+12-24-2020 05:02 [INFO] [MyPet]    added 'catacumbas' to 'default'
+12-24-2020 05:02 [INFO] [MyPet] Connect to SQLite database...
+12-24-2020 05:02 [INFO] [MyPet] SQLite connection successful.
+12-24-2020 05:02 [INFO] [MyPet] Citizens (2.0.27-SNAPSHOT (build 2170)) hook activated.
+12-24-2020 05:02 [INFO] [MyPet] CombatLogX (9.8.4.0) hook activated.
+12-24-2020 05:02 [INFO] [MyPet] MythicMobs (4.10.1-3456) hook activated.
+12-24-2020 05:02 [INFO] [MyPet] PlaceholderAPI (2.10.6) hook activated.
+12-24-2020 05:02 [INFO] [MyPet] ProtocolLib (4.6.0-SNAPSHOT-b480) hook activated.
+12-24-2020 05:02 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: RoyaleEconomy) (Permissions: GroupManager) hook activated.
+12-24-2020 05:02 [INFO] [MyPet] WorldGuard (7.0.4-beta1;bc551da) hook activated.
+12-24-2020 05:02 [INFO] [MyPet] Version 3.11-SNAPSHOT-b1585 ENABLED
+12-25-2020 05:01 [INFO] [MyPet] Disabling MyPet v3.11
+12-25-2020 05:01 [INFO] [MyPet] Error-Reporter ENABLED
+12-25-2020 05:02 [INFO] [MyPet] Enabling MyPet v3.11
+12-25-2020 05:02 [WARNING] [MyPet] Loaded class {0} from {1} which is not a depend, softdepend or loadbefore of this plugin.
+12-25-2020 05:02 [INFO] [MyPet] ##################################################
+12-25-2020 05:02 [INFO] [MyPet] #  A new build is available: 3.11-SNAPSHOT #1586 #
+12-25-2020 05:02 [INFO] [MyPet] #  https://mypet-plugin.de/download              #
+12-25-2020 05:02 [INFO] [MyPet] ##################################################
+12-25-2020 05:02 [INFO] [MyPet] Custom entity registry found: net.citizensnpcs.nms.v1_16_R3.util.CustomEntityRegistry
+12-25-2020 05:02 [INFO] [MyPet] Compat mode for v1_16_R3 loaded.
+12-25-2020 05:02 [INFO] [MyPet] Exp calculation mode: MyPet
+12-25-2020 05:02 [INFO] [MyPet] Loading WorldGroups...
+12-25-2020 05:02 [INFO] [MyPet]    added 'world' to 'default'
+12-25-2020 05:02 [INFO] [MyPet]    added 'spawn' to 'default'
+12-25-2020 05:02 [INFO] [MyPet]    added 'catacumbas' to 'default'
+12-25-2020 05:02 [INFO] [MyPet] Connect to SQLite database...
+12-25-2020 05:02 [INFO] [MyPet] SQLite connection successful.
+12-25-2020 05:02 [INFO] [MyPet] Citizens (2.0.27-SNAPSHOT (build 2170)) hook activated.
+12-25-2020 05:02 [INFO] [MyPet] CombatLogX (9.8.4.0) hook activated.
+12-25-2020 05:02 [INFO] [MyPet] MythicMobs (4.10.1-3456) hook activated.
+12-25-2020 05:02 [INFO] [MyPet] PlaceholderAPI (2.10.6) hook activated.
+12-25-2020 05:02 [INFO] [MyPet] ProtocolLib (4.6.0-SNAPSHOT-b480) hook activated.
+12-25-2020 05:02 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: RoyaleEconomy) (Permissions: GroupManager) hook activated.
+12-25-2020 05:02 [INFO] [MyPet] WorldGuard (7.0.4-beta1;bc551da) hook activated.
+12-25-2020 05:02 [INFO] [MyPet] Version 3.11-SNAPSHOT-b1585 ENABLED
+12-26-2020 05:01 [INFO] [MyPet] Disabling MyPet v3.11
+12-26-2020 05:01 [INFO] [MyPet] Error-Reporter ENABLED
+12-26-2020 05:02 [INFO] [MyPet] Enabling MyPet v3.11
+12-26-2020 05:02 [WARNING] [MyPet] Loaded class {0} from {1} which is not a depend, softdepend or loadbefore of this plugin.
+12-26-2020 05:02 [INFO] [MyPet] ##################################################
+12-26-2020 05:02 [INFO] [MyPet] #  A new build is available: 3.11-SNAPSHOT #1586 #
+12-26-2020 05:02 [INFO] [MyPet] #  https://mypet-plugin.de/download              #
+12-26-2020 05:02 [INFO] [MyPet] ##################################################
+12-26-2020 05:02 [INFO] [MyPet] Custom entity registry found: net.citizensnpcs.nms.v1_16_R3.util.CustomEntityRegistry
+12-26-2020 05:02 [INFO] [MyPet] Compat mode for v1_16_R3 loaded.
+12-26-2020 05:02 [INFO] [MyPet] Exp calculation mode: MyPet
+12-26-2020 05:02 [INFO] [MyPet] Loading WorldGroups...
+12-26-2020 05:02 [INFO] [MyPet]    added 'world' to 'default'
+12-26-2020 05:02 [INFO] [MyPet]    added 'spawn' to 'default'
+12-26-2020 05:02 [INFO] [MyPet]    added 'catacumbas' to 'default'
+12-26-2020 05:02 [INFO] [MyPet] Connect to SQLite database...
+12-26-2020 05:02 [INFO] [MyPet] SQLite connection successful.
+12-26-2020 05:02 [INFO] [MyPet] Citizens (2.0.27-SNAPSHOT (build 2170)) hook activated.
+12-26-2020 05:02 [INFO] [MyPet] CombatLogX (9.8.4.0) hook activated.
+12-26-2020 05:02 [INFO] [MyPet] MythicMobs (4.10.1-3456) hook activated.
+12-26-2020 05:02 [INFO] [MyPet] PlaceholderAPI (2.10.6) hook activated.
+12-26-2020 05:02 [INFO] [MyPet] ProtocolLib (4.6.0-SNAPSHOT-b480) hook activated.
+12-26-2020 05:02 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: RoyaleEconomy) (Permissions: GroupManager) hook activated.
+12-26-2020 05:02 [INFO] [MyPet] WorldGuard (7.0.4-beta1;bc551da) hook activated.
+12-26-2020 05:02 [INFO] [MyPet] Version 3.11-SNAPSHOT-b1585 ENABLED
+12-27-2020 05:01 [INFO] [MyPet] Disabling MyPet v3.11
+12-27-2020 05:01 [INFO] [MyPet] Error-Reporter ENABLED
+12-27-2020 05:02 [INFO] [MyPet] Enabling MyPet v3.11
+12-27-2020 05:02 [WARNING] [MyPet] Loaded class {0} from {1} which is not a depend, softdepend or loadbefore of this plugin.
+12-27-2020 05:02 [INFO] [MyPet] ##################################################
+12-27-2020 05:02 [INFO] [MyPet] #  A new build is available: 3.11-SNAPSHOT #1586 #
+12-27-2020 05:02 [INFO] [MyPet] #  https://mypet-plugin.de/download              #
+12-27-2020 05:02 [INFO] [MyPet] ##################################################
+12-27-2020 05:02 [INFO] [MyPet] Custom entity registry found: net.citizensnpcs.nms.v1_16_R3.util.CustomEntityRegistry
+12-27-2020 05:02 [INFO] [MyPet] Compat mode for v1_16_R3 loaded.
+12-27-2020 05:02 [INFO] [MyPet] Exp calculation mode: MyPet
+12-27-2020 05:02 [INFO] [MyPet] Loading WorldGroups...
+12-27-2020 05:02 [INFO] [MyPet]    added 'world' to 'default'
+12-27-2020 05:02 [INFO] [MyPet]    added 'spawn' to 'default'
+12-27-2020 05:02 [INFO] [MyPet]    added 'catacumbas' to 'default'
+12-27-2020 05:02 [INFO] [MyPet] Connect to SQLite database...
+12-27-2020 05:02 [INFO] [MyPet] SQLite connection successful.
+12-27-2020 05:02 [INFO] [MyPet] Citizens (2.0.27-SNAPSHOT (build 2170)) hook activated.
+12-27-2020 05:02 [INFO] [MyPet] CombatLogX (9.8.4.0) hook activated.
+12-27-2020 05:02 [INFO] [MyPet] MythicMobs (4.10.1-3456) hook activated.
+12-27-2020 05:02 [INFO] [MyPet] PlaceholderAPI (2.10.6) hook activated.
+12-27-2020 05:02 [INFO] [MyPet] ProtocolLib (4.6.0-SNAPSHOT-b480) hook activated.
+12-27-2020 05:02 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: RoyaleEconomy) (Permissions: GroupManager) hook activated.
+12-27-2020 05:02 [INFO] [MyPet] WorldGuard (7.0.4-beta1;bc551da) hook activated.
+12-27-2020 05:02 [INFO] [MyPet] Version 3.11-SNAPSHOT-b1585 ENABLED
+12-28-2020 05:01 [INFO] [MyPet] Disabling MyPet v3.11
+12-28-2020 05:01 [INFO] [MyPet] Error-Reporter ENABLED
+12-28-2020 05:02 [INFO] [MyPet] Enabling MyPet v3.11
+12-28-2020 05:02 [WARNING] [MyPet] Loaded class {0} from {1} which is not a depend, softdepend or loadbefore of this plugin.
+12-28-2020 05:02 [INFO] [MyPet] ##################################################
+12-28-2020 05:02 [INFO] [MyPet] #  A new build is available: 3.11-SNAPSHOT #1586 #
+12-28-2020 05:02 [INFO] [MyPet] #  https://mypet-plugin.de/download              #
+12-28-2020 05:02 [INFO] [MyPet] ##################################################
+12-28-2020 05:02 [INFO] [MyPet] Custom entity registry found: net.citizensnpcs.nms.v1_16_R3.util.CustomEntityRegistry
+12-28-2020 05:02 [INFO] [MyPet] Compat mode for v1_16_R3 loaded.
+12-28-2020 05:02 [INFO] [MyPet] Exp calculation mode: MyPet
+12-28-2020 05:02 [INFO] [MyPet] Loading WorldGroups...
+12-28-2020 05:02 [INFO] [MyPet]    added 'world' to 'default'
+12-28-2020 05:02 [INFO] [MyPet]    added 'spawn' to 'default'
+12-28-2020 05:02 [INFO] [MyPet]    added 'catacumbas' to 'default'
+12-28-2020 05:02 [INFO] [MyPet] Connect to SQLite database...
+12-28-2020 05:02 [INFO] [MyPet] SQLite connection successful.
+12-28-2020 05:02 [INFO] [MyPet] Citizens (2.0.27-SNAPSHOT (build 2170)) hook activated.
+12-28-2020 05:02 [INFO] [MyPet] CombatLogX (9.8.4.0) hook activated.
+12-28-2020 05:02 [INFO] [MyPet] MythicMobs (4.10.1-3456) hook activated.
+12-28-2020 05:02 [INFO] [MyPet] PlaceholderAPI (2.10.6) hook activated.
+12-28-2020 05:02 [INFO] [MyPet] ProtocolLib (4.6.0-SNAPSHOT-b480) hook activated.
+12-28-2020 05:02 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: RoyaleEconomy) (Permissions: GroupManager) hook activated.
+12-28-2020 05:02 [INFO] [MyPet] WorldGuard (7.0.4-beta1;bc551da) hook activated.
+12-28-2020 05:02 [INFO] [MyPet] Version 3.11-SNAPSHOT-b1585 ENABLED
+12-29-2020 05:01 [INFO] [MyPet] Disabling MyPet v3.11
+12-29-2020 05:01 [INFO] [MyPet] Error-Reporter ENABLED
+12-29-2020 05:02 [INFO] [MyPet] Enabling MyPet v3.11
+12-29-2020 05:02 [WARNING] [MyPet] Loaded class {0} from {1} which is not a depend, softdepend or loadbefore of this plugin.
+12-29-2020 05:02 [INFO] [MyPet] ##################################################
+12-29-2020 05:02 [INFO] [MyPet] #  A new build is available: 3.11-SNAPSHOT #1586 #
+12-29-2020 05:02 [INFO] [MyPet] #  https://mypet-plugin.de/download              #
+12-29-2020 05:02 [INFO] [MyPet] ##################################################
+12-29-2020 05:02 [INFO] [MyPet] Custom entity registry found: net.citizensnpcs.nms.v1_16_R3.util.CustomEntityRegistry
+12-29-2020 05:02 [INFO] [MyPet] Compat mode for v1_16_R3 loaded.
+12-29-2020 05:02 [INFO] [MyPet] Exp calculation mode: MyPet
+12-29-2020 05:02 [INFO] [MyPet] Loading WorldGroups...
+12-29-2020 05:02 [INFO] [MyPet]    added 'world' to 'default'
+12-29-2020 05:02 [INFO] [MyPet]    added 'spawn' to 'default'
+12-29-2020 05:02 [INFO] [MyPet]    added 'catacumbas' to 'default'
+12-29-2020 05:02 [INFO] [MyPet] Connect to SQLite database...
+12-29-2020 05:02 [INFO] [MyPet] SQLite connection successful.
+12-29-2020 05:02 [INFO] [MyPet] Citizens (2.0.27-SNAPSHOT (build 2170)) hook activated.
+12-29-2020 05:02 [INFO] [MyPet] CombatLogX (9.8.4.0) hook activated.
+12-29-2020 05:02 [INFO] [MyPet] MythicMobs (4.10.1-3456) hook activated.
+12-29-2020 05:02 [INFO] [MyPet] PlaceholderAPI (2.10.6) hook activated.
+12-29-2020 05:02 [INFO] [MyPet] ProtocolLib (4.6.0-SNAPSHOT-b480) hook activated.
+12-29-2020 05:02 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: RoyaleEconomy) (Permissions: GroupManager) hook activated.
+12-29-2020 05:02 [INFO] [MyPet] WorldGuard (7.0.4-beta1;bc551da) hook activated.
+12-29-2020 05:02 [INFO] [MyPet] Version 3.11-SNAPSHOT-b1585 ENABLED
+12-30-2020 05:01 [INFO] [MyPet] Disabling MyPet v3.11
+12-30-2020 05:01 [INFO] [MyPet] Error-Reporter ENABLED
+12-30-2020 05:02 [INFO] [MyPet] Enabling MyPet v3.11
+12-30-2020 05:02 [WARNING] [MyPet] Loaded class {0} from {1} which is not a depend, softdepend or loadbefore of this plugin.
+12-30-2020 05:02 [INFO] [MyPet] ##################################################
+12-30-2020 05:02 [INFO] [MyPet] #  A new build is available: 3.11-SNAPSHOT #1586 #
+12-30-2020 05:02 [INFO] [MyPet] #  https://mypet-plugin.de/download              #
+12-30-2020 05:02 [INFO] [MyPet] ##################################################
+12-30-2020 05:02 [INFO] [MyPet] Custom entity registry found: net.citizensnpcs.nms.v1_16_R3.util.CustomEntityRegistry
+12-30-2020 05:02 [INFO] [MyPet] Compat mode for v1_16_R3 loaded.
+12-30-2020 05:02 [INFO] [MyPet] Exp calculation mode: MyPet
+12-30-2020 05:02 [INFO] [MyPet] Loading WorldGroups...
+12-30-2020 05:02 [INFO] [MyPet]    added 'world' to 'default'
+12-30-2020 05:02 [INFO] [MyPet]    added 'spawn' to 'default'
+12-30-2020 05:02 [INFO] [MyPet]    added 'catacumbas' to 'default'
+12-30-2020 05:02 [INFO] [MyPet] Connect to SQLite database...
+12-30-2020 05:02 [INFO] [MyPet] SQLite connection successful.
+12-30-2020 05:02 [INFO] [MyPet] Citizens (2.0.27-SNAPSHOT (build 2170)) hook activated.
+12-30-2020 05:02 [INFO] [MyPet] CombatLogX (9.8.4.0) hook activated.
+12-30-2020 05:02 [INFO] [MyPet] MythicMobs (4.10.1-3456) hook activated.
+12-30-2020 05:02 [INFO] [MyPet] PlaceholderAPI (2.10.6) hook activated.
+12-30-2020 05:02 [INFO] [MyPet] ProtocolLib (4.6.0-SNAPSHOT-b480) hook activated.
+12-30-2020 05:02 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: RoyaleEconomy) (Permissions: GroupManager) hook activated.
+12-30-2020 05:02 [INFO] [MyPet] WorldGuard (7.0.4-beta1;bc551da) hook activated.
+12-30-2020 05:02 [INFO] [MyPet] Version 3.11-SNAPSHOT-b1585 ENABLED
+12-31-2020 05:01 [INFO] [MyPet] Disabling MyPet v3.11
+12-31-2020 05:01 [INFO] [MyPet] Error-Reporter ENABLED
+12-31-2020 05:02 [INFO] [MyPet] Enabling MyPet v3.11
+12-31-2020 05:02 [WARNING] [MyPet] Loaded class {0} from {1} which is not a depend, softdepend or loadbefore of this plugin.
+12-31-2020 05:02 [INFO] [MyPet] ##################################################
+12-31-2020 05:02 [INFO] [MyPet] #  A new build is available: 3.11-SNAPSHOT #1586 #
+12-31-2020 05:02 [INFO] [MyPet] #  https://mypet-plugin.de/download              #
+12-31-2020 05:02 [INFO] [MyPet] ##################################################
+12-31-2020 05:02 [INFO] [MyPet] Custom entity registry found: net.citizensnpcs.nms.v1_16_R3.util.CustomEntityRegistry
+12-31-2020 05:02 [INFO] [MyPet] Compat mode for v1_16_R3 loaded.
+12-31-2020 05:02 [INFO] [MyPet] Exp calculation mode: MyPet
+12-31-2020 05:02 [INFO] [MyPet] Loading WorldGroups...
+12-31-2020 05:02 [INFO] [MyPet]    added 'world' to 'default'
+12-31-2020 05:02 [INFO] [MyPet]    added 'spawn' to 'default'
+12-31-2020 05:02 [INFO] [MyPet]    added 'catacumbas' to 'default'
+12-31-2020 05:02 [INFO] [MyPet] Connect to SQLite database...
+12-31-2020 05:02 [INFO] [MyPet] SQLite connection successful.
+12-31-2020 05:02 [INFO] [MyPet] Citizens (2.0.27-SNAPSHOT (build 2170)) hook activated.
+12-31-2020 05:02 [INFO] [MyPet] CombatLogX (9.8.4.0) hook activated.
+12-31-2020 05:02 [INFO] [MyPet] MythicMobs (4.10.1-3456) hook activated.
+12-31-2020 05:02 [INFO] [MyPet] PlaceholderAPI (2.10.6) hook activated.
+12-31-2020 05:02 [INFO] [MyPet] ProtocolLib (4.6.0-SNAPSHOT-b480) hook activated.
+12-31-2020 05:02 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: RoyaleEconomy) (Permissions: GroupManager) hook activated.
+12-31-2020 05:02 [INFO] [MyPet] WorldGuard (7.0.4-beta1;bc551da) hook activated.
+12-31-2020 05:02 [INFO] [MyPet] Version 3.11-SNAPSHOT-b1585 ENABLED
+01-01-2021 05:01 [INFO] [MyPet] Disabling MyPet v3.11
+01-01-2021 05:01 [INFO] [MyPet] Error-Reporter ENABLED
+01-01-2021 05:02 [INFO] [MyPet] Enabling MyPet v3.11
+01-01-2021 05:02 [WARNING] [MyPet] Loaded class {0} from {1} which is not a depend, softdepend or loadbefore of this plugin.
+01-01-2021 05:02 [INFO] [MyPet] ##################################################
+01-01-2021 05:02 [INFO] [MyPet] #  A new build is available: 3.11-SNAPSHOT #1586 #
+01-01-2021 05:02 [INFO] [MyPet] #  https://mypet-plugin.de/download              #
+01-01-2021 05:02 [INFO] [MyPet] ##################################################
+01-01-2021 05:02 [INFO] [MyPet] Custom entity registry found: net.citizensnpcs.nms.v1_16_R3.util.CustomEntityRegistry
+01-01-2021 05:02 [INFO] [MyPet] Compat mode for v1_16_R3 loaded.
+01-01-2021 05:02 [INFO] [MyPet] Exp calculation mode: MyPet
+01-01-2021 05:02 [INFO] [MyPet] Loading WorldGroups...
+01-01-2021 05:02 [INFO] [MyPet]    added 'world' to 'default'
+01-01-2021 05:02 [INFO] [MyPet]    added 'spawn' to 'default'
+01-01-2021 05:02 [INFO] [MyPet]    added 'catacumbas' to 'default'
+01-01-2021 05:02 [INFO] [MyPet] Connect to SQLite database...
+01-01-2021 05:02 [INFO] [MyPet] SQLite connection successful.
+01-01-2021 05:02 [INFO] [MyPet] Citizens (2.0.27-SNAPSHOT (build 2170)) hook activated.
+01-01-2021 05:02 [INFO] [MyPet] CombatLogX (9.8.4.0) hook activated.
+01-01-2021 05:02 [INFO] [MyPet] MythicMobs (4.10.1-3456) hook activated.
+01-01-2021 05:02 [INFO] [MyPet] PlaceholderAPI (2.10.6) hook activated.
+01-01-2021 05:02 [INFO] [MyPet] ProtocolLib (4.6.0-SNAPSHOT-b480) hook activated.
+01-01-2021 05:02 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: RoyaleEconomy) (Permissions: GroupManager) hook activated.
+01-01-2021 05:02 [INFO] [MyPet] WorldGuard (7.0.4-beta1;bc551da) hook activated.
+01-01-2021 05:02 [INFO] [MyPet] Version 3.11-SNAPSHOT-b1585 ENABLED
+01-02-2021 05:01 [INFO] [MyPet] Disabling MyPet v3.11
+01-02-2021 05:01 [INFO] [MyPet] Error-Reporter ENABLED
+01-02-2021 05:02 [INFO] [MyPet] Enabling MyPet v3.11
+01-02-2021 05:02 [WARNING] [MyPet] Loaded class {0} from {1} which is not a depend, softdepend or loadbefore of this plugin.
+01-02-2021 05:02 [INFO] [MyPet] ##################################################
+01-02-2021 05:02 [INFO] [MyPet] #  A new build is available: 3.11-SNAPSHOT #1586 #
+01-02-2021 05:02 [INFO] [MyPet] #  https://mypet-plugin.de/download              #
+01-02-2021 05:02 [INFO] [MyPet] ##################################################
+01-02-2021 05:02 [INFO] [MyPet] Custom entity registry found: net.citizensnpcs.nms.v1_16_R3.util.CustomEntityRegistry
+01-02-2021 05:02 [INFO] [MyPet] Compat mode for v1_16_R3 loaded.
+01-02-2021 05:02 [INFO] [MyPet] Exp calculation mode: MyPet
+01-02-2021 05:02 [INFO] [MyPet] Loading WorldGroups...
+01-02-2021 05:02 [INFO] [MyPet]    added 'world' to 'default'
+01-02-2021 05:02 [INFO] [MyPet]    added 'spawn' to 'default'
+01-02-2021 05:02 [INFO] [MyPet]    added 'catacumbas' to 'default'
+01-02-2021 05:02 [INFO] [MyPet] Connect to SQLite database...
+01-02-2021 05:02 [INFO] [MyPet] SQLite connection successful.
+01-02-2021 05:02 [INFO] [MyPet] Citizens (2.0.27-SNAPSHOT (build 2170)) hook activated.
+01-02-2021 05:02 [INFO] [MyPet] CombatLogX (9.8.4.0) hook activated.
+01-02-2021 05:02 [INFO] [MyPet] MythicMobs (4.10.1-3456) hook activated.
+01-02-2021 05:02 [INFO] [MyPet] PlaceholderAPI (2.10.6) hook activated.
+01-02-2021 05:02 [INFO] [MyPet] ProtocolLib (4.6.0-SNAPSHOT-b480) hook activated.
+01-02-2021 05:02 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: RoyaleEconomy) (Permissions: GroupManager) hook activated.
+01-02-2021 05:02 [INFO] [MyPet] WorldGuard (7.0.4-beta1;bc551da) hook activated.
+01-02-2021 05:02 [INFO] [MyPet] Version 3.11-SNAPSHOT-b1585 ENABLED
+01-03-2021 02:15 [INFO] [MyPet] Disabling MyPet v3.11
+01-03-2021 02:15 [INFO] [MyPet] Error-Reporter ENABLED
+01-03-2021 02:16 [INFO] [MyPet] Enabling MyPet v3.11
+01-03-2021 02:16 [WARNING] [MyPet] Loaded class {0} from {1} which is not a depend, softdepend or loadbefore of this plugin.
+01-03-2021 02:16 [INFO] [MyPet] ##################################################
+01-03-2021 02:16 [INFO] [MyPet] #  A new build is available: 3.11-SNAPSHOT #1586 #
+01-03-2021 02:16 [INFO] [MyPet] #  https://mypet-plugin.de/download              #
+01-03-2021 02:16 [INFO] [MyPet] ##################################################
+01-03-2021 02:16 [INFO] [MyPet] Custom entity registry found: net.citizensnpcs.nms.v1_16_R3.util.CustomEntityRegistry
+01-03-2021 02:16 [INFO] [MyPet] Compat mode for v1_16_R3 loaded.
+01-03-2021 02:16 [INFO] [MyPet] Exp calculation mode: MyPet
+01-03-2021 02:16 [INFO] [MyPet] Loading WorldGroups...
+01-03-2021 02:16 [INFO] [MyPet]    added 'world' to 'default'
+01-03-2021 02:16 [INFO] [MyPet]    added 'spawn' to 'default'
+01-03-2021 02:16 [INFO] [MyPet]    added 'catacumbas' to 'default'
+01-03-2021 02:16 [INFO] [MyPet] Connect to SQLite database...
+01-03-2021 02:16 [INFO] [MyPet] SQLite connection successful.
+01-03-2021 02:16 [INFO] [MyPet] Citizens (2.0.27-SNAPSHOT (build 2170)) hook activated.
+01-03-2021 02:16 [INFO] [MyPet] CombatLogX (9.8.4.0) hook activated.
+01-03-2021 02:16 [INFO] [MyPet] MythicMobs (4.10.1-3456) hook activated.
+01-03-2021 02:16 [INFO] [MyPet] PlaceholderAPI (2.10.6) hook activated.
+01-03-2021 02:16 [INFO] [MyPet] ProtocolLib (4.6.0-SNAPSHOT-b480) hook activated.
+01-03-2021 02:16 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: RoyaleEconomy) (Permissions: GroupManager) hook activated.
+01-03-2021 02:16 [INFO] [MyPet] WorldGuard (7.0.4-beta1;bc551da) hook activated.
+01-03-2021 02:16 [INFO] [MyPet] Version 3.11-SNAPSHOT-b1585 ENABLED
+01-03-2021 05:01 [INFO] [MyPet] Disabling MyPet v3.11
+01-03-2021 05:01 [INFO] [MyPet] Error-Reporter ENABLED
+01-03-2021 05:02 [INFO] [MyPet] Enabling MyPet v3.11
+01-03-2021 05:02 [WARNING] [MyPet] Loaded class {0} from {1} which is not a depend, softdepend or loadbefore of this plugin.
+01-03-2021 05:02 [INFO] [MyPet] ##################################################
+01-03-2021 05:02 [INFO] [MyPet] #  A new build is available: 3.11-SNAPSHOT #1586 #
+01-03-2021 05:02 [INFO] [MyPet] #  https://mypet-plugin.de/download              #
+01-03-2021 05:02 [INFO] [MyPet] ##################################################
+01-03-2021 05:02 [INFO] [MyPet] Custom entity registry found: net.citizensnpcs.nms.v1_16_R3.util.CustomEntityRegistry
+01-03-2021 05:02 [INFO] [MyPet] Compat mode for v1_16_R3 loaded.
+01-03-2021 05:02 [INFO] [MyPet] Exp calculation mode: MyPet
+01-03-2021 05:02 [INFO] [MyPet] Loading WorldGroups...
+01-03-2021 05:02 [INFO] [MyPet]    added 'world' to 'default'
+01-03-2021 05:02 [INFO] [MyPet]    added 'spawn' to 'default'
+01-03-2021 05:02 [INFO] [MyPet]    added 'catacumbas' to 'default'
+01-03-2021 05:02 [INFO] [MyPet] Connect to SQLite database...
+01-03-2021 05:02 [INFO] [MyPet] SQLite connection successful.
+01-03-2021 05:02 [INFO] [MyPet] Citizens (2.0.27-SNAPSHOT (build 2170)) hook activated.
+01-03-2021 05:02 [INFO] [MyPet] CombatLogX (9.8.4.0) hook activated.
+01-03-2021 05:02 [INFO] [MyPet] MythicMobs (4.10.1-3456) hook activated.
+01-03-2021 05:02 [INFO] [MyPet] PlaceholderAPI (2.10.6) hook activated.
+01-03-2021 05:02 [INFO] [MyPet] ProtocolLib (4.6.0-SNAPSHOT-b480) hook activated.
+01-03-2021 05:02 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: RoyaleEconomy) (Permissions: GroupManager) hook activated.
+01-03-2021 05:02 [INFO] [MyPet] WorldGuard (7.0.4-beta1;bc551da) hook activated.
+01-03-2021 05:02 [INFO] [MyPet] Version 3.11-SNAPSHOT-b1585 ENABLED
+01-04-2021 05:01 [INFO] [MyPet] Disabling MyPet v3.11
+01-04-2021 05:01 [INFO] [MyPet] Error-Reporter ENABLED
+01-04-2021 05:02 [INFO] [MyPet] Enabling MyPet v3.11
+01-04-2021 05:02 [WARNING] [MyPet] Loaded class {0} from {1} which is not a depend, softdepend or loadbefore of this plugin.
+01-04-2021 05:02 [INFO] [MyPet] ##################################################
+01-04-2021 05:02 [INFO] [MyPet] #  A new build is available: 3.11-SNAPSHOT #1586 #
+01-04-2021 05:02 [INFO] [MyPet] #  https://mypet-plugin.de/download              #
+01-04-2021 05:02 [INFO] [MyPet] ##################################################
+01-04-2021 05:02 [INFO] [MyPet] Custom entity registry found: net.citizensnpcs.nms.v1_16_R3.util.CustomEntityRegistry
+01-04-2021 05:02 [INFO] [MyPet] Compat mode for v1_16_R3 loaded.
+01-04-2021 05:02 [INFO] [MyPet] Exp calculation mode: MyPet
+01-04-2021 05:02 [INFO] [MyPet] Loading WorldGroups...
+01-04-2021 05:02 [INFO] [MyPet]    added 'world' to 'default'
+01-04-2021 05:02 [INFO] [MyPet]    added 'spawn' to 'default'
+01-04-2021 05:02 [INFO] [MyPet]    added 'catacumbas' to 'default'
+01-04-2021 05:02 [INFO] [MyPet] Connect to SQLite database...
+01-04-2021 05:02 [INFO] [MyPet] SQLite connection successful.
+01-04-2021 05:02 [INFO] [MyPet] Citizens (2.0.27-SNAPSHOT (build 2170)) hook activated.
+01-04-2021 05:02 [INFO] [MyPet] CombatLogX (9.8.4.0) hook activated.
+01-04-2021 05:02 [INFO] [MyPet] MythicMobs (4.10.1-3456) hook activated.
+01-04-2021 05:02 [INFO] [MyPet] PlaceholderAPI (2.10.6) hook activated.
+01-04-2021 05:02 [INFO] [MyPet] ProtocolLib (4.6.0-SNAPSHOT-b480) hook activated.
+01-04-2021 05:02 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: RoyaleEconomy) (Permissions: GroupManager) hook activated.
+01-04-2021 05:02 [INFO] [MyPet] WorldGuard (7.0.4-beta1;bc551da) hook activated.
+01-04-2021 05:02 [INFO] [MyPet] Version 3.11-SNAPSHOT-b1585 ENABLED
+01-05-2021 05:01 [INFO] [MyPet] Disabling MyPet v3.11
+01-05-2021 05:01 [INFO] [MyPet] Error-Reporter ENABLED
+01-05-2021 05:02 [INFO] [MyPet] Enabling MyPet v3.11
+01-05-2021 05:02 [WARNING] [MyPet] Loaded class {0} from {1} which is not a depend, softdepend or loadbefore of this plugin.
+01-05-2021 05:02 [INFO] [MyPet] ##################################################
+01-05-2021 05:02 [INFO] [MyPet] #  A new build is available: 3.11-SNAPSHOT #1586 #
+01-05-2021 05:02 [INFO] [MyPet] #  https://mypet-plugin.de/download              #
+01-05-2021 05:02 [INFO] [MyPet] ##################################################
+01-05-2021 05:02 [INFO] [MyPet] Custom entity registry found: net.citizensnpcs.nms.v1_16_R3.util.CustomEntityRegistry
+01-05-2021 05:02 [INFO] [MyPet] Compat mode for v1_16_R3 loaded.
+01-05-2021 05:02 [INFO] [MyPet] Exp calculation mode: MyPet
+01-05-2021 05:02 [INFO] [MyPet] Loading WorldGroups...
+01-05-2021 05:02 [INFO] [MyPet]    added 'world' to 'default'
+01-05-2021 05:02 [INFO] [MyPet]    added 'spawn' to 'default'
+01-05-2021 05:02 [INFO] [MyPet]    added 'catacumbas' to 'default'
+01-05-2021 05:02 [INFO] [MyPet] Connect to SQLite database...
+01-05-2021 05:02 [INFO] [MyPet] SQLite connection successful.
+01-05-2021 05:02 [INFO] [MyPet] Citizens (2.0.27-SNAPSHOT (build 2170)) hook activated.
+01-05-2021 05:02 [INFO] [MyPet] CombatLogX (9.8.4.0) hook activated.
+01-05-2021 05:02 [INFO] [MyPet] MythicMobs (4.10.1-3456) hook activated.
+01-05-2021 05:02 [INFO] [MyPet] PlaceholderAPI (2.10.6) hook activated.
+01-05-2021 05:02 [INFO] [MyPet] ProtocolLib (4.6.0-SNAPSHOT-b480) hook activated.
+01-05-2021 05:02 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: RoyaleEconomy) (Permissions: GroupManager) hook activated.
+01-05-2021 05:02 [INFO] [MyPet] WorldGuard (7.0.4-beta1;bc551da) hook activated.
+01-05-2021 05:02 [INFO] [MyPet] Version 3.11-SNAPSHOT-b1585 ENABLED
+01-06-2021 05:01 [INFO] [MyPet] Disabling MyPet v3.11
+01-06-2021 05:02 [INFO] [MyPet] Error-Reporter ENABLED
+01-06-2021 05:02 [INFO] [MyPet] Enabling MyPet v3.11
+01-06-2021 05:02 [WARNING] [MyPet] Loaded class {0} from {1} which is not a depend, softdepend or loadbefore of this plugin.
+01-06-2021 05:02 [INFO] [MyPet] ##################################################
+01-06-2021 05:02 [INFO] [MyPet] #  A new build is available: 3.11-SNAPSHOT #1586 #
+01-06-2021 05:02 [INFO] [MyPet] #  https://mypet-plugin.de/download              #
+01-06-2021 05:02 [INFO] [MyPet] ##################################################
+01-06-2021 05:02 [INFO] [MyPet] Custom entity registry found: net.citizensnpcs.nms.v1_16_R3.util.CustomEntityRegistry
+01-06-2021 05:02 [INFO] [MyPet] Compat mode for v1_16_R3 loaded.
+01-06-2021 05:02 [INFO] [MyPet] Exp calculation mode: MyPet
+01-06-2021 05:02 [INFO] [MyPet] Loading WorldGroups...
+01-06-2021 05:02 [INFO] [MyPet]    added 'world' to 'default'
+01-06-2021 05:02 [INFO] [MyPet]    added 'spawn' to 'default'
+01-06-2021 05:02 [INFO] [MyPet]    added 'catacumbas' to 'default'
+01-06-2021 05:02 [INFO] [MyPet] Connect to SQLite database...
+01-06-2021 05:02 [INFO] [MyPet] SQLite connection successful.
+01-06-2021 05:02 [INFO] [MyPet] Citizens (2.0.27-SNAPSHOT (build 2170)) hook activated.
+01-06-2021 05:02 [INFO] [MyPet] CombatLogX (9.8.4.0) hook activated.
+01-06-2021 05:02 [INFO] [MyPet] MythicMobs (4.10.1-3456) hook activated.
+01-06-2021 05:02 [INFO] [MyPet] PlaceholderAPI (2.10.6) hook activated.
+01-06-2021 05:02 [INFO] [MyPet] ProtocolLib (4.6.0-SNAPSHOT-b480) hook activated.
+01-06-2021 05:02 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: RoyaleEconomy) (Permissions: GroupManager) hook activated.
+01-06-2021 05:02 [INFO] [MyPet] WorldGuard (7.0.4-beta1;bc551da) hook activated.
+01-06-2021 05:02 [INFO] [MyPet] Version 3.11-SNAPSHOT-b1585 ENABLED
+01-07-2021 02:16 [INFO] [MyPet] Disabling MyPet v3.11
+03-04-2021 11:37 [INFO] [MyPet] Error-Reporter ENABLED
+03-04-2021 11:37 [INFO] [MyPet] Enabling MyPet v3.11
+03-04-2021 11:37 [INFO] [MyPet] ##################################################
+03-04-2021 11:37 [INFO] [MyPet] #  A new build is available: 3.11-SNAPSHOT #1591 #
+03-04-2021 11:37 [INFO] [MyPet] #  https://mypet-plugin.de/download              #
+03-04-2021 11:37 [INFO] [MyPet] ##################################################
+03-04-2021 11:37 [INFO] [MyPet] Custom entity registry found: net.citizensnpcs.nms.v1_16_R3.util.CustomEntityRegistry
+03-04-2021 11:37 [INFO] [MyPet] Compat mode for v1_16_R3 loaded.
+03-04-2021 11:37 [INFO] [MyPet] Exp calculation mode: MyPet
+03-04-2021 11:37 [INFO] [MyPet] Loading WorldGroups...
+03-04-2021 11:37 [INFO] [MyPet]    added 'world' to 'default'
+03-04-2021 11:37 [INFO] [MyPet]    added 'spawn' to 'default'
+03-04-2021 11:37 [INFO] [MyPet]    added 'catacumbas' to 'default'
+03-04-2021 11:37 [INFO] [MyPet]    added world_nether to 'default' group.
+03-04-2021 11:37 [INFO] [MyPet]    added world_the_end to 'default' group.
+03-04-2021 11:37 [INFO] [MyPet] Connect to SQLite database...
+03-04-2021 11:37 [INFO] [MyPet] SQLite connection successful.
+03-04-2021 11:37 [INFO] [MyPet] Citizens (2.0.27-SNAPSHOT (build 2252)) hook activated.
+03-04-2021 11:37 [INFO] [MyPet] MythicMobs (4.11.0-BETA-79e173ec) hook activated.
+03-04-2021 11:37 [INFO] [MyPet] PlaceholderAPI (2.10.6) hook activated.
+03-04-2021 11:37 [INFO] [MyPet] ProtocolLib (4.5.1) hook activated.
+03-04-2021 11:37 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: RoyaleEconomy) (Permissions: LuckPerms) hook activated.
+03-04-2021 11:37 [INFO] [MyPet] WorldGuard (7.0.4+f7ff984) hook activated.
+03-04-2021 11:37 [INFO] [MyPet] Version 3.11-SNAPSHOT-b1588 ENABLED
+03-04-2021 11:38 [INFO] [MyPet] Disabling MyPet v3.11
+03-04-2021 11:39 [INFO] [MyPet] Error-Reporter ENABLED
+03-04-2021 11:39 [INFO] [MyPet] Enabling MyPet v3.11
+03-04-2021 11:39 [INFO] [MyPet] ##################################################
+03-04-2021 11:39 [INFO] [MyPet] #  A new build is available: 3.11-SNAPSHOT #1591 #
+03-04-2021 11:39 [INFO] [MyPet] #  https://mypet-plugin.de/download              #
+03-04-2021 11:39 [INFO] [MyPet] ##################################################
+03-04-2021 11:39 [INFO] [MyPet] Custom entity registry found: net.citizensnpcs.nms.v1_16_R3.util.CustomEntityRegistry
+03-04-2021 11:39 [INFO] [MyPet] Compat mode for v1_16_R3 loaded.
+03-04-2021 11:39 [INFO] [MyPet] Exp calculation mode: MyPet
+03-04-2021 11:39 [INFO] [MyPet] Loading WorldGroups...
+03-04-2021 11:39 [INFO] [MyPet]    added 'world' to 'default'
+03-04-2021 11:39 [INFO] [MyPet]    added 'spawn' to 'default'
+03-04-2021 11:39 [INFO] [MyPet]    added 'catacumbas' to 'default'
+03-04-2021 11:39 [INFO] [MyPet]    added 'world_nether' to 'default'
+03-04-2021 11:39 [INFO] [MyPet]    added 'world_the_end' to 'default'
+03-04-2021 11:39 [INFO] [MyPet] Connect to SQLite database...
+03-04-2021 11:39 [INFO] [MyPet] SQLite connection successful.
+03-04-2021 11:39 [INFO] [MyPet] Citizens (2.0.27-SNAPSHOT (build 2252)) hook activated.
+03-04-2021 11:39 [INFO] [MyPet] MythicMobs (4.11.0-BETA-79e173ec) hook activated.
+03-04-2021 11:39 [INFO] [MyPet] PlaceholderAPI (2.10.6) hook activated.
+03-04-2021 11:39 [INFO] [MyPet] ProtocolLib (4.5.1) hook activated.
+03-04-2021 11:39 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: RoyaleEconomy) (Permissions: LuckPerms) hook activated.
+03-04-2021 11:39 [INFO] [MyPet] WorldGuard (7.0.4+f7ff984) hook activated.
+03-04-2021 11:39 [INFO] [MyPet] Version 3.11-SNAPSHOT-b1588 ENABLED
+03-04-2021 11:41 [INFO] [MyPet] Disabling MyPet v3.11
+03-04-2021 11:44 [INFO] [MyPet] Error-Reporter ENABLED
+03-04-2021 11:44 [INFO] [MyPet] Enabling MyPet v3.11
+03-04-2021 11:44 [INFO] [MyPet] ##################################################
+03-04-2021 11:44 [INFO] [MyPet] #  A new build is available: 3.11-SNAPSHOT #1591 #
+03-04-2021 11:44 [INFO] [MyPet] #  https://mypet-plugin.de/download              #
+03-04-2021 11:44 [INFO] [MyPet] ##################################################
+03-04-2021 11:44 [INFO] [MyPet] Custom entity registry found: net.citizensnpcs.nms.v1_16_R3.util.CustomEntityRegistry
+03-04-2021 11:44 [INFO] [MyPet] Compat mode for v1_16_R3 loaded.
+03-04-2021 11:44 [INFO] [MyPet] Exp calculation mode: MyPet
+03-04-2021 11:44 [INFO] [MyPet] Loading WorldGroups...
+03-04-2021 11:44 [INFO] [MyPet]    added 'world' to 'default'
+03-04-2021 11:44 [INFO] [MyPet]    added 'spawn' to 'default'
+03-04-2021 11:44 [INFO] [MyPet]    added 'catacumbas' to 'default'
+03-04-2021 11:44 [INFO] [MyPet]    added 'world_nether' to 'default'
+03-04-2021 11:44 [INFO] [MyPet]    added 'world_the_end' to 'default'
+03-04-2021 11:44 [INFO] [MyPet] Connect to SQLite database...
+03-04-2021 11:44 [INFO] [MyPet] SQLite connection successful.
+03-04-2021 11:44 [INFO] [MyPet] Citizens (2.0.27-SNAPSHOT (build 2252)) hook activated.
+03-04-2021 11:44 [INFO] [MyPet] MythicMobs (4.11.0-BETA-79e173ec) hook activated.
+03-04-2021 11:44 [INFO] [MyPet] PlaceholderAPI (2.10.6) hook activated.
+03-04-2021 11:44 [INFO] [MyPet] ProtocolLib (4.5.1) hook activated.
+03-04-2021 11:44 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: RoyaleEconomy) (Permissions: LuckPerms) hook activated.
+03-04-2021 11:44 [INFO] [MyPet] WorldGuard (7.0.4+f7ff984) hook activated.
+03-04-2021 11:44 [INFO] [MyPet] Version 3.11-SNAPSHOT-b1588 ENABLED
+03-04-2021 11:51 [INFO] [MyPet] Disabling MyPet v3.11
+03-23-2021 02:29 [INFO] [MyPet] Error-Reporter ENABLED
+03-23-2021 02:29 [INFO] [MyPet] Enabling MyPet v3.11
+03-23-2021 02:29 [INFO] [MyPet] No Update available.
+03-23-2021 02:29 [INFO] [MyPet] Compat mode for v1_16_R3 loaded.
+03-23-2021 02:29 [INFO] [MyPet] Exp calculation mode: MyPet
+03-23-2021 02:29 [INFO] [MyPet] Loading WorldGroups...
+03-23-2021 02:29 [INFO] [MyPet]    added 'world' to 'default'
+03-23-2021 02:29 [INFO] [MyPet]    added 'catacumbas' to 'default'
+03-23-2021 02:29 [INFO] [MyPet]    added 'world_nether' to 'default'
+03-23-2021 02:29 [INFO] [MyPet]    added 'world_the_end' to 'default'
+03-23-2021 02:29 [INFO] [MyPet]    added lobby to 'default' group.
+03-23-2021 02:29 [INFO] [MyPet] Connect to SQLite database...
+03-23-2021 02:29 [INFO] [MyPet] SQLite connection successful.
+03-23-2021 02:29 [INFO] [MyPet] CombatLogX (9.8.4.0) hook activated.
+03-23-2021 02:29 [INFO] [MyPet] MythicMobs (4.11.0-BETA-79e173ec) hook activated.
+03-23-2021 02:29 [INFO] [MyPet] PlaceholderAPI (2.10.6) hook activated.
+03-23-2021 02:29 [INFO] [MyPet] ProtocolLib (4.5.1) hook activated.
+03-23-2021 02:29 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: RoyaleEconomy) (Permissions: LuckPerms) hook activated.
+03-23-2021 02:29 [INFO] [MyPet] WorldGuard (7.0.4+f7ff984) hook activated.
+03-23-2021 02:29 [INFO] [MyPet] Version 3.11-SNAPSHOT-b1588 ENABLED
+03-23-2021 03:00 [INFO] [MyPet] Disabling MyPet v3.11
+03-23-2021 19:11 [INFO] [MyPet] Error-Reporter ENABLED
+03-23-2021 19:11 [INFO] [MyPet] Enabling MyPet v3.11
+03-23-2021 19:11 [INFO] [MyPet] No Update available.
+03-23-2021 19:11 [INFO] [MyPet] Compat mode for v1_16_R3 loaded.
+03-23-2021 19:11 [INFO] [MyPet] Exp calculation mode: MyPet
+03-23-2021 19:11 [INFO] [MyPet] Loading WorldGroups...
+03-23-2021 19:11 [INFO] [MyPet]    added 'world' to 'default'
+03-23-2021 19:11 [INFO] [MyPet]    added 'catacumbas' to 'default'
+03-23-2021 19:11 [INFO] [MyPet]    added 'world_nether' to 'default'
+03-23-2021 19:11 [INFO] [MyPet]    added 'world_the_end' to 'default'
+03-23-2021 19:11 [INFO] [MyPet]    added 'lobby' to 'default'
+03-23-2021 19:11 [INFO] [MyPet] Connect to SQLite database...
+03-23-2021 19:11 [INFO] [MyPet] SQLite connection successful.
+03-23-2021 19:11 [INFO] [MyPet] CombatLogX (9.8.4.0) hook activated.
+03-23-2021 19:11 [INFO] [MyPet] MythicMobs (4.11.0-BETA-79e173ec) hook activated.
+03-23-2021 19:11 [INFO] [MyPet] PlaceholderAPI (2.10.6) hook activated.
+03-23-2021 19:11 [INFO] [MyPet] ProtocolLib (4.5.1) hook activated.
+03-23-2021 19:11 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: RoyaleEconomy) (Permissions: LuckPerms) hook activated.
+03-23-2021 19:11 [INFO] [MyPet] WorldGuard (7.0.4+f7ff984) hook activated.
+03-23-2021 19:11 [INFO] [MyPet] Version 3.11-SNAPSHOT-b1588 ENABLED
+03-23-2021 21:30 [INFO] [MyPet] Disabling MyPet v3.11
+03-23-2021 21:30 [INFO] [MyPet] Error-Reporter ENABLED
+03-23-2021 21:30 [INFO] [MyPet] Enabling MyPet v3.11
+03-23-2021 21:30 [INFO] [MyPet] No Update available.
+03-23-2021 21:30 [INFO] [MyPet] Compat mode for v1_16_R3 loaded.
+03-23-2021 21:30 [INFO] [MyPet] Exp calculation mode: MyPet
+03-23-2021 21:30 [INFO] [MyPet] Loading WorldGroups...
+03-23-2021 21:30 [INFO] [MyPet]    added 'world' to 'default'
+03-23-2021 21:30 [INFO] [MyPet]    added 'catacumbas' to 'default'
+03-23-2021 21:30 [INFO] [MyPet]    added 'world_nether' to 'default'
+03-23-2021 21:30 [INFO] [MyPet]    added 'world_the_end' to 'default'
+03-23-2021 21:30 [INFO] [MyPet]    added 'lobby' to 'default'
+03-23-2021 21:30 [INFO] [MyPet] Connect to SQLite database...
+03-23-2021 21:30 [INFO] [MyPet] SQLite connection successful.
+03-23-2021 21:30 [INFO] [MyPet] CombatLogX (9.8.4.0) hook activated.
+03-23-2021 21:30 [INFO] [MyPet] MythicMobs (4.11.0-BETA-79e173ec) hook activated.
+03-23-2021 21:30 [INFO] [MyPet] PlaceholderAPI (2.10.9) hook activated.
+03-23-2021 21:30 [INFO] [MyPet] ProtocolLib (4.5.1) hook activated.
+03-23-2021 21:30 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: RoyaleEconomy) (Permissions: LuckPerms) hook activated.
+03-23-2021 21:30 [INFO] [MyPet] WorldGuard (7.0.4+f7ff984) hook activated.
+03-23-2021 21:30 [INFO] [MyPet] Version 3.11-SNAPSHOT-b1588 ENABLED
+03-23-2021 21:33 [INFO] [MyPet] Disabling MyPet v3.11
+03-23-2021 21:42 [INFO] [MyPet] Error-Reporter ENABLED
+03-23-2021 21:42 [INFO] [MyPet] Enabling MyPet v3.11
+03-23-2021 21:42 [INFO] [MyPet] No Update available.
+03-23-2021 21:42 [INFO] [MyPet] Compat mode for v1_16_R3 loaded.
+03-23-2021 21:42 [INFO] [MyPet] Exp calculation mode: MyPet
+03-23-2021 21:42 [INFO] [MyPet] Loading WorldGroups...
+03-23-2021 21:42 [INFO] [MyPet]    added 'world' to 'default'
+03-23-2021 21:42 [INFO] [MyPet]    added 'catacumbas' to 'default'
+03-23-2021 21:42 [INFO] [MyPet]    added 'world_nether' to 'default'
+03-23-2021 21:42 [INFO] [MyPet]    added 'world_the_end' to 'default'
+03-23-2021 21:42 [INFO] [MyPet]    added 'lobby' to 'default'
+03-23-2021 21:42 [INFO] [MyPet] Connect to SQLite database...
+03-23-2021 21:42 [INFO] [MyPet] SQLite connection successful.
+03-23-2021 21:42 [INFO] [MyPet] CombatLogX (9.8.4.0) hook activated.
+03-23-2021 21:42 [INFO] [MyPet] MythicMobs (4.11.0-BETA-79e173ec) hook activated.
+03-23-2021 21:42 [INFO] [MyPet] PlaceholderAPI (2.10.9) hook activated.
+03-23-2021 21:42 [INFO] [MyPet] ProtocolLib (4.5.1) hook activated.
+03-23-2021 21:42 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: RoyaleEconomy) (Permissions: LuckPerms) hook activated.
+03-23-2021 21:42 [INFO] [MyPet] WorldGuard (7.0.4+f7ff984) hook activated.
+03-23-2021 21:42 [INFO] [MyPet] Version 3.11-SNAPSHOT-b1588 ENABLED
+03-24-2021 02:28 [INFO] [MyPet] Disabling MyPet v3.11
+05-25-2021 01:19 [INFO] [MyPet] Error-Reporter ENABLED
+05-25-2021 01:20 [INFO] [MyPet] Enabling MyPet v3.11
+05-25-2021 01:20 [INFO] [MyPet] ##################################################
+05-25-2021 01:20 [INFO] [MyPet] #  A new build is available: 3.11-SNAPSHOT #1639 #
+05-25-2021 01:20 [INFO] [MyPet] #  https://mypet-plugin.de/download              #
+05-25-2021 01:20 [INFO] [MyPet] ##################################################
+05-25-2021 01:20 [INFO] [MyPet] Compat mode for v1_16_R3 loaded.
+05-25-2021 01:20 [INFO] [MyPet] Exp calculation mode: MyPet
+05-25-2021 01:20 [INFO] [MyPet] Loading WorldGroups...
+05-25-2021 01:20 [INFO] [MyPet]    added 'world' to 'default'
+05-25-2021 01:20 [INFO] [MyPet]    added 'catacumbas' to 'default'
+05-25-2021 01:20 [INFO] [MyPet]    added 'world_nether' to 'default'
+05-25-2021 01:20 [INFO] [MyPet]    added 'world_the_end' to 'default'
+05-25-2021 01:20 [INFO] [MyPet]    added 'lobby' to 'default'
+05-25-2021 01:20 [INFO] [MyPet] Connect to SQLite database...
+05-25-2021 01:20 [INFO] [MyPet] SQLite connection successful.
+05-25-2021 01:20 [INFO] [MyPet] MythicMobs (4.11.0-BETA-79e173ec) hook activated.
+05-25-2021 01:20 [INFO] [MyPet] PlaceholderAPI (2.10.6) hook activated.
+05-25-2021 01:20 [INFO] [MyPet] ProtocolLib (4.5.1) hook activated.
+05-25-2021 01:20 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: RoyaleEconomy) (Permissions: LuckPerms) hook activated.
+05-25-2021 01:20 [INFO] [MyPet] WorldGuard (7.0.4+f7ff984) hook activated.
+05-25-2021 01:20 [INFO] [MyPet] Version 3.11-SNAPSHOT-b1588 ENABLED
+05-25-2021 01:25 [INFO] [MyPet] Disabling MyPet v3.11
+05-25-2021 01:26 [INFO] [MyPet] Error-Reporter ENABLED
+05-25-2021 01:27 [INFO] [MyPet] Enabling MyPet v3.11
+05-25-2021 01:27 [INFO] [MyPet] ##################################################
+05-25-2021 01:27 [INFO] [MyPet] #  A new build is available: 3.11-SNAPSHOT #1639 #
+05-25-2021 01:27 [INFO] [MyPet] #  https://mypet-plugin.de/download              #
+05-25-2021 01:27 [INFO] [MyPet] ##################################################
+05-25-2021 01:27 [INFO] [MyPet] Compat mode for v1_16_R3 loaded.
+05-25-2021 01:27 [INFO] [MyPet] Exp calculation mode: MyPet
+05-25-2021 01:27 [INFO] [MyPet] Loading WorldGroups...
+05-25-2021 01:27 [INFO] [MyPet]    added 'world' to 'default'
+05-25-2021 01:27 [INFO] [MyPet]    added 'catacumbas' to 'default'
+05-25-2021 01:27 [INFO] [MyPet]    added 'world_nether' to 'default'
+05-25-2021 01:27 [INFO] [MyPet]    added 'world_the_end' to 'default'
+05-25-2021 01:27 [INFO] [MyPet]    added 'lobby' to 'default'
+05-25-2021 01:27 [INFO] [MyPet] Connect to SQLite database...
+05-25-2021 01:27 [INFO] [MyPet] SQLite connection successful.
+05-25-2021 01:27 [INFO] [MyPet] MythicMobs (4.11.0-BETA-79e173ec) hook activated.
+05-25-2021 01:27 [INFO] [MyPet] PlaceholderAPI (2.10.6) hook activated.
+05-25-2021 01:27 [INFO] [MyPet] ProtocolLib (4.5.1) hook activated.
+05-25-2021 01:27 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: RoyaleEconomy) (Permissions: LuckPerms) hook activated.
+05-25-2021 01:27 [INFO] [MyPet] WorldGuard (7.0.4+f7ff984) hook activated.
+05-25-2021 01:27 [INFO] [MyPet] Version 3.11-SNAPSHOT-b1588 ENABLED

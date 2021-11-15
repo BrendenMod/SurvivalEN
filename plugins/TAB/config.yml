@@ -1,0 +1,216 @@
+# Detailed explanation of all options available at https://github.com/NEZNAMY/TAB/wiki/config.yml
+
+change-nametag-prefix-suffix: true
+change-tablist-prefix-suffix: true
+enable-header-footer: true
+header:
+- '&8»&7»&8» &e&lYOUR&6&lER&f&lVER &b&LNETWORK &8«&7«&8«'
+- ''
+- '&b● &fServer &b➫ %animation:Survival%'
+- ''
+footer:
+- ''
+- '&8» &fShop: &bshop.server.com'
+- '&8» &fDiscord: &bDiscord.me/server'
+- '&8» &fTwitter: &b@Twitter'
+- ''
+group-sorting-priority-list:
+- Owner
+- Dev
+- Manager
+- JAdmin
+- Admin
+- builder
+- JMod
+- Mod
+- Helper
+- Famous
+- Streamer
+- Streamer2
+- YT
+- MYT
+- VIP5
+- VIP4
+- VIP3
+- VIP2
+- VIP1
+- Divity
+- Emperador
+- King
+- Monarch
+- Prince
+- Archduke
+- Duke
+- Earl
+- Viscount
+- Baron
+- Lord
+- Gentleman
+- Noble
+- Commander
+- Squire
+- Cleric
+- Foreman
+- Craftsman
+- Jester
+- Apprentice
+- Farmer
+- Default
+Groups:
+  Owner:
+    tabprefix: '%animation:Owner%'
+    abovename: '%vault-prefix%'
+    customtabname: '%essentialsnick%'
+  Dev:
+    tabprefix: '%vault-prefix%'
+    abovename: '%vault-prefix%'
+    customtabname: '%essentialsnick%'
+  JAdmin:
+    tabprefix: '%vault-prefix%'
+    abovename: '%vault-prefix%'
+    belowname: '%deluxetags_tag%'
+    customtabname: '%essentialsnick%'
+  Admin:
+    tabprefix: '%vault-prefix%'
+    abovename: '%vault-prefix%'
+    customtabname: '%essentialsnick%'
+  JMod:
+    tabprefix: '%vault-prefix%'
+    abovename: '%vault-prefix%'
+    customtabname: '%essentialsnick%'
+  Mod:
+    tabprefix: '%vault-prefix%'
+    abovename: '%vault-prefix%'
+    customtabname: '%essentialsnick%'
+  Helper:
+    tabprefix: '%vault-prefix%'
+    abovename: '%vault-prefix%'
+    customtabname: '%essentialsnick%'
+  Builder:
+    tabprefix: '%vault-prefix%'
+    abovename: '%vault-prefix%'
+    customtabname: '%essentialsnick%'
+  Famous:
+    tabprefix: '%vault-prefix%'
+    abovename: '%vault-prefix%'
+    belowname: '%deluxetags_tag%'
+    customtabname: '%essentialsnick%'
+  MYT:
+    tabprefix: '%vault-prefix%'
+    abovename: '%vault-prefix%'
+    customtabname: '%essentialsnick%'
+  Streamer:
+    tabprefix: '%vault-prefix%'
+    abovename: '%vault-prefix%'
+    customtabname: '%essentialsnick%'
+  Streamer2:
+    tabprefix: '%vault-prefix%'
+    abovename: '%vault-prefix%'
+    customtabname: '%essentialsnick%'
+  VIP5:
+    tabprefix: '&7╼&c⌖&6&ki&4&lVIP&6&ki&c⌖&7╾ &f'
+    abovename: '%vault-prefix%'
+    customtabname: '%essentialsnick%'
+  VIP4:
+    tabprefix: '&7╼&d⌖&f&ki&5&lVIP&f&ki&d⌖&7╾ &f'
+    abovename: '%vault-prefix%'
+    customtabname: '%essentialsnick%'
+  VIP3:
+    tabprefix: '&7╼&7⌖&b&ki&8&lVIP&b&ki&7⌖&7╾ &f'
+    abovename: '%vault-prefix%'
+    customtabname: '%essentialsnick%'
+  VIP2:
+    tabprefix: '&7╼&2⌖&6&ki&a&lVIP&6&ki&2⌖&7╾ &f'
+    abovename: '%vault-prefix%'
+    belowname: '%deluxetags_tag%'
+    customtabname: '%essentialsnick%'
+  VIP1:
+    tabprefix: '&7╼&c⌖&8&ki&e&lVIP&8&ki&c⌖&7╾ &f'
+    abovename: '%vault-prefix%'
+    customtabname: '%essentialsnick%'
+  Default:
+    tabprefix: '&7'
+    abovename: '&7%vault-prefix%'
+  _OTHER_:
+    tabprefix: '&7'
+    abovename: '%vault-prefix%'
+Users: null
+enable-collision: true
+do-not-move-spectators: false
+unlimited-nametag-prefix-suffix-mode:
+  enabled: true
+  modify-npc-names: false
+  use-marker-tag-for-1-8-x-clients: false
+  disable-on-boats: true
+per-world-settings: null
+placeholders:
+  afk-yes: ' &8[&7&nAFK&8]&r'
+  afk-no: ''
+  date-format: dd.MM.yyyy
+  time-format: '[HH:mm:ss / h:mm a]'
+  time-offset: 0
+  remove-strings:
+  - '[] '
+  - '< > '
+rank-aliases:
+  Admin: '&4&lADMIN'
+  Mod: '&b&lMOD'
+  Premium: '&a&lPREMIUM'
+  Ultra: '&b&lULTRA'
+  Legend: '&a&lLEGEND'
+  Titan: '&c&lTITAN'
+  Youtuber: '&c&lYOUTUBE'
+  _OTHER_: '&7No Rank'
+disable-features-in-worlds:
+  header-footer:
+  - disabledworld
+  tablist-names:
+  - disabledworld
+  nametag:
+  - disabledworld
+  bossbar:
+  - disabledworld
+  belowname:
+  - disabledworld
+  yellow-number:
+  - disabledworld
+yellow-number-in-tablist: '%ping%'
+classic-vanilla-belowname:
+  enabled: true
+  number: '%health%'
+  text: '&4♥'
+placeholderapi-refresh-intervals:
+  default-refresh-interval: 100
+  server:
+    '%server_uptime%': 1000
+    '%server_tps_1_colored%': 1000
+  player:
+    '%vault_prefix%': 1000
+    '%player_health%': 200
+    '%player_ping%': 1000
+  relational:
+    '%rel_factionsuuid_relation_color%': 500
+revert-collision-rule-in-worlds:
+- revertedworld
+sort-players-by-permissions: false
+fix-pet-names: false
+use-primary-group: true
+primary-group-finding-list:
+- Owner
+- Admin
+- Helper
+- default
+per-world-playerlist:
+  ignore-effect-in-worlds:
+  - ignoredworld
+  - spawn
+  shared-playerlist-world-groups:
+    lobby:
+    - lobby1
+    - lobby2
+    minigames:
+    - paintball
+    - bedwars
+  allow-bypass-permission: false
+  enabled: false
+assign-groups-by-permissions: false

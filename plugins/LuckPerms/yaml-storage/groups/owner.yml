@@ -1,0 +1,37 @@
+name: owner
+permissions:
+- '*'
+- autorank.exclude
+- chatformat.default:
+    value: false
+- djp.VIP1:
+    value: false
+- djp.VIP4:
+    value: false
+- djp.VIP5:
+    value: false
+- djp.VIP5+:
+    value: false
+- djp.alcalde:
+    value: false
+- djp.glifo:
+    value: false
+- djp.pegaso:
+    value: false
+- ezchat.default:
+    value: false
+- ezchat.vip
+- litebans.dupeip.viewip
+- vanish.nochat:
+    value: false
+- vanish.nofollow:
+    value: false
+- vanish.nointeract:
+    value: false
+- vanish.nopickup:
+    value: false
+parents:
+- divinity    
+prefixes:
+- '&4&lOWNER &f':
+    priority: 90

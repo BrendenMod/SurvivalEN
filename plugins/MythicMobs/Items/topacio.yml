@@ -1,0 +1,14 @@
+topacio:
+  Id: PURPLE_DYE
+  Display: '&5&lTopaz'
+  Data: 0
+  Lore:
+  - '&8══════&c❋&8══════'
+  - '&e➤ &f&oRarity:&r &9&oRare'
+  - '&e➤ &f&oType: &5&oCunning'
+  - '&8═════════════'
+  - '&e➤ &f&oDescription:'
+  - '&e➤ &c&oStone worth'
+  - '&c&oexchange in store'
+  - '&c&oof spawn dungeons.'
+  - '&8══════&c❋&8══════'

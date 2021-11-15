@@ -1,0 +1,707 @@
+menu_title: '&0Kits Menu'
+open_command:
+- kit
+- kits
+size: 45
+items:
+  'Glasses':
+    material: black_stained_glass_pane
+    display_name: '&e'
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 17
+    - 18
+    - 26
+    - 27
+    - 35
+    - 36
+    - 37
+    - 38
+    - 39
+    - 41
+    - 42
+    - 43
+    - 44
+  'Glasses2':
+    material: gray_stained_glass_pane
+    display_name: '&e'
+    slots:
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 20
+    - 21
+    - 23
+    - 24
+    - 28
+    - 30
+    - 31
+    - 32
+    - 34
+  'menu':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmZhMTFmZGQ3ZTZkNGQyMjIxZmU3ZTQ4OTQyZTJiMzdiMTU3MmY2M2UxNGI4MDMwOTk2Zjg2MWE2ODJjMzA0YSJ9fX0==
+    slot: 40
+    display_name: '&bMenu'
+    lore:
+    - ''
+    - '&7You will return to the Menu'
+    - '&7of the modality!'
+    - ''
+    - '&eClick to open this menu!'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[openguimenu] menu'
+    right_click_commands:
+    - '[close]'
+    - '[openguimenu] menu'      
+  'KitsRanks-1':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTQ2MWIzOGM4ZTQ1NzgyYWRhNTlkMTYxMzJhNDIyMmMxOTM3NzhlN2Q3MGM0NTQyYzk1MzYzNzZmMzdiZTQyIn19fQ=='
+    slot: 4
+    priority: 1
+    display_name: '&e&lKits &6|&7 Ranks'
+    lore:
+    - '&6⋘&6&m────────&r &e∗ ⋅◈⋅ ∗ &6&m────────&r&6⋙'
+    - '&8» &bServer kit list'
+    - ''
+    - '&fHere you can find all kits'
+    - '&franks remember that ranks'
+    - '&a&lVIPs&f, they have better objects'
+    - '&fLook at the store &dshop.buycraft.net'
+    - '&6⋘&6&m────────&r &e∗ ⋅◈⋅ ∗ &6&m────────&r&6⋙'
+    - ''
+    - '&8» &aClick to open menu'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[console] dm open buykit %player_name%<delay=5>'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP<delay=5>'
+    right_click_commands:
+    - '[close]'
+    - '[console] dm open buykit %player_name%<delay=5>'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP<delay=5>'
+  'VIP1-1':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzk5ZDE1OGI2ODVlNzJlMjQ1NzJjOWU3YTA2YWE1NmY0Yzk4ZWNmMzIyNDUzYzVlYmQxMzAxY2QyZDQ2ZDk0YSJ9fX0=
+    slot: 19
+    priority: 1
+    view_requirement:
+      requirements:
+        name:
+          type: string equals
+          input: '%javascript_cooldown_Kit-VIP1_120000%'
+          output: 0s
+        name2:
+          type: has permission
+          permission: essentials.kits.VIP1
+    display_name: '&e[&f⌖&6&ki&c&lVIP&6&ki&f⌖&e] &6|&7 Kit'
+    lore:
+    - '&f&lCONTENT:'
+    - '&8» &f&lSword &7(Diamond)'
+    - '    &eEnchants:'
+    - '    &7Sharpness III'
+    - '    &7Unbreaking II'
+    - '    &7Fire aspect II'
+    - '&8» &f&lArmor &7(Diamond)'
+    - '    &eEnchants'
+    - '    &7Protection III'
+    - '    &7Unbreaking III'
+    - '&8» &f&lTools &7(Diamond)'
+    - '    &eEnchants'
+    - '    &7Efficiency III'
+    - '    &7Unbreaking II'
+    - '&8» &f&lOthers'
+    - '    &7x4 &6|&7  Golden Apple'
+    - '    &7x64 &6|&7 Beef'
+    - ''
+    - '&6&l* &7Status: &a&lAVAILABLE ✔'
+    - ''
+    - '&8» &aRight click to get'
+    left_click_commands:
+    - '[console] papi parse %player_name% %javascript_cooldown_Kit-VIP1_start%'
+    - '[player] kit VIP1 %player_name%'
+    - '[message] &e%player_name% &fYou have successfully received the KIT'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+    right_click_commands:
+    - '[console] papi parse %player_name% %javascript_cooldown_Kit-VIP1_start'
+    - '[player] kit VIP1 %player_name%'
+    - '[message] &e%player_name% &fYou have successfully received the KIT'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'    
+  'VIP1-2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmIxYzNjMzlhZGZjZTEyZDJiODg0ZjcyZDFiZGY0NzRmYjIzODkyZWMyOWQ2OWZmMGRkMTExZDY5ZDcifX19='
+    priority: 2
+    update: true
+    slot: 19
+    view_requirement:
+      requirements:
+        name2:
+          type: has permission
+          permission: essentials.kits.VIP1
+    display_name: '&e[&f⌖&6&ki&c&lVIP&6&ki&f⌖&e] &c&6|&7 Kit'
+    lore:
+    - '&f&lCONTENT:'
+    - '&8» &f&lSword &7(Diamond)'
+    - '    &eEnchants:'
+    - '    &7Sharpness III'
+    - '    &7Unbreaking II'
+    - '    &7Fire aspect II'
+    - '&8» &f&lArmor &7(Diamond)'
+    - '    &eEnchants'
+    - '    &7Protection III'
+    - '    &7Unbreaking III'
+    - '&8» &f&lTools &7(Diamond)'
+    - '    &eEnchants'
+    - '    &7Efficiency III'
+    - '    &7Unbreaking II'
+    - '&8» &f&lOthers'
+    - '    &7x4 &6|&7  Golden Apple'
+    - '    &7x64 &6|&7 Beef'
+    - ''
+    - '&6&l* &7AVAILABLE IN: &c&l%javascript_cooldown_Kit-VIP1_120000%'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[refresh]'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[refresh]'
+  'VIP1-3':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ=='
+    slot: 19
+    priority: 3
+    display_name: '&e[&f⌖&6&ki&c&lVIP&6&ki&f⌖&e] &c&6|&7 Kit'
+    lore:
+    - '&f&lCONTENT:'
+    - '&8» &f&lSword &7(Diamond)'
+    - '    &eEnchants:'
+    - '    &7Sharpness III'
+    - '    &7Unbreaking II'
+    - '    &7Fire aspect II'
+    - '&8» &f&lArmor &7(Diamond)'
+    - '    &eEnchants'
+    - '    &7Protection III'
+    - '    &7Unbreaking III'
+    - '&8» &f&lTools &7(Diamond)'
+    - '    &eEnchants'
+    - '    &7Efficiency III'
+    - '    &7Unbreaking II'
+    - '&8» &f&lOthers'
+    - '    &7x4 &6|&7  Golden Apple'
+    - '    &7x64 &6|&7 Beef'
+    - ''
+    - '&6&l* &7You have not acquired the rank: &c&l✘'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[refresh]'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[refresh]'
+  'VIP2-1':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTA5MTFiZmMxZjdjMWFjOTRkMTkzNGM1MzY1ZWMzZTZiNWRhNTJiNjk2MTkxNWZhMTZkZWI1M2UwMjRjMWEifX19
+    slot: 22
+    priority: 1
+    view_requirement:
+      requirements:
+        name:
+          type: string equals
+          input: '%javascript_cooldown_Kit-VIP2_160000%'
+          output: 0s
+        name2:
+          type: has permission
+          permission: essentials.kits.VIP2
+    display_name: '&a[&e⌖&6&ki&c&lVIP&6&ki&e⌖&a] &6|&7 Kit'
+    lore:
+    - '&f&lCONTENT:'
+    - '&8» &f&lSword &7(Diamond)'
+    - '    &eEnchants:'
+    - '    &7Sharpness IV'
+    - '    &7Unbreaking II'
+    - '    &7Fire aspect II'
+    - '&8» &f&lArmor &7(Diamond)'
+    - '    &eEnchants'
+    - '    &7Protection IV'
+    - '    &7Unbreaking III'
+    - '&8» &f&lTools &7(Diamond)'
+    - '    &eEnchants'
+    - '    &7Efficiency IV'
+    - '    &7Unbreaking III'
+    - '&8» &f&lOthers'
+    - '    &7x6 &6|&7  Golden Apple'
+    - '    &7x64 &6|&7 Beef'
+    - ''
+    - '&6&l* &7Status: &a&lAVAILABLE ✔'
+    - ''
+    - '&8» &aRight click to get'
+    left_click_commands:
+    - '[console] papi parse %player_name% %javascript_cooldown_Kit-VIP2_start%'
+    - '[player] kit VIP2 %player_name%'
+    - '[message] &e%player_name% &fYou have successfully received the KIT'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+    right_click_commands:
+    - '[console] papi parse %player_name% %javascript_cooldown_Kit-VIP2_start'
+    - '[player] kit VIP2 %player_name%'
+    - '[message] &e%player_name% &fYou have successfully received the KIT'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+  'VIP2-2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmIxYzNjMzlhZGZjZTEyZDJiODg0ZjcyZDFiZGY0NzRmYjIzODkyZWMyOWQ2OWZmMGRkMTExZDY5ZDcifX19='
+    priority: 2
+    update: true
+    slot: 22
+    view_requirement:
+      requirements:
+        name2:
+          type: has permission
+          permission: essentials.kits.VIP2
+    display_name: '&a[&e⌖&6&ki&c&lVIP&6&ki&e⌖&a] &c&6|&7 Kit'
+    lore:
+    - '&f&lCONTENT:'
+    - '&8» &f&lSword &7(Diamond)'
+    - '    &eEnchants:'
+    - '    &7Sharpness IV'
+    - '    &7Unbreaking II'
+    - '    &7Fire aspect II'
+    - '&8» &f&lArmor &7(Diamond)'
+    - '    &eEnchants'
+    - '    &7Protection IV'
+    - '    &7Unbreaking III'
+    - '&8» &f&lTools &7(Diamond)'
+    - '    &eEnchants'
+    - '    &7Efficiency IV'
+    - '    &7Unbreaking III'
+    - '&8» &f&lOthers'
+    - '    &7x6 &6|&7  Golden Apple'
+    - '    &7x64 &6|&7 Beef'
+    - ''
+    - '&6&l* &7AVAILABLE IN: &c&l%javascript_cooldown_Kit-VIP2_160000%'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[refresh]'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[refresh]'
+  'VIP2-3':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ=='
+    slot: 22
+    priority: 3
+    display_name: '&a[&e⌖&6&ki&c&lVIP&6&ki&e⌖&a] &c&6|&7 Kit'
+    lore:
+    - '&f&lCONTENT:'
+    - '&8» &f&lSword &7(Diamond)'
+    - '    &eEnchants:'
+    - '    &7Sharpness IV'
+    - '    &7Unbreaking II'
+    - '    &7Fire aspect II'
+    - '&8» &f&lArmor &7(Diamond)'
+    - '    &eEnchants'
+    - '    &7Protection IV'
+    - '    &7Unbreaking III'
+    - '&8» &f&lTools &7(Diamond)'
+    - '    &eEnchants'
+    - '    &7Efficiency IV'
+    - '    &7Unbreaking III'
+    - '&8» &f&lOthers'
+    - '    &7x6 &6|&7  Golden Apple'
+    - '    &7x64 &6|&7 Beef'
+    - ''
+    - '&6&l* &7You have not acquired the rank: &c&l✘'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[refresh]'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[refresh]'
+  'VIP3-1':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjRiN2ZjNWY3YTlkZGZkZDFhYTc5MzE3NDEwZmMxOTI5ZjkxYmRkZjk4NTg1OTM4YTJhNTYxOTlhNjMzY2MifX19
+    slot: 25
+    priority: 1
+    view_requirement:
+      requirements:
+        name:
+          type: string equals
+          input: '%javascript_cooldown_Kit-VIP3_200000%'
+          output: 0s
+        name2:
+          type: has permission
+          permission: essentials.kits.VIP3
+    display_name: '&8[&e⌖&6&ki&c&lVIP&6&ki&e⌖&8] &6|&7 Kit'
+    lore:
+    - '&f&lCONTENT:'
+    - '&8» &f&lSword &7(Diamond)'
+    - '    &eEnchants:'
+    - '    &7Sharpness V'
+    - '    &7Unbreaking III'
+    - '    &7Fire aspect II'
+    - '&8» &f&lBallesta'
+    - '    &eEnchants'
+    - '    &7Unbreaking II'
+    - '&8» &f&lArmor &7(Diamond)'
+    - '    &eEnchants'
+    - '    &7Protection IV'
+    - '    &7Unbreaking III'
+    - '&8» &f&lTools &7(Diamond)'
+    - '    &eEnchants'
+    - '    &7Efficiency V'
+    - '    &7Unbreaking III'
+    - '&8» &f&lOthers'
+    - '    &7x10 &6|&7  Golden Apple'
+    - '    &7x64 &6|&7 Beef'
+    - '    &7x32 &6|&7 flechas'
+    - ''
+    - '&6&l* &7Status: &a&lAVAILABLE ✔'
+    - ''
+    - '&8» &aRight click to get'
+    left_click_commands:
+    - '[console] papi parse %player_name% %javascript_cooldown_Kit-VIP3_start%'
+    - '[player] kit VIP3 %player_name%'
+    - '[message] &e%player_name% &fYou have successfully received the KIT'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+    right_click_commands:
+    - '[console] papi parse %player_name% %javascript_cooldown_Kit-VIP3_start'
+    - '[player] kit VIP3 %player_name%'
+    - '[message] &e%player_name% &fYou have successfully received the KIT'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+  'VIP3-2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmIxYzNjMzlhZGZjZTEyZDJiODg0ZjcyZDFiZGY0NzRmYjIzODkyZWMyOWQ2OWZmMGRkMTExZDY5ZDcifX19='
+    priority: 2
+    update: true
+    slot: 25
+    view_requirement:
+      requirements:
+        name2:
+          type: has permission
+          permission: essentials.kits.VIP3
+    display_name: '&8[&e⌖&6&ki&c&lVIP&6&ki&e⌖&8] &c&6|&7 Kit'
+    lore:
+    - '&f&lCONTENT:'
+    - '&8» &f&lSword &7(Diamond)'
+    - '    &eEnchants:'
+    - '    &7Sharpness V'
+    - '    &7Unbreaking III'
+    - '    &7Fire aspect II'
+    - '&8» &f&lBallesta'
+    - '    &eEnchants'
+    - '    &7Unbreaking II'
+    - '&8» &f&lArmor &7(Diamond)'
+    - '    &eEnchants'
+    - '    &7Protection IV'
+    - '    &7Unbreaking III'
+    - '&8» &f&lTools &7(Diamond)'
+    - '    &eEnchants'
+    - '    &7Efficiency V'
+    - '    &7Unbreaking III'
+    - '&8» &f&lOthers'
+    - '    &7x10 &6|&7  Golden Apple'
+    - '    &7x64 &6|&7 Beef'
+    - '    &7x32 &6|&7 flechas'
+    - ''
+    - '&6&l* &7AVAILABLE IN: &c&l%javascript_cooldown_Kit-VIP3_200000%'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[refresh]'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[refresh]'
+  'VIP3-3':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ=='
+    slot: 25
+    priority: 3
+    display_name: '&8[&e⌖&6&ki&c&lVIP&6&ki&e⌖&8] &c&6|&7 Kit'
+    lore:
+    - '&f&lCONTENT:'
+    - '&8» &f&lSword &7(Diamond)'
+    - '    &eEnchants:'
+    - '    &7Sharpness V'
+    - '    &7Fire aspect II'
+    - '    &7Unbreaking III'
+    - '&8» &f&lBallesta'
+    - '    &eEnchants'
+    - '    &7Unbreaking II'
+    - '&8» &f&lArmor &7(Diamond)'
+    - '    &eEnchants'
+    - '    &7Protection IV'
+    - '    &7Unbreaking III'
+    - '&8» &f&lTools &7(Diamond)'
+    - '    &eEnchants'
+    - '    &7Efficiency V'
+    - '    &7Unbreaking II'
+    - '&8» &f&lOthers'
+    - '    &7x10 &6|&7  Golden Apple'
+    - '    &7x64 &6|&7 Beef'
+    - '    &7x32 &6|&7 flechas'
+    - ''
+    - '&6&l* &7You have not acquired the rank: &c&l✘'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[refresh]'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[refresh]'
+  'VIP4-1':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjNhYWY3YjFhNzc4OTQ5Njk2Y2I5OWQ0ZjA0YWQxYWE1MThjZWVlMjU2YzcyZTVlZDY1YmZhNWMyZDg4ZDllIn19fQ==
+    slot: 29
+    priority: 1
+    view_requirement:
+      requirements:
+        name:
+          type: string equals
+          input: '%javascript_cooldown_Kit-VIP4_250000%'
+          output: 0s
+        name2:
+          type: has permission
+          permission: essentials.kits.VIP4
+    display_name: '&5[&e⌖&f&ki&c&lVIP&f&ki&e⌖&5] &6|&7 Kit'
+    lore:
+    - '&f&lCONTENT:'
+    - '&8» &f&lSword &7(Diamond)'
+    - '    &eEnchants:'
+    - '    &7Sharpness V'
+    - '    &7Unbreaking III'
+    - '    &7Fire aspect II'
+    - '&8» &f&lTrident'
+    - '&8» &f&lArmor &7(Diamond)'
+    - '    &eEnchants'
+    - '    &7Protection IV'
+    - '    &7Unbreaking III'
+    - '&8» &f&lTools &7(Diamond)'
+    - '    &eEnchants'
+    - '    &7Efficiency V'
+    - '    &7Unbreaking III'
+    - '&8» &f&lOthers'
+    - '    &7x15 &6|&7  Golden Apple'
+    - '    &7x64 &6|&7 Beef'
+    - '    &7x1 &6|&7 Totem of immortality'
+    - ''
+    - '&6&l* &7Status: &a&lAVAILABLE ✔'
+    - ''
+    - '&8» &aRight click to get'
+    left_click_commands:
+    - '[console] papi parse %player_name% %javascript_cooldown_Kit-VIP4_start%'
+    - '[player] kit VIP4 %player_name%'
+    - '[message] &e%player_name% &fYou have successfully received the KIT'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+    right_click_commands:
+    - '[console] papi parse %player_name% %javascript_cooldown_Kit-VIP4_start'
+    - '[player] kit VIP4 %player_name%'
+    - '[message] &e%player_name% &fYou have successfully received the KIT'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+  'VIP4-2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmIxYzNjMzlhZGZjZTEyZDJiODg0ZjcyZDFiZGY0NzRmYjIzODkyZWMyOWQ2OWZmMGRkMTExZDY5ZDcifX19='
+    priority: 2
+    update: true
+    slot: 29
+    view_requirement:
+      requirements:
+        name2:
+          type: has permission
+          permission: essentials.kits.VIP4
+    display_name: '&5[&e⌖&f&ki&c&lVIP&f&ki&e⌖&5] &c&6|&7 Kit'
+    lore:
+    - '&f&lCONTENT:'
+    - '&8» &f&lSword &7(Diamond)'
+    - '    &eEnchants:'
+    - '    &7Sharpness V'
+    - '    &7Unbreaking III'
+    - '    &7Fire aspect II'
+    - '&8» &f&lTrident'
+    - '&8» &f&lArmor &7(Diamond)'
+    - '    &eEnchants'
+    - '    &7Protection IV'
+    - '    &7Unbreaking II'
+    - '&8» &f&lTools &7(Diamond)'
+    - '    &eEnchants'
+    - '    &7Efficiency V'
+    - '    &7Unbreaking III'
+    - '&8» &f&lOthers'
+    - '    &7x15 &6|&7  Golden Apple'
+    - '    &7x64 &6|&7 Beef'
+    - '    &7x1 &6|&7 Totem of immortality'
+    - ''
+    - '&6&l* &7AVAILABLE IN: &c&l%javascript_cooldown_Kit-VIP4_250000%'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[refresh]'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[refresh]'
+  'VIP4-3':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ=='
+    slot: 29
+    priority: 3
+    display_name: '&5[&e⌖&f&ki&c&lVIP&f&ki&e⌖&5] &c&6|&7 Kit'
+    lore:
+    - '&f&lCONTENT:'
+    - '&8» &f&lSword &7(Diamond)'
+    - '    &eEnchants:'
+    - '    &7Sharpness V'
+    - '    &7Unbreaking III'
+    - '    &7Fire aspect II'
+    - '&8» &f&lTrident'
+    - '&8» &f&lArmor &7(Diamond)'
+    - '    &eEnchants'
+    - '    &7Protection IV'
+    - '    &7Unbreaking III'
+    - '&8» &f&lTools &7(Diamond)'
+    - '    &eEnchants'
+    - '    &7Efficiency V'
+    - '    &7Unbreaking II'
+    - '&8» &f&lOthers'
+    - '    &7x15 &6|&7  Golden Apple'
+    - '    &7x64 &6|&7 Beef'
+    - '    &7x1 &6|&7 Totem of immortality'
+    - ''
+    - '&6&l* &7You have not acquired the rank: &c&l✘'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[refresh]'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[refresh]'
+  'VIP5-1':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTI1NTIyZTVmMjM1MDExZDcxYmNlMzgzMmFjMTU2MGQ5NGIzNDZlNzczZGFlMTg3ZTJiM2Q0YTBiNTU2MWEifX19
+    slot: 33
+    priority: 1
+    view_requirement:
+      requirements:
+        name:
+          type: string equals
+          input: '%javascript_cooldown_Kit-VIP5_280000%'
+          output: 0s
+        name2:
+          type: has permission
+          permission: essentials.kits.VIP5
+    display_name: '&4[&e⌖&6&ki&c&lVIP&6&ki&e⌖&4] &6|&7 Kit'
+    lore:
+    - '&f&lCONTENT:'
+    - '&8» &f&lSword &7(Diamond)'
+    - '    &eEnchants:'
+    - '    &7Sharpness V'
+    - '    &7Unbreaking III'
+    - '    &7Fire aspect II'
+    - '    &7Mending'
+    - '&8» &f&lTrident'
+    - '&8» &f&lArmor &7(Diamond)'
+    - '    &eEnchants'
+    - '    &7Protection IV'
+    - '    &7Unbreaking III'
+    - '    &7Mending'
+    - '&8» &f&lTools &7(Diamond)'
+    - '    &eEnchants'
+    - '    &7Efficiency V'
+    - '    &7Unbreaking III'
+    - '    &7Mending'
+    - '&8» &f&lOthers'
+    - '    &7x25 &6|&7  Golden Apple'
+    - '    &7x64 &6|&7 Beef'
+    - '    &7x2 &6|&7 Totem of immortality'
+    - ''
+    - '&6&l* &7Status: &a&lAVAILABLE ✔'
+    - ''
+    - '&8» &aRight click to get'
+    left_click_commands:
+    - '[console] papi parse %player_name% %javascript_cooldown_Kit-VIP5_start%'
+    - '[player] kit VIP5 %player_name%'
+    - '[message] &e%player_name% &fYou have successfully received the KIT'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+    right_click_commands:
+    - '[console] papi parse %player_name% %javascript_cooldown_Kit-VIP5_start'
+    - '[player] kit VIP5 %player_name%'
+    - '[message] &e%player_name% &fYou have successfully received the KIT'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+  'VIP5-2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmIxYzNjMzlhZGZjZTEyZDJiODg0ZjcyZDFiZGY0NzRmYjIzODkyZWMyOWQ2OWZmMGRkMTExZDY5ZDcifX19='
+    priority: 2
+    update: true
+    slot: 33
+    view_requirement:
+      requirements:
+        name2:
+          type: has permission
+          permission: essentials.kits.VIP5
+    display_name: '&4[&e⌖&6&ki&c&lVIP&6&ki&e⌖&4] &c&6|&7 Kit'
+    lore:
+    - '&f&lCONTENT:'
+    - '&8» &f&lSword &7(Diamond)'
+    - '    &eEnchants:'
+    - '    &7Sharpness V'
+    - '    &7Unbreaking III'
+    - '    &7Fire aspect II'
+    - '    &7Mending'
+    - '&8» &f&lTrident'
+    - '&8» &f&lArmor &7(Diamond)'
+    - '    &eEnchants'
+    - '    &7Protection IV'
+    - '    &7Unbreaking III'
+    - '    &7Mending'
+    - '&8» &f&lTools &7(Diamond)'
+    - '    &eEnchants'
+    - '    &7Efficiency V'
+    - '    &7Unbreaking III'
+    - '    &7Mending'
+    - '&8» &f&lOthers'
+    - '    &7x25 &6|&7  Golden Apple'
+    - '    &7x64 &6|&7 Beef'
+    - '    &7x2 &6|&7 Totem of immortality'
+    - ''
+    - '&6&l* &7AVAILABLE IN: &c&l%javascript_cooldown_Kit-VIP5_280000%'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[refresh]'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[refresh]'
+  'VIP5-3':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ=='
+    slot: 33
+    priority: 3
+    display_name: '&4[&e⌖&6&ki&c&lVIP&6&ki&e⌖&4] &c&6|&7 Kit'
+    lore:
+    - '&f&lCONTENT:'
+    - '&8» &f&lSword &7(Diamond)'
+    - '    &eEnchants:'
+    - '    &7Sharpness V'
+    - '    &7Unbreaking III'
+    - '    &7Fire aspect II'
+    - '    &7Mending'
+    - '&8» &f&lTrident'
+    - '&8» &f&lArmor &7(Diamond)'
+    - '    &eEnchants'
+    - '    &7Protection IV'
+    - '    &7Unbreaking III'
+    - '    &7Mending'
+    - '&8» &f&lTools &7(Diamond)'
+    - '    &eEnchants'
+    - '    &7Efficiency V'
+    - '    &7Unbreaking III'
+    - '    &7Mending'
+    - '&8» &f&lOthers'
+    - '    &7x25 &6|&7  Golden Apple'
+    - '    &7x64 &6|&7 Beef'
+    - '    &7x2 &6|&7 Totem of immortality'
+    - ''
+    - '&6&l* &7You have not acquired the rank: &c&l✘'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[refresh]'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[refresh]'

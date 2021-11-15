@@ -1,0 +1,2119 @@
+inv:
+  size: 45
+  id: tradeos
+  title: §0Dungeon Shop
+  targetPlayerOption: DISABLED
+  items:
+    '0':
+      '2847331422759707302':
+        item:
+          v: 2584
+          type: BLACK_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '1':
+      '294168112970988717':
+        item:
+          v: 2584
+          type: BLACK_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '2':
+      '5788746512616088040':
+        item:
+          v: 2584
+          type: BLACK_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '3':
+      '4419091850217302642':
+        item:
+          v: 2584
+          type: BLACK_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '4':
+      '-572486690004902645':
+        item:
+          v: 2584
+          type: BLACK_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '5':
+      '-6163190409838909999':
+        item:
+          v: 2584
+          type: DIAMOND_HELMET
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"["},{"italic":false,"color":"light_purple","text":"*"},{"italic":false,"color":"gray","text":"]
+              "},{"italic":false,"color":"light_purple","text":"Helmet of "},{"bold":true,"italic":false,"color":"light_purple","text":"OPAL
+              "},{"bold":false,"italic":false,"color":"gray","text":"["},{"italic":false,"color":"light_purple","text":"*"},{"italic":false,"color":"gray","text":"]"}],"text":""}'
+            lore:
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Requirements"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x9
+              "},{"italic":false,"color":"light_purple","text":"Opal"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x12
+              "},{"italic":false,"color":"yellow","text":"Copper Coin"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            enchants:
+              PROTECTION_ENVIRONMENTAL: 3
+              THORNS: 2
+              DURABILITY: 2
+        leftaction:
+          price:
+            lvl: false
+            money: 0.0
+            xp: 0
+            items:
+            - v: 2584
+              type: PINK_DYE
+              amount: 9
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Opal"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Rarity:"},{"italic":false,"text":"
+                  "},{"italic":true,"color":"green","text":"Rare"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Type: "},{"italic":true,"color":"light_purple","text":"Justice"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"═════════════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Stone worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            - v: 2584
+              type: PRISMARINE_CRYSTALS
+              amount: 12
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Copper
+                  Coin!"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Coin worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            checkDurability: true
+          cooldown: 200
+          closeInv: false
+          commands:
+          - <server>/serveritem give a1 1 <player>
+    '6':
+      '618457381755097431':
+        item:
+          v: 2584
+          type: DIAMOND_HELMET
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"["},{"italic":false,"color":"green","text":"*"},{"italic":false,"color":"gray","text":"]
+              "},{"italic":false,"color":"green","text":"Helmet of "},{"bold":true,"italic":false,"color":"green","text":"JADE
+              "},{"bold":false,"italic":false,"color":"gray","text":"["},{"italic":false,"color":"green","text":"*"},{"italic":false,"color":"gray","text":"]"}],"text":""}'
+            lore:
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Requirements"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x6
+              "},{"italic":false,"color":"green","text":"Jade"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x32
+              "},{"italic":false,"color":"gold","text":"Silver coin"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            enchants:
+              PROTECTION_EXPLOSIONS: 5
+              MENDING: 1
+              PROTECTION_PROJECTILE: 5
+              PROTECTION_ENVIRONMENTAL: 6
+              THORNS: 4
+              DURABILITY: 7
+        leftaction:
+          price:
+            lvl: false
+            money: 0.0
+            xp: 0
+            items:
+            - v: 2584
+              type: LIME_DYE
+              amount: 6
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Jade"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Rarity:"},{"italic":false,"text":"
+                  "},{"italic":true,"color":"dark_purple","text":"Epic"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Type: "},{"italic":true,"color":"green","text":"Osadía"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"═════════════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Stone worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            - v: 2584
+              type: PRISMARINE_CRYSTALS
+              amount: 32
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Silver
+                  coin!"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Coin worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            checkDurability: true
+          cooldown: 200
+          closeInv: false
+          commands:
+          - <server>serveritem give j1 1 <player>
+    '7':
+      '8556916290833891203':
+        item:
+          v: 2584
+          type: IRON_HELMET
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"["},{"italic":false,"color":"aqua","text":"*"},{"italic":false,"color":"gray","text":"]
+              "},{"italic":false,"color":"aqua","text":"Armor of "},{"bold":true,"italic":false,"color":"aqua","text":"AQUAMARINE
+              "},{"bold":false,"italic":false,"color":"gray","text":"["},{"italic":false,"color":"aqua","text":"*"},{"italic":false,"color":"gray","text":"]"}],"text":""}'
+            lore:
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Requirements"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x16
+              "},{"italic":false,"color":"light_purple","text":"Aquamarine"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x8
+              "},{"italic":false,"color":"gold","text":"Silver coin"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            enchants:
+              PROTECTION_EXPLOSIONS: 4
+              PROTECTION_FIRE: 3
+              PROTECTION_PROJECTILE: 4
+              PROTECTION_ENVIRONMENTAL: 4
+              DURABILITY: 7
+        leftaction:
+          price:
+            lvl: false
+            money: 0.0
+            xp: 0
+            items:
+            - v: 2584
+              type: PRISMARINE_CRYSTALS
+              amount: 8
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Silver
+                  coin!"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Coin worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            - v: 2584
+              type: LIGHT_BLUE_DYE
+              amount: 16
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Aquamarine"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Rarity:"},{"italic":false,"text":"
+                  "},{"italic":true,"color":"green","text":"Rare"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"═════════════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Stone worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            checkDurability: true
+          cooldown: 200
+          closeInv: false
+          commands:
+          - <server>serveritem give agu1 1 <player>
+    '8':
+      '7909667445909628585':
+        item:
+          v: 2584
+          type: DIAMOND_HELMET
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"["},{"italic":false,"color":"dark_purple","text":"*"},{"italic":false,"color":"gray","text":"]
+              "},{"italic":false,"color":"dark_purple","text":"Armor of "},{"bold":true,"italic":false,"color":"dark_purple","text":"AMETHYST
+              "},{"bold":false,"italic":false,"color":"gray","text":"["},{"italic":false,"color":"dark_purple","text":"*"},{"italic":false,"color":"gray","text":"]"}],"text":""}'
+            lore:
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Requirements"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x10
+              "},{"italic":false,"color":"dark_purple","text":"Amethyst"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x12
+              "},{"italic":false,"color":"red","text":"Gold coin"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            enchants:
+              WATER_WORKER: 7
+              PROTECTION_FIRE: 8
+              MENDING: 2
+              PROTECTION_PROJECTILE: 8
+              PROTECTION_ENVIRONMENTAL: 7
+              DURABILITY: 7
+        leftaction:
+          price:
+            lvl: false
+            money: 0.0
+            xp: 0
+            items:
+            - v: 2584
+              type: PRISMARINE_CRYSTALS
+              amount: 12
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Gold
+                  coin!"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Coin worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            - v: 2584
+              type: PURPLE_DYE
+              amount: 10
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Amethyst"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Rarity:"},{"italic":false,"text":"
+                  "},{"italic":true,"color":"dark_purple","text":"Epic"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"═════════════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Stone worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            checkDurability: true
+          cooldown: 200
+          closeInv: false
+          commands:
+          - <server>serveritem give ama1 1 <player>
+    '9':
+      '2778506630093117096':
+        item:
+          v: 2584
+          type: BLACK_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '10':
+      '8647873949240375978':
+        item:
+          v: 2584
+          type: GOLDEN_SHOVEL
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"["},{"italic":false,"color":"red","text":"*"},{"italic":false,"color":"gray","text":"]
+              "},{"italic":false,"color":"red","text":"Shovel "},{"bold":true,"italic":false,"color":"red","text":"RUBY
+              "},{"bold":false,"italic":false,"color":"gray","text":"["},{"italic":false,"color":"red","text":"*"},{"italic":false,"color":"gray","text":"]"}],"text":""}'
+            lore:
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Requirements"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x64
+              "},{"italic":false,"color":"red","text":"Ruby"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x64
+              "},{"italic":false,"color":"yellow","text":"Copper Coin"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            enchants:
+              DIG_SPEED: 7
+              MENDING: 3
+              SILK_TOUCH: 2
+              DURABILITY: 6
+        leftaction:
+          price:
+            lvl: false
+            money: 0.0
+            xp: 0
+            items:
+            - v: 2584
+              type: RED_DYE
+              amount: 64
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Ruby"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Rarity:"},{"italic":false,"text":"
+                  "},{"italic":true,"color":"green","text":"Rare"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Type: "},{"italic":true,"color":"red","text":"Love"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"═════════════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Stone worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            - v: 2584
+              type: PRISMARINE_CRYSTALS
+              amount: 64
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Copper
+                  Coin!"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Coin worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            checkDurability: true
+          cooldown: 200
+          closeInv: true
+          commands:
+          - <server>serveritem give 1 1 <player>
+    '11':
+      '6058084713122460982':
+        item:
+          v: 2584
+          type: IRON_PICKAXE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"["},{"italic":false,"color":"dark_aqua","text":"*"},{"italic":false,"color":"gray","text":"]
+              "},{"italic":false,"color":"dark_aqua","text":"Peak of "},{"bold":true,"italic":false,"color":"dark_aqua","text":"CYANITE
+              "},{"bold":false,"italic":false,"color":"gray","text":"["},{"italic":false,"color":"dark_aqua","text":"*"},{"italic":false,"color":"gray","text":"]"}],"text":""}'
+            lore:
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Requirements"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x64
+              "},{"italic":false,"color":"dark_aqua","text":"Cyanite"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x64
+              "},{"italic":false,"color":"yellow","text":"Copper Coin"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            enchants:
+              DIG_SPEED: 7
+              LOOT_BONUS_BLOCKS: 5
+              MENDING: 2
+              DURABILITY: 5
+        leftaction:
+          price:
+            lvl: false
+            money: 0.0
+            xp: 0
+            items:
+            - v: 2584
+              type: GRAY_DYE
+              amount: 64
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"Cyanite"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Rarity:"},{"italic":false,"text":"
+                  "},{"italic":true,"color":"blue","text":"Rare"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Type: "},{"italic":true,"color":"dark_aqua","text":"Wisdom"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"═════════════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Stone worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            - v: 2584
+              type: PRISMARINE_CRYSTALS
+              amount: 64
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Copper
+                  Coin!"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Coin worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            checkDurability: true
+          cooldown: 200
+          closeInv: false
+          commands:
+          - <server>serveritem give 2 1 <player>
+    '12':
+      '8901741617340158466':
+        item:
+          v: 2584
+          type: DIAMOND_AXE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"["},{"italic":false,"color":"aqua","text":"*"},{"italic":false,"color":"gray","text":"]
+              "},{"italic":false,"color":"aqua","text":"Axe "},{"bold":true,"italic":false,"color":"aqua","text":"AZURITE
+              "},{"bold":false,"italic":false,"color":"gray","text":"["},{"italic":false,"color":"aqua","text":"*"},{"italic":false,"color":"gray","text":"]"}],"text":""}'
+            lore:
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Requirements"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x64
+              "},{"italic":false,"color":"aqua","text":"Azurite"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x64
+              "},{"italic":false,"color":"gold","text":"Silver coin"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            enchants:
+              DIG_SPEED: 7
+              MENDING: 1
+              DAMAGE_ALL: 7
+              SILK_TOUCH: 1
+              DURABILITY: 4
+        leftaction:
+          price:
+            lvl: false
+            money: 0.0
+            xp: 0
+            items:
+            - v: 2584
+              type: BLUE_DYE
+              amount: 64
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Azurite"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Rarity:"},{"italic":false,"text":"
+                  "},{"italic":true,"color":"dark_purple","text":"Epic"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Type: "},{"italic":true,"color":"aqua","text":"Vigor"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"═════════════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Stone worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            - v: 2584
+              type: PRISMARINE_CRYSTALS
+              amount: 64
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Silver
+                  coin!"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Coin worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            checkDurability: true
+          cooldown: 200
+          closeInv: false
+          commands:
+          - <server>serveritem give 3 1 <player>
+    '13':
+      '-7305249810518816190':
+        item:
+          v: 2584
+          type: BLACK_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '14':
+      '8293975044327288361':
+        item:
+          v: 2584
+          type: DIAMOND_CHESTPLATE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"["},{"italic":false,"color":"light_purple","text":"*"},{"italic":false,"color":"gray","text":"]
+              "},{"italic":false,"color":"light_purple","text":"Chest of "},{"bold":true,"italic":false,"color":"light_purple","text":"OPAL
+              "},{"bold":false,"italic":false,"color":"gray","text":"["},{"italic":false,"color":"light_purple","text":"*"},{"italic":false,"color":"gray","text":"]"}],"text":""}'
+            lore:
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Requirements"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x13
+              "},{"italic":false,"color":"light_purple","text":"Opal"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x12
+              "},{"italic":false,"color":"yellow","text":"Copper Coin"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            enchants:
+              PROTECTION_ENVIRONMENTAL: 3
+              THORNS: 2
+              DURABILITY: 2
+        leftaction:
+          price:
+            lvl: false
+            money: 0.0
+            xp: 0
+            items:
+            - v: 2584
+              type: PINK_DYE
+              amount: 13
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Opal"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Rarity:"},{"italic":false,"text":"
+                  "},{"italic":true,"color":"green","text":"Rare"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Type: "},{"italic":true,"color":"light_purple","text":"Justice"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"═════════════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Stone worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            - v: 2584
+              type: PRISMARINE_CRYSTALS
+              amount: 12
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Copper
+                  Coin!"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Coin worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            checkDurability: true
+          cooldown: 200
+          closeInv: false
+          commands:
+          - <server>serveritem give a2 1 <player>
+    '15':
+      '-8859823371732931185':
+        item:
+          v: 2584
+          type: DIAMOND_CHESTPLATE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"["},{"italic":false,"color":"green","text":"*"},{"italic":false,"color":"gray","text":"]
+              "},{"italic":false,"color":"green","text":"Chest of "},{"bold":true,"italic":false,"color":"green","text":"JADE
+              "},{"bold":false,"italic":false,"color":"gray","text":"["},{"italic":false,"color":"green","text":"*"},{"italic":false,"color":"gray","text":"]"}],"text":""}'
+            lore:
+            - '{"text":""}'
+            - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"--------------"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Requirements"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x16
+              "},{"italic":false,"color":"green","text":"Jade"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x32
+              "},{"italic":false,"color":"gold","text":"Silver coin"}],"text":""}'
+            - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"--------------"}],"text":""}'
+            enchants:
+              PROTECTION_EXPLOSIONS: 5
+              MENDING: 1
+              PROTECTION_PROJECTILE: 5
+              PROTECTION_ENVIRONMENTAL: 6
+              THORNS: 4
+              DURABILITY: 7
+        leftaction:
+          price:
+            lvl: false
+            money: 0.0
+            xp: 0
+            items:
+            - v: 2584
+              type: LIME_DYE
+              amount: 16
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Jade"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Rarity:"},{"italic":false,"text":"
+                  "},{"italic":true,"color":"dark_purple","text":"Epic"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Type: "},{"italic":true,"color":"green","text":"Osadía"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"═════════════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Stone worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            - v: 2584
+              type: PRISMARINE_CRYSTALS
+              amount: 32
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Silver
+                  coin!"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Coin worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            checkDurability: true
+          cooldown: 200
+          closeInv: false
+          commands:
+          - <server>serveritem give j2 1 <player>
+    '16':
+      '-1870505102745725220':
+        item:
+          v: 2584
+          type: IRON_CHESTPLATE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"["},{"italic":false,"color":"aqua","text":"*"},{"italic":false,"color":"gray","text":"]
+              "},{"italic":false,"color":"aqua","text":"Armor of "},{"bold":true,"italic":false,"color":"aqua","text":"AQUAMARINE
+              "},{"bold":false,"italic":false,"color":"gray","text":"["},{"italic":false,"color":"aqua","text":"*"},{"italic":false,"color":"gray","text":"]"}],"text":""}'
+            lore:
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Requirements"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x48
+              "},{"italic":false,"color":"aqua","text":"Aquamarine"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x32
+              "},{"italic":false,"color":"gold","text":"Silver coin"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            enchants:
+              PROTECTION_EXPLOSIONS: 4
+              PROTECTION_FIRE: 3
+              PROTECTION_PROJECTILE: 4
+              PROTECTION_ENVIRONMENTAL: 4
+              DURABILITY: 7
+        leftaction:
+          price:
+            lvl: false
+            money: 0.0
+            xp: 0
+            items:
+            - v: 2584
+              type: PRISMARINE_CRYSTALS
+              amount: 32
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Silver
+                  coin!"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Coin worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            - v: 2584
+              type: LIGHT_BLUE_DYE
+              amount: 48
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Aquamarine"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Rarity:"},{"italic":false,"text":"
+                  "},{"italic":true,"color":"green","text":"Rare"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"═════════════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Stone worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            checkDurability: true
+          cooldown: 200
+          closeInv: false
+          commands:
+          - <server>serveritem give agu2 1 <player>
+    '17':
+      '-7538374925016021028':
+        item:
+          v: 2584
+          type: DIAMOND_CHESTPLATE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"["},{"italic":false,"color":"dark_purple","text":"*"},{"italic":false,"color":"gray","text":"]
+              "},{"italic":false,"color":"dark_purple","text":"Armor of "},{"bold":true,"italic":false,"color":"dark_purple","text":"AMETHYST
+              "},{"bold":false,"italic":false,"color":"gray","text":"["},{"italic":false,"color":"dark_purple","text":"*"},{"italic":false,"color":"gray","text":"]"}],"text":""}'
+            lore:
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Requirements"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x64
+              "},{"italic":false,"color":"dark_purple","text":"Amethyst"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x48
+              "},{"italic":false,"color":"red","text":"Gold coin"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            enchants:
+              PROTECTION_FIRE: 8
+              MENDING: 2
+              PROTECTION_PROJECTILE: 8
+              PROTECTION_ENVIRONMENTAL: 7
+              DURABILITY: 7
+        leftaction:
+          price:
+            lvl: false
+            money: 0.0
+            xp: 0
+            items:
+            - v: 2584
+              type: PRISMARINE_CRYSTALS
+              amount: 48
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Gold
+                  coin!"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Coin worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            - v: 2584
+              type: PURPLE_DYE
+              amount: 64
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Amethyst"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Rarity:"},{"italic":false,"text":"
+                  "},{"italic":true,"color":"dark_purple","text":"Epic"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"═════════════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Stone worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            checkDurability: true
+          cooldown: 200
+          closeInv: false
+          commands:
+          - <server>serveritem give ama2 1 <player>
+    '18':
+      '9149394388810136524':
+        item:
+          v: 2584
+          type: BLACK_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '19':
+      '7070863934516914106':
+        item:
+          v: 2584
+          type: STONE_SWORD
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"["},{"italic":false,"color":"yellow","text":"*"},{"italic":false,"color":"gray","text":"]
+              "},{"italic":false,"color":"yellow","text":"Sword of "},{"bold":true,"italic":false,"color":"yellow","text":"AMBAR
+              "},{"bold":false,"italic":false,"color":"gray","text":"["},{"italic":false,"color":"yellow","text":"*"},{"italic":false,"color":"gray","text":"]"}],"text":""}'
+            lore:
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Requirements"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x32
+              "},{"italic":false,"color":"gold","text":"Ambar"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x16
+              "},{"italic":false,"color":"yellow","text":"Copper Coin"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            enchants:
+              FIRE_ASPECT: 3
+              KNOCKBACK: 1
+              LOOT_BONUS_MOBS: 4
+              MENDING: 2
+              DAMAGE_ALL: 7
+              DAMAGE_UNDEAD: 6
+              DURABILITY: 5
+        leftaction:
+          price:
+            lvl: false
+            money: 0.0
+            xp: 0
+            items:
+            - v: 2584
+              type: PRISMARINE_CRYSTALS
+              amount: 16
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Copper
+                  Coin!"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Coin worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            - v: 2584
+              type: ORANGE_DYE
+              amount: 32
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Ambar"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Rarity:"},{"italic":false,"text":"
+                  "},{"italic":true,"color":"green","text":"Rare"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Type: "},{"italic":true,"color":"yellow","text":"Intelecto"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"═════════════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Stone worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            checkDurability: true
+          cooldown: 200
+          closeInv: false
+          commands:
+          - <server>serveritem give arma1 1 <player>
+    '20':
+      '2666867402061618623':
+        item:
+          v: 2584
+          type: IRON_SWORD
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"["},{"italic":false,"color":"dark_purple","text":"*"},{"italic":false,"color":"gray","text":"]
+              "},{"italic":false,"color":"dark_purple","text":"Sword of "},{"bold":true,"italic":false,"color":"dark_purple","text":"TOPAZ
+              "},{"bold":false,"italic":false,"color":"gray","text":"["},{"italic":false,"color":"dark_purple","text":"*"},{"italic":false,"color":"gray","text":"]"}],"text":""}'
+            lore:
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Requirements"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x48
+              "},{"italic":false,"color":"dark_purple","text":"Topaz"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x32
+              "},{"italic":false,"color":"yellow","text":"Copper Coin"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            enchants:
+              DAMAGE_ARTHROPODS: 4
+              FIRE_ASPECT: 3
+              KNOCKBACK: 2
+              LOOT_BONUS_MOBS: 5
+              DAMAGE_ALL: 7
+              DAMAGE_UNDEAD: 6
+              DURABILITY: 6
+        leftaction:
+          price:
+            lvl: false
+            money: 0.0
+            xp: 0
+            items:
+            - v: 2584
+              type: PRISMARINE_CRYSTALS
+              amount: 32
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Copper
+                  Coin!"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Coin worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            - v: 2584
+              type: PURPLE_DYE
+              amount: 48
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Topaz"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Rarity:"},{"italic":false,"text":"
+                  "},{"italic":true,"color":"blue","text":"Rare"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Type: "},{"italic":true,"color":"dark_purple","text":"Astucia"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"═════════════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Stone worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            checkDurability: true
+          cooldown: 200
+          closeInv: false
+          commands:
+          - <server>serveritem give arma2 1 <player>
+    '21':
+      '8973203827841525494':
+        item:
+          v: 2584
+          type: DIAMOND_SWORD
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"["},{"italic":false,"color":"green","text":"*"},{"italic":false,"color":"gray","text":"]
+              "},{"italic":false,"color":"green","text":"Sword of "},{"bold":true,"italic":false,"color":"green","text":"CITRINE
+              "},{"bold":false,"italic":false,"color":"gray","text":"["},{"italic":false,"color":"green","text":"*"},{"italic":false,"color":"gray","text":"]"}],"text":""}'
+            lore:
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Requirements"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x48
+              "},{"italic":false,"color":"green","text":"Citrine"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x32
+              "},{"italic":false,"color":"gold","text":"Silver coin"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            enchants:
+              DAMAGE_ARTHROPODS: 3
+              FIRE_ASPECT: 1
+              MENDING: 1
+              DAMAGE_ALL: 6
+              DAMAGE_UNDEAD: 5
+              DURABILITY: 6
+        leftaction:
+          price:
+            lvl: false
+            money: 0.0
+            xp: 0
+            items:
+            - v: 2584
+              type: PRISMARINE_CRYSTALS
+              amount: 32
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Silver
+                  coin!"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Coin worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            - v: 2584
+              type: MAGMA_CREAM
+              amount: 48
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Citrine"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Rarity:"},{"italic":false,"text":"
+                  "},{"italic":true,"color":"blue","text":"Rare"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"═════════════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Stone worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            checkDurability: true
+          cooldown: 200
+          closeInv: false
+          commands:
+          - <server>serveritem give arma3 1 <player>
+    '22':
+      '868773073566089439':
+        item:
+          v: 2584
+          type: BLACK_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '23':
+      '-2341639165201098511':
+        item:
+          v: 2584
+          type: DIAMOND_LEGGINGS
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"["},{"italic":false,"color":"light_purple","text":"*"},{"italic":false,"color":"gray","text":"]
+              "},{"italic":false,"color":"light_purple","text":"Pants of "},{"bold":true,"italic":false,"color":"light_purple","text":"OPAL
+              "},{"bold":false,"italic":false,"color":"gray","text":"["},{"italic":false,"color":"light_purple","text":"*"},{"italic":false,"color":"gray","text":"]"}],"text":""}'
+            lore:
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Requirements"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x10
+              "},{"italic":false,"color":"light_purple","text":"Opal"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x12
+              "},{"italic":false,"color":"yellow","text":"Copper Coin"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            enchants:
+              PROTECTION_ENVIRONMENTAL: 3
+              THORNS: 2
+              DURABILITY: 2
+        leftaction:
+          price:
+            lvl: false
+            money: 0.0
+            xp: 0
+            items:
+            - v: 2584
+              type: PINK_DYE
+              amount: 10
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Opal"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Rarity:"},{"italic":false,"text":"
+                  "},{"italic":true,"color":"green","text":"Rare"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Type: "},{"italic":true,"color":"light_purple","text":"Justice"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"═════════════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Stone worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            - v: 2584
+              type: PRISMARINE_CRYSTALS
+              amount: 12
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Copper
+                  Coin!"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Coin worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            checkDurability: true
+          cooldown: 200
+          closeInv: false
+          commands:
+          - <server>serveritem give a3 1 <player>
+    '24':
+      '-5283857049500126950':
+        item:
+          v: 2584
+          type: DIAMOND_LEGGINGS
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"["},{"italic":false,"color":"green","text":"*"},{"italic":false,"color":"gray","text":"]
+              "},{"italic":false,"color":"green","text":"Pants of "},{"bold":true,"italic":false,"color":"green","text":"JADE
+              "},{"bold":false,"italic":false,"color":"gray","text":"["},{"italic":false,"color":"green","text":"*"},{"italic":false,"color":"gray","text":"]"}],"text":""}'
+            lore:
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Requirements"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x8
+              "},{"italic":false,"color":"green","text":"Jade"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x32
+              "},{"italic":false,"color":"gold","text":"Silver coin"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            enchants:
+              PROTECTION_EXPLOSIONS: 5
+              MENDING: 1
+              PROTECTION_PROJECTILE: 5
+              PROTECTION_ENVIRONMENTAL: 6
+              THORNS: 4
+              DURABILITY: 7
+        leftaction:
+          price:
+            lvl: false
+            money: 0.0
+            xp: 0
+            items:
+            - v: 2584
+              type: LIME_DYE
+              amount: 8
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Jade"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Rarity:"},{"italic":false,"text":"
+                  "},{"italic":true,"color":"dark_purple","text":"Epic"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Type: "},{"italic":true,"color":"green","text":"Osadía"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"═════════════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Stone worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            - v: 2584
+              type: PRISMARINE_CRYSTALS
+              amount: 32
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Silver
+                  coin!"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Coin worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            checkDurability: true
+          cooldown: 200
+          closeInv: false
+          commands:
+          - <server>serveritem give j3 1 <player>
+    '25':
+      '7193371208799889563':
+        item:
+          v: 2584
+          type: LEATHER_LEGGINGS
+          meta:
+            ==: ItemMeta
+            meta-type: LEATHER_ARMOR
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"["},{"italic":false,"color":"aqua","text":"*"},{"italic":false,"color":"gray","text":"]
+              "},{"italic":false,"color":"aqua","text":"Armor of "},{"bold":true,"italic":false,"color":"aqua","text":"AQUAMARINE
+              "},{"bold":false,"italic":false,"color":"gray","text":"["},{"italic":false,"color":"aqua","text":"*"},{"italic":false,"color":"gray","text":"]"}],"text":""}'
+            lore:
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Requirements"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x32
+              "},{"italic":false,"color":"aqua","text":"Aquamarine"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x16
+              "},{"italic":false,"color":"gold","text":"Silver coin"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            enchants:
+              PROTECTION_EXPLOSIONS: 4
+              PROTECTION_FIRE: 3
+              PROTECTION_PROJECTILE: 4
+              PROTECTION_ENVIRONMENTAL: 6
+              DURABILITY: 7
+            color:
+              ==: Color
+              RED: 124
+              BLUE: 41
+              GREEN: 153
+        leftaction:
+          price:
+            lvl: false
+            money: 0.0
+            xp: 0
+            items:
+            - v: 2584
+              type: PRISMARINE_CRYSTALS
+              amount: 16
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Silver
+                  coin!"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Coin worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            - v: 2584
+              type: LIGHT_BLUE_DYE
+              amount: 32
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Aquamarine"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Rarity:"},{"italic":false,"text":"
+                  "},{"italic":true,"color":"green","text":"Rare"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"═════════════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Stone worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            checkDurability: true
+          cooldown: 200
+          closeInv: false
+          commands:
+          - <server>serveritem give agu3 1 <player>
+    '26':
+      '7753783884137004900':
+        item:
+          v: 2584
+          type: DIAMOND_LEGGINGS
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"["},{"italic":false,"color":"dark_purple","text":"*"},{"italic":false,"color":"gray","text":"]
+              "},{"italic":false,"color":"dark_purple","text":"Armor of "},{"bold":true,"italic":false,"color":"dark_purple","text":"AMETHYST
+              "},{"bold":false,"italic":false,"color":"gray","text":"["},{"italic":false,"color":"dark_purple","text":"*"},{"italic":false,"color":"gray","text":"]"}],"text":""}'
+            lore:
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Requirements"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x32
+              "},{"italic":false,"color":"dark_purple","text":"Amethyst"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x24
+              "},{"italic":false,"color":"red","text":"Gold coin"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            enchants:
+              PROTECTION_FIRE: 8
+              MENDING: 2
+              PROTECTION_PROJECTILE: 8
+              PROTECTION_ENVIRONMENTAL: 7
+              DURABILITY: 7
+        leftaction:
+          price:
+            lvl: false
+            money: 0.0
+            xp: 0
+            items:
+            - v: 2584
+              type: PRISMARINE_CRYSTALS
+              amount: 24
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Gold
+                  coin!"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Coin worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            - v: 2584
+              type: PURPLE_DYE
+              amount: 32
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Amethyst"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Rarity:"},{"italic":false,"text":"
+                  "},{"italic":true,"color":"dark_purple","text":"Epic"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"═════════════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Stone worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            checkDurability: true
+          cooldown: 200
+          closeInv: false
+          commands:
+          - <server>serveritem give ama3 1 <player>
+    '27':
+      '3287699632756537708':
+        item:
+          v: 2584
+          type: BLACK_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '28':
+      '-7008664177788528033':
+        item:
+          v: 2584
+          type: DIAMOND_SWORD
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"["},{"italic":false,"color":"dark_green","text":"*"},{"italic":false,"color":"gray","text":"]
+              "},{"italic":false,"color":"dark_green","text":"Sword of "},{"bold":true,"italic":false,"color":"dark_green","text":"MALAQUITA
+              "},{"bold":false,"italic":false,"color":"gray","text":"["},{"italic":false,"color":"dark_green","text":"*"},{"italic":false,"color":"gray","text":"]"}],"text":""}'
+            lore:
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Requirements"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x64
+              "},{"italic":false,"color":"dark_green","text":"Malaquita"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x32
+              "},{"italic":false,"color":"gold","text":"Silver coin"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            enchants:
+              DAMAGE_ARTHROPODS: 6
+              FIRE_ASPECT: 5
+              KNOCKBACK: 3
+              LOOT_BONUS_MOBS: 4
+              DAMAGE_ALL: 6
+              DAMAGE_UNDEAD: 7
+              DURABILITY: 5
+        leftaction:
+          price:
+            lvl: false
+            money: 0.0
+            xp: 0
+            items:
+            - v: 2584
+              type: PRISMARINE_CRYSTALS
+              amount: 32
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Silver
+                  coin!"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Coin worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            - v: 2584
+              type: GREEN_DYE
+              amount: 64
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Malaquita"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Rarity:"},{"italic":false,"text":"
+                  "},{"italic":true,"color":"dark_purple","text":"Epic"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Type: "},{"italic":true,"color":"dark_green","text":"Valentía"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"═════════════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Stone worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            checkDurability: true
+          cooldown: 200
+          closeInv: false
+          commands:
+          - <server>serveritem give arma4 1 <player>
+    '29':
+      '633914457978675978':
+        item:
+          v: 2584
+          type: DIAMOND_SWORD
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"["},{"italic":false,"color":"gray","text":"*"},{"italic":false,"color":"dark_gray","text":"]
+              "},{"italic":false,"color":"gray","text":"Sword of "},{"bold":true,"italic":false,"color":"gray","text":"HEMATITA
+              "},{"bold":false,"italic":false,"color":"dark_gray","text":"["},{"italic":false,"color":"gray","text":"*"},{"italic":false,"color":"dark_gray","text":"]"}],"text":""}'
+            lore:
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Requirements"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x64
+              "},{"italic":false,"color":"gray","text":"Hematita"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x32
+              "},{"italic":false,"color":"red","text":"Gold coin"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            enchants:
+              DAMAGE_ARTHROPODS: 7
+              FIRE_ASPECT: 2
+              LOOT_BONUS_MOBS: 4
+              MENDING: 1
+              DAMAGE_ALL: 7
+              DAMAGE_UNDEAD: 7
+              DURABILITY: 10
+        leftaction:
+          price:
+            lvl: false
+            money: 0.0
+            xp: 0
+            items:
+            - v: 2584
+              type: PRISMARINE_CRYSTALS
+              amount: 32
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Gold
+                  coin!"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Coin worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            - v: 2584
+              type: BLACK_DYE
+              amount: 64
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Hematita"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Rarity:"},{"italic":false,"text":"
+                  "},{"italic":true,"color":"dark_purple","text":"Epic"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"═════════════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Stone worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            checkDurability: true
+          cooldown: 200
+          closeInv: false
+          commands:
+          - <server>serveritem give arma5 1 <player>
+    '30':
+      '926388146007397553':
+        item:
+          v: 2584
+          type: WHITE_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '31':
+      '-1844754970699503593':
+        item:
+          v: 2584
+          type: BLACK_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '32':
+      '-5274078446128356602':
+        item:
+          v: 2584
+          type: DIAMOND_BOOTS
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"["},{"italic":false,"color":"light_purple","text":"*"},{"italic":false,"color":"gray","text":"]
+              "},{"italic":false,"color":"light_purple","text":"Boots of "},{"bold":true,"italic":false,"color":"light_purple","text":"OPAL
+              "},{"bold":false,"italic":false,"color":"gray","text":"["},{"italic":false,"color":"light_purple","text":"*"},{"italic":false,"color":"gray","text":"]"}],"text":""}'
+            lore:
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Requirements"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x7
+              "},{"italic":false,"color":"light_purple","text":"Opal"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x12
+              "},{"italic":false,"color":"gold","text":"Silver coin"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            enchants:
+              PROTECTION_ENVIRONMENTAL: 3
+              THORNS: 2
+              DURABILITY: 2
+        leftaction:
+          price:
+            lvl: false
+            money: 0.0
+            xp: 0
+            items:
+            - v: 2584
+              type: PINK_DYE
+              amount: 7
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Opal"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Rarity:"},{"italic":false,"text":"
+                  "},{"italic":true,"color":"green","text":"Rare"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Type: "},{"italic":true,"color":"light_purple","text":"Justice"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"═════════════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Stone worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            - v: 2584
+              type: PRISMARINE_CRYSTALS
+              amount: 12
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Silver
+                  coin!"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Coin worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            checkDurability: true
+          cooldown: 200
+          closeInv: false
+          commands:
+          - <server>serveritem give a4 1 <player>
+    '33':
+      '540780718337951721':
+        item:
+          v: 2584
+          type: DIAMOND_BOOTS
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"["},{"italic":false,"color":"green","text":"*"},{"italic":false,"color":"gray","text":"]
+              "},{"italic":false,"color":"green","text":"Boots of "},{"bold":true,"italic":false,"color":"green","text":"JADE
+              "},{"bold":false,"italic":false,"color":"gray","text":"["},{"italic":false,"color":"green","text":"*"},{"italic":false,"color":"gray","text":"]"}],"text":""}'
+            lore:
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Requirements"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x6
+              "},{"italic":false,"color":"green","text":"Jade"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x32
+              "},{"italic":false,"color":"gold","text":"Silver coin"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            enchants:
+              PROTECTION_EXPLOSIONS: 5
+              MENDING: 1
+              PROTECTION_PROJECTILE: 5
+              PROTECTION_ENVIRONMENTAL: 6
+              THORNS: 4
+              DURABILITY: 7
+        leftaction:
+          price:
+            lvl: false
+            money: 0.0
+            xp: 0
+            items:
+            - v: 2584
+              type: LIME_DYE
+              amount: 6
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Jade"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Rarity:"},{"italic":false,"text":"
+                  "},{"italic":true,"color":"dark_purple","text":"Epic"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Type: "},{"italic":true,"color":"green","text":"Osadía"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"═════════════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Stone worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            - v: 2584
+              type: PRISMARINE_CRYSTALS
+              amount: 32
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Silver
+                  coin!"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Coin worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            checkDurability: true
+          cooldown: 200
+          closeInv: false
+          commands:
+          - <server>serveritem give j4 1 <player>
+    '34':
+      '8337943966223727189':
+        item:
+          v: 2584
+          type: IRON_BOOTS
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"["},{"italic":false,"color":"aqua","text":"*"},{"italic":false,"color":"gray","text":"]
+              "},{"italic":false,"color":"aqua","text":"Armor of "},{"bold":true,"italic":false,"color":"aqua","text":"AQUAMARINE
+              "},{"bold":false,"italic":false,"color":"gray","text":"["},{"italic":false,"color":"aqua","text":"*"},{"italic":false,"color":"gray","text":"]"}],"text":""}'
+            lore:
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Requirements"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x8
+              "},{"italic":false,"color":"aqua","text":"Aquamarine"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x8
+              "},{"italic":false,"color":"gold","text":"Silver coin"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            enchants:
+              PROTECTION_EXPLOSIONS: 4
+              PROTECTION_FIRE: 3
+              PROTECTION_PROJECTILE: 4
+              PROTECTION_ENVIRONMENTAL: 4
+              DURABILITY: 7
+        leftaction:
+          price:
+            lvl: false
+            money: 0.0
+            xp: 0
+            items:
+            - v: 2584
+              type: PRISMARINE_CRYSTALS
+              amount: 8
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Silver
+                  coin!"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Coin worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            - v: 2584
+              type: LIGHT_BLUE_DYE
+              amount: 8
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Aquamarine"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Rarity:"},{"italic":false,"text":"
+                  "},{"italic":true,"color":"green","text":"Rare"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"═════════════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Stone worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            checkDurability: true
+          cooldown: 200
+          closeInv: false
+          commands:
+          - <server>serveritem give agu4 1 <player>
+    '35':
+      '-7990352063716548729':
+        item:
+          v: 2584
+          type: DIAMOND_BOOTS
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"["},{"italic":false,"color":"dark_purple","text":"*"},{"italic":false,"color":"gray","text":"]
+              "},{"italic":false,"color":"dark_purple","text":"Armor of "},{"bold":true,"italic":false,"color":"dark_purple","text":"AMETHYST
+              "},{"bold":false,"italic":false,"color":"gray","text":"["},{"italic":false,"color":"dark_purple","text":"*"},{"italic":false,"color":"gray","text":"]"}],"text":""}'
+            lore:
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Requirements"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x16
+              "},{"italic":false,"color":"dark_purple","text":"Amethyst"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x12
+              "},{"italic":false,"color":"red","text":"Gold coin"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            enchants:
+              PROTECTION_FALL: 5
+              PROTECTION_FIRE: 8
+              MENDING: 2
+              PROTECTION_PROJECTILE: 8
+              PROTECTION_ENVIRONMENTAL: 7
+              DURABILITY: 7
+        leftaction:
+          price:
+            lvl: false
+            money: 0.0
+            xp: 0
+            items:
+            - v: 2584
+              type: PRISMARINE_CRYSTALS
+              amount: 12
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Gold
+                  coin!"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Coin worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            - v: 2584
+              type: PURPLE_DYE
+              amount: 16
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Amethyst"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Rarity:"},{"italic":false,"text":"
+                  "},{"italic":true,"color":"dark_purple","text":"Epic"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"═════════════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Stone worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            checkDurability: true
+          cooldown: 200
+          closeInv: false
+          commands:
+          - <server>serveritem give ama4 1 <player>
+    '36':
+      '1000390025177955320':
+        item:
+          v: 2584
+          type: BLACK_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '37':
+      '6753971680146054394':
+        item:
+          v: 2584
+          type: BLACK_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '38':
+      '5823062742714847373':
+        item:
+          v: 2584
+          type: BLACK_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '39':
+      '662886563845381691':
+        item:
+          v: 2584
+          type: BLACK_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '40':
+      '2198029576396047537':
+        item:
+          v: 2584
+          type: BLACK_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '41':
+      '-6439415542134001027':
+        item:
+          v: 2584
+          type: BLACK_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '42':
+      '9022508875264404629':
+        item:
+          v: 2586
+          type: PLAYER_HEAD
+          meta:
+            ==: ItemMeta
+            meta-type: SKULL
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Next
+              Page"}],"text":""}'
+            internal: H4sIAAAAAAAAAE2QS1KDQBiEfy20EL2EN4CQwcrCRUrUzFQGQkAesyPJREJmYoqABi7g1gPkBG6Su3gKb+EsXXV3fb3pNgAMuAnXjRCT6m25ElwHzcslh8uJyFteGWAosOVVveK7K9Brvq+biu8MADjT4SLORcPhxFtisrQwFykR8xY7KkehKXxcbu/wJm5nD9jBUvHR0Bm3g39dVOcJEplNCrYJmpmMzbE9FXw0teby5d1PKGIJtWlC99TN+sr3WDTsmEtKP8J9r5ch9vyIaLTuvFJ1S69QarGIyEwGFnNf7axTPiHCKwPkh2SwTM17gGs4xws1QtO0w9fP79Pt4ai++P74BPgDvnrAJRUBAAA=
+            skull-owner: Player
+        leftaction:
+          price:
+            lvl: false
+            money: 0.0
+            xp: 0
+            economy: Vault
+            items: []
+            checkDurability: true
+          cooldown: 200
+          closeInv: false
+          commands:
+          - tradeos2
+    '43':
+      '-8545093178716243319':
+        item:
+          v: 2584
+          type: BLACK_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '44':
+      '8688268330565581051':
+        item:
+          v: 2584
+          type: BLACK_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'

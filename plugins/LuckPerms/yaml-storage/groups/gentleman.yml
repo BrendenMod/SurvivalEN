@@ -1,0 +1,11 @@
+name: gentleman
+permissions:
+- ezranks.rank.Gentleman
+parents:
+- g-bukkit_default
+- g-essentials_default
+- g-groupmanager_default
+- warrior
+prefixes:
+- '&f':
+    priority: 18

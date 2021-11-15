@@ -1,0 +1,335 @@
+# EssentialsX kit configuration.
+# If you don't have any kits defined in this file, the plugin will try to copy them from the config.yml
+# 
+# Note: All items MUST be followed by a quantity!
+# All kit names should be lower case, and will be treated as lower in permissions/costs.
+# Syntax: - name[:durability] amount [enchantment:level]... [itemmeta:value]...
+# For Item Meta information visit http://wiki.ess3.net/wiki/Item_Meta
+# 'delay' refers to the cooldown between how often you can use each kit, measured in seconds.
+# Set delay to -1 for a one time kit.
+# For more information, visit http://wiki.ess3.net/wiki/Kits
+kits:
+  Default:
+    delay: 86400
+    items:
+    - chainmailhelmet 1 name:§r§8§lVisitor lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - leatherchestplate 1 name:§r§8§lVisitor lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+      color:10511680
+    - leatherleggings 1 name:§r§8§lVisitor lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+      color:10511680
+    - chainmailboots 1 name:§r§8§lVisitor lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - stonesword 1 name:§r§8§lVisitor lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - stoneshovel 1 name:§r§8§lVisitor lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - stonepickaxe 1 name:§r§8§lVisitor lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - stoneaxe 1 name:§r§8§lVisitor lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - bread 16
+    - arrow 16
+    - bow 1 lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+  Farmer:
+    delay: 86400
+    items:
+    - leatherhelmet 1 name:§r§e§lFarmer lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+      color:10511680
+    - chainmailchestplate 1 name:§r§e§lFarmer lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - chainmailleggings 1 name:§r§e§lFarmer lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - leatherboots 1 name:§r§e§lFarmer lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+      color:10511680
+    - stonesword 1 name:§r§e§lFarmer lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - stoneaxe 1 name:§r§e§lFarmer lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - stoneshovel 1 name:§r§e§lFarmer lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - stonepickaxe 1 name:§r§e§lFarmer lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - stonehoe 1 name:§r§e§lFarmer lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - bread 16
+    - bow 1 name:§r§e§lFarmer lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - arrow 32
+  Craftsman:
+    delay: 86400
+    items:
+    - ironhelmet 1 name:§r§6§lCraftsman lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - chainmailchestplate 1 name:§r§6§lCraftsman lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - chainmailleggings 1 name:§r§6§lCraftsman lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - ironboots 1 name:§r§6§lCraftsman lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - ironsword 1 name:§r§6§lCraftsman lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - ironhoe 1 name:§r§6§lCraftsman lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - ironshovel 1 name:§r§6§lCraftsman lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - ironpickaxe 1 name:§r§6§lCraftsman lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - ironaxe 1 name:§r§6§lCraftsman lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - arrow 32
+    - bow 1 name:§r§6§lCraftsman lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - bread 16
+  Foreman:
+    delay: 86400
+    items:
+    - ironsword 1 name:§r§a§lCapatáz lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - diamondhoe 1 name:§r§a§lCapatáz lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - diamondshovel 1 name:§r§a§lCapatáz lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - diamondpickaxe 1 name:§r§a§lCapatáz lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - diamondaxe 1 name:§r§a§lCapatáz lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - chainmailhelmet 1 name:§r§a§lCapatáz lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - ironchestplate 1 name:§r§a§lCapatáz lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - ironleggings 1 name:§r§a§lCapatáz lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - chainmailboots 1 name:§r§a§lCapatáz lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - bread 16
+    - arrow 48
+    - bow 1 name:§r§a§lCapatáz lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+  Squire:
+    delay: 86400
+    items:
+    - chainmailhelmet 1
+    - ironchestplate 1
+    - ironleggings 1
+    - chainmailboots 1
+    - ironsword 1 name:§r§2§lSquire lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - ironaxe 1 name:§r§2§lSquire lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - ironhoe 1 name:§r§2§lSquire lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - ironshovel 1 name:§r§2§lSquire lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - ironpickaxe 1 name:§r§2§lSquire lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - arrow 48
+    - bread 16
+  Noble:
+    delay: 86400
+    items:
+    - ironhelmet 1 name:§r§b§lNoble lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - ironchestplate 1 name:§r§b§lNoble lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - ironleggings 1 name:§r§b§lNoble lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - ironboots 1 name:§r§b§lNoble lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - ironsword 1 name:§r§b§lNoble lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - ironpickaxe 1 name:§r§b§lNoble lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - ironaxe 1 name:§r§b§lNoble lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - ironshovel 1 name:§r§b§lNoble lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - ironhoe 1 name:§r§b§lNoble lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - bread 24
+    - arrow 64
+    - bow 1 name:§r§b§lNoble lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+  Lord:
+    delay: 86400
+    items:
+    - ironhelmet 1 protection_environmental:2 durability:1 name:§r§3§lLord lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - ironchestplate 1 protection_environmental:1 durability:2 name:§r§3§lLord lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - ironleggings 1 protection_environmental:1 durability:2 name:§r§3§lLord lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - ironboots 1 protection_environmental:2 durability:1 name:§r§3§lLord lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - ironsword 1 damage_all:2 durability:1 name:§r§3§lLord lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - diamondhoe 1 name:§r§3§lLord lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+      dig_speed:2 durability:1
+    - diamondaxe 1 name:§r§3§lLord lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+      dig_speed:1 durability:2
+    - diamondshovel 1 name:§r§3§lLord lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+      dig_speed:1 durability:2
+    - diamondpickaxe 1 name:§r§3§lLord lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+      dig_speed:2 durability:1
+    - bread 32
+    - arrow 64
+    - bow 1 name:§r§3§lLord lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+      arrow_damage:1 durability:2
+  Viscount:
+    delay: 86400
+    items:
+    - ironhelmet 1 protection_environmental:1 durability:2 name:§r§9§lViscount lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - ironchestplate 1 protection_environmental:2 durability:1 name:§r§9§lViscount
+      lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - ironleggings 1 protection_environmental:2 durability:1 name:§r§9§lViscount lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - ironboots 1 protection_environmental:1 durability:2 name:§r§9§lViscount lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - ironsword 1 damage_all:2 durability:1 name:§r§9§lViscount lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - diamondaxe 1 name:§r§9§lViscount lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+      dig_speed:2 durability:1
+    - diamondhoe 1 name:§r§9§lViscount lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+      dig_speed:1 durability:2
+    - diamondpickaxe 1 name:§r§9§lViscount lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+      dig_speed:1 durability:2
+    - diamondshovel 1 name:§r§9§lViscount lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+      dig_speed:2 durability:1
+    - bread 32
+    - arrow 64
+    - bow 1 name:§r§9§lViscount lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+      arrow_damage:1 durability:2
+  Infant:
+    delay: 86400
+    items:
+    - ironhelmet 1 protection_environmental:2 durability:2 name:§r§d§lInfant lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - ironchestplate 1 protection_environmental:2 durability:2 name:§r§d§lInfant
+      lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - ironleggings 1 protection_environmental:2 durability:2 name:§r§d§lInfant lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - ironboots 1 protection_environmental:2 durability:2 name:§r§d§lInfant lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - diamondsword 1 name:§r§d§lInfant lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+      damage_all:2 durability:2
+    - diamondpickaxe 1 name:§r§d§lInfant lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+      dig_speed:2 durability:2
+    - diamondhoe 1 name:§r§d§lInfant lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+      dig_speed:2 durability:2
+    - diamondshovel 1 dig_speed:2 durability:2
+    - diamondaxe 1 name:§r§d§lInfant lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+      dig_speed:2 durability:2
+    - bread 32
+    - arrow 64
+    - bow 1 name:§r§d§lInfant lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+      arrow_damage:2 durability:1
+  GrandDuke:
+    delay: 86400
+    items:
+    - diamondhelmet 1 name:§r§5§lGrand_Duke lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+      protection_environmental:2 durability:2
+    - diamondchestplate 1 name:§r§5§lGrand_Duke lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+      protection_environmental:2 durability:2
+    - diamondleggings 1 name:§r§5§lGrand_Duke lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+      protection_environmental:2 durability:2
+    - diamondboots 1 name:§r§5§lGrand_Duke lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+      protection_environmental:2 durability:2
+    - diamondsword 1 damage_all:2 durability:3 name:§r§5§lGrand_Duke lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+    - diamondhoe 1 name:§r§5§lGrand_Duke lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+      dig_speed:3 durability:2
+    - diamondshovel 1 name:§r§5§lGrand_Duke lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+      dig_speed:2 durability:3
+    - diamondaxe 1 name:§r§5§lGrand_Duke lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+      dig_speed:2 durability:3
+    - diamondpickaxe 1 name:§r§5§lGrand_Duke lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+      dig_speed:3 durability:2
+    - bow 1 name:§r§5§lGrand_Duke lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+      arrow_damage:3 durability:2
+    - arrow 64
+  King:
+    delay: 86400
+    items:
+    - diamondhelmet 1 name:§r§c§lKing lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+      protection_environmental:3 durability:2
+    - diamondchestplate 1 name:§r§c§lKing lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+      protection_environmental:2 durability:3
+    - diamondleggings 1 name:§r§c§lKing lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+      protection_environmental:2 durability:3
+    - diamondboots 1 name:§r§c§lKing lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+      protection_environmental:3 durability:2
+    - diamondsword 1 name:§r§c§lKing lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+      damage_all:2 durability:3
+    - diamondhoe 1 name:§r§c§lKing lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+      dig_speed:2 durability:3
+    - diamondshovel 1 name:§r§c§lKing lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+      dig_speed:3 durability:2
+    - diamondaxe 1 name:§r§c§lKing lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+      dig_speed:3 durability:2
+    - diamondpickaxe 1 name:§r§c§lKing lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+      dig_speed:2 durability:3
+    - goldenapple 3
+    - arrow 64
+    - bow 1 name:§r§c§lKing lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+      arrow_damage:3 durability:2
+  Divinity:
+    delay: 86400
+    items:
+    - diamondhelmet 1 name:§r§4§lDivinity lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+      protection_environmental:2 durability:3
+    - diamondchestplate 1 name:§r§4§lDivinity lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+      protection_environmental:3 durability:2
+    - diamondleggings 1 name:§r§4§lDivinity lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+      protection_environmental:3 durability:2
+    - diamondboots 1 name:§r§4§lDivinity lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+      protection_environmental:2 durability:3
+    - diamondsword 1 name:§r§4§lDivinity lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+      damage_all:3 durability:2
+    - diamondhoe 1 name:§r§4§lDivinity lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+      dig_speed:3 durability:2
+    - diamondshovel 1 name:§r§4§lDivinity lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+      dig_speed:3 durability:2
+    - diamondaxe 1 name:§r§4§lDivinity lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+      dig_speed:3 durability:2
+    - diamondpickaxe 1 name:§r§4§lDivinity lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+      dig_speed:3 durability:2
+    - enchantedgoldenapple:1 2
+    - arrow 64
+    - bow 1 name:§r§4§lDivinity lore:§r§r§8§m------------------|§r§a§lSUR§2§lVIVAL_§f➟_§aKit_§7(Rankup)|§r§8§m------------------
+      arrow_damage:3 durability:2
+  VIP1:
+    delay: 120000
+    items:
+    - diamond_sword 1 name:&e[&f⌖&6&ki&c&lVIP&6&ki&f⌖&e] fire_aspect:2 damage_all:3 durability:2
+    - diamond_helmet 1 name:&e[&f⌖&6&ki&c&lVIP&6&ki&f⌖&e] protection_environmental:3 durability:3
+    - diamond_chestplate 1 name:&e[&f⌖&6&ki&c&lVIP&6&ki&f⌖&e] protection_environmental:3 durability:3
+    - diamond_leggings 1 name:&e[&f⌖&6&ki&c&lVIP&6&ki&f⌖&e] protection_environmental:3 durability:3
+    - diamond_boots 1 name:&e[&f⌖&6&ki&c&lVIP&6&ki&f⌖&e] protection_environmental:3 durability:3
+    - diamond_shovel 1 name:&e[&f⌖&6&ki&c&lVIP&6&ki&f⌖&e] dig_speed:3 durability:2
+    - diamond_axe 1 name:&e[&f⌖&6&ki&c&lVIP&6&ki&f⌖&e] dig_speed:3 durability:2
+    - diamond_pickaxe 1 name:&e[&f⌖&6&ki&c&lVIP&6&ki&f⌖&e] dig_speed:3 durability:2
+    - diamond_hoe 1 name:&e[&f⌖&6&ki&c&lVIP&6&ki&f⌖&e]
+    - enchanted_golden_apple 4
+    - cooked_porkchop 64
+  VIP2:
+    delay: 160000
+    items:
+    - diamond_sword 1 name:&a[&e⌖&6&ki&c&lVIP&6&ki&e⌖&a] fire_aspect:2 damage_all:4 durability:2
+    - diamond_helmet 1 name:&a[&e⌖&6&ki&c&lVIP&6&ki&e⌖&a] protection_environmental:4 durability:3
+    - diamond_chestplate 1 name:&a[&e⌖&6&ki&c&lVIP&6&ki&e⌖&a] protection_environmental:4 durability:3
+    - diamond_leggings 1 name:&a[&e⌖&6&ki&c&lVIP&6&ki&e⌖&a] protection_environmental:4 durability:3
+    - diamond_boots 1 name:&a[&e⌖&6&ki&c&lVIP&6&ki&e⌖&a] protection_environmental:4 durability:3
+    - diamond_shovel 1 name:&a[&e⌖&6&ki&c&lVIP&6&ki&e⌖&a] dig_speed:4 durability:2
+    - diamond_axe 1 name:&a[&e⌖&6&ki&c&lVIP&6&ki&e⌖&a] dig_speed:4 durability:2
+    - diamond_pickaxe 1 name:&a[&e⌖&6&ki&c&lVIP&6&ki&e⌖&a] dig_speed:4 durability:2
+    - diamond_hoe 1 name:&a[&e⌖&6&ki&c&lVIP&6&ki&e⌖&a] durability:3
+    - enchanted_golden_apple 6
+    - cooked_porkchop 64
+  VIP3:
+    delay: 200000
+    items:
+    - diamond_sword 1 name:&8[&e⌖&6&ki&c&lVIP&6&ki&e⌖&8] fire_aspect:2 damage_all:5 durability:2
+    - diamond_helmet 1 name:&8[&e⌖&6&ki&c&lVIP&6&ki&e⌖&8] protection_environmental:4 durability:3
+    - diamond_chestplate 1 name:&8[&e⌖&6&ki&c&lVIP&6&ki&e⌖&8] protection_environmental:4 durability:3
+    - diamond_leggings 1 name:&8[&e⌖&6&ki&c&lVIP&6&ki&e⌖&8] protection_environmental:4 durability:3
+    - diamond_boots 1 name:&8[&e⌖&6&ki&c&lVIP&6&ki&e⌖&8] protection_environmental:4 durability:3
+    - diamond_shovel 1 name:&8[&e⌖&6&ki&c&lVIP&6&ki&e⌖&8] dig_speed:5 durability:2
+    - diamond_axe 1 name:&8[&e⌖&6&ki&c&lVIP&6&ki&e⌖&8] dig_speed:5 durability:2
+    - diamond_pickaxe 1 name:&8[&e⌖&6&ki&c&lVIP&6&ki&e⌖&8] dig_speed:5 durability:2
+    - diamond_hoe 1 name:&8[&e⌖&6&ki&c&lVIP&6&ki&e⌖&8] durability:3
+    - enchanted_golden_apple 10
+    - cooked_porkchop 64
+    - arrow 32
+    - crossbow 1 name:&8[&e⌖&6&ki&c&lVIP&6&ki&e⌖&8] durability:2
+  VIP4:
+    delay: 250000
+    items:
+    - diamond_sword 1 name:&5[&e⌖&f&ki&c&lVIP&f&ki&e⌖&5] fire_aspect:2 damage_all:5 durability:2
+    - diamond_helmet 1 name:&5[&e⌖&f&ki&c&lVIP&f&ki&e⌖&5] protection_environmental:4 durability:3
+    - diamond_chestplate 1 name:&5[&e⌖&f&ki&c&lVIP&f&ki&e⌖&5] protection_environmental:4 durability:3
+    - diamond_leggings 1 name:&5[&e⌖&f&ki&c&lVIP&f&ki&e⌖&5] protection_environmental:4 durability:3
+    - diamond_boots 1 name:&5[&e⌖&f&ki&c&lVIP&f&ki&e⌖&5] protection_environmental:4 durability:3
+    - diamond_shovel 1 name:&5[&e⌖&f&ki&c&lVIP&f&ki&e⌖&5] dig_speed:5 durability:2
+    - diamond_axe 1 name:&5[&e⌖&f&ki&c&lVIP&f&ki&e⌖&5] dig_speed:5 durability:2
+    - diamond_pickaxe 1 name:&5[&e⌖&f&ki&c&lVIP&f&ki&e⌖&5] dig_speed:5 durability:2
+    - diamond_hoe 1 name:&5[&e⌖&f&ki&c&lVIP&f&ki&e⌖&5] durability:3
+    - enchanted_golden_apple 15
+    - cooked_porkchop 64
+    - totem_of_undying 1
+    - trident 1
+  VIP5:
+    delay: 280000
+    items:
+    - diamond_sword 1 name:&4[&e⌖&6&ki&c&lVIP&6&ki&e⌖&4] fire_aspect:2 mending:1 damage_all:5 durability:2
+    - diamond_helmet 1 name:&4[&e⌖&6&ki&c&lVIP&6&ki&e⌖&4] mending:1 protection_environmental:4 durability:3
+    - diamond_chestplate 1 name:&4[&e⌖&6&ki&c&lVIP&6&ki&e⌖&4] mending:1 protection_environmental:4 durability:3
+    - diamond_leggings 1 name:&4[&e⌖&6&ki&c&lVIP&6&ki&e⌖&4] mending:1 protection_environmental:4 durability:3
+    - diamond_boots 1 name:&4[&e⌖&6&ki&c&lVIP&6&ki&e⌖&4] mending:1 protection_environmental:4 durability:3
+    - diamond_shovel 1 name:&4[&e⌖&6&ki&c&lVIP&6&ki&e⌖&4] dig_speed:5 mending:1 durability:3
+    - diamond_axe 1 name:&4[&e⌖&6&ki&c&lVIP&6&ki&e⌖&4] dig_speed:5 mending:1 durability:3
+    - diamond_pickaxe 1 name:&4[&e⌖&6&ki&c&lVIP&6&ki&e⌖&4] dig_speed:5 mending:1 durability:3
+    - diamond_hoe 1 name:&4[&e⌖&6&ki&c&lVIP&6&ki&e⌖&4] mending:1 durability:3
+    - enchanted_golden_apple 25
+    - totem_of_undying 1
+    - totem_of_undying 1
+    - trident 1
+    - cooked_porkchop 64
+  start:
+    delay: 86400
+    items:
+    - iron_helmet 1 name:&8[&7*&8]_&fHelmet_&7&lNEW_&8[&7*&8] "
+      protection_environmental:1
+    - iron_chestplate 1 name:&8[&7*&8]_&fChestplate_&7&lNEW_&8[&7*&8] "
+      protection_environmental:1
+    - iron_leggings 1 name:&8[&7*&8]_&fLeggings_&7&lNEW_&8[&7*&8] "
+      protection_environmental:1
+    - iron_boots 1 name:&8[&7*&8]_&fBoots_&7&lNEW_&8[&7*&8] "
+      protection_environmental:1
+    - iron_sword 1 name:&8[&7*&8]_&fSword_&7&lNEW_&8[&7*&8] "
+      damage_all:1 durability:1
+    - iron_axe 1 name:&8[&7*&8]_&fAxe_&7&lNEW_&8[&7*&8] "
+      durability:1 durability:1
+    - stone_shovel 1 name:&8[&7*&8]_&fShovel_&7&lNEW_&8[&7*&8] "
+      dig_speed:2
+    - map 1
+    - cooked_porkchop 16
+    - golden_apple 2

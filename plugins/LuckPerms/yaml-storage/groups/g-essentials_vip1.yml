@@ -1,0 +1,15 @@
+name: g-essentials_vip1
+permissions:
+- essentials.back
+- essentials.back.ondeath
+- essentials.hat
+- essentials.joinfullserver
+- essentials.kit
+- essentials.kits.Vip1
+- essentials.ptime
+- essentials.sethome.multiple
+- essentials.sethome.multiple.vip1
+- essentials.signs.color
+- essentials.signs.use.enchant
+- essentials.tptoggle
+- essentials.workbench

@@ -1,0 +1,25 @@
+V4x4:
+  MobName: Volcan4
+  World: catacumbas
+  X: 167
+  Y: 86
+  Z: 13
+  Radius: 0
+  UseTimer: true
+  MaxMobs: '1'
+  MobLevel: '1'
+  MobsPerSpawn: 1
+  Cooldown: 0
+  CooldownTimer: 0
+  Warmup: 10
+  WarmupTimer: 0
+  CheckForPlayers: true
+  ActivationRange: 40
+  ScalingRange: 25.0
+  LeashRange: 20
+  HealOnLeash: true
+  ResetThreatOnLeash: true
+  ShowFlames: true
+  Breakable: false
+  Conditions: []
+  ActiveMobs: 0

@@ -1,0 +1,44 @@
+Enabled: true
+
+Slots:
+  item-one: 3
+  item-two: 5
+  converted-item: 13
+  confirm: 22
+
+Panes:
+  preview:
+    material: "WHITE_STAINED_GLASS_PANE"
+    name: "&e&lITEM PREVIEW"
+    lore:
+      - '&7A preview of the item you will'
+      - '&7recieve from the Cosmic Alchemist'
+      - '&7will be displayed here.'
+  information:
+    material: "RED_STAINED_GLASS_PANE"
+    name: "&b&lTHE COSMIC ALCHEMIST"
+    lore:
+      - '&dThis NPC will Exchange...'
+      - ''
+      - '&b* &f2X Enchantment Books'
+      - '&7(of the same type and level)'
+      - '&d= &71X Enchantment Book'
+      - '&7(of higher level)'
+      - ''
+      - '&b* &f2X Magic Dust'
+      - '&7(of the same rarity)'
+      - '&d= &71X Magic Dust'
+      - '&7(of higher rarity)'
+  combine:
+    material: "WHITE_STAINED_GLASS_PANE"
+    name: "&b&lCLICK TO EXCHANGE"
+    lore:
+      - '&c&lCOST &c{COST}XP'
+      - ''
+      - '&7Click here to confirm this'
+      - '&7item exchange and receive your'
+      - '&7epic new item shown above!'
+
+Cost:
+  min: 800
+  max: 10000

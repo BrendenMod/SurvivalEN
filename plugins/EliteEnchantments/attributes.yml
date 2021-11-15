@@ -1,0 +1,180 @@
+Settings:
+  heroic-weapons: false # This requires EliteArmor
+  # This allows the titan attribute to only apply to heroic weapon.
+  accepted-dusts:
+    ULTIMATE:
+      value: 1
+    LEGENDARY:
+      value: 2
+
+Help-Inventory:
+  title: "&7Titan Attributes"
+  rows: 2
+  dummy-panes:
+    material: "GRAY_STAINED_GLASS_PANE"
+  slots:
+    4:
+      material: "BOOK"
+      name: "&c&lTitan Attributes"
+      lore:
+        - '&c&l* &7Titan Attributes are special meta-shifting'
+        - '&7abilities that can be attached to'
+        - '&7heroic weapons'
+        - ''
+        - '&c&l* &7Titan Attributes have 10 levels each'
+        - '&7In order to level-up your Titan Attribute'
+        - '&7you must apply &nUltimate / Legendary Dust'
+        - '&7to the weapon it is attached to, untill the XP'
+        - '&7meter on the item is completely full.'
+        - ''
+        - '&c&l* &7Weapons can only have 1 Titan Attribute'
+        - '&7Additionally, Titan Attributes &ncannot&7 be applied'
+        - '&7to non-heroic(gold) weapons.'
+    9:
+      material: "RED_STAINED_GLASS_PANE"
+      name: "&c&l???"
+      lore:
+        - '&7This titan attribute has'
+        - '&7not been discovered yet.'
+    10:
+      material: "RED_STAINED_GLASS_PANE"
+      name: "&c&l???"
+      lore:
+        - '&7This titan attribute has'
+        - '&7not been discovered yet.'
+    16:
+      material: "RED_STAINED_GLASS_PANE"
+      name: "&c&l???"
+      lore:
+        - '&7This titan attribute has'
+        - '&7not been discovered yet.'
+    17:
+      material: "RED_STAINED_GLASS_PANE"
+      name: "&c&l???"
+      lore:
+        - '&7This titan attribute has'
+        - '&7not been discovered yet.'
+    11:
+      material: "TITAN_ATTRIBUTE"
+      name: "atlas"
+    12:
+      material: "TITAN_ATTRIBUTE"
+      name: "kronos"
+    13:
+      material: "TITAN_ATTRIBUTE"
+      name: "ouranos"
+    14:
+      material: "TITAN_ATTRIBUTE"
+      name: "eos"
+    15:
+      material: "TITAN_ATTRIBUTE"
+      name: "prometheus"
+
+Attributes:
+  atlas:
+    material: "SPIDER_EYE"
+    name: "&c&lTitan Attribute (&8&lAtlas&c&l)"
+    lore:
+      - '&c&lLevel: &8{LEVEL}'
+      - '&c&lApply: &8{PERCENT}%'
+      - ''
+      - '&c&l"Compound Punishment"'
+      - '&c% of damage from attacks is combined'
+      - '&cevery 2-5 attacks, depending on level.'
+      - ''
+      - '&cExample: If you deal 10 DMG'
+      - '&cper swing, you might deal 2 DMG'
+      - '&cfor 2 swings, followed by 26 DMG'
+      - '&con your 3rd swing'
+      - ''
+      - '&7Titan Attributes can &nONLY&7 be applied'
+      - '&7to &cHeroic Weapons &7and only'
+      - '&7&n1 attribute&7 can be imbued per weapon'
+      - ''
+      - '&7To learn more about Titan Attributes, use &c/titan'
+    display: "&c&lTITAN ATTRIBUTE: &8&lAtlas &c&l(&8Level {LEVEL}&c)"
+    xp-display: "&c&lTITAN XP: &8&l{XP} / &c2000"
+    effect: "ATLAS"
+  kronos:
+    material: "SPIDER_EYE"
+    name: "&c&lTitan Attribute (&8&lKronos&c&l)"
+    lore:
+      - '&c&lLevel: &8{LEVEL}'
+      - '&c&lApply: &8{PERCENT}%'
+      - ''
+      - '&c&l"Rage Rampage"'
+      - '&cRage stacks do NOT fully clear'
+      - '&cwhen you take damage. The % that'
+      - '&cDO clear decreases per level'
+      - ''
+      - '&7Titan Attributes can &nONLY&7 be applied'
+      - '&7to &cHeroic Weapons &7and only'
+      - '&7&n1 attribute&7 can be imbued per weapon'
+      - ''
+      - '&7To learn more about Titan Attributes, use &c/titan'
+    display: "&c&lTITAN ATTRIBUTE: &8&lKronos &c&l(&8Level {LEVEL}&c)"
+    xp-display: "&c&lTITAN XP: &8&l{XP} / &c2000"
+    effect: "KRONOS"
+  ouranos:
+    material: "SPIDER_EYE"
+    name: "&c&lTitan Attribute (&8&lOuranos&c&l)"
+    lore:
+      - '&c&lLevel: &8{LEVEL}'
+      - '&c&lApply: &8{PERCENT}%'
+      - ''
+      - '&c&l"Omni Combatant"'
+      - '&cYour damage is converted to'
+      - '&cAoE damage around your target.'
+      - '&cDamage is diluted, but all enchants'
+      - '&ccan still multi-proc. Your AoE radius'
+      - '&cand max targets scales with level.'
+      - ''
+      - '&7Titan Attributes can &nONLY&7 be applied'
+      - '&7to &cHeroic Weapons &7and only'
+      - '&7&n1 attribute&7 can be imbued per weapon'
+      - ''
+      - '&7To learn more about Titan Attributes, use &c/titan'
+    display: "&c&lTITAN ATTRIBUTE: &8&lOuranos &c&l(&8Level {LEVEL}&c)"
+    xp-display: "&c&lTITAN XP: &8&l{XP} / &c2000"
+    effect: "OURANOS"
+  eos:
+    material: "SPIDER_EYE"
+    name: "&c&lTitan Attribute (&8&lEos&c&l)"
+    lore:
+      - '&c&lLevel: &8{LEVEL}'
+      - '&c&lApply: &8{PERCENT}%'
+      - ''
+      - '&c&l"Twilight Zone"'
+      - '&c% of damage dealt by you heals'
+      - '&cnearby ally players instead of'
+      - '&churting your enemy target'
+      - ''
+      - '&7Titan Attributes can &nONLY&7 be applied'
+      - '&7to &cHeroic Weapons &7and only'
+      - '&7&n1 attribute&7 can be imbued per weapon'
+      - ''
+      - '&7To learn more about Titan Attributes, use &c/titan'
+    display: "&c&lTITAN ATTRIBUTE: &8&lEos &c&l(&8Level {LEVEL}&c)"
+    xp-display: "&c&lTITAN XP: &8&l{XP} / &c2000"
+    effect: "EOS"
+  prometheus:
+    material: "SPIDER_EYE"
+    name: "&c&lTitan Attribute (&8&lPrometheus&c&l)"
+    lore:
+      - '&c&lLevel: &8{LEVEL}'
+      - '&c&lApply: &8{PERCENT}%'
+      - ''
+      - '&c&l"Unstoppable Vengeance"'
+      - '&cYour damage is multiplied based on'
+      - '&chow many damage events you have taken'
+      - '&csince your last attack, up to cap,'
+      - '&cwith an effectiveness timeout.'
+      - ''
+      - '&7Titan Attributes can &nONLY&7 be applied'
+      - '&7to &cHeroic Weapons &7and only'
+      - '&7&n1 attribute&7 can be imbued per weapon'
+      - ''
+      - '&7To learn more about Titan Attributes, use &c/titan'
+    display: "&c&lTITAN ATTRIBUTE: &8&lPrometheus &c&l(&8Level {LEVEL}&c)"
+    xp-display: "&c&lTITAN XP: &8&l{XP} / &c2000"
+    effect: "PROMETHEUS"

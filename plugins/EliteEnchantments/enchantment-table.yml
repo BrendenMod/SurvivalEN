@@ -1,0 +1,37 @@
+Enabled: true
+
+Groups:
+  SIMPLE:
+    chance: 45
+  UNIQUE:
+    chance: 35
+  ELITE:
+    chance: 20
+  ULTIMATE:
+    chance: 15
+  LEGENDARY:
+    chance: 10
+  SOUL:
+    chance: 5
+
+Levels:
+  lowest:
+    levels: "1-9"
+    amount: 3
+    groups:
+      - 'SIMPLE'
+      - 'UNIQUE'
+  medium:
+    levels: "10-23"
+    amount: 2
+    groups:
+      - 'ELITE'
+      - 'ULTIMATE'
+  highest:
+    levels: "24-30"
+    amount: 5
+    groups:
+      - 'LEGENDARY'
+      - 'SOUL'
+      - 'ELITE'
+      - 'ULTIMATE'

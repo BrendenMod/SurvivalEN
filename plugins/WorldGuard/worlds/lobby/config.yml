@@ -1,0 +1,55 @@
+#
+# WorldGuard's world configuration file
+#
+# This is a world configuration file. Anything placed into here will only
+# affect this world. If you don't put anything in this file, then the
+# settings will be inherited from the main configuration file.
+#
+# If you see {} below, that means that there are NO entries in this file.
+# Remove the {} and add your own entries.
+#
+
+regions:
+    __global__:
+        members: {}
+        flags:
+            other-explosion: deny
+            deny-message: ''
+            mypet-fly: deny
+            mypet-damage: deny
+            invincible: allow
+            use: allow
+            greeting: §8[§a+§8] §fIngresando al §e§lSPAWN§f. §7(Te encuentras en una
+                zona segura)
+            interact: allow
+            enderdragon-block-damage: deny
+            allow-block-break:
+            - CARROTS
+            - WHEAT
+            keep-inventory: true
+            mob-damage: deny
+            feed-delay: 10
+            block-break: deny
+            keep-exp: true
+            entity-painting-destroy: deny
+            chorus-fruit-teleport: deny
+            feed-amount: 10
+            pvp: deny
+            mob-spawning: deny
+            block-place: deny
+            frostwalker: deny
+            enderpearl: deny
+            item-drop: deny
+            exit: deny
+            fly: deny
+            creeper-explosion: deny
+            build: deny
+            fall-damage: deny
+            item-durability: deny
+            damage-animals: allow
+            entity-item-frame-destroy: deny
+            ghast-fireball: deny
+        owners: {}
+        type: global
+        priority: 0
+    titles-always-use-default-times: true

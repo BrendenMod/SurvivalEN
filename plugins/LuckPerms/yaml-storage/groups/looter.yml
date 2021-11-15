@@ -1,0 +1,13 @@
+name: looter
+permissions:
+- auction.start
+- auctionhouse.selling
+- ezranks.rank.Looter
+parents:
+- farmer
+- g-bukkit_default
+- g-essentials_default
+- g-groupmanager_default
+prefixes:
+- '&f':
+    priority: 3

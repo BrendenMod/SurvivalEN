@@ -1,0 +1,16 @@
+name: commander
+permissions:
+- MyPet.leash.rabbit
+- ezranks.rank.Commander
+- mypet.petstorage.limit.7
+- preciousstones.limit2:
+    value: false
+- preciousstones.limit3
+parents:
+- g-bukkit_default
+- g-essentials_default
+- g-groupmanager_default
+- soldier
+prefixes:
+- '&f':
+    priority: 15

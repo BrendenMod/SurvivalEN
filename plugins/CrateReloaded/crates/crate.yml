@@ -1,0 +1,226 @@
+ # 
+# +---------------------------------------+#
+# |         Config Revision 16            |#
+# +---------------------------------------+# (2.X Converted)
+Legendary:
+  type: KEY
+  item: NETHER_STAR 1 name:&e¡Chest_key_&6&l[Legendary]&e! lore:&cGo_to_a_chest_&6&l[Legendary]_&cand_use_right_click! durability:10
+  animation: CSGO
+  end-animation: BLANK
+  display-name: Legendary
+  holographic:
+      - '&6-=[ &c⋆&6&l&nLEGENDARY&c⋆ &6]=-'
+      - '&6&oUse your key!'  
+      - '&a&l&n¡CLICK!'
+  preview:
+    enabled: true
+    rows: 2
+  buy:
+    enabled: false
+    cost: 0.0
+  confirmation:
+    enabled: false
+    accept-button: LIME_STAINED_GLASS_PANE:5 1 name:&aYes lore:&fClick_here_to_open_{crate}!
+    decline-button: RED_STAINED_GLASS_PANE:14 1 name:&4No
+  message:
+    open: |
+      &7Opened a chest &6-=[ &c⋆&6&l&nLEGENDARY&c⋆ &6]=-
+    broadcast: |
+      &8[&bCrates&8] &c&l» &f{player} &aOpened a chest &6-=[ &c⋆&6&l&nLEGENDARY&c⋆ &6]=- &aand got .
+  reward:
+    minimum-rewards: 1
+    maximum-rewards: 1
+    rewards:
+    - chance:(40.0), display:(ENCHANTED_GOLDEN_APPLE:1 1 name:&d25_Golden_Apple lore:&eProbability:_&f40%), cmd:(/give {player} ENCHANTED_GOLDEN_APPLE 25), unique:(), broadcast:({prefix}25 Golden Apple)
+    - chance:(25.0), display:(SPAWNER 1 name:&72_Spawners_IronGolem lore:&eProbability:_&f25%), cmd:(/mineablespawner give {player} iron_golem 2), unique:(), broadcast:({prefix}2 Spawners IronGolem)
+    - chance:(25.0), display:(SPAWNER 1 name:&f3_Spawners_Sheeps lore:&eProbability:_&f25%), cmd:(/mineablespawner give {player} sheep 3), unique:(), broadcast:({prefix}3 Spawners Sheeps)
+    - chance:(20.0), display:(SPAWNER 1 name:&32_Spawners_Blaze lore:&eProbability:_&f20%), cmd:(/mineablespawner give {player} blaze 2), unique:(), broadcast:({prefix}2 Spawners Blaze)
+    - chance:(20.0), display:(DIAMOND_HELMET 1 name:&A&lHelmet_Relic lore:&eProbability:_&f20%), cmd:(/give {player} DIAMOND_HELMET 1 protection:5 unbreaking:4 fireprotection:6 blastprotection:5 projectileprotection:5 aquaaffinity:3 respiration:2 name:§a§lHelmet_Relic lore:§dAcquired_in_the_Legendary_Chest!), unique:(), broadcast:({prefix}Helmet Relic)
+    - chance:(10.0), display:(DIAMOND_CHESTPLATE 1 name:&A&lChestplate_Relic lore:&eProbability:_&f10%), cmd:(/give {player} DIAMOND_CHESTPLATE 1 protection:5 unbreaking:4 fireprotection:6 blastprotection:5 projectileprotection:5 thorns:2 name:§a§lChestplate_Relic lore:§dAcquired_in_the_Legendary_Chest!), unique:(), broadcast:({prefix}Chestplate Relic)
+    - chance:(15.0), display:(DIAMOND_LEGGINGS 1 name:&A&lLeggings_Relic lore:&eProbability:_&f15%), cmd:(/give {player} DIAMOND_LEGGINGS 1 protection:5 unbreaking:4 fireprotection:6 blastprotection:5 projectileprotection:5 name:§a§lLeggings_Relic lore:§dAcquired_in_the_Legendary_Chest!), unique:(), broadcast:({prefix}Leggings Relic)
+    - chance:(25.0), display:(DIAMOND_BOOTS 1 name:&A&lBoots_Relic lore:&eProbability:_&f25%), cmd:(/give {player} DIAMOND_BOOTS 1 protection:5 unbreaking:4 fireprotection:6 blastprotection:5 projectileprotection:5 featherfalling:4 name:§a§lBoots_Relic lore:§dAcquired_in_the_Legendary_Chest!), unique:(), broadcast:({prefix}Boots Relic)
+    - chance:(20.0), display:(DIAMOND_SWORD 1 name:&A&lSword_Relic lore:&eProbability:_&f20%), cmd:(/give {player} DIAMOND_SWORD 1 sharpness:6 smite:6 fire_aspect:3 bane_of_arthropods:6 looting:4 unbreaking:5 name:§a§lSword_Relic lore:§dAcquired_in_the_Legendary_Chest!), unique:(), broadcast:({prefix}Sword Relic)
+    - chance:(20.0), display:(DIAMOND_AXE 1 name:&A&lAxe_Relic lore:&eProbability:_&f20%), cmd:(/give {player} DIAMOND_AXE 1 unbreaking:3 efficiency:5 fire_aspect:2 sharpness:5 name:§a§lAxe_Relic lore:§7Acquired_in_the_Legendary_Chest!), unique:(), broadcast:({prefix}Axe Relic)
+    - chance:(8.0), display:(LEAD 1 name:&8Pet_Wither lore:&eProbability:_&f8%), cmd:(/petdmin create {player} wither), unique:(), broadcast:({prefix}Pet Wither)
+    - chance:(10.0), display:(TRIPWIRE_HOOK 1 name:&e¡2_Chest_key_&5&l[EPIC]&e! lore:&eProbability:_&f10%), cmd:(/crate give to {player} EPIC 2), unique:(), broadcast:({prefix}2 Epic key)
+    - chance:(15.0), display:(LEAD 1 name:&aPet_Magmacube lore:&eProbability:_&f15%), cmd:(/petadmin create {player} Magmacube), unique:(), broadcast:({prefix}Pet MagmaCube)
+    - chance:(13.0), display:(TRIPWIRE_HOOK 1 name:&e¡3_Chest_keys_&4&l[RARE]&e! lore:&eProbability:_&f13%), cmd:(/crate give to {player} RARE 3), unique:(), broadcast:({prefix}3 Rare keys)
+    - chance:(20.0), display:(TRIPWIRE_HOOK 1 name:&e¡10_Chest_keys_&b&l[STRANGE]&e! lore:&eProbability:_&f20%), cmd:(/crate give to {player} STRANGE 10), unique:(), broadcast:({prefix}10 Strange keys)
+EPIC:
+  type: KEY
+  item: NETHER_STAR 1 name:&e¡Chest_key_&5&l[EPIC]&e! lore:&cGo_to_a_chest_&5&l[EPIC]_&cand_use_right_click! durability:10
+  animation: CSGO
+  end-animation: BLANK
+  display-name: EPIC
+  holographic:
+      - '&5-=[ &d⋆&5&l&nEPIC&d⋆ &5]=-'
+      - '&6&oUse your key!'  
+      - '&a&l&n¡CLICK!'
+  preview:
+    enabled: true
+    rows: 2
+  buy:
+    enabled: false
+    cost: 0.0
+  confirmation:
+    enabled: false
+    accept-button: LIME_STAINED_GLASS_PANE:5 1 name:&aYes lore:&fClick_here_to_open_{crate}!
+    decline-button: RED_STAINED_GLASS_PANE:14 1 name:&4No
+  message:
+    open: |
+      &aOpened a chest &5-=[ &d⋆&5&l&nEPIC&d⋆ &5]=-
+    broadcast: |
+      &8[&bCrates&8] &c&l» &f{player} &aOpened a chest &5-=[ &d⋆&5&l&nEPIC&d⋆ &5]=- &aand received ...
+  reward:
+    minimum-rewards: 1
+    maximum-rewards: 1
+    rewards:
+    - chance:(30.0), display:(ENCHANTED_GOLDEN_APPLE 1 name:&d20_Golden_Apple lore:&eProbability:_&f30%), cmd:(/give {player} ENCHANTED_GOLDEN_APPLE 20), unique:(), broadcast:({prefix}20 Golden Apple)
+    - chance:(50.0), display:(SPAWNER 1 name:&3Spawner_Sheep lore:&eProbability:_&f50%), cmd:(/mineablespawner give {player} sheep 1), unique:(), broadcast:({prefix}Spawner Sheep)
+    - chance:(50.0), display:(SPAWNER 2 name:&3Spawner_Spider lore:&eProbability:_&f50%), cmd:(/mineablespawner give {player} spider 2), unique:(), broadcast:({prefix}2 Spawners Spider)
+    - chance:(50.0), display:(SPAWNER 2 name:&3Spawner_Zombie lore:&eProbability:_&f50%), cmd:(/mineablespawner give {player} zombie 2), unique:(), broadcast:({prefix}2 Spawners Zombie)
+    - chance:(50.0), display:(SPAWNER 2 name:&3Spawner_Skeleton lore:&eProbability:_&f50%), cmd:(/mineablespawner give {player} skeleton 2), unique:(), broadcast:({prefix}2 Spawners Skeleton)
+    - chance:(35.0), display:(SPAWNER 1 name:&3Spawner_Blaze lore:&eProbability:_&f35%), cmd:(/mineablespawner give {player} blaze 1), unique:(), broadcast:({prefix}Spawner Blaze)
+    - chance:(5.0), display:(SPAWNER 1 name:&3Spawner_Wolf lore:&eProbability:_&f5%), cmd:(/mineablespawner give {player} wolf 1), unique:(), broadcast:({prefix}Spawner Wolf)
+    - chance:(20.0), display:(DIAMOND_HELMET 1 name:&6&lHelmet_Supreme lore:&eProbability:_&f20%), cmd:(/give {player} DIAMOND_HELMET 1 protection:4 unbreaking:3 blastprotection:4 projectileprotection:4 respiration:1 name:§e§lHelmet_Supreme lore:§dAcquired_in_the_epic_chest!), unique:(), broadcast:({prefix}Helmet Supreme)
+    - chance:(15.0), display:(DIAMOND_CHESTPLATE 1 name:&6&lChestplate_Divinity lore:&eProbability:_&f15%), cmd:(/give {player} DIAMOND_CHESTPLATE 1 protection:4 unbreaking:3 blastprotection:4 projectileprotection:4 name:§e§lChestplate_Divinity lore:§dAcquired_in_the_epic_chest!), unique:(), broadcast:({prefix}Chestplate Supreme)
+    - chance:(25.0), display:(DIAMOND_LEGGINGS 1 name:&6&lLeggings_Supreme lore:&eProbability:_&f25%), cmd:(/give {player} DIAMOND_LEGGINGS 1 protection:4 unbreaking:3 blastprotection:4 projectileprotection:4 name:§e§lLeggings_Supreme lore:§dAcquired_in_the_epic_chest!), unique:(), broadcast:({prefix}Leggings Supreme)
+    - chance:(30.0), display:(DIAMOND_BOOTS 1 name:&6&lBoots_Divinitys lore:&eProbability:_&f30%), cmd:(/give {player} DIAMOND_BOOTS 1 protection:4 unbreaking:3 blastprotection:4 projectileprotection:4 featherfalling:1 name:§e§lBoots_Divinitys lore:§dAcquired_in_the_epic_chest!), unique:(), broadcast:({prefix}Boots Supremas)
+    - chance:(35.0), display:(DIAMOND_SWORD 1 name:&6&lSword_Divinity lore:&eProbability:_&f35%), cmd:(/give {player} DIAMOND_SWORD 1 sharpness:5 smite:5 looting:3 bane_of_arthropods:5 unbreaking:3 name:§e§lSword_Divinity lore:§dAcquired_in_the_epic_chest!), unique:(), broadcast:({prefix}Sword Suprema)
+    - chance:(10.0), display:(BOW 1 name:&6&lArco_Supreme lore:&eProbability:_&f10%), cmd:(/give {player} BOW 1 power:5 flame:1 name:§e§lSupreme_bow lore:§7Acquired_in_the_epic_chest!), unique:(), broadcast:({prefix}Supreme Bow)
+    - chance:(5.0), display:(DIAMOND_AXE 1 name:&6&lAxe_Divinity lore:&eProbability:_&f5%), cmd:(/give {player} DIAMOND_AXE 1 unbreaking:3 sharpness:5 efficiency:4 name:§e§lAxe_Divinity lore:§dAcquired_in_the_epic_chest!), unique:(), broadcast:({prefix}Axe Supreme)
+    - chance:(3.0), display:(TRIPWIRE_HOOK 2 name:&e¡Chest_key_&4&l[RARE]&e! lore:&eProbability:_&f3%), cmd:(/crate give to {player} RARE 2), unique:(), broadcast:({prefix}2 Rare keys)
+    - chance:(15.0), display:(LEAD 1 name:&3&lPet_Snowman lore:&eProbability:_&f15%), cmd:(/petadmin create {player} Snowman), unique:(), broadcast:({prefix}Pet Snowman)
+RARE:
+  type: KEY
+  item: NETHER_STAR 1 name:&e¡Chest_key_&4&l[RARE]&e! lore:&cGo_to_a_chest_&4&l[RARE]_&cand_use_right_click! durability:10
+  animation: CSGO
+  end-animation: BLANK
+  display-name: RARE
+  holographic:
+      - '&4-=[ &8⋆&4&l&nRARE&8⋆ &4]=-'
+      - '&6&oUse your key!'  
+      - '&a&l&n¡CLICK!'
+  preview:
+    enabled: true
+    rows: 2
+  buy:
+    enabled: false
+    cost: 0.0
+  confirmation:
+    enabled: false
+    accept-button: LIME_STAINED_GLASS_PANE:5 1 name:&aYes lore:&fClick_here_to_open_{crate}!
+    decline-button: RED_STAINED_GLASS_PANE:14 1 name:&4No
+  message:
+    open: |
+      &aOpened a chest &4-=[ &8⋆&4&l&nRARE&8⋆ &4]=-
+    broadcast: |
+      &8[&bCrates&8] &c&l» &f{player} &aOpened a chest &4-=[ &8⋆&4&l&nRARE&8⋆ &4]=- &aand received ...
+  reward:
+    minimum-rewards: 1
+    maximum-rewards: 1
+    rewards:
+    - chance:(75.0), display:(EXPERIENCE_BOTTLE 1 name:&37500_EXP lore:&eProbability:_&a75%), cmd:(/exp give {player} 7500), unique:(), broadcast:({prefix}7500 XP)
+    - chance:(20.0), display:(BEACON 4 name:&34_Beacons lore:&eProbability:_&f20%), cmd:(/give {player} BEACON 4), unique:(), broadcast:({prefix}4 Beacons)
+    - chance:(10.0), display:(ENCHANTED_GOLDEN_APPLE 1 name:&d15_Golden_Apple lore:&eProbability:_&f10%), cmd:(/give {player} ENCHANTED_GOLDEN_APPLE 15), unique:(), broadcast:({prefix}15 Golden Apple)
+    - chance:(30.0), display:(SPAWNER 1 name:&3Spawner_Spider lore:&eProbability:_&f30%), cmd:(/mineablespawner give {player} spider 1), unique:(), broadcast:({prefix}Spawner Spider)
+    - chance:(30.0), display:(SPAWNER 2 name:&22_Spawner_Zombie lore:&eProbability:_&f30%), cmd:(/mineablespawner give {player} zombie 2), unique:(), broadcast:({prefix}2 Spawners Zombie)
+    - chance:(30.0), display:(SPAWNER 2 name:&f2_Spawner_Skeleton lore:&eProbability:_&f30%), cmd:(/mineablespawner give {player} skeleton 2), unique:(), broadcast:({prefix}2 Spawners Skeleton)
+    - chance:(20.0), display:(SPAWNER 1 name:&3Spawner_Blaze lore:&eProbability:_&f20%), cmd:(/mineablespawner give {player} blaze 1), unique:(), broadcast:({prefix}Spawner Blaze)
+    - chance:(15.0), display:(SPAWNER 1 name:&3Spawner_Witch lore:&eProbability:_&f15%), cmd:(/mineablespawner give {player} witch 1), unique:(), broadcast:({prefix}Spawner Witch)
+    - chance:(10.0), display:(DIAMOND_HELMET 1 name:&5&lHelmet_from_Dusk lore:&eProbability:_&f10%), cmd:(/give {player} DIAMOND_HELMET 1 protection:4 unbreaking:3 blastprotection:4 name:§5§lHelmet_from_Dusk lore:§dAdquired_in_the_rare_chest!), unique:(), broadcast:({prefix}Helmet of Eternal Wisdom)
+    - chance:(5.0), display:(DIAMOND_CHESTPLATE 1 name:&5&lChestplate_from_Dusk lore:&eProbability:_&f5%), cmd:(/give {player} DIAMOND_CHESTPLATE 1 protection:4 unbreaking:3 blastprotection:4 name:§5§lChestplate_from_Dusk lore:§dAdquired_in_the_rare_chest!), unique:(), broadcast:({prefix}Chestplate of Eternal Wisdom)
+    - chance:(15.0), display:(DIAMOND_LEGGINGS 1 name:&5&lLeggings_from_Dusk lore:&eProbability:_&f15%), cmd:(/give {player} DIAMOND_LEGGINGS 1 protection:4 unbreaking:3 blastprotection:4 name:§5§lLeggings_from_Dusk lore:§dAdquired_in_the_rare_chest!), unique:(), broadcast:({prefix}Leggings of Eternal Wisdom)
+    - chance:(20.0), display:(DIAMOND_BOOTS 1 name:&5&lBoots_from_Dusk lore:&eProbability:_&f20%), cmd:(/give {player} DIAMOND_BOOTS 1 protection:4 unbreaking:3 blastprotection:4 name:§5§lBoots_from_Dusk lore:§dAdquired_in_the_rare_chest!), unique:(), broadcast:({prefix}Boots of Eternal Wisdom)
+    - chance:(25.0), display:(DIAMOND_SWORD 1 name:&5&lSword_from_Dusk lore:&eProbability:_&f25%), cmd:(/give {player} DIAMOND_SWORD 1 sharpness:5 smite:5 looting:3 unbreaking:3 name:§5§lSword_from_Dusk lore:§dAdquired_in_the_rare_chest!), unique:(), broadcast:({prefix}Sword of Eternal Wisdom)
+    - chance:(3.0), display:(TRIPWIRE_HOOK 2 name:&e¡2_Chest_key_&b&l[STRANGE]&e! lore:&eProbability:_&f3%), cmd:(/crate give to {player} STRANGE 2), unique:(), broadcast:({prefix}2 Keys strange)
+    - chance:(15.0), display:(LEAD 1 name:&3&lPet_Enderman lore:&eProbability:_&f15%), cmd:(/petadmin create {player} Enderman), unique:(), broadcast:({prefix}Pet Enderman)
+STRANGE:
+  type: KEY
+  item: NETHER_STAR 1 name:&e¡Chest_key_&b&l[STRANGE]&e! lore:&cGo_to_a_chest_&b&l[STRANGE]_&cand_use_right_click! durability:10
+  animation: CSGO
+  end-animation: BLANK
+  display-name: STRANGE
+  holographic:
+      - '&b-=[ &3⋆&b&l&nSTRANGE&3⋆ &b]=-'
+      - '&6&oUse your key!'  
+      - '&a&l&n¡CLICK!'  
+  preview:
+    enabled: true
+    rows: 2
+  buy:
+    enabled: false
+    cost: 0.0
+  confirmation:
+    enabled: false
+    accept-button: LIME_STAINED_GLASS_PANE:5 1 name:&aYes lore:&fClick_here_to_open_{crate}!
+    decline-button: RED_STAINED_GLASS_PANE:14 1 name:&4No
+  message:
+    open: |
+      &7Opened crate &b-=[ &3⋆&b&l&nSTRANGE&3⋆ &b]=-
+    broadcast: null
+  reward:
+    minimum-rewards: 1
+    maximum-rewards: 1
+    rewards:
+    - chance:(30.0), display:(IRON_BLOCK 1 name:&f10_Iron_block lore:&eProbability:_&e30%), cmd:(/give {player} IRON_BLOCK 10)
+    - chance:(25.0), display:(DIAMOND_BLOCK 1 name:&d3_Diamond_block lore:&eProbability:_&e25%), cmd:(/give {player} DIAMOND_BLOCK 3)
+    - chance:(25.0), display:(GOLD_BLOCK 1 name:&e8_Gold_block lore:&eProbability:_&e25%), cmd:(/give {player} GOLD_BLOCK 8)
+    - chance:(75.0), display:(EXPERIENCE_BOTTLE 1 name:&a2500_EXP lore:&eProbability:_&a75%), cmd:(/exp give {player} 2500)
+    - chance:(10.0), display:(BEACON 1 name:&32_Beacons lore:&eProbability:_&f10%), cmd:(/give {player} BEACON 2)
+    - chance:(10.0), display:(ENCHANTED_GOLDEN_APPLE 1 name:&e3_Golden_Apple lore:&eProbability:_&f10%), cmd:(/give {player} ENCHANTED_GOLDEN_APPLE 3)
+    - chance:(20.0), display:(ENCHANTED_BOOK 1 name:&5Book_Protection_IV lore:&eProbability:_&f20%), cmd:(/give {player} ENCHANTED_BOOK 1 protection:4)
+    - chance:(10.0), display:(SPAWNER 1 name:&3Spawner_Pig lore:&eProbability:_&f10%), cmd:(/mineablespawner give {player} pig 1)
+    - chance:(10.0), display:(SPAWNER 1 name:&3Spawner_Cow lore:&eProbability:_&f10%), cmd:(/mineablespawner give {player} cow 1)
+    - chance:(3.0), display:(SPAWNER 1 name:&3Spawner_Skeleton lore:&eProbability:_&f3%), cmd:(/mineablespawner give {player} skeleton 1)
+    - chance:(10.0), display:(DIAMOND_HELMET 1 name:&3&lGuardian_helmet lore:&eProbability:_&f10%), cmd:(/give {player} DIAMOND_HELMET 1 protection:3 unbreaking:3 aquaaffinity:1 name:§b§lHelmet_the_Spectral_Protector lore:§dAdquired_in_the_strange_chest!)
+    - chance:(7.0), display:(DIAMOND_CHESTPLATE 1 name:&3&lGuardian_chestplate lore:&eProbability:_&f5%), cmd:(/give {player} DIAMOND_CHESTPLATE 1 protection:3 unbreaking:3 thorns:2 name:§b§lChestplate_the_Spectral_Protector lore:§dAdquired_in_the_strange_chest!)
+    - chance:(15.0), display:(DIAMOND_LEGGINGS 1 name:&3&lGuardian_leggings lore:&eProbability:_&f15%), cmd:(/give {player} DIAMOND_LEGGINGS 1 protection:3 unbreaking:3 thorns:2 name:§b§lLeggings_the_Spectral_Protector lore:§dAdquired_in_the_strange_chest!)
+    - chance:(20.0), display:(DIAMOND_BOOTS 1 name:&3&lGuardian_boots lore:&eProbability:_&f20%), cmd:(/give {player} DIAMOND_BOOTS 1 protection:3 unbreaking:3 name:§b§lBoots_the_Spectral_Protector lore:§dAdquired_in_the_strange_chest!)
+    - chance:(25.0), display:(DIAMOND_AXE 1 name:&3&lGuardian_axe lore:&eProbability:_&f25%), cmd:(/give {player} DIAMOND_AXE 1 sharpness:5 efficiency:5 unbreaking:3 name:§e§lAxe_the_Spectral_Protector lore:§dAdquired_in_the_strange_chest!)
+    - chance:(10.0), display:(TRIPWIRE_HOOK 3 name:&e¡3_Chest_key_&7&l[COMMON]&e! lore:&eProbability:_&f10%), cmd:(/crate give to {player} COMMON 3)
+COMMON:
+  type: KEY
+  item: NETHER_STAR 1 name:&e¡Chest_key_&7&l[COMMON]&e! lore:&cGo_to_a_chest_&b&l[COMMON]_&cand_use_right_click! durability:10
+  animation: CSGO
+  end-animation: BLANK
+  display-name: COMMON
+  holographic:
+      - '&7-=[ &e⋆&7&l&nCOMMON&e⋆ &7]=-'
+      - '&6&oUse your key!'  
+      - '&a&l&n¡CLICK!'
+  preview:
+    enabled: true
+    rows: 2
+  buy:
+    enabled: false
+    cost: 0.0
+  confirmation:
+    enabled: false
+    accept-button: LIME_STAINED_GLASS_PANE:5 1 name:&aYes lore:&fClick_here_to_open_{crate}!
+    decline-button: RED_STAINED_GLASS_PANE:14 1 name:&4No
+  message:
+    open: |
+      &7Opened crate &7-=[ &e⋆&7&l&nCOMMON&e⋆ &7]=-
+    broadcast: null
+  reward:
+    minimum-rewards: 1
+    maximum-rewards: 1
+    rewards:
+    - chance:(85.0), display:(EXPERIENCE_BOTTLE 1 name:&31000_EXP lore:&eProbability:_&a85%), cmd:(/exp give {player} 1000)
+    - chance:(30.0), display:(IRON_BLOCK 1 name:&f5_Iron_block lore:&eProbability:_&e30%), cmd:(/give {player} IRON_BLOCK 5)
+    - chance:(25.0), display:(DIAMOND_BLOCK 1 name:&f2_Diamond_block lore:&eProbability:_&e25%), cmd:(/give {player} DIAMOND_BLOCK 2)
+    - chance:(20.0), display:(ENCHANTED_BOOK 1 name:&3Book_Efficiency_IV lore:&eProbability:_&f20%), cmd:(/give {player} ENCHANTED_BOOK 1 efficiency:4)
+    - chance:(20.0), display:(ENCHANTED_BOOK 1 name:&3Book_Sharpness_III lore:&eProbability:_&f20%), cmd:(/give {player} ENCHANTED_BOOK 1 sharpness:3)
+    - chance:(20.0), display:(ENCHANTED_BOOK 1 name:&3Book_Fortune_II lore:&eProbability:_&f20%), cmd:(/give {player} ENCHANTED_BOOK 1 fortune:2)
+    - chance:(10.0), display:(DIAMOND_PICKAXE 1 name:&7&lPickaxe_Basic lore:&eProbability:_&f10%), cmd:(/give {player} DIAMOND_PICKAXE 1 efficiency:4 fortune:2 unbreaking:3 name:§7§lPickaxel_Basic lore:§dAdquired_in_the_common_chest!)
+    - chance:(10.0), display:(DIAMOND_SHOVEL 1 name:&7&lShovel_Refined lore:&eProbability:_&f10%), cmd:(/give {player} DIAMOND_SHOVEL 1 efficiency:4 fortune:2 unbreaking:3 name:§7§lShovell_Refined lore:§dAdquired_in_the_common_chest!)
+    - chance:(10.0), display:(DIAMOND_AXE 1 name:&7&lAxe_Refined lore:&eProbability:_&f10%), cmd:(/give {player} DIAMOND_AXE 1 efficiency:4 fortune:2 unbreaking:3 name:§7§lAxel_Refinida lore:§dAdquired_in_the_common_chest!)
+    - chance:(5.0), display:(DIAMOND_SWORD 1 name:&7&lSword_of_the_minion lore:&eProbability:_&f5%), cmd:(/give {player} DIAMOND_SWORD 1 sharpness:3 unbreaking:3 name:§aSword_of_the_minion lore:§dAdquired_in_the_common_chest!)
+    - chance:(5.0), display:(DIAMOND_HELMET 1 name:&7&lHelmet_of_the_minion lore:&eProbability:_&f5%), cmd:(/give {player} DIAMOND_HELMET 1 protection:2 unbreaking:2 name:§7Helmet_of_the_minion lore:§dAdquired_in_the_common_chest!)
+    - chance:(3.0), display:(DIAMOND_CHESTPLATE 1 name:&7&lChestplate_of_the_minion lore:&eProbability:_&f3%), cmd:(/give {player} DIAMOND_CHESTPLATE 1 protection:2 unbreaking:2 name:§7Chestplate_of_the_minion lore:§dAdquired_in_the_common_chest!)
+    - chance:(5.0), display:(DIAMOND_LEGGINGS 1 name:&7&lLeggings_of_the_minion lore:&eProbability:_&f5%), cmd:(/give {player} DIAMOND_LEGGINGS 1 protection:2 unbreaking:2 name:§7Leggings_of_the_minion lore:§dAdquired_in_the_common_chest!)
+    - chance:(5.0), display:(DIAMOND_BOOTS 1 name:&7&lBoots_of_the_minion lore:&eProbability:_&f5%), cmd:(/give {player} DIAMOND_BOOTS 1 protection:2 unbreaking:2 name:§7Boots_of_the_minion lore:§dAdquired_in_the_common_chest!)
+    - chance:(5.0), display:(TRIPWIRE_HOOK 1 name:&e¡Chest_key_&b&l[STRANGE]&e! lore:&eProbability:_&f5%), cmd:(/crate give to {player} STRANGE 1)
+    - chance:(10.0), display:(SPAWNER 1 name:&aSpawner_Cow lore:&eProbability:_&f10%), cmd:(/mineablespawner give {player} cow 1)
+    - chance:(10.0), display:(SPAWNER 1 name:&aSpawner_Pig lore:&eProbability:_&f10%), cmd:(/mineablespawner give {player} pig 1)

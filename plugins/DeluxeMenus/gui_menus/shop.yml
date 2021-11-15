@@ -1,0 +1,162 @@
+menu_title: '&0Shops'
+open_command: 
+- tienda123
+size: 36
+items:
+  'cristales':
+    material: black_stained_glass_pane
+    display_name: '&e'
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 17
+    - 18
+    - 26
+    - 27
+    - 28
+    - 30
+    - 32
+    - 33
+    - 34
+    - 35
+  'cristales2':
+    material: cyan_stained_glass_pane
+    display_name: '&e'
+    slots:
+    - 10
+    - 16
+    - 19
+    - 25
+  'cristales3':
+    material: red_stained_glass_pane
+    display_name: '&c&oComing soon!'
+    slots:
+    - 21
+    - 22
+    - 23
+    - 24
+  'menu':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmZhMTFmZGQ3ZTZkNGQyMjIxZmU3ZTQ4OTQyZTJiMzdiMTU3MmY2M2UxNGI4MDMwOTk2Zjg2MWE2ODJjMzA0YSJ9fX0==
+    slot: 31
+    display_name: '&bMenú'
+    lore:
+    - ''
+    - '&7You will return to the Menu'
+    - '&7of the modality!'
+    - ''
+    - '&eClick to open this menu!'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[openguimenu] menu'
+    right_click_commands:
+    - '[close]'
+    - '[openguimenu] menu'   
+  'volver':
+    material: gray_dye
+    display_name: '&eWarps Menu'
+    slot: 29
+    lore:
+    - '&7You will return to the menu'
+    - '&7of the warps!'
+    - ''
+    - '&eClick to open this menu!'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[openguimenu] warp'
+    right_click_commands:
+    - '[close]'
+    - '[openguimenu] warp'    
+  'tienda0':
+    material: oak_log
+    display_name: '&aBlocks'
+    slot: 11
+    lore:
+    - ''
+    - '&eClick to teleport!'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[player] warp blocks'
+    right_click_commands:
+    - '[close]'
+    - '[player] warp blocks'
+  'tienda1':
+    material: slime_ball
+    display_name: '&cMobDrops'
+    slot: 12
+    lore:
+    - ''
+    - '&eClick to teleport!'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[player] warp mobdrops'
+    right_click_commands:
+    - '[close]'
+    - '[player] warp mobdrops'
+  'tienda2':
+    material: anvil
+    display_name: '&6Smithy'
+    slot: 13
+    lore:
+    - ''
+    - '&eClick to teleport!'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[player] warp smithy'
+    right_click_commands:
+    - '[close]'
+    - '[player] warp smithy'
+  'tienda3':
+    material: diamond
+    display_name: '&bMinerals'
+    slot: 14
+    lore:
+    - ''
+    - '&eClick to teleport!'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[player] warp Minerals'
+    right_click_commands:
+    - '[close]'
+    - '[player] warp Minerals'
+  'tienda4':
+    material: green_dye
+    display_name: '&9dyes'
+    slot: 15
+    lore:
+    - ''
+    - '&eClick to teleport!'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[player] warp dyes'
+    right_click_commands:
+    - '[close]'
+    - '[player] warp dyes'
+  'tienda5':
+    material: spawner
+    display_name: '&5Spawners'
+    slot: 20
+    lore:
+    - ''
+    - '&eClick to teleport!'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[player] warp spawners'
+    right_click_commands:
+    - '[close]'
+    - '[player] warp spawners'

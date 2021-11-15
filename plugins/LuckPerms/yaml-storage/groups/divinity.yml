@@ -1,0 +1,36 @@
+name: divinity
+permissions:
+- MyPet.leash.bee
+- essentials.kits.Craftsman:
+    value: false
+- essentials.kits.Default:
+    value: false
+- essentials.kits.Divinity
+- essentials.kits.Farmer:
+    value: false
+- essentials.kits.Foreman:
+    value: false
+- essentials.kits.Grandfather:
+    value: false
+- essentials.kits.Infant:
+    value: false
+- essentials.kits.King:
+    value: false
+- essentials.kits.Noble:
+    value: false
+- essentials.kits.Señor:
+    value: false
+- essentials.kits.Squire:
+    value: false
+- essentials.kits.Viscount:
+    value: false
+- ezranks.rank.Divinity
+- mypet.petstorage.limit.15
+parents:
+- emperor
+- g-bukkit_default
+- g-essentials_default
+- g-groupmanager_default
+prefixes:
+- '&f':
+    priority: 32

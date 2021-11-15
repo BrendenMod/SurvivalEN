@@ -1,0 +1,97 @@
+Name: 'Spanish'
+
+#MAIN GUI
+GUI_COLOR_TITLE: 'Color de chat'
+GUI_SET_COLOR: '&7¡Haz click para cambiar tu color de chat a {Color}&7!'
+GUI_SET_COLOR_DEFAULT: '&7¡Haz click para restablecer tu color de chat al predeterminado!'
+GUI_SET_COLOR_DEFAULT_HAS_ACCESS: '&a¡Haz click para restablecer al predeterminado!'
+GUI_SET_COLOR_DEFAULT_NO_ACCESS: '&c¡No tienes permisos para cambiar al color predeterminado!'
+GUI_HAS_ACCESS: '&¡aHaz click para usar!'
+GUI_NO_ACCESS: '&c¡No tienes permisos para este color!'
+GUI_SELECTED_COLOR_TITLE: '&e&lColor seleccionado'
+GUI_SELECTED_COLOR_LORE: '&7Tu color seleccionado es:||||{SelectedColor}'
+
+#CUSTOM COLOR GUI
+GUI_COLOR_CUSTOM_TITLE: 'Creador de color de chat'
+GUI_CUSTOM_COLOR_ITEM_TITLE: '&e&lColor personalizado'
+GUI_CUSTOM_COLOR_ITEM_LORE_HAS_ACCESS: '&7Haz click aquí para crear un color personalizado.'
+GUI_CUSTOM_COLOR_ITEM_LORE_NO_ACCESS: '&cLo sentimos, pero no tienes permiso para crear un color personalizado.'
+GUI_NO_ACCESS_CUSTOM: '%prefix% &c¡No tiene permisos para crear un color personalizado!'
+GUI_COLOR_FINISH: 'Acabar'
+GUI_COLOR_FINISH_LORE: '&7¡Haz click para terminar de crear el color personalizado!||||{CustomColor}'
+COLOR_ADDED_MSG: '%prefix% &7Se agregó el Color  {Color} al color personalizado'
+GUI_ADD_CUSTOM_COLOR:  '&7¡Haz click para agregar {Color} al color personalizado&7!'
+GUI_HAS_ACCESS_CUSTOM: '&a¡Haz click para agregar!'
+#You can add || to add new lines!
+GUI_CUSTOM_COLOR_LORE: '¡Haz click para eliminar este color del color personalizado!'
+GUI_CUSTOM_COLOR_EXAMPLE: 'Así es como se va ver el color personalizado en el chat.'
+RESET_CUSTOM_COLORS_LIST: '&7Haz click para restaurar el color personalizado.'
+GUI_FINISH_CUSTOM_COLOR: '%prefix% ¡Se creó tu color de chat personalizado! ¡Escribe en el chat para verlo!'
+GUI_COLOR_BACK: 'Atrás'
+GUI_COLOR_BACK_LORE: 'Haz click para regresar.'
+
+#COLORS
+COLOR: 'Color'
+COLOR_DARK_RED: 'Rojo oscuro'
+COLOR_GREEN: 'Verde'
+COLOR_BLUE: 'Azul'
+COLOR_CYAN: 'Cian'
+COLOR_PURPLE: 'Morado'
+COLOR_GOLD: 'Oro'
+COLOR_DARK_GRAY: 'Gris oscuro'
+COLOR_RED: 'Rojo'
+COLOR_LIME: 'Lima'
+COLOR_LIGHT_BLUE: 'Azul claro'
+COLOR_BLACK: 'Negro'
+COLOR_PINK: 'Rosa'
+COLOR_YELLOW: 'Amarillo'
+COLOR_GRAY: 'Gris'
+COLOR_AQUA: 'Aqua'
+COLOR_WHITE: 'Blanco'
+COLOR_RAINBOW: 'Arcoíris'
+COLOR_CLEAN_RAINBOW: 'Arcoíris Limpio'
+COLOR_HEX_RAINBOW: 'Arcoíris Hex'
+COLOR_RESET: 'Restablecer'
+
+COLOR_RESET_NO_PERM: '%prefix% &cNo puedes seleccionar tu color.'
+
+COLOR_RAINBOW_SELECT: '&7¡Click para cambiar tu color de chat a Arcoíris!'
+
+COLOR_HEX_SELECT_TITLE: 'Valor Hex Personalizado (1.16+)'
+COLOR_HEX_SELECT_LORE: '&7¡Haz click para seleccionar su color en un valor hex!'
+COLOR_HEX_CUSTOM: 'Color Hex Personalizador'
+COLOR_HEX_CUSTOM_VALUE: 'Valor Hex'
+COLOR_HEX_CUSTOM_INCORRECT: 'Hex Incorrecto'
+
+NO_COLOR_SET: '&cSin conjunto de colores'
+COLOR_SELECTED: '%prefix% ¡Elegiste el Color {Color} &7!'
+COLOR_SELECTED_DEFAULT_SUCCESSFUL: '%prefix% Se a establecido tu color a predeterminado.'
+COLOR_SELECTED_DEFAULT_NO_COLOR: '%prefix% &cUsted no tiene un color de chat selectado.'
+
+#RAINBOW GUI
+RAINBOW_GUI_TITLE: 'Colores Arcoíris'
+
+RAINBOW_GUI_RAINBOW1_TITLE: 'Arcoíris'
+RAINBOW_GUI_RAINBOW1_LORE: '&7¡Click para cambiar tu color a Arcoíris!'
+
+RAINBOW_GUI_RAINBOW2_TITLE: 'Arcoíris Clean'
+RAINBOW_GUI_RAINBOW2_LORE: '&7¡Click para cambiar tu color a Arcoíris Limpio!'
+
+RAINBOW_GUI_RAINBOW3_TITLE: 'Arcoíris Hex'
+RAINBOW_GUI_RAINBOW3_LORE: '&7¡Click para cambiar tu color a Arcoíris Hex!'
+
+#LANGUAGE GUI
+GUI_LANGUAGE_TITLE: 'Idiomas'
+GUI_LANGUAGE_LANGUAGE_ENABLED_DESC: 'Este idioma está seleccionado.'
+GUI_LANGUAGE_LANGUAGE_DISABLED_DESC: 'Haz click para seleccionar {Language} como el idioma del plugin.'
+GUI_LANGUAGE_LANGUAGE_REFRESH_TITLE: 'Actualizar Idiomas'
+GUI_LANGUAGE_LANGUAGE_REFRESH_DESC: 'Esto va a actualizar todos las idiomas.||Esto también va a buscar nuevos idiomas.'
+GUI_LANGUAGE_LANGUAGE_REFRESH_MSG: '%prefix% &aLos idiomas se actualizaron.'
+GUI_LANGUAGE_LANGUAGE_NOT_FINISHED_MSG: '%prefix% &cEl idioma no está terminado, por lo tanto, no se puede cargar.'
+
+#OTHER
+PLAYER_NOT_FOUND: '%prefix% &c¡{Player} no pudo ser encontrado!'
+COLOR_SELECTED_OTHER: '%prefix% &7¡Ahora el color de chat de {Player} es {Color}&7!'
+COLOR_SELECTED_OTHER_DEFAULT_SUCCESSFUL: '%prefix% &7¡Color de chat de {Player} restablecido!'
+COLOR_SELECTED_OTHER_DEFAULT_NO_COLOR: '%prefix% &c{Player} no tiene ningún color seleccionado.'
+

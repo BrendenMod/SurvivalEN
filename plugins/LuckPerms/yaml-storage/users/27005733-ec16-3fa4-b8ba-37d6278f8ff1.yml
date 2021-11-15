@@ -1,0 +1,8 @@
+uuid: 27005733-ec16-3fa4-b8ba-37d6278f8ff1
+name: iJuanP
+primary-group: default
+permissions:
+- ezranks.rank.Looter
+parents:
+- default
+- looter

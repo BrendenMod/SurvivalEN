@@ -1,0 +1,174 @@
+#usage: %animation:NAME%  or  {animation:NAME}
+animations:
+  Owner:
+    change-interval: 1000
+    texts:
+      - "&f&lO&4&LWNER &f"
+      - "&4&lO&f&lW&4&lNER &f"
+      - "&4&LOW&f&LN&4&lER &f"
+      - "&4&LOWN&f&LE&4&lR &f"
+      - "&4&LOWNE&f&LR &f"
+      - "&f&lO&4&LWNER &f"
+      - "&f&lO&4&LWNER &f"
+      - "&f&lO&4&LWNER &f"
+      - "&f&lO&4&LWNER &f"
+      - "&c&lO&4&LWNER &f"
+      - "&4&lO&c&lW&4&lNER &f"
+      - "&4&LOW&c&LN&4&lER &f"
+      - "&4&LOWN&c&LE&4&lR &f"
+      - "&4&LOWNE&c&LR &f"
+      - "&c&lO&4&LWNER &f"
+      - "&c&lO&4&LWNER &f"
+      - "&c&lO&4&LWNER &f"
+      - "&c&lO&4&LWNER &f"
+  Dragon2:
+    change-interval: 6000
+    texts:
+      - "&4[&6&ki&e⌘&6&ki&cDragón&6&ki&e⌘&6&ki&4] &c"
+      - "&6[&e&k!&6Σ&e&k!&6Dragón&e&k!&6Σ&e&k!&6] &6"
+  Survival:
+    change-interval: 200
+    texts:
+      - "&6&lSURVIVAL"
+      - "&6&lS&e&lU&f&lRVIVAL"
+      - "&6&lSU&e&lR&f&lVIVAL"
+      - "&6&lSUR&e&lV&f&lIVAL"
+      - "&6&lSURV&e&lI&f&lVAL"
+      - "&6&lSURVI&e&lV&f&lAL"
+      - "&6&lSURVIV&e&lA&f&lL"
+      - "&6&lSURVIVA&e&lL"
+      - "&6&lSURVIVAL"
+      - "&e&lSURVIVAL"
+      - "&f&lSURVIVAL"
+  web:
+    change-interval: 200
+    texts:
+      - "&ewww.domain.com"
+      - "&ewww.domain.com"
+      - "&ewww.domain.com"
+      - "&ewww.domain.com"
+      - "&ewww.domain.com"
+      - "&ewww.domain.com"
+      - "&6w&eww.domain.com"
+      - "&ew&6w&ew.domain.com"
+      - "&eww&6w&e.domain.com"
+      - "&ewww&6.&edomain.com"
+      - "&ewww.&6d&eomain.com"
+      - "&ewww.d&6o&emain.com"
+      - "&ewww.do&6m&eain.com"
+      - "&ewww.dom&6a&ein.com"
+      - "&ewww.doma&6i&en.com"
+      - "&ewww.domai&6n&e.com"
+      - "&ewww.domain&6.&ecom"
+      - "&ewww.domain.&6c&eom"
+      - "&ewww.domain.c&6o&em"
+      - "&ewww.domain.co&6m"
+      - "&ewww.domain.com"
+      - "&ewww.domain.com"
+      - "&ewww.domain.com"
+      - "&ewww.domain.com"
+      - "&ewww.domain.com"
+      - "&ewww.domain.com"
+  vote:
+    change-interval: 1000
+    texts:
+      - "&6vote.domain.com"
+      - "&6&nvote.domain.com"
+      - "&5vote.domain.com"
+      - "&5&nvote.domain.com"
+  Welcome:
+    change-interval: 400
+    texts:
+      - "&7&lW_"
+      - "&7&lW_"
+      - "&7&lWe_"
+      - "&7&lWel_"
+      - "&7&lWelc_"
+      - "&7&lWelco_"
+      - "&7&lWelcom_"
+      - "&7&lWelcome_"
+      - "&7&lWelcome_"
+      - "&7&lWelcome_"
+      - "&7&lWelcome_"
+      - "&7&lWelcom_"
+      - "&7&lWelco_"
+      - "&7&lWelc_"
+      - "&7&lWel_"
+      - "&7&lWe_"
+      - "&7&lW_"
+      - "&7&lW_"
+  time:
+    change-interval: 1000
+    texts:
+      - "&7Time &b%time%"
+      - "&7> Time &b%time% &7<"
+      - "&7>> Time &b%time% &7<<"
+      - "&7>>> Time &b%time% &7<<<"
+      - "&7Date &b%date%"
+      - "&7> Date &b%date% &7<"
+      - "&7>> Date &b%date% &7<<"
+      - "&7>>> Date &b%date% &7<<<"
+  ping-tps:
+    change-interval: 5000
+    texts:
+      - "&6Ping: &e&n%ping%&r &6ms"
+      - "&bServer TPS: &8%tps%"
+  versions:
+    change-interval: 1000
+    texts:
+      - "Online players with MC 1.14.x : %version-group:1-14-x%"
+      - "Online players with MC 1.13.x : %version-group:1-13-x%"
+      - "Online players with MC 1.12.x : %version-group:1-12-x%"
+      - "Online players with MC 1.11.x : %version-group:1-11-x%"
+      - "Online players with MC 1.10.x : %version-group:1-10-x%"
+      - "Online players with MC 1.9.x : %version-group:1-9-x%"
+      - "Online players with MC 1.8.x : %version-group:1-8-x%"
+      - "Online players with MC 1.7.x : %version-group:1-7-x%"
+      - "Online players with MC 1.6.x : %version-group:1-6-x%"
+      - "Online players with MC 1.5.x : %version-group:1-5-x%"
+      - "Online players with unknown version: %version-group:other%"
+  admin_prefix:
+    change-interval: 200
+    texts:
+      - "&6&lAdmin &e"
+      - "&6&lAdmin &e"
+      - "&9&lAdmin &e"
+      - "&9&lAdmin &e"
+      - "&4&lAdmin &e"
+      - "&4&lAdmin &e"
+      - "&3&lAdmin &e"
+      - "&3&lAdmin &e"
+      - "&e&lAdmin &e"
+      - "&e&lAdmin &e"
+      - "&d&lAdmin &e"
+      - "&d&lAdmin &e"
+      - "&f&lAdmin &e"
+      - "&f&lAdmi &e"
+      - "&f&lAdm &e"
+      - "&f&lAd &e"
+      - "&f&lA &e"
+      - "&f&lAd &e"
+      - "&f&lAdm &e"
+      - "&f&lAdmi &e"
+      - "&f&lAdmin &e"
+  barcolors:
+    change-interval: 1000
+    texts:
+      - "RED"
+      - "BLUE"
+      - "GREEN"
+      - "YELLOW"
+  test:
+    change-interval: 100
+    texts:
+      - "100"
+      - "90"
+      - "80"
+      - "70"
+      - "60"
+      - "50"
+      - "40"
+      - "30"
+      - "20"
+      - "10"
+      - "0"

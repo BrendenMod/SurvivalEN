@@ -1,0 +1,4 @@
+name: g-essentials_moderador
+permissions:
+- essentials.helpop.receive
+- essentials.mute

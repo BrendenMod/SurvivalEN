@@ -1,0 +1,234 @@
+sd1:
+  location: catacumbas, 207.950, 45.500, -352.470
+  lines:
+  - '&a&lEXIT'
+  - '&7&o(Click)'
+sd2:
+  location: catacumbas, 234.489, 43.500, -301.300
+  lines:
+  - '&a&lEXIT'
+  - '&7&o(Click)'
+sd3:
+  location: catacumbas, 212.495, 54.500, -297.050
+  lines:
+  - '&a&lEXIT'
+  - '&7&o(Click)'
+dinfo1:
+  location: catacumbas, 204.488, 45.200, -347.702
+  lines:
+  - '&c&lLEAVE?'
+  - '&e&oUse the statues in'
+  - '&e&othe green headlights.'
+dinfo2:
+  location: catacumbas, -320.492, 88.200, -154.300
+  lines:
+  - '&c&lLEAVE?'
+  - '&e&oUse the statues in'
+  - '&e&othe green headlights.'
+dinfo3:
+  location: catacumbas, -100.495, 77.200, -255.704
+  lines:
+  - '&c&lLEAVE?'
+  - '&e&oUse the statues in'
+  - '&e&othe green headlights.'
+  - '&d(Get shards and redeem them'
+  - '&dsave the fragments you do not use)'
+sd4:
+  location: catacumbas, -329.499, 92.500, -157.950
+  lines:
+  - '&a&lEXIT'
+  - '&7&o(Click)'
+sd5:
+  location: catacumbas, -317.050, 93.500, -235.503
+  lines:
+  - '&a&lEXIT'
+  - '&7&o(Click)'
+sd6:
+  location: catacumbas, -335.496, 101.500, -373.950
+  lines:
+  - '&a&lEXIT'
+  - '&7&o(Click)'
+sd7:
+  location: catacumbas, -98.506, 80.500, -237.050
+  lines:
+  - '&a&lEXIT'
+  - '&7&o(Click)'
+sd8:
+  location: catacumbas, -119.505, 74.500, -174.950
+  lines:
+  - '&a&lEXIT'
+  - '&7&o(Click)'
+sd9:
+  location: catacumbas, -165.950, 56.500, -161.508
+  lines:
+  - '&a&lEXIT'
+  - '&7&o(Click)'
+sd10:
+  location: catacumbas, 229.950, 154.500, -1.500
+  lines:
+  - '&a&lEXIT'
+  - '&7&o(Click)'
+sd11:
+  location: catacumbas, 152.509, 103.500, -1.700
+  lines:
+  - '&a&lEXIT'
+  - '&7&o(Click)'
+sd12:
+  location: catacumbas, 256.491, 71.500, 29.950
+  lines:
+  - '&a&lEXIT'
+  - '&7&o(Click)'
+dinfo4:
+  location: catacumbas, 229.936, 162.200, -5.499
+  lines:
+  - '&c&lLEAVE?'
+  - '&e&oUse the statues in'
+  - '&e&othe green headlights.'
+  - '&7(Daño por caida activado'
+  - '&7ten mucho cuidado)'
+Bug:
+  location: catacumbas, 513.754, 69.794, 38.477
+  lines:
+  - '&u&oIf you are bug, use the /spawn command.'
+ranks:
+  location: lobby, 18.547, 112.500, -19.462
+  lines:
+  - '&6●&f●&e● &bRanks &7[Right click] &e●&f●&6●'
+kits:
+  location: lobby, 48.664, 113.494, 7.388
+  lines:
+  - '&6●&f●&e● &bKits &7[Right click] &e●&f●&6●'
+warps:
+  location: lobby, 54.452, 105.500, -27.503
+  lines:
+  - '&6●&f●&e● &bWarps &7[Right click] &e●&f●&6●'
+daily:
+  location: lobby, -0.467, 112.000, -3.478
+  lines:
+  - '&6●&f●&e● &bDaily rewards &7[Right click] &e●&f●&6●'
+  - '&7Claim your daily prizes'
+  - '&7and got cool rewards'
+rtp:
+  location: lobby, 21.975, 112.669, -40.414
+  lines:
+  - '&6●&f●&e● &bRandom Teleport &7[Right click] &e●&f●&6●'
+  - '&7Start your adventure, here you can'
+  - '&7teleport to Survival world'
+protections:
+  location: lobby, 21.509, 85.000, -46.445
+  lines:
+  - '&6●&f●&e● &bProtections &7[Right click] &e●&f●&6●'
+  - '&7Get your protection block'
+  - '&7so you can have your objects safe'
+dungeons:
+  location: lobby, 26.519, 85.000, 65.472
+  lines:
+  - '&6●&f●&e● &bDungeons &7[Right click] &e●&f●&6●'
+  - '&7Teleport to different dungeons'
+  - '&7from the server, be very careful'
+trades:
+  location: lobby, 11.495, 85.000, 72.494
+  lines:
+  - '&6●&f●&e● &bTrades &7[Right click] &e●&f●&6●'
+  - '&7Redeem your dungeon items here'
+  - '&7you can get cool items'
+upgrades:
+  location: lobby, -12.420, 113.270, -4.386
+  lines:
+  - '&6●&f●&e● &bUpgrades &7[Right click] &e●&f●&6●'
+  - '&7I opened the upgrade menu and acquired'
+  - '&7various benefits on the server'
+keys:
+  location: lobby, 85.501, 87.000, -24.521
+  lines:
+  - '&6●&f●&e● &bKeys &7[Right click] &e●&f●&6●'
+  - '&7Keys store, you can buy'
+  - '&7magic keys in this place'
+Enchantments:
+  location: lobby, -24.502, 88.000, -61.476
+  lines:
+  - '&6●&f●&e● &bEnchantments &7[Right click] &e●&f●&6●'
+  - '&7Redeem various enchantments'
+  - '&7on this NPC, click'
+encantamientos2:
+  location: lobby, -24.506, 85.908, -49.430
+  lines:
+  - '&6●&f●&e● &bInformation of &lENCHANTMENTS &e●&f●&6●'
+  - '&7These enchantments are divided into'
+  - '&7the next: &bweapons&7/&cweapons&7/&6tools'
+  - '&7you can get various enchantments in this'
+  - '&7Instead, these enchantments have a probability'
+  - '&7If you fail, be very careful or you may lose your item'
+  - '&7some of these enchantments you can'
+  - '&7get in &dshop.server.com'
+Bank:
+  location: lobby, -1.335, 85.368, 60.500
+  lines:
+  - '&6●&f●&e● &b&lBANK &7[Right click] &e●&f●&6●'
+  - '&7Save your money here to avoid'
+  - '&7that you lose it, remember that when'
+  - '&7die you will lose &a10% &7of money'
+  - '&7what are you wearing at that time'
+spawner:
+  location: lobby, 26.502, 85.000, 82.491
+  lines:
+  - '&bSpawners store'
+  - '&7(Click)'
+dyes:
+  location: lobby, 38.233, 84.750, -53.567
+  lines:
+  - '&bDyes store'
+  - '&7(Click)'
+mobdrops:
+  location: lobby, 21.700, 84.681, 80.461
+  lines:
+  - '&bMobDrops store'
+  - '&7(Click)'
+Blacksmith:
+  location: lobby, 24.468, 84.600, -69.500
+  lines:
+  - '&bBlacksmith Shop'
+  - '&7(Click)'
+blocks:
+  location: lobby, 16.474, 84.631, 61.461
+  lines:
+  - '&bBlock Store'
+  - '&7(Click)'
+miner:
+  location: lobby, -41.558, 83.600, 76.495
+  lines:
+  - '&bMining Shop'
+  - '&7(Click)'
+pvp:
+  location: lobby, -8.457, 87.900, -20.517
+  lines:
+  - '&c● &4&lPVP ZONE&c●'
+  - '&7Be careful in this place!'
+  - '&b(Click to enter!)'
+collapse:
+  location: lobby, -4.304, 100.900, -22.308
+  lines:
+  - '&4&lDANGER!'
+  - '&fA little landslide!'
+  - '&b(Click to continue!)'
+miner2:
+  location: lobby, 12.496, 87.800, 15.649
+  lines:
+  - '&bMining Shop'
+  - '&7(Click)'
+menu:
+  location: lobby, 23.514, 113.200, -10.385
+  lines:
+  - '&6●&f●&e● &bMenu &7[Right click] &e●&f●&6●'
+skills:
+  location: lobby, 19.530, 116.000, 4.508
+  lines:
+  - '&u&l&nNEW!'
+  - '&6●&f●&e● &bAbilities &e●&f●&6●'
+  - '&7&o(Click)'
+new2:
+  location: lobby, 23.327, 116.000, 4.691
+  lines:
+  - '&u&l&nNEW!'
+  - '&6●&f●&e● &bSkills &e●&f●&6●'
+  - '&7&o(Click)'

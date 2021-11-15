@@ -1,0 +1,11 @@
+name: cleric
+permissions:
+- ezranks.rank.Cleric
+parents:
+- g-bukkit_default
+- g-essentials_default
+- g-groupmanager_default
+- priest
+prefixes:
+- '&f':
+    priority: 10

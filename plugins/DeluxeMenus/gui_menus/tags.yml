@@ -1,0 +1,590 @@
+menu_title: '&0Tags List'
+open_command:
+- Tags
+- tag
+size: 45
+items:
+  'Glasses':
+    material: black_stained_glass_pane
+    display_name: '&e'
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 17
+    - 18
+    - 26
+    - 27
+    - 35
+    - 36
+    - 37
+    - 38
+    - 39
+    - 41
+    - 42
+    - 43
+    - 44
+  'Glasses2':
+    material: gray_stained_glass_pane
+    display_name: '&e'
+    slots:
+    - 31
+  'menu':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmZhMTFmZGQ3ZTZkNGQyMjIxZmU3ZTQ4OTQyZTJiMzdiMTU3MmY2M2UxNGI4MDMwOTk2Zjg2MWE2ODJjMzA0YSJ9fX0==
+    slot: 40
+    display_name: '&bMenu'
+    lore:
+    - ''
+    - '&7You will return to the Menu'
+    - '&7of the modality!'
+    - ''
+    - '&eClick to open this menu!'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[openguimenu] menu'
+    right_click_commands:
+    - '[close]'
+    - '[openguimenu] menu'      
+  'info':
+    material: paper
+    slot: 4
+    priority: 1
+    display_name: '&bInformation'
+    lore:
+    - '&6⋘&6&m────────────&r &e∗ ⋅◈⋅ ∗ &6&m───────────&r&6⋙'
+    - '&7Equip a Tag and all players'
+    - '&7they can see it under your name'
+    - '&7remember that some will need that'
+    - '&7complete specific achievements!'
+    - '&6⋘&6&m────────────&r &e∗ ⋅◈⋅ ∗ &6&m───────────&r&6⋙'
+  'prestige1':
+    material: name_tag
+    slot: 10
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: ezprestige.prestige.1    
+    priority: 1
+    display_name: '&bPrestige 1 &6⇒ &8[&e✇&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&bClick to equip!'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    left_click_commands:
+    - '[console] tab player %player_name% belowname &bPrestige 1 &6⇒ &8[&e✇&8]'
+    - '[message] &b&lTAGS &6⇒ &fYou have successfully equipped the tag: &bPrestige 1 &6⇒ &8[&e✇&8]'    
+  'prestige1nodisponible':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmJiZGJlMWE0MTU3YzRjYTVjNjg2NmY4NzUzMzE3NGM0OTViYWM3ODkwNTlkNGRjNGE5MGQwYzQyODBiMjM3NSJ9fX0=
+    slot: 10
+    priority: 2
+    display_name: '&bPrestige 1 &6⇒ &8[&e✇&8]'
+    lore:
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &4&lNOT AVAILABLE'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'     
+  'prestige2':
+    material: name_tag
+    slot: 11
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: ezprestige.prestige.2
+    priority: 1
+    display_name: '&bPrestige 2 &6⇒ &8[&b☯&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&bClick to equip!'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    left_click_commands:
+    - '[console] tab player %player_name% belowname &bPrestige 2 &6⇒ &8[&b☯&8]'
+    - '[message] &b&lTAGS &6⇒ &fYou have successfully equipped the tag: &bPrestige 2 &6⇒ &8[&b☯&8]'
+  'prestige2nodisponible':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmJiZGJlMWE0MTU3YzRjYTVjNjg2NmY4NzUzMzE3NGM0OTViYWM3ODkwNTlkNGRjNGE5MGQwYzQyODBiMjM3NSJ9fX0=
+    slot: 11
+    priority: 2
+    display_name: '&bPrestige 2 &6⇒ &8[&b☯&8]'
+    lore:
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &4&lNOT AVAILABLE'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'      
+  'prestige3':
+    material: name_tag
+    slot: 12
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: ezprestige.prestige.3
+    priority: 1
+    display_name: '&bPrestige 3 &6⇒ &8[&3❁&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&bClick to equip!'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    left_click_commands:
+    - '[console] tab player %player_name% belowname &bPrestige 3 &6⇒ &8[&3❁&8]'
+    - '[message] &b&lTAGS &6⇒ &fYou have successfully equipped the tag: &bPrestige 3 &6⇒ &8[&3❁&8]'
+  'prestige3nodisponible':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmJiZGJlMWE0MTU3YzRjYTVjNjg2NmY4NzUzMzE3NGM0OTViYWM3ODkwNTlkNGRjNGE5MGQwYzQyODBiMjM3NSJ9fX0=
+    slot: 12
+    priority: 2
+    display_name: '&bPrestige 3 &6⇒ &8[&3❁&8]'
+    lore:
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &4&lNOT AVAILABLE'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'    
+  'prestige4':
+    material: name_tag
+    slot: 13
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: ezprestige.prestige.4
+    priority: 1
+    display_name: '&bPrestige 4 &6⇒ &8[&9❈&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&bClick to equip!'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    left_click_commands:
+    - '[console] tab player %player_name% belowname &bPrestige 4 &6⇒ &8[&9❈&8]'
+    - '[message] &b&lTAGS &6⇒ &fYou have successfully equipped the tag: &bPrestige 4 &6⇒ &8[&9❈&8]'
+  'prestige4nodisponible':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmJiZGJlMWE0MTU3YzRjYTVjNjg2NmY4NzUzMzE3NGM0OTViYWM3ODkwNTlkNGRjNGE5MGQwYzQyODBiMjM3NSJ9fX0=
+    slot: 13
+    priority: 2
+    display_name: '&bPrestige 4 &6⇒ &8[&9❈&8]'
+    lore:
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &4&lNOT AVAILABLE'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+  'prestige5':
+    material: name_tag
+    slot: 14
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: ezprestige.prestige.5
+    priority: 1
+    display_name: '&bPrestige 5 &6⇒ &8[&a❀&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&bClick to equip!'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    left_click_commands:
+    - '[console] tab player %player_name% belowname &bPrestige 5 &6⇒ &8[&a❀&8]'
+    - '[message] &b&lTAGS &6⇒ &fYou have successfully equipped the tag: &bPrestige 1 &6⇒ &8[&a❀&8]'
+  'prestige5nodisponible':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmJiZGJlMWE0MTU3YzRjYTVjNjg2NmY4NzUzMzE3NGM0OTViYWM3ODkwNTlkNGRjNGE5MGQwYzQyODBiMjM3NSJ9fX0=
+    slot: 14
+    priority: 2
+    display_name: '&bPrestige 5 &6⇒ &8[&a❀&8]'
+    lore:
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &4&lNOT AVAILABLE'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'    
+  'prestige6':
+    material: name_tag
+    slot: 15
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: ezprestige.prestige.6
+    priority: 1
+    display_name: '&bPrestige 6 &6⇒ &8[&2✳&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&bClick to equip!'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    left_click_commands:
+    - '[console] tab player %player_name% belowname &bPrestige 6 &6⇒ &8[&2✳&8]'
+    - '[message] &b&lTAGS &6⇒ &fYou have successfully equipped the tag: &bPrestige 6 &6⇒ &8[&2✳&8]'
+  'prestige6nodisponible':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmJiZGJlMWE0MTU3YzRjYTVjNjg2NmY4NzUzMzE3NGM0OTViYWM3ODkwNTlkNGRjNGE5MGQwYzQyODBiMjM3NSJ9fX0=
+    slot: 15
+    priority: 2
+    display_name: '&bPrestige 6 &6⇒ &8[&2✳&8]'
+    lore: 
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &4&lNOT AVAILABLE'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'     
+  'prestige7':
+    material: name_tag
+    slot: 16
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: ezprestige.prestige.7
+    priority: 1
+    display_name: '&bPrestige 7 &6⇒ &8[&d❉&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&bClick to equip!'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    left_click_commands:
+    - '[console] tab player %player_name% belowname &bPrestige 7 &6⇒ &8[&d❉&8]'
+    - '[message] &b&lTAGS &6⇒ &fYou have successfully equipped the tag: &bPrestige 7 &6⇒ &8[&d❉&8]'
+  'prestige7nodisponible':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmJiZGJlMWE0MTU3YzRjYTVjNjg2NmY4NzUzMzE3NGM0OTViYWM3ODkwNTlkNGRjNGE5MGQwYzQyODBiMjM3NSJ9fX0=
+    slot: 16
+    priority: 2
+    display_name: '&bPrestige 7 &6⇒ &8[&d❉&8]'
+    lore:
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &4&lNOT AVAILABLE'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'       
+  'prestige8':
+    material: name_tag
+    slot: 19
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: ezprestige.prestige.8
+    priority: 1
+    display_name: '&bPrestige 8 &6⇒ &8[&5✵&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&bClick to equip!'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    left_click_commands:
+    - '[console] tab player %player_name% belowname &bPrestige 8 &6⇒ &8[&5✵&8]'
+    - '[message] &b&lTAGS &6⇒ &fYou have successfully equipped the tag: &bPrestige 8 &6⇒ &8[&5✵&8]'
+  'prestige8nodisponible':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmJiZGJlMWE0MTU3YzRjYTVjNjg2NmY4NzUzMzE3NGM0OTViYWM3ODkwNTlkNGRjNGE5MGQwYzQyODBiMjM3NSJ9fX0=
+    slot: 19
+    priority: 2
+    display_name: '&bPrestige 8 &6⇒ &8[&5✵&8]'
+    lore:
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &4&lNOT AVAILABLE'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'       
+  'prestige9':
+    material: name_tag
+    slot: 20
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: ezprestige.prestige.9
+    priority: 1
+    display_name: '&bPrestige 9 &6⇒ &8[&c❋&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&bClick to equip!'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    left_click_commands:
+    - '[console] tab player %player_name% belowname &bPrestige 9 &6⇒ &8[&c❋&8]'
+    - '[message] &b&lTAGS &6⇒ &fYou have successfully equipped the tag: &bPrestige 9 &6⇒ &8[&c❋&8]'
+  'prestige9nodisponible':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmJiZGJlMWE0MTU3YzRjYTVjNjg2NmY4NzUzMzE3NGM0OTViYWM3ODkwNTlkNGRjNGE5MGQwYzQyODBiMjM3NSJ9fX0=
+    slot: 20
+    priority: 2
+    display_name: '&bPrestige 9 &6⇒ &8[&c❋&8]'
+    lore:
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &4&lNOT AVAILABLE'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'      
+  'prestige10':
+    material: name_tag
+    slot: 21
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: ezprestige.prestige.10
+    priority: 1
+    display_name: '&bPrestige 10 &6⇒ &8[&4✴&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&bClick to equip!'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    left_click_commands:
+    - '[console] tab player %player_name% belowname &bPrestige 10 &6⇒ &8[&4✴&8]'
+    - '[message] &b&lTAGS &6⇒ &fYou have successfully equipped the tag: &bPrestige 10 &6⇒ &8[&4✴&8]'
+  'prestige10nodisponible':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmJiZGJlMWE0MTU3YzRjYTVjNjg2NmY4NzUzMzE3NGM0OTViYWM3ODkwNTlkNGRjNGE5MGQwYzQyODBiMjM3NSJ9fX0=
+    slot: 21
+    priority: 2
+    display_name: '&bPrestige 10 &6⇒ &8[&4✴&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &4&lNOT AVAILABLE'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'        
+  'prestige11':
+    material: name_tag
+    slot: 22
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: ezprestige.prestige.11
+    priority: 1
+    display_name: '&bPrestige 11 &6⇒ &8[&6✇&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&bClick to equip!'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    left_click_commands:
+    - '[console] tab player %player_name% belowname &bPrestige 11 &6⇒ &8[&6✇&8]'
+    - '[message] &b&lTAGS &6⇒ &fYou have successfully equipped the tag: &bPrestige 11 &6⇒ &8[&6✇&8]'
+  'prestige11nodisponible':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmJiZGJlMWE0MTU3YzRjYTVjNjg2NmY4NzUzMzE3NGM0OTViYWM3ODkwNTlkNGRjNGE5MGQwYzQyODBiMjM3NSJ9fX0=
+    slot: 22
+    priority: 2
+    display_name: '&bPrestige 11 &6⇒ &8[&6✇&8]'
+    lore:
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &4&lNOT AVAILABLE'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'    
+  'prestige12':
+    material: name_tag
+    slot: 23
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: ezprestige.prestige.12
+    priority: 1
+    display_name: '&bPrestige 12 &6⇒ &8[&6☄&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&bClick to equip!'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    left_click_commands:
+    - '[console] tab player %player_name% belowname &bPrestige 12 &6⇒ &8[&6☄&8]'
+    - '[message] &b&lTAGS &6⇒ &fYou have successfully equipped the tag: &bPrestige 12 &6⇒ &8[&6☄&8]'
+  'prestige12nodisponible':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmJiZGJlMWE0MTU3YzRjYTVjNjg2NmY4NzUzMzE3NGM0OTViYWM3ODkwNTlkNGRjNGE5MGQwYzQyODBiMjM3NSJ9fX0=
+    slot: 23
+    priority: 2
+    display_name: '&bPrestige 12 &6⇒ &8[&6☄&8]'
+    lore:
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &4&lNOT AVAILABLE'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'        
+  'prestige13':
+    material: name_tag
+    slot: 24
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: ezprestige.prestige.13
+    priority: 1
+    display_name: '&bPrestige 13 &6⇒ &8[&6❁&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&bClick to equip!'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    left_click_commands:
+    - '[console] tab player %player_name% belowname &bPrestige 13 &6⇒ &8[&6❁&8]'
+    - '[message] &b&lTAGS &6⇒ &fYou have successfully equipped the tag: &bPrestige 13 &6⇒ &8[&6❁&8]'
+  'prestige13nodisponible':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmJiZGJlMWE0MTU3YzRjYTVjNjg2NmY4NzUzMzE3NGM0OTViYWM3ODkwNTlkNGRjNGE5MGQwYzQyODBiMjM3NSJ9fX0=
+    slot: 24
+    priority: 2
+    display_name: '&bPrestige 13 &6⇒ &8[&6❁&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &4&lNOT AVAILABLE'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+  'prestige14':
+    material: name_tag
+    slot: 25
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: ezprestige.prestige.14
+    priority: 1
+    display_name: '&bPrestige 14 &6⇒ &8[&6❈&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&bClick to equip!'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    left_click_commands:
+    - '[console] tab player %player_name% belowname &bPrestige 14 &6⇒ &8[&6❈&8]'
+    - '[message] &b&lTAGS &6⇒ &fYou have successfully equipped the tag: &bPrestige 14 &6⇒ &8[&6❈&8]'
+  'prestige14nodisponible':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmJiZGJlMWE0MTU3YzRjYTVjNjg2NmY4NzUzMzE3NGM0OTViYWM3ODkwNTlkNGRjNGE5MGQwYzQyODBiMjM3NSJ9fX0=
+    slot: 25
+    priority: 2
+    display_name: '&bPrestige 14 &6⇒ &8[&6❈&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Recompensas:'
+    - '&7x1 &7llave &5épica'
+    - '&2$765.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &4&lNOT AVAILABLE'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'    
+  'prestige15':
+    material: name_tag
+    slot: 28
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: ezprestige.prestige.15
+    priority: 1
+    display_name: '&bPrestige 15 &6⇒ &8[&6❀&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&bClick to equip!'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    left_click_commands:
+    - '[console] tab player %player_name% belowname &bPrestige 15 &6⇒ &8[&6❀&8]'
+    - '[message] &b&lTAGS &6⇒ &fYou have successfully equipped the tag: &bPrestige 15 &6⇒ &8[&6❀&8]'
+  'prestige15nodisponible':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmJiZGJlMWE0MTU3YzRjYTVjNjg2NmY4NzUzMzE3NGM0OTViYWM3ODkwNTlkNGRjNGE5MGQwYzQyODBiMjM3NSJ9fX0=
+    slot: 28
+    priority: 2
+    display_name: '&bPrestige 15 &6⇒ &8[&6❀&8]'
+    lore:
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &4&lNOT AVAILABLE'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'      
+  'prestige16':
+    material: name_tag
+    slot: 29
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: ezprestige.prestige.16
+    priority: 1
+    display_name: '&bPrestige 16 &6⇒ &8[&6✳&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&bClick to equip!'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    left_click_commands:
+    - '[console] tab player %player_name% belowname &bPrestige 16 &6⇒ &8[&6✳&8]'
+    - '[message] &b&lTAGS &6⇒ &fYou have successfully equipped the tag: &bPrestige 16 &6⇒ &8[&6✳&8]'
+  'prestige16nodisponible':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmJiZGJlMWE0MTU3YzRjYTVjNjg2NmY4NzUzMzE3NGM0OTViYWM3ODkwNTlkNGRjNGE5MGQwYzQyODBiMjM3NSJ9fX0=
+    slot: 29
+    priority: 2
+    display_name: '&bPrestige 16 &6⇒ &8[&6✳&8]'
+    lore:
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &4&lNOT AVAILABLE'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'      
+  'prestige17':
+    material: name_tag
+    slot: 30
+    priority: 1
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: ezprestige.prestige.17
+    display_name: '&bPrestige 17 &6⇒ &8[&6❉&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&bClick to equip!'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    left_click_commands:
+    - '[console] tab player %player_name% belowname &bPrestige 17 &6⇒ &8[&6❉&8]'
+    - '[message] &b&lTAGS &6⇒ &fYou have successfully equipped the tag: &bPrestige 17 &6⇒ &8[&6❉&8]'
+  'prestige17nodisponible':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmJiZGJlMWE0MTU3YzRjYTVjNjg2NmY4NzUzMzE3NGM0OTViYWM3ODkwNTlkNGRjNGE5MGQwYzQyODBiMjM3NSJ9fX0=
+    slot: 30
+    priority: 2
+    display_name: '&bPrestige 17 &6⇒ &8[&6❉&8]'
+    lore:
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &4&lNOT AVAILABLE'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+  'Buycraft1':
+    material: name_tag
+    slot: 32
+    priority: 1
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: buycraftitle.1
+    display_name: '&7╼&4⌘&c&ki&e۩&c&ki&4⌘&7╾ &f╼&c&ki&e✷ &4&lFlame Keeper&e ✷&c&ki&f╾ &7╼&4⌘&c&ki&e۩&c&ki&4⌘&7╾'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&bClick to equip!'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    left_click_commands:
+    - '[console] tab player %player_name% belowname &7╼&4⌘&c&ki&e۩&c&ki&4⌘&7╾ &f╼&c&ki&e✷ &4&lFlame Keeper&e ✷&c&ki&f╾ &7╼&4⌘&c&ki&e۩&c&ki&4⌘&7╾'
+    - '[message] &b&lTAGS &6⇒ &fYou have successfully equipped the tag: &7╼&4⌘&c&ki&e۩&c&ki&4⌘&7╾ &f╼&c&ki&e✷ &4&lFlame Keeper&e ✷&c&ki&f╾ &7╼&4⌘&c&ki&e۩&c&ki&4⌘&7╾'
+  'Buycraft1nodisponible':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmJiZGJlMWE0MTU3YzRjYTVjNjg2NmY4NzUzMzE3NGM0OTViYWM3ODkwNTlkNGRjNGE5MGQwYzQyODBiMjM3NSJ9fX0=
+    slot: 32
+    priority: 2
+    display_name: '&7╼&4⌘&c&ki&e۩&c&ki&4⌘&7╾ &f╼&c&ki&e✷ &4&lFlame Keeper&e ✷&c&ki&f╾ &7╼&4⌘&c&ki&e۩&c&ki&4⌘&7╾'
+    lore:
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Shop in &dstore.server.com'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'    
+  'Buycraft2':
+    material: name_tag
+    slot: 33
+    priority: 1
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: buycraftitle.2
+    display_name: '&e&k!&f╼&3♅&e⎈ &b&k!&6&l&nGOD&b&k!&r &e⎈&3♅&f╾&e&k!'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&bClick to equip!'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    left_click_commands:
+    - '[console] tab player %player_name% belowname &e&k!&f╼&3♅&e⎈ &b&k!&6&l&nGOD&b&k!&r &e⎈&3♅&f╾&e&k!'
+    - '[message] &b&lTAGS &6⇒ &fYou have successfully equipped the tag: &e&k!&f╼&3♅&e⎈ &b&k!&6&l&nGOD&b&k!&r &e⎈&3♅&f╾&e&k!'
+  'Buycraft2nodisponible':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmJiZGJlMWE0MTU3YzRjYTVjNjg2NmY4NzUzMzE3NGM0OTViYWM3ODkwNTlkNGRjNGE5MGQwYzQyODBiMjM3NSJ9fX0=
+    slot: 33
+    priority: 2
+    display_name: '&e&k!&f╼&3♅&e⎈ &b&k!&6&l&nGOD&b&k!&r &e⎈&3♅&f╾&e&k!'
+    lore:
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Shop in &dstore.server.com'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙' 
+  'Buycraft3':
+    material: name_tag
+    slot: 34
+    priority: 1
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: buycraftitle.3
+    display_name: '&7╼&e&ki&4⁕&e&ki&7╾ &f╼&6★&3&ki&e☫ &b&lFast fingers&e ☫&3&ki&6★&7╾ &7╼&e&ki&4⁕&e&ki&7╾'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&bClick to equip!'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    left_click_commands:
+    - '[console] tab player %player_name% belowname &7╼&e&ki&4⁕&e&ki&7╾ &f╼&6★&3&ki&e☫ &b&lFast fingers&e ☫&3&ki&6★&7╾ &7╼&e&ki&4⁕&e&ki&7╾'
+    - '[message] &b&lTAGS &6⇒ &fYou have successfully equipped the tag: &7╼&e&ki&4⁕&e&ki&7╾ &f╼&6★&3&ki&e☫ &b&lFast fingers&e ☫&3&ki&6★&7╾ &7╼&e&ki&4⁕&e&ki&7╾'
+  'Buycraft3nodisponible':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmJiZGJlMWE0MTU3YzRjYTVjNjg2NmY4NzUzMzE3NGM0OTViYWM3ODkwNTlkNGRjNGE5MGQwYzQyODBiMjM3NSJ9fX0=
+    slot: 34
+    priority: 2
+    display_name: '&7╼&e&ki&4⁕&e&ki&7╾ &f╼&6★&3&ki&e☫ &b&lFast fingers&e ☫&3&ki&6★&7╾ &7╼&e&ki&4⁕&e&ki&7╾'
+    lore:
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Shop in &dstore.server.com'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'    

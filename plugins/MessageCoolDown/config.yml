@@ -1,0 +1,19 @@
+#MessageCoolDown by Royendero
+#
+#Variables: <time> timeleft.
+#Variables: <player> player wrote something
+#
+#message: it is the message
+message:
+  - '&a&m-----------------------------------------------------'
+  - '                &c&l(!) &7Please wait &a<time> &7seconds'
+  - '                       &7To write again'
+  - '              &b&o(Shop &a&oVIP &b&oto remove this message)'
+  - '&a&m-----------------------------------------------------'
+#  -'You can add more lines!'
+#cooldown, time in seconds to rewrite
+cooldown: 3
+#reload, here do not use variables
+reload: '&aPlugin reloaded successfully!'
+#permission, here do not use variables
+permission: '&cYou dont have permission!'

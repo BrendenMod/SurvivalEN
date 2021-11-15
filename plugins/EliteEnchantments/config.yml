@@ -1,0 +1,78 @@
+Mechanics:
+  factions: true
+  slots: 3 # Set the max amount of enchantment slots an item has
+  lore-line: 0 # Set the line enchants are appended to, do not edit this if you do not know what it is
+  random-int: false # Use ThreadLocalRandom to generate percentage instead of Math#random
+  # ThreadLocalRandom will mean everything is out of 100
+  dupe-command: false
+  dupe-blacklist:
+    - 'HEROIC'
+    - 'MASTERY'
+  switch-armor: true # Enable the ability to switch your armor with the one in your hand using right click
+  # Before you disable this message, make sure you have executed the commands!
+  disable-worldguard-message: false
+
+Potion-Message: true # Should it send a message when passive potion enchants are applied?
+
+# This is the enchanter which is a GUI where players can purchase enchantment books for exp
+Enchanter:
+  enabled: false
+  name: "Enchanter"
+  rows: 1
+  economy: "EXP"
+  slots:
+    2:
+      material: "GRAY_STAINED_GLASS_PANE"
+      data: 8
+      name: "&f&lSimple Enchantment &7(Right Click)"
+      lore:
+        - '&7Click to purchase a &fSimple'
+        - '&7enchantment book'
+        - ''
+        - '&b&lCOST &f400 EXP'
+      cost: 400
+      type: "SIMPLE"
+    3:
+      material: "LIME_STAINED_GLASS_PANE"
+      data: 5
+      name: "&a&lUnique Enchantment &7(Right Click)"
+      lore:
+        - '&7Click to purchase a &aUnique'
+        - '&7enchantment book'
+        - ''
+        - '&b&lCOST &f800 EXP'
+      cost: 800
+      type: "UNIQUE"
+    4:
+      material: "LIGHT_BLUE_STAINED_GLASS_PANE"
+      data: 3
+      name: "&b&lElite Enchantment &7(Right Click)"
+      lore:
+        - '&7Click to purchase a &bElite'
+        - '&7enchantment book'
+        - ''
+        - '&b&lCOST &f2,500 EXP'
+      cost: 2500
+      type: "ELITE"
+    5:
+      material: "YELLOW_STAINED_GLASS_PANE"
+      data: 4
+      name: "&e&lUltimate Enchantment &7(Right Click)"
+      lore:
+        - '&7Click to purchase a &eUltimate'
+        - '&7enchantment book'
+        - ''
+        - '&b&lCOST &f5,000 EXP'
+      cost: 5000
+      type: "ULTIMATE"
+    6:
+      material: "ORANGE_STAINED_GLASS_PANE"
+      data: 1
+      name: "&6&lLegendary Enchantment &7(Right Click)"
+      lore:
+        - '&7Click to purchase a &6Legendary'
+        - '&7enchantment book'
+        - ''
+        - '&b&lCOST &f25,000 EXP'
+      cost: 25000
+      type: "LEGENDARY"

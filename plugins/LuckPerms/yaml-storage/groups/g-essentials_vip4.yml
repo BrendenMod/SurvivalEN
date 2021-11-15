@@ -1,0 +1,17 @@
+name: g-essentials_vip4
+permissions:
+- essentials.clearinventory
+- essentials.condense
+- essentials.disposal
+- essentials.keepxp
+- essentials.kits.Vip1:
+    value: false
+- essentials.kits.Vip2:
+    value: false
+- essentials.kits.Vip3:
+    value: false
+- essentials.kits.Vip4
+- essentials.lightning
+- essentials.sethome.multiple
+- essentials.sethome.multiple.vip4
+- essentials.thunder

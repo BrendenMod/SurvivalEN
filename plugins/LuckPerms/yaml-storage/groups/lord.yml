@@ -1,0 +1,25 @@
+name: lord
+permissions:
+- essentials.kits.Craftsman:
+    value: false
+- essentials.kits.Default:
+    value: false
+- essentials.kits.Farmer:
+    value: false
+- essentials.kits.Foreman:
+    value: false
+- essentials.kits.Noble:
+    value: false
+- essentials.kits.Señor
+- essentials.kits.Squire:
+    value: false
+- ezranks.rank.Señor
+- jobs.max.1
+parents:
+- g-bukkit_default
+- g-essentials_default
+- g-groupmanager_default
+- gentleman
+prefixes:
+- '&f':
+    priority: 19

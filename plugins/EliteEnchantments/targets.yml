@@ -1,0 +1,140 @@
+# Please do not edit this if you do not understand what you are doing
+# This file can be used to create your own enchantment 'applies'
+# or edit the current ones to change what qualifies
+#
+# ALL is required even if you don't use it for any enchantments
+# Certain features also require ARMOR, SWORDS and WEAPON as they are
+# Hardcoded into the plugin as requirements; so please try keep these targets
+#
+# The 'parents' section allows you to get all materials from another target type
+################################################################################
+Targets:
+  HELMET:
+    display: "Helmet"
+    materials:
+      - 'NETHERITE_HELMET'
+      - 'DIAMOND_HELMET'
+      - 'IRON_HELMET'
+      - 'GOLD_HELMET'
+      - 'CHAINMAIL_HELMET'
+      - 'LEATHER_HELMET'
+  CHESTPLATE:
+    display: "Chestplate"
+    materials:
+      - 'NETHERITE_CHESTPLATE'
+      - 'DIAMOND_CHESTPLATE'
+      - 'IRON_CHESTPLATE'
+      - 'GOLD_CHESTPLATE'
+      - 'CHAINMAIL_CHESTPLATE'
+      - 'LEATHER_CHESTPLATE'
+  LEGGINGS:
+    display: "Leggings"
+    materials:
+      - 'NETHERITE_LEGGINGS'
+      - 'DIAMOND_LEGGINGS'
+      - 'IRON_LEGGINGS'
+      - 'GOLD_LEGGINGS'
+      - 'CHAINMAIL_LEGGINGS'
+      - 'LEATHER_LEGGINGS'
+  BOOTS:
+    display: "Boots"
+    materials:
+      - 'NETHERITE_BOOTS'
+      - 'DIAMOND_BOOTS'
+      - 'IRON_BOOTS'
+      - 'GOLD_BOOTS'
+      - 'CHAINMAIL_BOOTS'
+      - 'LEATHER_BOOTS'
+  BOOT:
+    display: "Boots"
+    materials: []
+    parents:
+      - 'BOOTS'
+  SWORDS:
+    display: "Swords"
+    materials:
+      - 'NETHERITE_SWORD'
+      - 'DIAMOND_SWORD'
+      - 'IRON_SWORD'
+      - 'GOLD_SWORD'
+      - 'STONE_SWORD'
+      - 'WOODEN_SWORD'
+  SWORD:
+    display: "Swords"
+    materials: []
+    parents:
+      - 'SWORDS'
+  AXE:
+    display: "Axe"
+    materials:
+      - 'NETHERITE_AXE'
+      - 'DIAMOND_AXE'
+      - 'IRON_AXE'
+      - 'GOLD_AXE'
+      - 'STONE_AXE'
+      - 'WOODEN_AXE'
+  PICKAXE:
+    display: "Pickaxe"
+    materials:
+      - 'NETHERITE_PICKAXE'
+      - 'DIAMOND_PICKAXE'
+      - 'IRON_PICKAXE'
+      - 'GOLD_PICKAXE'
+      - 'STONE_PICKAXE'
+      - 'WOODEN_PICKAXE'
+  BOW:
+    display: "Bow"
+    materials:
+      - 'BOW'
+  ARMOR:
+    display: "Armor"
+    materials: []
+    parents:
+      - 'HELMET'
+      - 'CHESTPLATE'
+      - 'LEGGINGS'
+      - 'BOOTS'
+  WEAPON:
+    display: "Weapon"
+    materials: []
+    parents:
+      - 'SWORDS'
+      - 'AXE'
+  TOOL:
+    display: "Tool"
+    materials:
+      - 'NETHERITE_SHOVEL'
+      - 'DIAMOND_SHOVEL'
+      - 'IRON_SHOVEL'
+      - 'GOLD_SHOVEL'
+      - 'STONE_SHOVEL'
+      - 'WOODEN_SHOVEL'
+      - 'NETHERITE_HOE'
+      - 'DIAMOND_HOE'
+      - 'IRON_HOE'
+      - 'GOLD_HOE'
+      - 'STONE_HOE'
+      - 'WOODEN_HOE'
+    parents:
+      - 'AXE'
+      - 'PICKAXE'
+  TOOLS:
+    display: "Tool"
+    materials: []
+    parents:
+      - 'TOOL'
+      - 'AXE'
+      - 'PICKAXE'
+  ALL:
+    display: "All"
+    materials: []
+    parents:
+      - 'HELMET'
+      - 'CHESTPLATE'
+      - 'LEGGINGS'
+      - 'BOOTS'
+      - 'SWORDS'
+      - 'AXE'
+      - 'PICKAXE'
+      - 'BOW'
+      - 'TOOL'

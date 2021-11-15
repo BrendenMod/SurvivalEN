@@ -1,0 +1,316 @@
+menu_title: '&0Warps Menu'
+open_command:
+- warp
+- warps
+size: 54
+items:
+  'Decoration':
+    display_name: '&7'
+    material: gray_stained_glass_pane
+    slots:
+    - 11
+    - 13
+    - 15
+    - 20
+    - 22
+    - 24
+    - 29
+    - 31
+    - 33
+    - 37
+    - 38
+    - 39
+    - 40
+    - 41
+    - 42
+    - 43
+  'Decoration-1':
+    display_name: '&7'
+    material: black_stained_glass_pane
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 17
+    - 18
+    - 26
+    - 27
+    - 35
+    - 36
+    - 44
+    - 45
+    - 46
+    - 48
+    - 50
+    - 52
+    - 53
+  'Bank':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY0YTkxNDMzZDY2YmZjNmVmMWM5YWM0ZTM3MWE4ODZhMWM0NjJjOTc1ZmY4MTI3NzYxZDcwM2UwYTNlNzMwNiJ9fX0==
+    slot: 47
+    display_name: '&bBank'
+    lore:
+    - ''
+    - '&7Save the money here for'
+    - '&7avoid losing it when you die!'
+    - ''
+    - '&8&a&lVIPS &8can use &e(/bank)'
+    - ''
+    - '&eClick to teleport!'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[player] warp Bank'    
+    right_click_commands:
+    - '[close]'
+    - '[player] warp Bank'    
+  'Menu':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmZhMTFmZGQ3ZTZkNGQyMjIxZmU3ZTQ4OTQyZTJiMzdiMTU3MmY2M2UxNGI4MDMwOTk2Zjg2MWE2ODJjMzA0YSJ9fX0=
+    slot: 49
+    display_name: '&bMenú'
+    lore:
+    - ''
+    - '&7Look at the Menu'
+    - '&7server, you can find several'
+    - '&7utilities within this Menu!'
+    - ''
+    - '&eClick to go menu!'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[openguimenu] menu<delay=10>'    
+    right_click_commands:
+    - '[close]'
+    - '[openguimenu] menu<delay=10>'
+  Protections:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTFlZDlhYmY1MWZlNGVhODRjZmNiMjcyOTdmMWJjNTRjZDM4MmVkZjg1ZTdiZDZlNzVlY2NhMmI4MDY2MTEifX19
+    slot: 51
+    display_name: '&bProtections Store'
+    lore:
+    - ''
+    - '&7Acquire protection blocks for'
+    - '&7avoid problems at home, remember'
+    - '&7that you can add people to your protection!'
+    - ''
+    - '&eClick to open this menu!'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[openguimenu] Protes'
+    right_click_commands:
+    - '[close]'
+    - '[openguimenu] Protes'   
+  crates:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjA4NmE5NTBkMGEzMDNmNDhhYWIzYTVmMmY2YTQwMzNlODBiYWZjYWY3Y2I1YmRhMTM5N2I4M2U1MjlmNjNiNSJ9fX0==
+    slot: 10
+    display_name: '&bCrates'
+    lore:
+    - ''
+    - '&7Open the keys you have here'
+    - '&7remember that you can buy keys'
+    - '&7in the store: &dshop.server.com'
+    - ''
+    - '&eClick to teleport!'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[player] warp crates'
+    right_click_commands:
+    - '[close]'
+    - '[player] warp crates'  
+  Upgrades:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWI0MjVhYTNkOTQ2MThhODdkYWM5Yzk0ZjM3N2FmNmNhNDk4NGMwNzU3OTY3NGZhZDkxN2Y2MDJiN2JmMjM1In19fQ==
+    priority: 1
+    slot: 12
+    display_name: '&bUpgrades'
+    lore:
+    - ''
+    - '&7Get various upgrades in'
+    - '&7the server, you will help'
+    - '&7to increase the possibilities!'
+    - ''
+    - '&eClick to teleport!'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[player] warp upgrades'
+    right_click_commands:
+    - '[close]'
+    - '[player] warp upgrades'
+  'Farms':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2FhNTk2NmExNDcyNDQ1MDRjYzU2ZWY2ZWZkMmQyZjQ0NzM4YjhmMDNkOTNhNjE3NjZhZjNmYzQ0ODdmOTgwYiJ9fX0==
+    priority: 1
+    slot: 14
+    display_name: '&bFarms'
+    lore:
+    - ''
+    - '&7Get food in this area'
+    - '&7and sell them to the various players'
+    - '&7to get money'
+    - ''
+    - '&eClick to teleport!'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[player] warp farms'
+    right_click_commands:
+    - '[close]'
+    - '[player] warp farms'
+  'dungeons':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjQyMWIzYTJkNjhhNzkwNTNjOGJlZTNjM2JiM2Y2NjVkNTE0NjlmYzFlM2QzNWE4YzVlYTJmMWI3MzMzNyJ9fX0==
+    priority: 1
+    slot: 16
+    display_name: '&bDungeons'
+    lore:
+    - ''
+    - '&7Fight hostile entities here'
+    - '&7they are modified so they are quite'
+    - '&7strong, be very careful!'
+    - ''
+    - '&eClick to teleport!'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[player] warp dungeons'
+    right_click_commands:
+    - '[close]'
+    - '[player] warp dungeons'
+  'enchantments':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODJhZTE5MTA3MDg2ZGQzMTRkYWYzMWQ4NjYxOGU1MTk0OGE2ZTNlMjBkOTZkY2ExN2QyMWIyNWQ0MmQyYjI0In19fQ===
+    priority: 1
+    slot: 19
+    display_name: '&bEnchantments'
+    lore:
+    - ''
+    - '&7Get epic enchantments in'
+    - '&7this place, you will have to trade some'
+    - '&7items to get enchantments!'
+    - ''
+    - '&8Enchantments buy in: &dshop.server.com'
+    - ''
+    - '&eClick to teleport!'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[player] warp enchantments'
+    right_click_commands:
+    - '[close]'
+    - '[player] warp enchantments'
+  'rtp':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDM4Y2YzZjhlNTRhZmMzYjNmOTFkMjBhNDlmMzI0ZGNhMTQ4NjAwN2ZlNTQ1Mzk5MDU1NTI0YzE3OTQxZjRkYyJ9fX0==
+    priority: 1
+    slot: 21
+    display_name: '&bRandom teleport'
+    lore:
+    - ''
+    - '&7In this area you can teleport'
+    - '&7anywhere in the survival world'
+    - '&7beware of the threats you will encounter'
+    - ''
+    - '&eClick to teleport!'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[player] warp rtp'
+    right_click_commands:
+    - '[close]'
+    - '[player] warp rtp'
+  'rewards':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjUwOWRlOTgxYTc4NmE5ODBiMGJjODcxYWQ4NTViMjBjZTBiNzAxYjdhMmRmMTRjZmZmNmIzYTZlNDUyOTcyMyJ9fX0==
+    priority: 1
+    slot: 23
+    display_name: '&bRewards'
+    lore:
+    - ''
+    - '&7Redeem various rewards at'
+    - '&7this place, this way you can'
+    - '&7get better items!'
+    - ''
+    - '&8Rewards &a&lVIPS' 
+    - ''
+    - '&eClick to teleport!'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[player] warp daily'
+    right_click_commands:
+    - '[close]'
+    - '[player] warp daily' 
+  'Trades':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmUwNDkyMWExZjJmODVjNGNkNTBjNjhmNDcxNThiYzI2NTgyZjc4MWJkZGNiMTA2NDQ3NzM3YmE2YTE1NGZjNCJ9fX0=
+    priority: 1
+    slot: 25
+    display_name: '&bTrades'
+    lore:
+    - ''
+    - '&7Trade the items you get'
+    - '&7in the dungeons of the server!'
+    - ''
+    - '&eClick to teleport!'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[player] warp Trades'
+    right_click_commands:
+    - '[close]'
+    - '[player] warp Trades'    
+  'mine':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDM1NzQ0NGFkZTY0ZWM2Y2VhNjQ1ZWM1N2U3NzU4NjRkNjdjNWZhNjIyOTk3ODZlMDM3OTkzMTdlZTRhZCJ9fX0=
+    priority: 1
+    slot: 28
+    display_name: '&bMine'
+    lore:
+    - ''
+    - '&7Get various minerals in this'
+    - '&7place, remember to bring a good pickaxe!'
+    - ''
+    - '&eClick to teleport!'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[player] warp mine'
+    right_click_commands:
+    - '[close]'
+    - '[player] warp mine'   
+  'minepvp':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTJiMzFkOWJlZjBmNTMxM2U3NGE3NzNkZWE1ZGQxOTg3NjVjM2FmOTVlNGUxYzNjZDhkM2U4YTk1YjQ3YTU5ZCJ9fX0==
+    priority: 1
+    slot: 30
+    display_name: '&bMine &c(PvP)'
+    lore:
+    - ''
+    - '&7It is time to fight, equip yourself'
+    - '&7and fight for better minerals!'
+    - ''
+    - '&eClick to teleport!'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[player] warp minepvp'
+    right_click_commands:
+    - '[close]'
+    - '[player] warp minepvp'   
+  'shops':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjgwOWQyZTY5NjEwZjFlNmI3NWZlMGQ0NTk4ZTQ0MWU1NjAzMjVkMmQ1MmQ5N2NmNjY4NTljNDRmYTNkOGE3OSJ9fX0===
+    priority: 1
+    slot: 32
+    display_name: '&bShops Menu'
+    lore:
+    - ''
+    - '&7Open the shops menu and'
+    - '&7acquire various objects!'
+    - ''
+    - '&eClick to teleport!'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[openguimenu] shop'
+    right_click_commands:
+    - '[close]'
+    - '[openguimenu] shop'   

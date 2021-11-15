@@ -1,0 +1,13 @@
+Alejandrita:
+  Id: GLOWSTONE_DUST
+  Data: 0
+  Display: '&e&lAlexandrite'
+  Lore:
+  - '&8══════&c❋&8══════'
+  - '&e➤ &f&oRarity:&r &9&oRare'
+  - '&8═════════════'
+  - '&e➤ &f&oDescription:'
+  - '&e➤ &c&oStone worth'
+  - '&c&oexchange in store'
+  - '&c&oof spawn dungeons.'
+  - '&8══════&c❋&8══════'

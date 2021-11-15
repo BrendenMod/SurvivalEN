@@ -1,0 +1,14 @@
+jade:
+  Id: LIME_DYE
+  Display: '&a&lJade'
+  Data: 0
+  Lore:
+  - '&8══════&c❋&8══════'
+  - '&e➤ &f&oRarity:&r &5&oEpic'
+  - '&e➤ &f&oType: &a&oAudacity'
+  - '&8═════════════'
+  - '&e➤ &f&oDescription:'
+  - '&e➤ &c&oStone worth'
+  - '&c&oexchange in store'
+  - '&c&oof spawn dungeons.'
+  - '&8══════&c❋&8══════'

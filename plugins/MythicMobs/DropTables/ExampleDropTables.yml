@@ -1,0 +1,102 @@
+# For more information, check out the plugin manual or join us on Discord:
+# http://www.mythicmobs.net
+#
+PiedrasNUV:
+  TotalItems: 1
+  Drops:
+  - AIR 1 0.79
+  - Aguamarina 1 0.05
+  - Amatista 1 0.05
+  - Alejandrita 1 0.04
+  - Citrino 1 0.03
+  - Aventurina 1 0.1
+PiedrasNUV2:
+  TotalItems: 1
+  Drops:
+  - AIR 1 0.72
+  - Aguamarina 1 0.04
+  - Amatista 1 0.04
+  - Alejandrita 1 0.04
+  - Citrino 1 0.04
+  - Aventurina 1 0.04
+  - Citrino 1 0.04
+  - Hematita 1 0.1
+PiedrasNUV3:
+  TotalItems: 2
+  Drops:
+  - AIR 1 0.62
+  - Aguamarina 1 0.05
+  - Amatista 1 0.05
+  - Alejandrita 1 0.05
+  - Citrino 1 0.05
+  - Aventurina 1 0.04
+  - Citrino 1 0.04
+  - Hematita 1 0.1
+PiedrasNUV4:
+  TotalItems: 2
+  Drops:
+  - Aguamarina 1 0.25
+  - Amatista 1 0.25
+  - Alejandrita 1 0.15
+  - Citrino 1 0.15
+  - Aventurina 1 0.15
+  - Hematita 1 0.2
+PiedrasNUV5:
+  TotalItems: 2
+  Drops:
+  - Cuarzo 1 0.15
+  - Andesina 1 0.15
+  - AIR 0.70
+PiedrasNUV6:
+  TotalItems: 3
+  Drops:
+  - Calcita 3 0.50
+  - Epidota 3 0.50
+Piedras:
+  TotalItems: 1
+  Drops:
+  - AIR 1 0.79
+  - ambar 1 0.05
+  - opalo 1 0.05
+  - rubi 1 0.04
+  - onix 1 0.03
+  - topacio 1 0.03
+Piedras2:
+  TotalItems: 1
+  Drops:
+  - AIR 1 0.72
+  - ambar 1 0.04
+  - opalo 1 0.04
+  - rubi 1 0.04
+  - onix 1 0.04
+  - topacio 1 0.04
+  - zafiro 1 0.04
+  - cianita 1 0.04
+Piedras3:
+  TotalItems: 2
+  Drops:
+  - AIR 1 0.65
+  - ambar 1 0.05
+  - opalo 1 0.05
+  - rubi 1 0.05
+  - onix 1 0.05
+  - topacio 1 0.03
+  - zafiro 1 0.03
+  - cianita 1 0.03
+  - azurita 1 0.02
+  - jade 1 0.02
+  - malaquita 1 0.02
+Piedras4:
+  TotalItems: 2
+  Drops:
+  - ambar 1 0.15
+  - opalo 1 0.15
+  - rubi 1 0.15
+  - onix 1 0.15
+  - topacio 1 0.10
+  - zafiro 1 0.10
+  - cianita 1 0.10
+  - azurita 1 0.04
+  - jade 1 0.03
+  - malaquita 1 0.03
+  

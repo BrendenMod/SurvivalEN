@@ -1,0 +1,49 @@
+name: vip5
+permissions:
+- headdb.allow.buy.*
+- headdb.category.*
+- headdb.free.*:
+    value: false
+- MyPet.leash.Enderman
+- MyPet.leash.Ghast
+- MyPet.leash.Iron_Golem
+- MyPet.leash.PolarBear
+- MyPet.leash.Snowman
+- color.VIP5
+- defensiveturrets.limit.5:
+    value: false
+- defensiveturrets.limit.6
+- djp.VIP5
+- emotes.rip
+- essentials.back.ondeath
+- essentials.fly
+- essentials.keepxp
+- essentials.kits.VIP1:
+    value: false
+- essentials.kits.VIP2:
+    value: false
+- essentials.kits.VIP3:
+    value: false
+- essentials.kits.VIP4:
+    value: false
+- essentials.kits.VIP5
+- ezcolors.color.red
+- headdb.allow.buy.online_players:
+    value: false
+- headdb.open
+- libsdisguises.disguise.cave_spider
+- mypet.petstorage.limit.30
+- preciousstones.limit8:
+    value: false
+- preciousstones.limit9
+- reward.VIP4:
+    value: false
+- reward.VIP5
+parents:
+- g-bukkit_default
+- g-essentials_vip5
+- g-groupmanager_default
+- vip4
+prefixes:
+- '&4[&e⌖&6&ki&c&lVIP&6&ki&e⌖&4] &f':
+    priority: 39

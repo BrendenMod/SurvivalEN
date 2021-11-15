@@ -1,0 +1,65 @@
+name: helper
+permissions:
+- adminchat.channel.adminchat
+- adminnotes.admin
+- adminnotes.mod
+- chatcolor.aqua
+- chatcolor.yellow:
+    value: false
+- chatformat.VIP
+- dailybonus.exempt:
+    value: false
+- djp.VIP1:
+    value: false
+- djp.VIP4:
+    value: false
+- djp.VIP5:
+    value: false
+- djp.VIP5+:
+    value: false
+- djp.alcalde:
+    value: false
+- djp.glifo:
+    value: false
+- djp.pegaso:
+    value: false
+- essentials.broadcast
+- essentials.jail
+- essentials.jail.exempt
+- essentials.jails
+- essentials.mute
+- essentials.togglejail.offline
+- ezchat.default:
+    value: false
+- ezchat.vip
+- litebans.checkban
+- litebans.checkmute
+- litebans.dupeip
+- litebans.group.helper
+- litebans.history
+- litebans.mute
+- litebans.notify
+- litebans.tempmute
+- litebans.unmute
+- litebans.warn
+- mcmmo.chat.adminchat
+- moderation.punish
+- multicommand.list
+- multicommand.use.discord
+- multicommand.use.familiares
+- multicommand.use.libre
+- multicommand.use.mapa
+- multicommand.use.ocu
+- multicommand.use.sal
+- multicommand.use.tienda
+- nocheatplus.shortcut.bypass
+- staffnotes.add
+- staffnotes.show
+parents:
+- default
+- g-bukkit_default
+- g-essentials_moderador
+- g-groupmanager_default
+prefixes:
+- '&b&lHELPER &f':
+    priority: 50

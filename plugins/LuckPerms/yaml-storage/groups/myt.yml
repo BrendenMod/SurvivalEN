@@ -1,0 +1,9 @@
+name: myt
+parents:
+- g-bukkit_default
+- g-essentials_vip1
+- g-groupmanager_default
+- vip1
+prefixes:
+- '&c&lM&7&lYT &f':
+    priority: 41

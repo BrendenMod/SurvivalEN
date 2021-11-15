@@ -1,0 +1,1459 @@
+menu_title: '&0Kits &6|&7 &0RankUP'
+open_command:
+- kitusuario
+size: 45
+items:
+  'Glasses':
+    material: black_stained_glass_pane
+    display_name: '&e'
+    slots:
+    - 1
+    - 3 
+    - 5
+    - 7
+    - 9
+    - 11
+    - 17
+    - 27
+    - 29
+    - 43
+    - 39
+    - 35
+    - 37
+    - 41
+  'Glasses2':
+    material: gray_stained_glass_pane
+    display_name: '&e'
+    slots:
+    - 0
+    - 2
+    - 4
+    - 6
+    - 10
+    - 8
+    - 18
+    - 26
+    - 20
+    - 28
+    - 40
+    - 36
+    - 38
+    - 42
+    - 44
+  'Glasses3':
+    material: white_stained_glass_pane
+    display_name: '&e'
+    slots:
+    - 32
+    - 33
+    - 34
+    - 35
+  'lista':
+    material: BOOK
+    slot: 19
+    display_name: '&e&lKit List'
+    lore:
+    - '&c⋘&c&m────&r &e∗ ⋅◈⋅ ∗ &c&m────&r&c⋙'
+    - '&6» &bKit List'
+    - ''
+    - '&fHere you can find'
+    - '&fAll rankup kits'
+    - '&fShop Vip rank in: &dstore.server.com'
+    - '&c⋘&c&m────&r &e∗ ⋅◈⋅ ∗ &c&m────&r&c⋙'
+    - ''
+    - '&e» &cClick to return'
+    left_click_commands:
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[player] kits'
+    right_click_commands:
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[player] kits'
+  'Default-1':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTIxOTI4ZWE2N2QzYThiOTdkMjEyNzU4ZjE1Y2NjYWMxMDI0Mjk1YjE4NWIzMTkyNjQ4NDRmNGM1ZTFlNjFlIn19fQ==
+    slot: 12
+    priority: 1
+    view_requirement:
+      requirements:
+        name:
+          type: string equals
+          input: '%javascript_cooldown_Kit-Default_86400%'
+          output: 0s
+        name2:
+          type: has permission
+          permission: essentials.kits.Default
+    display_name: '&7&lDefault &7|&f &nKit'
+    lore:
+    - '&f&lCONTENT:'
+    - '&6» &f&lSword'
+    - '    &e⭑&7 Stone sword'
+    - '&6» &f&lArmor'
+    - '    &e⭑&7 Chainmail Helmet'
+    - '    &e⭑&7 Leather Chestplate'
+    - '    &e⭑&7 Leather Leggings'
+    - '    &e⭑&7 Chainmail Boots'
+    - '&6» &f&lTools'
+    - '    &e⭑&7 Stone hoe'
+    - '    &e⭑&7 Wooden pickaxe'
+    - '    &e⭑&7 Shovel axe'
+    - '    &e⭑&7 Stone axe'
+    - '&6» &f&lOthers'
+    - '    &7x1 &6|&7 Bow'
+    - '    &7x32 &6|&7 Arrows'
+    - '    &7x16 &6|&7 Bread'
+    - ''
+    - '&6» &fStatus: &a&lAVAILABLE ✔'
+    - ''
+    - '&6» &aRight click to get'
+    left_click_commands:
+    - '[player] kit Default'
+    - '[console] papi parse %player_name% %javascript_cooldown_Kit-Default_start'
+    - '[console] tm msg %player_name% &a♚ &4&l&nCONGRATULATIONS &a♚\n&e⋆ &c&nYou have successfully received the KIT &e⋆'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+    right_click_commands:
+    - '[player] kit Default'
+    - '[console] papi parse %player_name% %javascript_cooldown_Kit-Default_start'
+    - '[console] tm msg %player_name% &a♚ &4&l&nCONGRATULATIONS &a♚\n&e⋆ &c&nYou have successfully received the KIT &e⋆'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+  'Default-2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjVlZjY4ZGNiZDU4MjM0YmE3YWVlMmFkOTFjYTZmYTdjZTIzZjlhMzIzNDViNDhkNmU1ZjViODZhNjhiNWIifX19
+    priority: 2
+    update: true
+    slot: 12
+    view_requirement:
+      requirements:
+        name2:
+          type: has permission
+          permission: essentials.kits.Default
+    display_name: '&7&lDefault &7|&f &nKit'
+    lore:
+    - '&f&lCONTENT:'
+    - '&6» &f&lSword'
+    - '    &e⭑&7 Stone sword'
+    - '&6» &f&lArmor'
+    - '    &e⭑&7 Chainmail Helmet'
+    - '    &e⭑&7 Leather Chestplate'
+    - '    &e⭑&7 Leather Leggings'
+    - '    &e⭑&7 Chainmail Boots'
+    - '&6» &f&lTools'
+    - '    &e⭑&7 Stone hoe'
+    - '    &e⭑&7 Wooden pickaxe'
+    - '    &e⭑&7 Shovel axe'
+    - '    &e⭑&7 Stone axe'
+    - '&6» &f&lOthers'
+    - '    &7x1 &6|&7 Bow'
+    - '    &7x32 &6|&7 Arrows'
+    - '    &7x16 &6|&7 Bread'
+    - ''
+    - '&4&l↠ &c&lAVAILABLE IN&r&c: &a&l%javascript_cooldown_Kit-Default_86400%'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+  'Default-3':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+    slot: 12
+    priority: 3
+    display_name: '&7&lDefault &7|&f &nKit'
+    lore:
+    - '&f&lCONTENT:'
+    - '&6» &f&lSword'
+    - '    &e⭑&7 Stone sword'
+    - '&6» &f&lArmor'
+    - '    &e⭑&7 Chainmail Helmet'
+    - '    &e⭑&7 Leather Chestplate'
+    - '    &e⭑&7 Leather Leggings'
+    - '    &e⭑&7 Chainmail Boots'
+    - '&6» &f&lTools'
+    - '    &e⭑&7 Stone hoe'
+    - '    &e⭑&7 Wooden pickaxe'
+    - '    &e⭑&7 Shovel axe'
+    - '    &e⭑&7 Stone axe'
+    - '&6» &f&lOthers'
+    - '    &7x1 &6|&7 Bow'
+    - '    &7x32 &6|&7 Arrows'
+    - '    &7x16 &6|&7 Bread'
+    - ''
+    - '&c&l» &cYou do not have enough range: &4&l✘'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+  'Farmer-1':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTIxOTI4ZWE2N2QzYThiOTdkMjEyNzU4ZjE1Y2NjYWMxMDI0Mjk1YjE4NWIzMTkyNjQ4NDRmNGM1ZTFlNjFlIn19fQ==
+    slot: 13
+    priority: 1
+    view_requirement:
+      requirements:
+        name:
+          type: string equals
+          input: '%javascript_cooldown_Kit-Farmer_86400%'
+          output: 0s
+        name2:
+          type: has permission
+          permission: essentials.kits.Farmer
+    display_name: '&e&lFarmer &6|&f &nKit'
+    lore:
+    - '&f&lCONTENT:'
+    - '&6» &f&lSword'
+    - '    &e⭑&7 Stone sword'
+    - '&6» &f&lArmor'
+    - '    &e⭑&7 Chainmail Helmet'
+    - '    &e⭑&7 Leather Chestplate'
+    - '    &e⭑&7 Leather Leggings'
+    - '    &e⭑&7 Chainmail Boots'
+    - '&6» &f&lTools'
+    - '    &e⭑&7 Stone hoe'
+    - '    &e⭑&7 Wooden pickaxe'
+    - '    &e⭑&7 Shovel axe'
+    - '    &e⭑&7 Stone axe'
+    - '&6» &f&lOthers'
+    - '    &7x1 &6|&7 Bow'
+    - '    &7x32 &6|&7 Arrows'
+    - '    &7x16 &6|&7 Bread'
+    - ''
+    - '&6» &fStatus: &a&lAVAILABLE ✔'
+    - ''
+    - '&6» &aRight click to get'
+    left_click_commands:
+    - '[console] papi parse %player_name% %javascript_cooldown_Kit-Farmer_start%'
+    - '[player] kit Farmer'
+    - '[console] tm msg %player_name% &a♚ &4&l&nCONGRATULATIONS &a♚\n&e⋆ &c&nYou have successfully received the KIT &e⋆'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+    right_click_commands:
+    - '[console] papi parse %player_name% %javascript_cooldown_Kit-Farmer_start'
+    - '[player] kit Farmer'
+    - '[console] tm msg %player_name% &a♚ &4&l&nCONGRATULATIONS &a♚\n&e⋆ &c&nYou have successfully received the KIT &e⋆'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+  'Farmer-2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjVlZjY4ZGNiZDU4MjM0YmE3YWVlMmFkOTFjYTZmYTdjZTIzZjlhMzIzNDViNDhkNmU1ZjViODZhNjhiNWIifX19
+    priority: 2
+    update: true
+    slot: 13
+    view_requirement:
+      requirements:
+        name2:
+          type: has permission
+          permission: essentials.kits.Farmer
+    display_name: '&e&lFarmer &6|&f &nKit'
+    lore:
+    - '&f&lCONTENT:'
+    - '&6» &f&lSword'
+    - '    &e⭑&7 Stone sword'
+    - '&6» &f&lArmor'
+    - '    &e⭑&7 Chainmail Helmet'
+    - '    &e⭑&7 Leather Chestplate'
+    - '    &e⭑&7 Leather Leggings'
+    - '    &e⭑&7 Chainmail Boots'
+    - '&6» &f&lTools'
+    - '    &e⭑&7 Stone hoe'
+    - '    &e⭑&7 Wooden pickaxe'
+    - '    &e⭑&7 Shovel axe'
+    - '    &e⭑&7 Stone axe'
+    - '&6» &f&lOthers'
+    - '    &7x1 &6|&7 Bow'
+    - '    &7x32 &6|&7 Arrows'
+    - '    &7x16 &6|&7 Bread'
+    - ''
+    - '&4&l↠ &c&lAVAILABLE IN&r&c: &a&l%javascript_cooldown_Kit-Farmer_86400%'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+  'Farmer-3':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+    slot: 13
+    priority: 3
+    display_name: '&e&lFarmer &6|&f &nKit'
+    lore:
+    - '&f&lCONTENT:'
+    - '&6» &f&lSword'
+    - '    &e⭑&7 Stone sword'
+    - '&6» &f&lArmor'
+    - '    &e⭑&7 Chainmail Helmet'
+    - '    &e⭑&7 Leather Chestplate'
+    - '    &e⭑&7 Leather Leggings'
+    - '    &e⭑&7 Chainmail Boots'
+    - '&6» &f&lTools'
+    - '    &e⭑&7 Stone hoe'
+    - '    &e⭑&7 Wooden pickaxe'
+    - '    &e⭑&7 Shovel axe'
+    - '    &e⭑&7 Stone axe'
+    - '&6» &f&lOthers'
+    - '    &7x1 &6|&7 Bow'
+    - '    &7x32 &6|&7 Arrows'
+    - '    &7x16 &6|&7 Bread'
+    - ''
+    - '&c&l» &cYou do not have enough range: &4&l✘'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+  'Craftsman-1':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTIxOTI4ZWE2N2QzYThiOTdkMjEyNzU4ZjE1Y2NjYWMxMDI0Mjk1YjE4NWIzMTkyNjQ4NDRmNGM1ZTFlNjFlIn19fQ==
+    slot: 14
+    priority: 1
+    view_requirement:
+      requirements:
+        name:
+          type: string equals
+          input: '%javascript_cooldown_Kit-Craftsman_86400%'
+          output: 0s
+        name2:
+          type: has permission
+          permission: essentials.kits.Craftsman
+    display_name: '&6&lCraftsman &6|&f &nKit'
+    lore:
+    - '&f&lCONTENT:'
+    - '&6» &f&lSword'
+    - '    &e⭑&7 Iron Sword'
+    - '&6» &f&lArmor'
+    - '    &e⭑&7 Iron Helmet'
+    - '    &e⭑&7 Chainmail Chestplate'
+    - '    &e⭑&7 Chainmail Leggings'
+    - '    &e⭑&7 Iron Boots'
+    - '&6» &f&lTools'
+    - '    &e⭑&7 Iron hoe'
+    - '    &e⭑&7 Iron pickaxe'
+    - '    &e⭑&7 Iron shovel'
+    - '    &e⭑&7 Iron axe'
+    - '&6» &f&lOthers'
+    - '    &7x1 &6|&7 Bow'
+    - '    &7x32 &6|&7 Arrows'
+    - '    &7x16 &6|&7 Bread'
+    - ''
+    - '&6» &fStatus: &a&lAVAILABLE ✔'
+    - ''
+    - '&6» &aRight click to get'
+    left_click_commands:
+    - '[console] papi parse %player_name% %javascript_cooldown_Kit-Craftsman_start%'
+    - '[player] kit Craftsman'
+    - '[console] tm msg %player_name% &a♚ &4&l&nCONGRATULATIONS &a♚\n&e⋆ &c&nYou have successfully received the KIT &e⋆'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+    right_click_commands:
+    - '[console] papi parse %player_name% %javascript_cooldown_Kit-Craftsman_start'
+    - '[player] kit Craftsman'
+    - '[console] tm msg %player_name% &a♚ &4&l&nCONGRATULATIONS &a♚\n&e⋆ &c&nYou have successfully received the KIT &e⋆'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+  'Craftsman-2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjVlZjY4ZGNiZDU4MjM0YmE3YWVlMmFkOTFjYTZmYTdjZTIzZjlhMzIzNDViNDhkNmU1ZjViODZhNjhiNWIifX19
+    priority: 2
+    update: true
+    slot: 14
+    view_requirement:
+      requirements:
+        name2:
+          type: has permission
+          permission: essentials.kits.Craftsman
+    display_name: '&6&lCraftsman &6|&f &nKit'
+    lore:
+    - '&f&lCONTENT:'
+    - '&6» &f&lSword'
+    - '    &e⭑&7 Iron Sword'
+    - '&6» &f&lArmor'
+    - '    &e⭑&7 Iron Helmet'
+    - '    &e⭑&7 Chainmail Chestplate'
+    - '    &e⭑&7 Chainmail Leggings'
+    - '    &e⭑&7 Iron Boots'
+    - '&6» &f&lTools'
+    - '    &e⭑&7 Iron hoe'
+    - '    &e⭑&7 Iron pickaxe'
+    - '    &e⭑&7 Iron shovel'
+    - '    &e⭑&7 Iron axe'
+    - '&6» &f&lOthers'
+    - '    &7x1 &6|&7 Bow'
+    - '    &7x32 &6|&7 Arrows'
+    - '    &7x16 &6|&7 Bread'
+    - ''
+    - '&4&l↠ &c&lAVAILABLE IN&r&c: &a&l%javascript_cooldown_Kit-Craftsman_86400%'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+  'Craftsman-3':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+    slot: 14
+    priority: 3
+    display_name: '&6&lCraftsman &6|&f &nKit'
+    lore:
+    - '&f&lCONTENT:'
+    - '&6» &f&lSword'
+    - '    &e⭑&7 Iron Sword'
+    - '&6» &f&lArmor'
+    - '    &e⭑&7 Iron Helmet'
+    - '    &e⭑&7 Chainmail Chestplate'
+    - '    &e⭑&7 Chainmail Leggings'
+    - '    &e⭑&7 Iron Boots'
+    - '&6» &f&lTools'
+    - '    &e⭑&7 Iron hoe'
+    - '    &e⭑&7 Iron pickaxe'
+    - '    &e⭑&7 Iron shovel'
+    - '    &e⭑&7 Iron axe'
+    - '&6» &f&lOthers'
+    - '    &7x1 &6|&7 Bow'
+    - '    &7x32 &6|&7 Arrows'
+    - '    &7x16 &6|&7 Bread'
+    - ''
+    - '&c&l» &cYou do not have enough range: &4&l✘'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+  'Foreman-1':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTIxOTI4ZWE2N2QzYThiOTdkMjEyNzU4ZjE1Y2NjYWMxMDI0Mjk1YjE4NWIzMTkyNjQ4NDRmNGM1ZTFlNjFlIn19fQ==
+    slot: 15
+    priority: 1
+    view_requirement:
+      requirements:
+        name:
+          type: string equals
+          input: '%javascript_cooldown_Kit-Foreman_86400%'
+          output: 0s
+        name2:
+          type: has permission
+          permission: essentials.kits.Foreman
+    display_name: '&a&lForeman &6|&f &nKit'
+    lore:
+    - '&f&lCONTENT:'
+    - '&6» &f&lSword'
+    - '    &e⭑&7 Iron Sword'
+    - '&6» &f&lArmor'
+    - '    &e⭑&7 Chainmail Helmet'
+    - '    &e⭑&7 Iron Chestplate'
+    - '    &e⭑&7 Iron Leggings'
+    - '    &e⭑&7 Chainmail Boots'
+    - '&6» &f&lTools'
+    - '    &e⭑&7 Iron hoe'
+    - '    &e⭑&7 Iron pickaxe'
+    - '    &e⭑&7 Iron shovel'
+    - '    &e⭑&7 Iron axe'
+    - '&6» &f&lOthers'
+    - '    &7x1 &6|&7 Bow'
+    - '    &7x48 &6|&7 Arrows'
+    - '    &7x16 &6|&7 Bread'
+    - ''
+    - '&6» &fStatus: &a&lAVAILABLE ✔'
+    - ''
+    - '&6» &aRight click to get'
+    left_click_commands:
+    - '[console] papi parse %player_name% %javascript_cooldown_Kit-Foreman_start%'
+    - '[player] kit Foreman'
+    - '[console] tm msg %player_name% &a♚ &4&l&nCONGRATULATIONS &a♚\n&e⋆ &c&nYou have successfully received the KIT &e⋆'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+    right_click_commands:
+    - '[console] papi parse %player_name% %javascript_cooldown_Kit-Foreman_start'
+    - '[player] kit Foreman'
+    - '[console] tm msg %player_name% &a♚ &4&l&nCONGRATULATIONS &a♚\n&e⋆ &c&nYou have successfully received the KIT &e⋆'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+  'Foreman-2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjVlZjY4ZGNiZDU4MjM0YmE3YWVlMmFkOTFjYTZmYTdjZTIzZjlhMzIzNDViNDhkNmU1ZjViODZhNjhiNWIifX19
+    priority: 2
+    update: true
+    slot: 15
+    view_requirement:
+      requirements:
+        name2:
+          type: has permission
+          permission: essentials.kits.Foreman
+    display_name: '&a&lForeman &6|&f &nKit'
+    lore:
+    - '&f&lCONTENT:'
+    - '&6» &f&lSword'
+    - '    &e⭑&7 Iron Sword'
+    - '&6» &f&lArmor'
+    - '    &e⭑&7 Chainmail Helmet'
+    - '    &e⭑&7 Iron Chestplate'
+    - '    &e⭑&7 Iron Leggings'
+    - '    &e⭑&7 Chainmail Boots'
+    - '&6» &f&lTools'
+    - '    &e⭑&7 Iron hoe'
+    - '    &e⭑&7 Iron pickaxe'
+    - '    &e⭑&7 Iron shovel'
+    - '    &e⭑&7 Iron axe'
+    - '&6» &f&lOthers'
+    - '    &7x1 &6|&7 Bow'
+    - '    &7x48 &6|&7 Arrows'
+    - '    &7x16 &6|&7 Bread'
+    - ''
+    - '&4&l↠ &c&lAVAILABLE IN&r&c: &a&l%javascript_cooldown_Kit-Foreman_86400%'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+  'Foreman-3':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+    slot: 15
+    priority: 3
+    display_name: '&a&lForeman &6|&f &nKit'
+    lore:
+    - '&f&lCONTENT:'
+    - '&6» &f&lSword'
+    - '    &e⭑&7 Iron Sword'
+    - '&6» &f&lArmor'
+    - '    &e⭑&7 Chainmail Helmet'
+    - '    &e⭑&7 Iron Chestplate'
+    - '    &e⭑&7 Iron Leggings'
+    - '    &e⭑&7 Chainmail Boots'
+    - '&6» &f&lTools'
+    - '    &e⭑&7 Iron hoe'
+    - '    &e⭑&7 Iron pickaxe'
+    - '    &e⭑&7 Iron shovel'
+    - '    &e⭑&7 Iron axe'
+    - '&6» &f&lOthers'
+    - '    &7x1 &6|&7 Bow'
+    - '    &7x48 &6|&7 Arrows'
+    - '    &7x16 &6|&7 Bread'
+    - ''
+    - '&c&l» &cYou do not have enough range: &4&l✘'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+  'Squire-1':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTIxOTI4ZWE2N2QzYThiOTdkMjEyNzU4ZjE1Y2NjYWMxMDI0Mjk1YjE4NWIzMTkyNjQ4NDRmNGM1ZTFlNjFlIn19fQ==
+    slot: 16
+    priority: 1
+    view_requirement:
+      requirements:
+        name:
+          type: string equals
+          input: '%javascript_cooldown_Kit-Squire_86400%'
+          output: 0s
+        name2:
+          type: has permission
+          permission: essentials.kits.Squire
+    display_name: '&2&lSquire &6|&f &nKit'
+    lore:
+    - '&f&lCONTENT:'
+    - '&6» &f&lSword'
+    - '    &e⭑&7 Iron Sword &f┆ &7Sharp II &f┆ &7Unbreak I'
+    - '&6» &f&lArmor'
+    - '    &e⭑&7 Iron Helmet &f┆ &7Prote II &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond Chestplate &f┆ &7Prote II &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond Leggings &f┆ &7Prote II &f┆ &7Unbreak II'
+    - '    &e⭑&7 Iron Boots &f┆ &7Prote II &f┆ &7Unbreak II'
+    - '&6» &f&lTools'
+    - '    &e⭑&7 Iron hoe &f┆ &7Efi II &f┆ &7Unbreak II'
+    - '    &e⭑&7 Iron pickaxe &f┆ &7Efi II &f┆ &7Unbreak II'
+    - '    &e⭑&7 Iron shovel &f┆ &7Efi II &f┆ &7Unbreak II'
+    - '    &e⭑&7 Iron axe &f┆ &7Efi II &f┆ &7Unbreak II'
+    - '&6» &f&lOthers'
+    - '    &7x1 &6|&7 Bow &f┆ &7Power I &f┆ &7Unbreak II'
+    - '    &7x32 &6|&7 Arrows'
+    - '    &7x32 &6|&7 Bread'
+    - ''
+    - '&6» &fStatus: &a&lAVAILABLE ✔'
+    - ''
+    - '&6» &aRight click to get'
+    left_click_commands:
+    - '[console] papi parse %player_name% %javascript_cooldown_Kit-Squire_start%'
+    - '[player] kit Squire'
+    - '[console] tm msg %player_name% &a♚ &4&l&nCONGRATULATIONS &a♚\n&e⋆ &c&nYou have successfully received the KIT &e⋆'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+    right_click_commands:
+    - '[console] papi parse %player_name% %javascript_cooldown_Kit-Squire_start'
+    - '[player] kit Squire'
+    - '[console] tm msg %player_name% &a♚ &4&l&nCONGRATULATIONS &a♚\n&e⋆ &c&nYou have successfully received the KIT &e⋆'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+  'Squire-2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjVlZjY4ZGNiZDU4MjM0YmE3YWVlMmFkOTFjYTZmYTdjZTIzZjlhMzIzNDViNDhkNmU1ZjViODZhNjhiNWIifX19
+    priority: 2
+    slot: 16
+    view_requirement:
+      requirements:
+        name2:
+          type: has permission
+          permission: essentials.kits.Squire
+    display_name: '&2&lSquire &6|&f &nKit'
+    lore:
+    - '&f&lCONTENT:'
+    - '&6» &f&lSword'
+    - '    &e⭑&7 Iron Sword &f┆ &7Sharp II &f┆ &7Unbreak I'
+    - '&6» &f&lArmor'
+    - '    &e⭑&7 Iron Helmet &f┆ &7Prote II &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond Chestplate &f┆ &7Prote II &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond Leggings &f┆ &7Prote II &f┆ &7Unbreak II'
+    - '    &e⭑&7 Iron Boots &f┆ &7Prote II &f┆ &7Unbreak II'
+    - '&6» &f&lTools'
+    - '    &e⭑&7 Iron hoe &f┆ &7Efi II &f┆ &7Unbreak II'
+    - '    &e⭑&7 Iron pickaxe &f┆ &7Efi II &f┆ &7Unbreak II'
+    - '    &e⭑&7 Iron shovel &f┆ &7Efi II &f┆ &7Unbreak II'
+    - '    &e⭑&7 Iron axe &f┆ &7Efi II &f┆ &7Unbreak II'
+    - '&6» &f&lOthers'
+    - '    &7x1 &6|&7 Bow &f┆ &7Power I &f┆ &7Unbreak II'
+    - '    &7x32 &6|&7 Arrows'
+    - '    &7x32 &6|&7 Bread'
+    - ''
+    - '&4&l↠ &c&lAVAILABLE IN&r&c: &a&l%javascript_cooldown_Kit-Squire_86400%'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+  'Squire-3':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+    slot: 16
+    priority: 3
+    display_name: '&2&lSquire &6|&f &nKit'
+    lore:
+    - '&f&lCONTENT:'
+    - '&6» &f&lSword'
+    - '    &e⭑&7 Iron Sword &f┆ &7Sharp II &f┆ &7Unbreak I'
+    - '&6» &f&lArmor'
+    - '    &e⭑&7 Iron Helmet &f┆ &7Prote II &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond Chestplate &f┆ &7Prote II &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond Leggings &f┆ &7Prote II &f┆ &7Unbreak II'
+    - '    &e⭑&7 Iron Boots &f┆ &7Prote II &f┆ &7Unbreak II'
+    - '&6» &f&lTools'
+    - '    &e⭑&7 Iron hoe &f┆ &7Efi II &f┆ &7Unbreak II'
+    - '    &e⭑&7 Iron pickaxe &f┆ &7Efi II &f┆ &7Unbreak II'
+    - '    &e⭑&7 Iron shovel &f┆ &7Efi II &f┆ &7Unbreak II'
+    - '    &e⭑&7 Iron axe &f┆ &7Efi II &f┆ &7Unbreak II'
+    - '&6» &f&lOthers'
+    - '    &7x1 &6|&7 Bow &f┆ &7Power I &f┆ &7Unbreak II'
+    - '    &7x32 &6|&7 Arrows'
+    - '    &7x32 &6|&7 Bread'
+    - ''
+    - '&c&l» &cYou do not have enough range: &4&l✘'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+  'Noble-1':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTIxOTI4ZWE2N2QzYThiOTdkMjEyNzU4ZjE1Y2NjYWMxMDI0Mjk1YjE4NWIzMTkyNjQ4NDRmNGM1ZTFlNjFlIn19fQ==
+    slot: 21
+    priority: 1
+    view_requirement:
+      requirements:
+        name:
+          type: string equals
+          input: '%javascript_cooldown_Kit-Noble_86400%'
+          output: 0s
+        name2:
+          type: has permission
+          permission: essentials.kits.Noble
+    display_name: '&b&lNoble &6|&f &nKit'
+    lore:
+    - '&f&lCONTENT:'
+    - '&6» &f&lSword'
+    - '    &e⭑&7 Iron Sword'
+    - '&6» &f&lArmor'
+    - '    &e⭑&7 Iron Helmet'
+    - '    &e⭑&7 Iron Chestplate'
+    - '    &e⭑&7 Iron Leggings'
+    - '    &e⭑&7 Iron Boots'
+    - '&6» &f&lTools'
+    - '    &e⭑&7 Iron hoe'
+    - '    &e⭑&7 Iron pickaxe'
+    - '    &e⭑&7 Iron shovel'
+    - '    &e⭑&7 Iron axe'
+    - '&6» &f&lOthers'
+    - '    &7x1 &6|&7 Bow'
+    - '    &7x64 &6|&7 Arrows'
+    - '    &7x24 &6|&7 Bread'
+    - ''
+    - '&6» &fStatus: &a&lAVAILABLE ✔'
+    - ''
+    - '&6» &aRight click to get'
+    left_click_commands:
+    - '[console] papi parse %player_name% %javascript_cooldown_Kit-Noble_start%'
+    - '[player] kit Noble'
+    - '[console] tm msg %player_name% &a♚ &4&l&nCONGRATULATIONS &a♚\n&e⋆ &c&nYou have successfully received the KIT &e⋆'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+    right_click_commands:
+    - '[console] papi parse %player_name% %javascript_cooldown_Kit-Noble_start%'
+    - '[player] kit Noble'
+    - '[console] tm msg %player_name% &a♚ &4&l&nCONGRATULATIONS &a♚\n&e⋆ &c&nYou have successfully received the KIT &e⋆'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+  'Noble-2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjVlZjY4ZGNiZDU4MjM0YmE3YWVlMmFkOTFjYTZmYTdjZTIzZjlhMzIzNDViNDhkNmU1ZjViODZhNjhiNWIifX19
+    priority: 2
+    update: true
+    slot: 21
+    view_requirement:
+      requirements:
+        name2:
+          type: has permission
+          permission: essentials.kits.Noble
+    display_name: '&b&lNoble &6|&f &nKit'
+    lore:
+    - '&f&lCONTENT:'
+    - '&6» &f&lSword'
+    - '    &e⭑&7 Iron Sword'
+    - '&6» &f&lArmor'
+    - '    &e⭑&7 Iron Helmet'
+    - '    &e⭑&7 Iron Chestplate'
+    - '    &e⭑&7 Iron Leggings'
+    - '    &e⭑&7 Iron Boots'
+    - '&6» &f&lTools'
+    - '    &e⭑&7 Iron hoe'
+    - '    &e⭑&7 Iron pickaxe'
+    - '    &e⭑&7 Iron shovel'
+    - '    &e⭑&7 Iron axe'
+    - '&6» &f&lOthers'
+    - '    &7x1 &6|&7 Bow'
+    - '    &7x64 &6|&7 Arrows'
+    - '    &7x24 &6|&7 Bread'
+    - ''
+    - '&4&l↠ &c&lAVAILABLE IN&r&c: &a&l%javascript_cooldown_Kit-Noble_86400%'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+  'Noble-3':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+    slot: 21
+    priority: 3
+    display_name: '&b&lNoble &6|&f &nKit'
+    lore:
+    - '&f&lCONTENT:'
+    - '&6» &f&lSword'
+    - '    &e⭑&7 Iron Sword'
+    - '&6» &f&lArmor'
+    - '    &e⭑&7 Iron Helmet'
+    - '    &e⭑&7 Iron Chestplate'
+    - '    &e⭑&7 Iron Leggings'
+    - '    &e⭑&7 Iron Boots'
+    - '&6» &f&lTools'
+    - '    &e⭑&7 Iron hoe'
+    - '    &e⭑&7 Iron pickaxe'
+    - '    &e⭑&7 Iron shovel'
+    - '    &e⭑&7 Iron axe'
+    - '&6» &f&lOthers'
+    - '    &7x1 &6|&7 Bow'
+    - '    &7x64 &6|&7 Arrows'
+    - '    &7x24 &6|&7 Bread'
+    - ''
+    - '&c&l» &cYou do not have enough range: &4&l✘'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+  'Señor-1':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTIxOTI4ZWE2N2QzYThiOTdkMjEyNzU4ZjE1Y2NjYWMxMDI0Mjk1YjE4NWIzMTkyNjQ4NDRmNGM1ZTFlNjFlIn19fQ==
+    slot: 22
+    priority: 1
+    view_requirement:
+      requirements:
+        name:
+          type: string equals
+          input: '%javascript_cooldown_Kit-Señor_86400%'
+          output: 0s
+        name2:
+          type: has permission
+          permission: essentials.kits.Señor
+    display_name: '&3&lSeñor &6|&f &nKit'
+    lore:
+    - '&f&lCONTENT:'
+    - '&6» &f&lSword'
+    - '    &e⭑&7 Iron Sword &f┆ &7Sharp II &f┆ &7Unbreak I'
+    - '&6» &f&lArmor'
+    - '    &e⭑&7 Iron Helmet &f┆ &7Prote II &f┆ &7Unbreak I'
+    - '    &e⭑&7 Iron Chestplate &f┆ &7Prote I &f┆ &7Unbreak II'
+    - '    &e⭑&7 Iron Leggings &f┆ &7Prote I &f┆ &7Unbreak II'
+    - '    &e⭑&7 Iron Boots &f┆ &7Prote II &f┆ &7Unbreak I'
+    - '&6» &f&lTools'
+    - '    &e⭑&7 Diamond hoe &f┆ &7Efi II &f┆ &7Unbreak I'
+    - '    &e⭑&7 Diamond pickaxe &f┆ &7Efi II &f┆ &7Unbreak I'
+    - '    &e⭑&7 Diamond shovel &f┆ &7Efi I &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond axe &f┆ &7Efi I &f┆ &7Unbreak II'
+    - '&6» &f&lOthers'
+    - '    &7x1 &6|&7 Bow &f┆ &7Power I &f┆ &7Unbreak II'
+    - '    &7x64 &6|&7 Arrows'
+    - '    &7x32 &6|&7 Bread'
+    - ''
+    - ''
+    - '&6» &fStatus: &a&lAVAILABLE ✔'
+    - ''
+    - '&6» &aRight click to get'
+    left_click_commands:
+    - '[console] papi parse %player_name% %javascript_cooldown_Kit-Señor_start%'
+    - '[player] kit Señor'
+    - '[console] tm msg %player_name% &a♚ &4&l&nCONGRATULATIONS &a♚\n&e⋆ &c&nYou have successfully received the KIT &e⋆'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+    right_click_commands:
+    - '[console] papi parse %player_name% %javascript_cooldown_Kit-Señor_start%'
+    - '[player] kit Señor'
+    - '[console] tm msg %player_name% &a♚ &4&l&nCONGRATULATIONS &a♚\n&e⋆ &c&nYou have successfully received the KIT &e⋆'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+  'Señor-2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjVlZjY4ZGNiZDU4MjM0YmE3YWVlMmFkOTFjYTZmYTdjZTIzZjlhMzIzNDViNDhkNmU1ZjViODZhNjhiNWIifX19
+    priority: 2
+    update: true
+    slot: 22
+    view_requirement:
+      requirements:
+        name2:
+          type: has permission
+          permission: essentials.kits.Señor
+    display_name: '&3&lSeñor &6|&f &nKit'
+    lore:
+    - '&f&lCONTENT:'
+    - '&6» &f&lSword'
+    - '    &e⭑&7 Iron Sword &f┆ &7Sharp II &f┆ &7Unbreak I'
+    - '&6» &f&lArmor'
+    - '    &e⭑&7 Iron Helmet &f┆ &7Prote II &f┆ &7Unbreak I'
+    - '    &e⭑&7 Iron Chestplate &f┆ &7Prote I &f┆ &7Unbreak II'
+    - '    &e⭑&7 Iron Leggings &f┆ &7Prote I &f┆ &7Unbreak II'
+    - '    &e⭑&7 Iron Boots &f┆ &7Prote II &f┆ &7Unbreak I'
+    - '&6» &f&lTools'
+    - '    &e⭑&7 Diamond hoe &f┆ &7Efi II &f┆ &7Unbreak I'
+    - '    &e⭑&7 Diamond pickaxe &f┆ &7Efi II &f┆ &7Unbreak I'
+    - '    &e⭑&7 Diamond shovel &f┆ &7Efi I &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond axe &f┆ &7Efi I &f┆ &7Unbreak II'
+    - '&6» &f&lOthers'
+    - '    &7x1 &6|&7 Bow &f┆ &7Power I &f┆ &7Unbreak II'
+    - '    &7x64 &6|&7 Arrows'
+    - '    &7x32 &6|&7 Bread'
+    - ''
+    - '&4&l↠ &c&lAVAILABLE IN&r&c: &a&l%javascript_cooldown_Kit-Señor_86400%'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+  'Señor-3':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+    slot: 22
+    priority: 3
+    display_name: '&3&lSeñor &6|&f &nKit'
+    lore:
+    - '&f&lCONTENT:'
+    - '&6» &f&lSword'
+    - '    &e⭑&7 Iron Sword &f┆ &7Sharp II &f┆ &7Unbreak I'
+    - '&6» &f&lArmor'
+    - '    &e⭑&7 Iron Helmet &f┆ &7Prote II &f┆ &7Unbreak I'
+    - '    &e⭑&7 Iron Chestplate &f┆ &7Prote I &f┆ &7Unbreak II'
+    - '    &e⭑&7 Iron Leggings &f┆ &7Prote I &f┆ &7Unbreak II'
+    - '    &e⭑&7 Iron Boots &f┆ &7Prote II &f┆ &7Unbreak I'
+    - '&6» &f&lTools'
+    - '    &e⭑&7 Diamond hoe &f┆ &7Efi II &f┆ &7Unbreak I'
+    - '    &e⭑&7 Diamond pickaxe &f┆ &7Efi II &f┆ &7Unbreak I'
+    - '    &e⭑&7 Diamond shovel &f┆ &7Efi I &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond axe &f┆ &7Efi I &f┆ &7Unbreak II'
+    - '&6» &f&lOthers'
+    - '    &7x1 &6|&7 Bow &f┆ &7Power I &f┆ &7Unbreak II'
+    - '    &7x64 &6|&7 Arrows'
+    - '    &7x32 &6|&7 Bread'
+    - ''
+    - '&c&l» &cYou do not have enough range: &4&l✘'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+  'Viscount-1':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTIxOTI4ZWE2N2QzYThiOTdkMjEyNzU4ZjE1Y2NjYWMxMDI0Mjk1YjE4NWIzMTkyNjQ4NDRmNGM1ZTFlNjFlIn19fQ==
+    slot: 23
+    priority: 1
+    view_requirement:
+      requirements:
+        name:
+          type: string equals
+          input: '%javascript_cooldown_Kit-Viscount_86400%'
+          output: 0s
+        name2:
+          type: has permission
+          permission: essentials.kits.Viscount
+    display_name: '&9&lViscount &6|&f &nKit'
+    lore:
+    - '&f&lCONTENT:'
+    - '&6» &f&lSword'
+    - '    &e⭑&7 Iron Sword &f┆ &7Sharp II &f┆ &7Unbreak I'
+    - '&6» &f&lArmor'
+    - '    &e⭑&7 Iron Helmet &f┆ &7Prote I &f┆ &7Unbreak II'
+    - '    &e⭑&7 Iron Chestplate &f┆ &7Prote II &f┆ &7Unbreak I'
+    - '    &e⭑&7 Iron Leggings &f┆ &7Prote II &f┆ &7Unbreak I'
+    - '    &e⭑&7 Iron Boots &f┆ &7Prote I &f┆ &7Unbreak II'
+    - '&6» &f&lTools'
+    - '    &e⭑&7 Diamond hoe &f┆ &7Efi I &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond pickaxe &f┆ &7Efi I &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond shovel &f┆ &7Efi II &f┆ &7Unbreak I'
+    - '    &e⭑&7 Diamond axe &f┆ &7Efi II &f┆ &7Unbreak I'
+    - '&6» &f&lOthers'
+    - '    &7x1 &6|&7 Bow &f┆ &7Power I &f┆ &7Unbreak II'
+    - '    &7x64 &6|&7 Arrows'
+    - '    &7x32 &6|&7 Bread'
+    - ''
+    - '&6» &fStatus: &a&lAVAILABLE ✔'
+    - ''
+    - '&6» &aRight click to get'
+    left_click_commands:
+    - '[console] papi parse %player_name% %javascript_cooldown_Kit-Viscount_start%'
+    - '[player] kit Viscount'
+    - '[console] tm msg %player_name% &a♚ &4&l&nCONGRATULATIONS &a♚\n&e⋆ &c&nYou have successfully received the KIT &e⋆'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+    right_click_commands:
+    - '[console] papi parse %player_name% %javascript_cooldown_Kit-Viscount_start%'
+    - '[player] kit Viscount'
+    - '[console] tm msg %player_name% &a♚ &4&l&nCONGRATULATIONS &a♚\n&e⋆ &c&nYou have successfully received the KIT &e⋆'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+  'Viscount-2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjVlZjY4ZGNiZDU4MjM0YmE3YWVlMmFkOTFjYTZmYTdjZTIzZjlhMzIzNDViNDhkNmU1ZjViODZhNjhiNWIifX19
+    priority: 2
+    update: true
+    slot: 23
+    view_requirement:
+      requirements:
+        name2:
+          type: has permission
+          permission: essentials.kits.Viscount
+    display_name: '&9&lViscount &6|&f &nKit'
+    lore:
+    - '&f&lCONTENT:'
+    - '&6» &f&lSword'
+    - '    &e⭑&7 Iron Sword &f┆ &7Sharp II &f┆ &7Unbreak I'
+    - '&6» &f&lArmor'
+    - '    &e⭑&7 Iron Helmet &f┆ &7Prote I &f┆ &7Unbreak II'
+    - '    &e⭑&7 Iron Chestplate &f┆ &7Prote II &f┆ &7Unbreak I'
+    - '    &e⭑&7 Iron Leggings &f┆ &7Prote II &f┆ &7Unbreak I'
+    - '    &e⭑&7 Iron Boots &f┆ &7Prote I &f┆ &7Unbreak II'
+    - '&6» &f&lTools'
+    - '    &e⭑&7 Diamond hoe &f┆ &7Efi I &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond pickaxe &f┆ &7Efi I &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond shovel &f┆ &7Efi II &f┆ &7Unbreak I'
+    - '    &e⭑&7 Diamond axe &f┆ &7Efi II &f┆ &7Unbreak I'
+    - '&6» &f&lOthers'
+    - '    &7x1 &6|&7 Bow &f┆ &7Power I &f┆ &7Unbreak II'
+    - '    &7x64 &6|&7 Arrows'
+    - '    &7x32 &6|&7 Bread'
+    - ''
+    - '&4&l↠ &c&lAVAILABLE IN&r&c: &a&l%javascript_cooldown_Kit-Viscount_86400%'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+  'Viscount-3':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+    slot: 23
+    priority: 3
+    display_name: '&9&lViscount &6|&f &nKit'
+    lore:
+    - '&f&lCONTENT:'
+    - '&6» &f&lSword'
+    - '    &e⭑&7 Iron Sword &f┆ &7Sharp II &f┆ &7Unbreak I'
+    - '&6» &f&lArmor'
+    - '    &e⭑&7 Iron Helmet &f┆ &7Prote I &f┆ &7Unbreak II'
+    - '    &e⭑&7 Iron Chestplate &f┆ &7Prote II &f┆ &7Unbreak I'
+    - '    &e⭑&7 Iron Leggings &f┆ &7Prote II &f┆ &7Unbreak I'
+    - '    &e⭑&7 Iron Boots &f┆ &7Prote I &f┆ &7Unbreak II'
+    - '&6» &f&lTools'
+    - '    &e⭑&7 Diamond hoe &f┆ &7Efi I &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond pickaxe &f┆ &7Efi I &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond shovel &f┆ &7Efi II &f┆ &7Unbreak I'
+    - '    &e⭑&7 Diamond axe &f┆ &7Efi II &f┆ &7Unbreak I'
+    - '&6» &f&lOthers'
+    - '    &7x1 &6|&7 Bow &f┆ &7Power I &f┆ &7Unbreak II'
+    - '    &7x64 &6|&7 Arrows'
+    - '    &7x32 &6|&7 Bread'
+    - ''
+    - '&c&l» &cYou do not have enough range: &4&l✘'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+  'Infant-1':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTIxOTI4ZWE2N2QzYThiOTdkMjEyNzU4ZjE1Y2NjYWMxMDI0Mjk1YjE4NWIzMTkyNjQ4NDRmNGM1ZTFlNjFlIn19fQ==
+    slot: 24
+    priority: 1
+    view_requirement:
+      requirements:
+        name:
+          type: string equals
+          input: '%javascript_cooldown_Kit-Infant_86400%'
+          output: 0s
+        name2:
+          type: has permission
+          permission: essentials.kits.Infant
+    display_name: '&d&lInfant &6|&f &nKit'
+    lore:
+    - '&f&lCONTENT:'
+    - '&6» &f&lSword'
+    - '    &e⭑&7 Diamond Sword &f┆ &7Sharp II &f┆ &7Unbreak II'
+    - '&6» &f&lArmor'
+    - '    &e⭑&7 Iron Helmet &f┆ &7Prote II &f┆ &7Unbreak II'
+    - '    &e⭑&7 Iron Chestplate &f┆ &7Prote II &f┆ &7Unbreak II'
+    - '    &e⭑&7 Iron Leggings &f┆ &7Prote II &f┆ &7Unbreak II'
+    - '    &e⭑&7 Iron Boots &f┆ &7Prote II &f┆ &7Unbreak II'
+    - '&6» &f&lTools'
+    - '    &e⭑&7 Diamond hoe &f┆ &7Efi II &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond pickaxe &f┆ &7Efi II &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond shovel &f┆ &7Efi II &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond axe &f┆ &7Efi II &ff┆ &7Unbreak II'
+    - '&6» &f&lOthers'
+    - '    &7x1 &6|&7 Bow &f┆ &7Power II &f┆ &7Unbreak I'
+    - '    &7x64 &6|&7 Arrows'
+    - '    &7x32 &6|&7 Bread'
+    - ''
+    - '&6» &fStatus: &a&lAVAILABLE ✔'
+    - ''
+    - '&6» &aRight click to get'
+    left_click_commands:
+    - '[console] papi parse %player_name% %javascript_cooldown_Kit-Infant_start%'
+    - '[player] kit Infant'
+    - '[console] tm msg %player_name% &a♚ &4&l&nCONGRATULATIONS &a♚\n&e⋆ &c&nYou have successfully received the KIT &e⋆'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+    right_click_commands:
+    - '[console] papi parse %player_name% %javascript_cooldown_Kit-Infant_start%'
+    - '[player] kit Infant'
+    - '[console] tm msg %player_name% &a♚ &4&l&nCONGRATULATIONS &a♚\n&e⋆ &c&nYou have successfully received the KIT &e⋆'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+  'Infant-2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjVlZjY4ZGNiZDU4MjM0YmE3YWVlMmFkOTFjYTZmYTdjZTIzZjlhMzIzNDViNDhkNmU1ZjViODZhNjhiNWIifX19
+    priority: 2
+    update: true
+    slot: 24
+    view_requirement:
+      requirements:
+        name2:
+          type: has permission
+          permission: essentials.kits.Infant
+    display_name: '&d&lInfant &6|&f &nKit'
+    lore:
+    - '&f&lCONTENT:'
+    - '&6» &f&lSword'
+    - '    &e⭑&7 Diamond Sword &f┆ &7Sharp II &f┆ &7Unbreak II'
+    - '&6» &f&lArmor'
+    - '    &e⭑&7 Iron Helmet &f┆ &7Prote II &f┆ &7Unbreak II'
+    - '    &e⭑&7 Iron Chestplate &f┆ &7Prote II &f┆ &7Unbreak II'
+    - '    &e⭑&7 Iron Leggings &f┆ &7Prote II &f┆ &7Unbreak II'
+    - '    &e⭑&7 Iron Boots &f┆ &7Prote II &f┆ &7Unbreak II'
+    - '&6» &f&lTools'
+    - '    &e⭑&7 Diamond hoe &f┆ &7Efi II &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond pickaxe &f┆ &7Efi II &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond shovel &f┆ &7Efi II &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond axe &f┆ &7Efi II &ff┆ &7Unbreak II'
+    - '&6» &f&lOthers'
+    - '    &7x1 &6|&7 Bow &f┆ &7Power II &f┆ &7Unbreak I'
+    - '    &7x64 &6|&7 Arrows'
+    - '    &7x32 &6|&7 Bread'
+    - ''
+    - '&4&l↠ &c&lAVAILABLE IN&r&c: &a&l%javascript_cooldown_Kit-Infant_86400%'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+  'Infant-3':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+    slot: 24
+    priority: 3
+    display_name: '&d&lInfant &6|&f &nKit'
+    lore:
+    - '&f&lCONTENT:'
+    - '&6» &f&lSword'
+    - '    &e⭑&7 Diamond Sword &f┆ &7Sharp II &f┆ &7Unbreak II'
+    - '&6» &f&lArmor'
+    - '    &e⭑&7 Iron Helmet &f┆ &7Prote II &f┆ &7Unbreak II'
+    - '    &e⭑&7 Iron Chestplate &f┆ &7Prote II &f┆ &7Unbreak II'
+    - '    &e⭑&7 Iron Leggings &f┆ &7Prote II &f┆ &7Unbreak II'
+    - '    &e⭑&7 Iron Boots &f┆ &7Prote II &f┆ &7Unbreak II'
+    - '&6» &f&lTools'
+    - '    &e⭑&7 Diamond hoe &f┆ &7Efi II &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond pickaxe &f┆ &7Efi II &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond shovel &f┆ &7Efi II &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond axe &f┆ &7Efi II &ff┆ &7Unbreak II'
+    - '&6» &f&lOthers'
+    - '    &7x1 &6|&7 Bow &f┆ &7Power II &f┆ &7Unbreak I'
+    - '    &7x64 &6|&7 Arrows'
+    - '    &7x32 &6|&7 Bread'
+    - ''
+    - '&c&l» &cYou do not have enough range: &4&l✘'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+  'Grandfather-1':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTIxOTI4ZWE2N2QzYThiOTdkMjEyNzU4ZjE1Y2NjYWMxMDI0Mjk1YjE4NWIzMTkyNjQ4NDRmNGM1ZTFlNjFlIn19fQ==
+    slot: 25
+    priority: 1
+    view_requirement:
+      requirements:
+        name:
+          type: string equals
+          input: '%javascript_cooldown_Kit-Grandfather_86400%'
+          output: 0s
+        name2:
+          type: has permission
+          permission: essentials.kits.Grandfather
+    display_name: '&5&lGrandfather &6|&f &nKit'
+    lore:
+    - '&f&lCONTENT:'
+    - '&6» &f&lSword'
+    - '    &e⭑&7 Diamond Sword &f┆ &7Sharp II &f┆ &7Unbreak III'
+    - '&6» &f&lArmor'
+    - '    &e⭑&7 Diamond Helmet &f┆ &7Prote II &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond Chestplate &f┆ &7Prote II &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond Leggings &f┆ &7Prote II &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond Boots &f┆ &7Prote II &f┆ &7Unbreak II'
+    - '&6» &f&lTools'
+    - '    &e⭑&7 Diamond hoe &f┆ &7Efi III &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond pickaxe &f┆ &7Efi III &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond shovel &f┆ &7Efi II &f┆ &7Unbreak III'
+    - '    &e⭑&7 Diamond axe &f┆ &7Efi II &f┆ &7Unbreak III'
+    - '&6» &f&lOthers'
+    - '    &7x1 &6|&7 Bow &f┆ &7Power III &f┆ &7Unbreak II'
+    - '    &7x64 &6|&7 Arrows'
+    - ''
+    - '&6» &fStatus: &a&lAVAILABLE ✔'
+    - ''
+    - '&6» &aRight click to get'
+    left_click_commands:
+    - '[console] papi parse %player_name% %javascript_cooldown_Kit-Grandfather_start%'
+    - '[player] kit Grandfather'
+    - '[console] tm msg %player_name% &a♚ &4&l&nCONGRATULATIONS &a♚\n&e⋆ &c&nYou have successfully received the KIT &e⋆'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+    right_click_commands:
+    - '[console] papi parse %player_name% %javascript_cooldown_Kit-Grandfather_start%'
+    - '[player] kit Grandfather'
+    - '[console] tm msg %player_name% &a♚ &4&l&nCONGRATULATIONS &a♚\n&e⋆ &c&nYou have successfully received the KIT &e⋆'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+  'Grandfather-2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjVlZjY4ZGNiZDU4MjM0YmE3YWVlMmFkOTFjYTZmYTdjZTIzZjlhMzIzNDViNDhkNmU1ZjViODZhNjhiNWIifX19
+    priority: 2
+    update: true
+    slot: 25
+    view_requirement:
+      requirements:
+        name2:
+          type: has permission
+          permission: essentials.kits.Grandfather
+    display_name: '&5&lGrandfather &6|&f &nKit'
+    lore:
+    - '&f&lCONTENT:'
+    - '&6» &f&lSword'
+    - '    &e⭑&7 Diamond Sword &f┆ &7Sharp II &f┆ &7Unbreak III'
+    - '&6» &f&lArmor'
+    - '    &e⭑&7 Diamond Helmet &f┆ &7Prote II &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond Chestplate &f┆ &7Prote II &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond Leggings &f┆ &7Prote II &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond Boots &f┆ &7Prote II &f┆ &7Unbreak II'
+    - '&6» &f&lTools'
+    - '    &e⭑&7 Diamond hoe &f┆ &7Efi III &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond pickaxe &f┆ &7Efi III &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond shovel &f┆ &7Efi II &f┆ &7Unbreak III'
+    - '    &e⭑&7 Diamond axe &f┆ &7Efi II &f┆ &7Unbreak III'
+    - '&6» &f&lOthers'
+    - '    &7x1 &6|&7 Bow &f┆ &7Power III &f┆ &7Unbreak II'
+    - '    &7x64 &6|&7 Arrows'
+    - ''
+    - '&4&l↠ &c&lAVAILABLE IN&r&c: &a&l%javascript_cooldown_Kit-Grandfather_86400%'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+  'Grandfather-3':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+    slot: 25
+    priority: 3
+    display_name: '&5&lGrandfather &6|&f &nKit'
+    lore:
+    - '&f&lCONTENT:'
+    - '&6» &f&lSword'
+    - '    &e⭑&7 Diamond Sword &f┆ &7Sharp II &f┆ &7Unbreak III'
+    - '&6» &f&lArmor'
+    - '    &e⭑&7 Diamond Helmet &f┆ &7Prote II &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond Chestplate &f┆ &7Prote II &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond Leggings &f┆ &7Prote II &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond Boots &f┆ &7Prote II &f┆ &7Unbreak II'
+    - '&6» &f&lTools'
+    - '    &e⭑&7 Diamond hoe &f┆ &7Efi III &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond pickaxe &f┆ &7Efi III &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond shovel &f┆ &7Efi II &f┆ &7Unbreak III'
+    - '    &e⭑&7 Diamond axe &f┆ &7Efi II &f┆ &7Unbreak III'
+    - '&6» &f&lOthers'
+    - '    &7x1 &6|&7 Bow &f┆ &7Power III &f┆ &7Unbreak II'
+    - '    &7x64 &6|&7 Arrows'
+    - ''
+    - '&c&l» &cYou do not have enough range: &4&l✘'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+  'King-1':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTIxOTI4ZWE2N2QzYThiOTdkMjEyNzU4ZjE1Y2NjYWMxMDI0Mjk1YjE4NWIzMTkyNjQ4NDRmNGM1ZTFlNjFlIn19fQ==
+    slot: 30
+    priority: 1
+    view_requirement:
+      requirements:
+        name:
+          type: string equals
+          input: '%javascript_cooldown_Kit-King_86400%'
+          output: 0s
+        name2:
+          type: has permission
+          permission: essentials.kits.King
+    display_name: '&c&lKing &6|&f &nKit'
+    lore:
+    - '&f&lCONTENT:'
+    - '&6» &f&lSword'
+    - '    &e⭑&7 Diamond Sword &f┆ &7Sharp IV &f┆ &7Unbreak III &f┆ &7Ígneo II'
+    - '&6» &f&lArmor'
+    - '    &e⭑&7 Diamond Helmet &f┆ &7Prote III &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond Chestplate &f┆ &7Prote II &f┆ &7Unbreak III'
+    - '    &e⭑&7 Diamond Leggings &f┆ &7Prote II &f┆ &7Unbreak III'
+    - '    &e⭑&7 Diamond Boots &f┆ &7Prote III &f┆ &7Unbreak II'
+    - '&6» &f&lTools'
+    - '    &e⭑&7 Diamond hoe &f┆ &7Efi II &f┆ &7Unbreak III'
+    - '    &e⭑&7 Diamond pickaxe &f┆ &7Efi II &f┆ &7Unbreak III'
+    - '    &e⭑&7 Diamond shovel &f┆ &7Efi III &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond axe &f┆ &7Efi III &f┆ &7Unbreak II'
+    - '&6» &f&lOthers'
+    - '    &7x1 &6|&7 Bow &f┆ &7Power III &f┆ &7Unbreak II'
+    - '    &7x64 &6|&7 Arrows'
+    - '    &7x3 &6|&7 Manzanas doradas'
+    - ''
+    - '&6» &fStatus: &a&lAVAILABLE ✔'
+    - ''
+    - '&6» &aRight click to get'
+    left_click_commands:
+    - '[console] papi parse %player_name% %javascript_cooldown_Kit-King_start%'
+    - '[player] kit King'
+    - '[console] tm msg %player_name% &a♚ &4&l&nCONGRATULATIONS &a♚\n&e⋆ &c&nYou have successfully received the KIT &e⋆'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+    right_click_commands:
+    - '[console] papi parse %player_name% %javascript_cooldown_Kit-King_start%'
+    - '[player] kit King'
+    - '[console] tm msg %player_name% &a♚ &4&l&nCONGRATULATIONS &a♚\n&e⋆ &c&nYou have successfully received the KIT &e⋆'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+  'King-2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjVlZjY4ZGNiZDU4MjM0YmE3YWVlMmFkOTFjYTZmYTdjZTIzZjlhMzIzNDViNDhkNmU1ZjViODZhNjhiNWIifX19
+    priority: 2
+    update: true
+    slot: 30
+    view_requirement:
+      requirements:
+        name2:
+          type: has permission
+          permission: essentials.kits.King
+    display_name: '&c&lKing &6|&f &nKit'
+    lore:
+    - '&f&lCONTENT:'
+    - '&6» &f&lSword'
+    - '    &e⭑&7 Diamond Sword &f┆ &7Sharp IV &f┆ &7Unbreak III &f┆ &7Ígneo II'
+    - '&6» &f&lArmor'
+    - '    &e⭑&7 Diamond Helmet &f┆ &7Prote III &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond Chestplate &f┆ &7Prote II &f┆ &7Unbreak III'
+    - '    &e⭑&7 Diamond Leggings &f┆ &7Prote II &f┆ &7Unbreak III'
+    - '    &e⭑&7 Diamond Boots &f┆ &7Prote III &f┆ &7Unbreak II'
+    - '&6» &f&lTools'
+    - '    &e⭑&7 Diamond hoe &f┆ &7Efi II &f┆ &7Unbreak III'
+    - '    &e⭑&7 Diamond pickaxe &f┆ &7Efi II &f┆ &7Unbreak III'
+    - '    &e⭑&7 Diamond shovel &f┆ &7Efi III &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond axe &f┆ &7Efi III &f┆ &7Unbreak II'
+    - '&6» &f&lOthers'
+    - '    &7x1 &6|&7 Bow &f┆ &7Power III &f┆ &7Unbreak II'
+    - '    &7x64 &6|&7 Arrows'
+    - '    &7x3 &6|&7 Manzanas doradas'
+    - ''
+    - '&4&l↠ &c&lAVAILABLE IN&r&c: &a&l%javascript_cooldown_Kit-King_86400%'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+  'King-3':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+    slot: 30
+    priority: 3
+    display_name: '&c&lKing &6|&f &nKit'
+    lore:
+    - '&f&lCONTENT:'
+    - '&6» &f&lSword'
+    - '    &e⭑&7 Diamond Sword &f┆ &7Sharp IV &f┆ &7Unbreak III &f┆ &7Ígneo II'
+    - '&6» &f&lArmor'
+    - '    &e⭑&7 Diamond Helmet &f┆ &7Prote III &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond Chestplate &f┆ &7Prote II &f┆ &7Unbreak III'
+    - '    &e⭑&7 Diamond Leggings &f┆ &7Prote II &f┆ &7Unbreak III'
+    - '    &e⭑&7 Diamond Boots &f┆ &7Prote III &f┆ &7Unbreak II'
+    - '&6» &f&lTools'
+    - '    &e⭑&7 Diamond hoe &f┆ &7Efi II &f┆ &7Unbreak III'
+    - '    &e⭑&7 Diamond pickaxe &f┆ &7Efi II &f┆ &7Unbreak III'
+    - '    &e⭑&7 Diamond shovel &f┆ &7Efi III &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond axe &f┆ &7Efi III &f┆ &7Unbreak II'
+    - '&6» &f&lOthers'
+    - '    &7x1 &6|&7 Bow &f┆ &7Power III &f┆ &7Unbreak II'
+    - '    &7x64 &6|&7 Arrows'
+    - '    &7x3 &6|&7 Manzanas doradas'
+    - ''
+    - '&c&l» &cYou do not have enough range: &4&l✘'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+  'Divinity-1':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTIxOTI4ZWE2N2QzYThiOTdkMjEyNzU4ZjE1Y2NjYWMxMDI0Mjk1YjE4NWIzMTkyNjQ4NDRmNGM1ZTFlNjFlIn19fQ==
+    slot: 31
+    priority: 1
+    view_requirement:
+      requirements:
+        name:
+          type: string equals
+          input: '%javascript_cooldown_Kit-Divinity_86400%'
+          output: 0s
+        name2:
+          type: has permission
+          permission: essentials.kits.Divinity
+    display_name: '&4&lDivinity &6|&f &nKit'
+    lore:
+    - '&f&lCONTENT:'
+    - '&6» &f&lSword'
+    - '    &e⭑&7 Diamond Sword &f┆ &7Sharp III &f┆ &7Unbreak II'
+    - '&6» &f&lArmor'
+    - '    &e⭑&7 Diamond Helmet &f┆ &7Prote II &f┆ &7Unbreak III'
+    - '    &e⭑&7 Diamond Chestplate &f┆ &7Prote III &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond Leggings &f┆ &7Prote III &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond Boots &f┆ &7Prote II &f┆ &7Unbreak III'
+    - '&6» &f&lTools'
+    - '    &e⭑&7 Diamond hoe &f┆ &7Efi III &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond pickaxe &f┆ &7Efi III &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond shovel &f┆ &7Efi III &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond axe &f┆ &7Efi III &f┆ &7Unbreak II'
+    - '&6» &f&lOthers'
+    - '    &7x1 &6|&7 Bow &f┆ &7Power III &f┆ &7Unbreak II'
+    - '    &7x64 &6|&7 Arrows'
+    - '    &7x2 &6|&7 Golden apples'
+    - ''
+    - '&6» &fStatus: &a&lAVAILABLE ✔'
+    - ''
+    - '&6» &aRight click to get'
+    left_click_commands:
+    - '[console] papi parse %player_name% %javascript_cooldown_Kit-Divinity_start%'
+    - '[player] kit Divinity'
+    - '[console] tm msg %player_name% &a♚ &4&l&nCONGRATULATIONS &a♚\n&e⋆ &c&nYou have successfully received the KIT &e⋆'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+    right_click_commands:
+    - '[console] papi parse %player_name% %javascript_cooldown_Kit-Divinity_start%'
+    - '[player] kit Divinity'
+    - '[console] tm msg %player_name% &a♚ &4&l&nCONGRATULATIONS &a♚\n&e⋆ &c&nYou have successfully received the KIT &e⋆'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+  'Divinity-2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjVlZjY4ZGNiZDU4MjM0YmE3YWVlMmFkOTFjYTZmYTdjZTIzZjlhMzIzNDViNDhkNmU1ZjViODZhNjhiNWIifX19
+    priority: 2
+    update: true
+    slot: 31
+    view_requirement:
+      requirements:
+        name2:
+          type: has permission
+          permission: essentials.kits.Divinity
+    display_name: '&4&lDivinity &6|&f &nKit'
+    lore:
+    - '&f&lCONTENT:'
+    - '&6» &f&lSword'
+    - '    &e⭑&7 Diamond Sword &f┆ &7Sharp III &f┆ &7Unbreak II'
+    - '&6» &f&lArmor'
+    - '    &e⭑&7 Diamond Helmet &f┆ &7Prote II &f┆ &7Unbreak III'
+    - '    &e⭑&7 Diamond Chestplate &f┆ &7Prote III &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond Leggings &f┆ &7Prote III &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond Boots &f┆ &7Prote II &f┆ &7Unbreak III'
+    - '&6» &f&lTools'
+    - '    &e⭑&7 Diamond hoe &f┆ &7Efi III &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond pickaxe &f┆ &7Efi III &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond shovel &f┆ &7Efi III &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond axe &f┆ &7Efi III &f┆ &7Unbreak II'
+    - '&6» &f&lOthers'
+    - '    &7x1 &6|&7 Bow &f┆ &7Power III &f┆ &7Unbreak II'
+    - '    &7x64 &6|&7 Arrows'
+    - '    &7x2 &6|&7 Golden apples'
+    - ''
+    - '&4&l↠ &c&lAVAILABLE IN&r&c: &a&l%javascript_cooldown_Kit-Divinity_86400%'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+  'Divinity-3':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+    slot: 31
+    priority: 3
+    display_name: '&4&lDivinity &6|&f &nKit'
+    lore:
+    - '&f&lCONTENT:'
+    - '&6» &f&lSword'
+    - '    &e⭑&7 Diamond Sword &f┆ &7Sharp III &f┆ &7Unbreak II'
+    - '&6» &f&lArmor'
+    - '    &e⭑&7 Diamond Helmet &f┆ &7Prote II &f┆ &7Unbreak III'
+    - '    &e⭑&7 Diamond Chestplate &f┆ &7Prote III &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond Leggings &f┆ &7Prote III &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond Boots &f┆ &7Prote II &f┆ &7Unbreak III'
+    - '&6» &f&lTools'
+    - '    &e⭑&7 Diamond hoe &f┆ &7Efi III &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond pickaxe &f┆ &7Efi III &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond shovel &f┆ &7Efi III &f┆ &7Unbreak II'
+    - '    &e⭑&7 Diamond axe &f┆ &7Efi III &f┆ &7Unbreak II'
+    - '&6» &f&lOthers'
+    - '    &7x1 &6|&7 Bow &f┆ &7Power III &f┆ &7Unbreak II'
+    - '    &7x64 &6|&7 Arrows'
+    - '    &7x2 &6|&7 Golden apples'
+    - ''
+    - '&c&l» &cYou do not have enough range: &4&l✘'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[close]'

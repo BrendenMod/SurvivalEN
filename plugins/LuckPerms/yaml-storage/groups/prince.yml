@@ -1,0 +1,13 @@
+name: prince
+permissions:
+- acceso.dungeon6
+- emotes.sleepy
+- ezranks.rank.Prince
+parents:
+- g-bukkit_default
+- g-essentials_default
+- g-groupmanager_default
+- infant
+prefixes:
+- '&f':
+    priority: 26

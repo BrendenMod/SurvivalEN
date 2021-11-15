@@ -1,0 +1,2 @@
+# LuckPerms UUID lookup cache
+0e3f2639-c762-47a8-a229-66e89f3ea381:iJuanP

@@ -1,0 +1,138 @@
+sword1:
+  id: iron_sword
+  name: '&dSpecial Sword &8(&a★&c★&8)'
+  lore: []
+  enchantments:
+    DAMAGE_ALL: 4
+    FIRE_ASPECT: 2
+    DURABILITY: 3
+sword2:
+  id: diamond_sword
+  name: '&4Extreme Sword &8(&a★★&8)'
+  lore: []
+  enchantments:
+    DAMAGE_ALL: 6
+    FIRE_ASPECT: 3
+    DURABILITY: 4
+ar1:
+  id: iron_helmet
+  name: '&dSpecial Helmet &8(&a★&c★&8)'
+  lore: []
+  enchantments:
+    PROTECTION_ENVIRONMENTAL: 4
+    DURABILITY: 3
+ar2:
+  id: iron_chestplate
+  name: '&dSpecial Chestplate &8(&a★&c★&8)'
+  lore: []
+  enchantments:
+    PROTECTION_ENVIRONMENTAL: 4
+    DURABILITY: 3
+ar3:
+  id: iron_leggings
+  name: '&dSpecial Leggings &8(&a★&c★&8)'
+  lore: []
+  enchantments:
+    PROTECTION_ENVIRONMENTAL: 4
+    DURABILITY: 3
+ar4:
+  id: iron_boots
+  name: '&dSpecial Boots &8(&a★&c★&8)'
+  lore: []
+  enchantments:
+    PROTECTION_ENVIRONMENTAL: 4
+    DURABILITY: 3
+diamon1:
+  id: diamond_helmet
+  name: '&4Extreme Helmet &8(&a★★&8)'
+  lore: []
+  enchantments:
+    PROTECTION_ENVIRONMENTAL: 4
+    DURABILITY: 4
+diamon2:
+  id: diamond_chestplate
+  name: '&4Extreme Chestplate &8(&a★★&8)'
+  lore: []
+  enchantments:
+    PROTECTION_ENVIRONMENTAL: 4
+    DURABILITY: 4
+diamon3:
+  id: diamond_leggings
+  name: '&4Extreme Leggings &8(&a★★&8)'
+  lore: []
+  enchantments:
+    PROTECTION_ENVIRONMENTAL: 4
+    DURABILITY: 4
+diamon4:
+  id: diamond_boots
+  name: '&4Extreme Boots &8(&a★★&8)'
+  lore: []
+  enchantments:
+    PROTECTION_ENVIRONMENTAL: 4
+    DURABILITY: 4
+pic1:
+  id: stone_pickaxe
+  name: '&bStart Pickaxe &8(&a★&c★★&8)'
+  lore: []
+  enchantments:
+    DIG_SPEED: 3
+    DURABILITY: 2
+pic2:
+  id: iron_pickaxe
+  name: '&dSpecial Pickaxe &8(&a★★&c★&8)'
+  lore: []
+  enchantments:
+    DIG_SPEED: 4
+    DURABILITY: 2
+pic3:
+  id: diamond_pickaxe
+  name: '&4Extreme Pickaxe &8(&a★★★&8)'
+  lore: []
+  enchantments:
+    DIG_SPEED: 5
+    DURABILITY: 3
+axe1:
+  id: stone_Axe
+  name: '&bStart Axe &8(&a★&c★★&8)'
+  lore: []
+  enchantments:
+    DAMAGE_ALL: 3
+    DIG_SPEED: 3
+    DURABILITY: 2
+axe2:
+  id: iron_axe
+  name: '&dSpecial Axe &8(&a★★&c★&8)'
+  lore: []
+  enchantments:
+    DAMAGE_ALL: 4
+    DIG_SPEED: 4
+    DURABILITY: 2
+axe3:
+  id: diamond_axe
+  name: '&4Extreme Axe &8(&a★★★&8)'
+  lore: []
+  enchantments:
+    DAMAGE_ALL: 5
+    DIG_SPEED: 5
+    DURABILITY: 3
+sho1:
+  id: stone_shovel
+  name: '&bStart Shovel &8(&a★&c★★&8)'
+  lore: []
+  enchantments:
+    DIG_SPEED: 3
+    DURABILITY: 2
+sho2:
+  id: iron_shovel
+  name: '&dSpecial Shovel &8(&a★★&c★&8)'
+  lore: []
+  enchantments:
+    DIG_SPEED: 4
+    DURABILITY: 2
+sho3:
+  id: diamond_shovel
+  name: '&4Extreme Shovel &8(&a★★★&8)'
+  lore: []
+  enchantments:
+    DIG_SPEED: 5
+    DURABILITY: 3

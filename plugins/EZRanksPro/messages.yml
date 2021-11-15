@@ -1,0 +1,21 @@
+# EZRanksPro messages file
+no_permission: '&8[&bRanks&8] &cYou do not have permission &f{0}'
+rankup_last_rank: '&8[&bRanks&8] &f» &cYou are already the last available rank and
+  you cannot go higher.'
+rankup_no_rankups: '&8[&bRanks&8] &f» &cYou have no promotions available in this rank.'
+rankup_confirm_message: |-
+  &e&lAre you sure you want to rank up to &f&l%rankup% &e&lfor &a&l$%cost%&e&l?
+  &e&lWrite &c&l/rankup &e&lto confirm.
+rankup_on_cooldown: '&8[&bRanks&8] &f» &cYou need to wait &e%time% &cmore seconds
+  to rank up again.'
+ranks_no_ranks_loaded: '&8[&bRanks&8] &f» &cThere are no existing ranges.'
+target_not_online: '&8[&bRanks&8] &f» &e{0} &cIt is not connected.'
+force_rankup_no_rankup: '&8[&bRanks&8] &f» &e{0} &cYou have no promotions available
+  in your rank: &f{1}&c.'
+force_rankup_success: '&8[&bRanks&8] &f» &e{0} &aRankup to: &f{1} &aa &f{2}&a.'
+autorankup_toggle_on: '&8[&bRanks&8] &f» &aAuto-Ascent activated.'
+autorankup_toggle_off: '&8[&bRanks&8] &f» &7Auto-Ascent disabled.'
+autorankup_last_rank: '&8[&bRanks&8] &f» &cYou are the highest rank and do not need
+  self-promotion.'
+autorankup_no_rankups: '&8[&bRanks&8] &f» &cYou do not have a rank to climb in your
+  rank with self-promotion.'

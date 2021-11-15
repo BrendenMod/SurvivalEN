@@ -1,0 +1,170 @@
+#################################################################
+# PLACEHOLDERS
+# %group-color% - Color set in the groups.yml
+# %enchantment% - Enchantment name
+# %enchantment-level% - Enchantment level
+# %success-rate% - Success rate of enchant
+# %destroy-rate% - Destroy rate of enchant
+# %description% - Description of enchant (from enchantments.yml)
+# %applies% - Item type the enchant applies to
+#
+# ONLY WORK FOR BOOKS AND RANDOMIZATION SCROLLS
+#################################################################
+Book:
+  group-enchants: false # Set the material of the enchantment
+  material: "BOOK" # To change the material to the ones you have set per group, set the material as 'GROUP'
+  name: "%group-color%&l&n%enchantment% %enchantment-level%"
+  lore:
+    - '&a%success-rate%% Success Rate'
+    - '&c%destroy-rate%% Destroy Rate'
+    - '&e%description%'
+    - '&7%applies% Enchantment'
+    - '&7Drag n Drop onto item to enchant'
+  click-message: true
+
+Unopened-Book:
+  group-enchants: false
+  chances:
+    defined: false
+    percentage: 100
+  material: "BOOK"
+  name: "%group-color%&l%group-name% Enchantment Book &7(Right Click)"
+  lore:
+    - '&7Examine to receive a random'
+    - '%group-color%%group-name% &7enchantment book.'
+  firework: true
+  message:
+    - '&e&l(!) &eYou examine the %group-color%&l%group-name% Enchantment Book...'
+    - '&eand discover %group-color%%enchantment% %enchantment-level%'
+
+Whitescroll:
+  material: "EMPTY_MAP"
+  name: "&fWhite Scroll"
+  lore:
+    - '&fPrevents an item from being destroyed'
+    - '&fdue to a failed Enchantment Book.'
+    - '&ePlace scroll on item to apply.'
+  applied: "&f&lPROTECTED"
+
+Holy-Whitescroll:
+  material: "EMPTY_MAP"
+  name: "&6&lHoly White Scroll"
+  lore:
+    - '&eA legendary reward that can'
+    - '&ebe applied to armor/weapons,'
+    - '&egives a 100% chance of not losing'
+    - '&ethe blessed item on death'
+  applied: "&f&lPROTECTED &6&L(HOLY)"
+  chance: 100 # Chance to get your items back
+
+Blackscroll:
+  material: "GRAY_DYE"
+  name: "&f&lBlack Scroll"
+  lore:
+    - '&7Removes a random enchantment'
+    - '&7from an item and converts'
+    - '&7it into a &f%percent%%&7 success book'
+    - '&fPlace onto item to extract'
+  use-random-chance: false
+
+Transmog:
+  material: "PAPER"
+  name: "&e&lTransmog Scroll"
+  lore:
+    - '&7Organises enchants by &e&nrarity&7 on item'
+    - '&7and adds the &dlore &bcount&7 to name'
+    - ''
+    - '&e&oPlace scroll on item to apply'
+  applied-name: "&d[&b&l%amount%&d]"
+
+Randomizer-Scroll:
+  material: "PAPER"
+  name: "%group-color%&l%group-name% Randomization Scroll"
+  lore:
+    - ''
+    - '&7Apply to a(n) %group-color%%group-name%&7 enchantment book'
+    - '&7to reroll the success and destroy rates.'
+    - ''
+    - '&7Drag n'' Drop onto &nenchantment book&7 to apply.'
+
+Soul-Gem:
+  material: "EMERALD"
+  name: "&c&lSoul Gem [%soul-color%%amount%&c&l]"
+  lore:
+    - ''
+    - '&c* Click this item to toggle &nSoul Mode'
+    - '&7While in "Soul Mode" your ACTIVE god tier'
+    - '&7enchantment will activate and drain souls'
+    - '&7for as long as this mode is enabled.'
+    - ''
+    - '&c* &7Use &c&n/splitsouls&7 with this item'
+    - '&7to split souls off of it'
+    - ''
+    - '&c* &7Stack other &cSoul Gems &7ontop of this'
+    - '&7one to combine their soul counts'
+  sound-on: "UI_BUTTON_CLICK:5:10"
+  sound-off: "UI_BUTTON_CLICK:5:1"
+  particle: "ENCHANTMENT_TABLE"
+
+Upgrade-Orb:
+  material: "ENDER_EYE"
+  name: "&6&l%type% Enchantment Orb [&a&n%total%&6&l]"
+  lore:
+    - '&a%percent%% Success Rate'
+    - ''
+    - '&6+%amount% Enchantment Slots'
+    - '&6%total% Max Enchantment Slots'
+    - ''
+    - '&eIncrease the # of enchantment'
+    - '&eslots on a piece of armor by %amount%,'
+    - '&eup to a maximum of %total%.'
+    - '&7Drag n'' Drop onto armor to apply.'
+  applied-lore: "&a&l{TOTAL} Enchantment Slots &7(Orb [&a+{ADDED}&7])"
+
+Item-Nametag:
+  material: "NAME_TAG"
+  name: "&6&lItem Nametag &7(Right Click)"
+  lore:
+    - '&7Rename and customize your equipment'
+  blacklisted-words:
+    - 'fuck'
+    - 'shit'
+    - 'nigga'
+
+Dust:
+  omni-secret:
+    material: "FIRE_CHARGE"
+    name: "&e&lOmni Secret Dust &7(Right Click)"
+    lore:
+      - '&7Right click for a chance to reveal a random'
+      - '&eOmni &7dust'
+      - ''
+      - '&aSuccess: +%success-lower%-%success-max%%'
+  omni-magic:
+    material: "SUGAR"
+    name: "&eOmni Magic Dust"
+    lore:
+      - '&a+%success%% Success'
+      - '&7Apply to any enchantment book'
+      - '&7to increase the success by &e%success%%'
+  secret:
+    material: "FIRE_CHARGE"
+    name: "%group-color%%group-name% Secret Dust &7(Right Click)"
+    lore:
+      - '&7Right click for a chance to reveal a random'
+      - '%group-color%%group-name% &7dust'
+      - ''
+      - '&aSuccess: +%success-lower%-%success-max%%'
+  magic:
+    material: "SUGAR"
+    name: "%group-color%%group-name% Magic Dust"
+    lore:
+      - '&a+%success%% Success'
+      - '&7Apply to a %group-color%%group-name% &7Enchantment Book'
+      - '&7to increase the success by %group-color%%success%%'
+  mystery:
+    material: "SULPHUR"
+    name: "&7Mystery Dust"
+    lore:
+      - '&7A failed bi-product'
+      - '&7of Magic dust'

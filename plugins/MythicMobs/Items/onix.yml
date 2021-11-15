@@ -1,0 +1,14 @@
+onix:
+  Id: LIGHT_GRAY_DYE
+  Display: '&8&lOnix'
+  Data: 0
+  Lore:
+  - '&8══════&c❋&8══════'
+  - '&e➤ &f&oRarity:&r &a&oRare'
+  - '&e➤ &f&oType: &8&oFear'
+  - '&8═════════════'
+  - '&e➤ &f&oDescription:'
+  - '&e➤ &c&oStone worth'
+  - '&c&oexchange in store'
+  - '&c&oof spawn dungeons.'
+  - '&8══════&c❋&8══════'

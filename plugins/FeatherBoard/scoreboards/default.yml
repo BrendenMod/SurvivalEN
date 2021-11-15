@@ -1,0 +1,108 @@
+# Default FeatherBoard comes with a board called "default". All players have the permission
+# featherboard.group.default  (by default) meaning all players should see the scoreboard unless
+# the permission is negated.
+
+# Example of the use of settings
+# This section is optional
+settings:
+  # If you quickly want to change the
+  # the label color change it here.
+  # It replaces $setting_label-color$ throughout the entire config
+  label-color: "&e"
+  # Show or hide the health
+  # This is an example of the script
+  show-health: true
+  # The priority of the scoreboard. The higher the number -> higher priority
+  # Used when having more than one scoreboard assigned
+  priority: 10
+
+# Example of pre processing script
+# This section is optional
+script-pre: |
+    if (settings['show-health'] == true){
+        board.getMeta().setSetting("enable-health","");
+    }else{
+        board.getMeta().setSetting("enable-health","|disabled|");
+    }
+
+# This section is required. Those are your scoreboard lines
+lines:
+  # Every section here are different lines. The first section will be used as the title
+  # the following sections will be used as the lines on the scoreboard (max 15)
+  # Just as the scoreboard names you can name these 'lines' whatever you want. But to make
+  # things simple I will use logical names such as "title", "spacer", "header", ...
+  title:
+    frames:
+    - '&6❖ &e&lS&6&lU&e&lR&6&lV&e&lI&6&lV&e&lA&6&lL &6❖'
+    interval: 20
+    random: false
+  espacio123xxx:
+    frames:
+    - '&8&m----------------'
+    interval: 300
+    random: false
+  info:
+    frames:
+    - '&f❑ &e&o{player}'
+    - '&f❑ &e&o{placeholderapi_server_time_MM/dd/yy-HH:mm}'
+    interval: 300
+    random: false
+  rango:
+    frames:
+    - '&f❑ &6RankUP: &f{ezrankspro_rank} &6⍗'
+    interval: 40
+    random: false
+  dinero:
+    frames:
+    - '&f❑ &aMoney: &f${money_formatted} &a⛁'
+    interval: 40
+    random: false
+  espacio1xxxxx:
+    frames:
+    - '&8&m----------------'
+    interval: 300
+    random: false
+  datos-jugadores1:
+    frames:
+    - '&f❑ &5Ping: &f{latency}ms'
+    interval: 20
+    random: false
+  datos-jugadores2:
+    frames:
+    - '&f❑ &dOnline: &f{onlineplayers}'
+    - '&f❑ &dTPS: &f{avgtps_rounded}/20'
+    interval: 40
+    random: false
+  espacio7xxxxx:
+    frames:
+    - '&8&m----------------'
+    interval: 300
+    random: false
+  estadisticas:
+    frames:
+    - '&f❑ &4Kills: &f{battlelevels_kills}'
+    - '&f❑ &4Deaths: &f{battlelevels_deaths}'
+    - '&f❑ &4Streak: &f{battlelevels_killstreak}'
+    interval: 40
+    random: false
+  niveles:
+    frames:
+    - '&f❑ &aLevel: &f{battlelevels_level}'
+    - '&f❑ &aProgress: {battlelevels_bar}'
+    interval: 40
+    random: false
+  espacio1:
+    frames:
+    - '&8&m----------------'
+    interval: 100
+    random: false
+  coordenadas:
+    frames:
+    - '&6&oplay.server.com'
+    interval: 2
+    random: false
+  espacio1123:
+    frames:
+    - '&8&m----------------'
+    interval: 100
+    random: false     

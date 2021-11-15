@@ -1,0 +1,12 @@
+name: archduke
+permissions:
+- emotes.rage
+- ezranks.rank.Archduke
+parents:
+- g-bukkit_default
+- g-essentials_default
+- g-groupmanager_default
+- grandfather
+prefixes:
+- '&f':
+    priority: 29

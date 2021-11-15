@@ -1,0 +1,33 @@
+Groups:
+  SIMPLE:
+    color: "&7"
+    display-name: "&7Simple"
+    material: "BOOK"
+  UNIQUE:
+    color: "&a"
+    display-name: "&aUnique"
+    material: "BOOK"
+  ELITE:
+    color: "&b"
+    display-name: "&bElite"
+    material: "BOOK"
+  ULTIMATE:
+    color: "&e"
+    display-name: "&eUltimate"
+    material: "BOOK"
+  LEGENDARY:
+    color: "&6"
+    display-name: "&6Legendary"
+    material: "BOOK"
+  SOUL:
+    color: "&c"
+    display-name: "&cSoul"
+    material: "BOOK"
+  HEROIC:
+    color: "&d"
+    display-name: "&dHeroic"
+    material: "BOOK"
+  MASTERY:
+    color: "&4"
+    display-name: "&4Mastery"
+    material: "BOOK"

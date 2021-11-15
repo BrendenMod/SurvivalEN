@@ -1,0 +1,19 @@
+name: craftsman
+permissions:
+- essentials.kits.Craftsman
+- essentials.kits.Default:
+    value: false
+- essentials.kits.Farmer:
+    value: false
+- ezranks.rank.Craftsman
+- preciousstones.limit1:
+    value: false
+- preciousstones.limit2
+parents:
+- apprentice
+- g-bukkit_default
+- g-essentials_default
+- g-groupmanager_default
+prefixes:
+- '&f':
+    priority: 5

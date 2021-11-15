@@ -1,0 +1,13 @@
+name: count
+permissions:
+- auctionhouse.auctions.1
+- emotes.cry
+- ezranks.rank.Count
+parents:
+- g-bukkit_default
+- g-essentials_default
+- g-groupmanager_default
+- viscount
+prefixes:
+- '&f':
+    priority: 23

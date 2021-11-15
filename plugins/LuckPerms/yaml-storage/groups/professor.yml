@@ -1,0 +1,13 @@
+name: professor
+permissions:
+- MyPet.leash.sheep
+- ezranks.rank.Professor
+- mypet.petstorage.limit.5
+parents:
+- bourgeois
+- g-bukkit_default
+- g-essentials_default
+- g-groupmanager_default
+prefixes:
+- '&f':
+    priority: 7

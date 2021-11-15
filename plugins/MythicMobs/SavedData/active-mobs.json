@@ -1,0 +1,616 @@
+{
+  "persistentMobs": {
+    "bb7edb30-9afb-4720-954a-c10b8aba37ae": {
+      "uuid": "bb7edb30-9afb-4720-954a-c10b8aba37ae",
+      "mobType": "VolcanBoss",
+      "aliveTime": 0,
+      "lastSeen": 1598049026040,
+      "spawnLocation": {
+        "world": {
+          "uuid": "b75b0002-0515-4751-a594-8cbb1f2a32e8",
+          "name": "spawn"
+        },
+        "x": 69.06484890923582,
+        "y": 134.0,
+        "z": 38.596843669904956,
+        "yaw": 121.95447,
+        "pitch": 5.455654
+      },
+      "variables": {
+        "entries": {}
+      },
+      "displayName": null,
+      "level": 0.0,
+      "globalCooldown": 0,
+      "stance": "default",
+      "lastSignal": "",
+      "playerKills": 0,
+      "owner": {
+        "value": null
+      },
+      "spawnerName": null,
+      "faction": {
+        "value": "Volcan"
+      },
+      "cooldowns": {}
+    },
+    "7a3f8a1d-4649-4aed-a0e9-2be10b0c9263": {
+      "uuid": "7a3f8a1d-4649-4aed-a0e9-2be10b0c9263",
+      "mobType": "Hielo1",
+      "aliveTime": 136397,
+      "lastSeen": 1586145937818,
+      "spawnLocation": {
+        "world": {
+          "uuid": "510020ea-5d2d-45ef-b5af-fa320fcecd82",
+          "name": "catacumbas"
+        },
+        "x": -127.5,
+        "y": 71.0,
+        "z": -189.5,
+        "yaw": 0.0,
+        "pitch": 0.0
+      },
+      "variables": {
+        "entries": {}
+      },
+      "displayName": null,
+      "level": 1.0,
+      "globalCooldown": 0,
+      "stance": "default",
+      "lastSignal": "",
+      "playerKills": 0,
+      "owner": {
+        "value": null
+      },
+      "spawnerName": "H2x4",
+      "faction": {
+        "value": "Hielo"
+      },
+      "cooldowns": {}
+    },
+    "0b46ac92-f41a-4cf7-b578-ed71894ba21a": {
+      "uuid": "0b46ac92-f41a-4cf7-b578-ed71894ba21a",
+      "mobType": "VolcanBoss",
+      "aliveTime": 0,
+      "lastSeen": 1598049026041,
+      "spawnLocation": {
+        "world": {
+          "uuid": "b75b0002-0515-4751-a594-8cbb1f2a32e8",
+          "name": "spawn"
+        },
+        "x": 69.06484890923582,
+        "y": 134.0,
+        "z": 38.596843669904956,
+        "yaw": 121.95447,
+        "pitch": 5.455654
+      },
+      "variables": {
+        "entries": {}
+      },
+      "displayName": null,
+      "level": 0.0,
+      "globalCooldown": 0,
+      "stance": "default",
+      "lastSignal": "",
+      "playerKills": 0,
+      "owner": {
+        "value": null
+      },
+      "spawnerName": null,
+      "faction": {
+        "value": "Volcan"
+      },
+      "cooldowns": {}
+    },
+    "3960bb85-1d66-4638-a02a-563dd9921d5f": {
+      "uuid": "3960bb85-1d66-4638-a02a-563dd9921d5f",
+      "mobType": "VolcanBoss",
+      "aliveTime": 0,
+      "lastSeen": 1598049026047,
+      "spawnLocation": {
+        "world": {
+          "uuid": "b75b0002-0515-4751-a594-8cbb1f2a32e8",
+          "name": "spawn"
+        },
+        "x": 69.06484890923582,
+        "y": 134.0,
+        "z": 38.596843669904956,
+        "yaw": 121.95447,
+        "pitch": 5.455654
+      },
+      "variables": {
+        "entries": {}
+      },
+      "displayName": null,
+      "level": 0.0,
+      "globalCooldown": 0,
+      "stance": "default",
+      "lastSignal": "",
+      "playerKills": 0,
+      "owner": {
+        "value": null
+      },
+      "spawnerName": null,
+      "faction": {
+        "value": "Volcan"
+      },
+      "cooldowns": {}
+    },
+    "5718dde2-b2b2-41cb-9cb2-6412ff8967e8": {
+      "uuid": "5718dde2-b2b2-41cb-9cb2-6412ff8967e8",
+      "mobType": "VolcanBoss",
+      "aliveTime": 0,
+      "lastSeen": 1598049026039,
+      "spawnLocation": {
+        "world": {
+          "uuid": "b75b0002-0515-4751-a594-8cbb1f2a32e8",
+          "name": "spawn"
+        },
+        "x": 69.06484890923582,
+        "y": 134.0,
+        "z": 38.596843669904956,
+        "yaw": 121.95447,
+        "pitch": 5.455654
+      },
+      "variables": {
+        "entries": {}
+      },
+      "displayName": null,
+      "level": 0.0,
+      "globalCooldown": 0,
+      "stance": "default",
+      "lastSignal": "",
+      "playerKills": 0,
+      "owner": {
+        "value": null
+      },
+      "spawnerName": null,
+      "faction": {
+        "value": "Volcan"
+      },
+      "cooldowns": {}
+    },
+    "119a1187-fbc3-4c5a-b731-f65edf37ae1b": {
+      "uuid": "119a1187-fbc3-4c5a-b731-f65edf37ae1b",
+      "mobType": "VolcanBoss",
+      "aliveTime": 6959525,
+      "lastSeen": 1609689036717,
+      "spawnLocation": {
+        "world": {
+          "uuid": "510020ea-5d2d-45ef-b5af-fa320fcecd82",
+          "name": "catacumbas"
+        },
+        "x": 301.5,
+        "y": 54.0,
+        "z": 22.5,
+        "yaw": 0.0,
+        "pitch": 0.0
+      },
+      "variables": {
+        "entries": {}
+      },
+      "displayName": null,
+      "level": 1.0,
+      "globalCooldown": 0,
+      "stance": "default",
+      "lastSignal": "",
+      "playerKills": 1,
+      "owner": {
+        "value": null
+      },
+      "spawnerName": "VBx1",
+      "faction": {
+        "value": "Volcan"
+      },
+      "cooldowns": {}
+    },
+    "7cb84cfc-bd35-4c8b-aee6-55e83e6820f4": {
+      "uuid": "7cb84cfc-bd35-4c8b-aee6-55e83e6820f4",
+      "mobType": "VolcanBoss",
+      "aliveTime": 6309756,
+      "lastSeen": 1598072692805,
+      "spawnLocation": {
+        "world": {
+          "uuid": "510020ea-5d2d-45ef-b5af-fa320fcecd82",
+          "name": "catacumbas"
+        },
+        "x": 301.5,
+        "y": 54.0,
+        "z": 22.5,
+        "yaw": 0.0,
+        "pitch": 0.0
+      },
+      "variables": {
+        "entries": {}
+      },
+      "displayName": null,
+      "level": 1.0,
+      "globalCooldown": 0,
+      "stance": "default",
+      "lastSignal": "",
+      "playerKills": 0,
+      "owner": {
+        "value": null
+      },
+      "spawnerName": "VBx1",
+      "faction": {
+        "value": "Volcan"
+      },
+      "cooldowns": {}
+    },
+    "f6045499-9209-4987-a95c-5ac963cd0f02": {
+      "uuid": "f6045499-9209-4987-a95c-5ac963cd0f02",
+      "mobType": "Hielo1",
+      "aliveTime": 138240,
+      "lastSeen": 1586145937818,
+      "spawnLocation": {
+        "world": {
+          "uuid": "510020ea-5d2d-45ef-b5af-fa320fcecd82",
+          "name": "catacumbas"
+        },
+        "x": -113.5,
+        "y": 74.0,
+        "z": -245.5,
+        "yaw": 0.0,
+        "pitch": 0.0
+      },
+      "variables": {
+        "entries": {}
+      },
+      "displayName": null,
+      "level": 1.0,
+      "globalCooldown": 0,
+      "stance": "default",
+      "lastSignal": "",
+      "playerKills": 0,
+      "owner": {
+        "value": null
+      },
+      "spawnerName": "H2x1",
+      "faction": {
+        "value": "Hielo"
+      },
+      "cooldowns": {}
+    },
+    "cc5ae017-ce2a-48a8-b70c-4f205b456b09": {
+      "uuid": "cc5ae017-ce2a-48a8-b70c-4f205b456b09",
+      "mobType": "VolcanBoss",
+      "aliveTime": 0,
+      "lastSeen": 1598049026045,
+      "spawnLocation": {
+        "world": {
+          "uuid": "b75b0002-0515-4751-a594-8cbb1f2a32e8",
+          "name": "spawn"
+        },
+        "x": 69.06484890923582,
+        "y": 134.0,
+        "z": 38.596843669904956,
+        "yaw": 121.95447,
+        "pitch": 5.455654
+      },
+      "variables": {
+        "entries": {}
+      },
+      "displayName": null,
+      "level": 0.0,
+      "globalCooldown": 0,
+      "stance": "default",
+      "lastSignal": "",
+      "playerKills": 0,
+      "owner": {
+        "value": null
+      },
+      "spawnerName": null,
+      "faction": {
+        "value": "Volcan"
+      },
+      "cooldowns": {}
+    },
+    "ec64a9a6-9624-4b6a-95cd-47a9f0096971": {
+      "uuid": "ec64a9a6-9624-4b6a-95cd-47a9f0096971",
+      "mobType": "VolcanBoss",
+      "aliveTime": 0,
+      "lastSeen": 1598049026040,
+      "spawnLocation": {
+        "world": {
+          "uuid": "b75b0002-0515-4751-a594-8cbb1f2a32e8",
+          "name": "spawn"
+        },
+        "x": 69.06484890923582,
+        "y": 134.0,
+        "z": 38.596843669904956,
+        "yaw": 121.95447,
+        "pitch": 5.455654
+      },
+      "variables": {
+        "entries": {}
+      },
+      "displayName": null,
+      "level": 0.0,
+      "globalCooldown": 0,
+      "stance": "default",
+      "lastSignal": "",
+      "playerKills": 0,
+      "owner": {
+        "value": null
+      },
+      "spawnerName": null,
+      "faction": {
+        "value": "Volcan"
+      },
+      "cooldowns": {}
+    },
+    "322f8f12-fd4b-4db6-ac81-9c501de9d0ca": {
+      "uuid": "322f8f12-fd4b-4db6-ac81-9c501de9d0ca",
+      "mobType": "Hielo2",
+      "aliveTime": 127488,
+      "lastSeen": 1586115270506,
+      "spawnLocation": {
+        "world": {
+          "uuid": "510020ea-5d2d-45ef-b5af-fa320fcecd82",
+          "name": "catacumbas"
+        },
+        "x": -135.5,
+        "y": 71.0,
+        "z": -195.5,
+        "yaw": 0.0,
+        "pitch": 0.0
+      },
+      "variables": {
+        "entries": {}
+      },
+      "displayName": null,
+      "level": 1.0,
+      "globalCooldown": 0,
+      "stance": "default",
+      "lastSignal": "",
+      "playerKills": 0,
+      "owner": {
+        "value": null
+      },
+      "spawnerName": null,
+      "faction": {
+        "value": "Hielo"
+      },
+      "cooldowns": {}
+    },
+    "d0a4273e-f112-48c8-8ea8-2efb13c21ca2": {
+      "uuid": "d0a4273e-f112-48c8-8ea8-2efb13c21ca2",
+      "mobType": "VolcanBoss",
+      "aliveTime": 0,
+      "lastSeen": 1598049026044,
+      "spawnLocation": {
+        "world": {
+          "uuid": "b75b0002-0515-4751-a594-8cbb1f2a32e8",
+          "name": "spawn"
+        },
+        "x": 69.06484890923582,
+        "y": 134.0,
+        "z": 38.596843669904956,
+        "yaw": 121.95447,
+        "pitch": 5.455654
+      },
+      "variables": {
+        "entries": {}
+      },
+      "displayName": null,
+      "level": 0.0,
+      "globalCooldown": 0,
+      "stance": "default",
+      "lastSignal": "",
+      "playerKills": 0,
+      "owner": {
+        "value": null
+      },
+      "spawnerName": null,
+      "faction": {
+        "value": "Volcan"
+      },
+      "cooldowns": {}
+    },
+    "48c1b4f2-af7c-449d-99c0-38db266cfcd0": {
+      "uuid": "48c1b4f2-af7c-449d-99c0-38db266cfcd0",
+      "mobType": "VolcanBoss",
+      "aliveTime": 0,
+      "lastSeen": 1598049026043,
+      "spawnLocation": {
+        "world": {
+          "uuid": "b75b0002-0515-4751-a594-8cbb1f2a32e8",
+          "name": "spawn"
+        },
+        "x": 69.06484890923582,
+        "y": 134.0,
+        "z": 38.596843669904956,
+        "yaw": 121.95447,
+        "pitch": 5.455654
+      },
+      "variables": {
+        "entries": {}
+      },
+      "displayName": null,
+      "level": 0.0,
+      "globalCooldown": 0,
+      "stance": "default",
+      "lastSignal": "",
+      "playerKills": 0,
+      "owner": {
+        "value": null
+      },
+      "spawnerName": null,
+      "faction": {
+        "value": "Volcan"
+      },
+      "cooldowns": {}
+    },
+    "3d775add-1683-41b1-98ec-ccd36f1a5d47": {
+      "uuid": "3d775add-1683-41b1-98ec-ccd36f1a5d47",
+      "mobType": "VolcanBoss",
+      "aliveTime": 0,
+      "lastSeen": 1598049026042,
+      "spawnLocation": {
+        "world": {
+          "uuid": "b75b0002-0515-4751-a594-8cbb1f2a32e8",
+          "name": "spawn"
+        },
+        "x": 69.06484890923582,
+        "y": 134.0,
+        "z": 38.596843669904956,
+        "yaw": 121.95447,
+        "pitch": 5.455654
+      },
+      "variables": {
+        "entries": {}
+      },
+      "displayName": null,
+      "level": 0.0,
+      "globalCooldown": 0,
+      "stance": "default",
+      "lastSignal": "",
+      "playerKills": 0,
+      "owner": {
+        "value": null
+      },
+      "spawnerName": null,
+      "faction": {
+        "value": "Volcan"
+      },
+      "cooldowns": {}
+    },
+    "61e56921-a318-46c5-b216-fd055ae889b9": {
+      "uuid": "61e56921-a318-46c5-b216-fd055ae889b9",
+      "mobType": "VolcanBoss",
+      "aliveTime": 0,
+      "lastSeen": 1598049026046,
+      "spawnLocation": {
+        "world": {
+          "uuid": "b75b0002-0515-4751-a594-8cbb1f2a32e8",
+          "name": "spawn"
+        },
+        "x": 69.06484890923582,
+        "y": 134.0,
+        "z": 38.596843669904956,
+        "yaw": 121.95447,
+        "pitch": 5.455654
+      },
+      "variables": {
+        "entries": {}
+      },
+      "displayName": null,
+      "level": 0.0,
+      "globalCooldown": 0,
+      "stance": "default",
+      "lastSignal": "",
+      "playerKills": 0,
+      "owner": {
+        "value": null
+      },
+      "spawnerName": null,
+      "faction": {
+        "value": "Volcan"
+      },
+      "cooldowns": {}
+    },
+    "a22398f7-20bd-408f-b755-bd5ae3667f34": {
+      "uuid": "a22398f7-20bd-408f-b755-bd5ae3667f34",
+      "mobType": "Hielo5",
+      "aliveTime": 42217,
+      "lastSeen": 1586145937818,
+      "spawnLocation": {
+        "world": {
+          "uuid": "510020ea-5d2d-45ef-b5af-fa320fcecd82",
+          "name": "catacumbas"
+        },
+        "x": -163.5,
+        "y": 53.0,
+        "z": -159.5,
+        "yaw": 0.0,
+        "pitch": 0.0
+      },
+      "variables": {
+        "entries": {}
+      },
+      "displayName": null,
+      "level": 1.0,
+      "globalCooldown": 0,
+      "stance": "default",
+      "lastSignal": "",
+      "playerKills": 0,
+      "owner": {
+        "value": null
+      },
+      "spawnerName": "H5x1",
+      "faction": {
+        "value": "Hielo"
+      },
+      "cooldowns": {}
+    },
+    "9f833ce6-6100-4fe4-8cdb-58821c826221": {
+      "uuid": "9f833ce6-6100-4fe4-8cdb-58821c826221",
+      "mobType": "D1",
+      "aliveTime": 5891,
+      "lastSeen": 1586197938513,
+      "spawnLocation": {
+        "world": {
+          "uuid": "8bf3972f-2bf3-47ec-9eba-9dafcb450324",
+          "name": "world"
+        },
+        "x": -3790.0,
+        "y": 71.0,
+        "z": -3161.0,
+        "yaw": 0.0,
+        "pitch": 0.0
+      },
+      "variables": {
+        "entries": {}
+      },
+      "displayName": null,
+      "level": 0.0,
+      "globalCooldown": 0,
+      "stance": "default",
+      "lastSignal": "",
+      "playerKills": 1,
+      "owner": {
+        "value": null
+      },
+      "spawnerName": null,
+      "faction": {
+        "value": null
+      },
+      "cooldowns": {}
+    },
+    "0622f81e-2b3d-45b5-a2c8-9063cf66c5c7": {
+      "uuid": "0622f81e-2b3d-45b5-a2c8-9063cf66c5c7",
+      "mobType": "D2",
+      "aliveTime": 1968,
+      "lastSeen": 1586192107061,
+      "spawnLocation": {
+        "world": {
+          "uuid": "8bf3972f-2bf3-47ec-9eba-9dafcb450324",
+          "name": "world"
+        },
+        "x": 1079.0,
+        "y": 72.0,
+        "z": -9505.0,
+        "yaw": 0.0,
+        "pitch": 0.0
+      },
+      "variables": {
+        "entries": {}
+      },
+      "displayName": null,
+      "level": 0.0,
+      "globalCooldown": 0,
+      "stance": "default",
+      "lastSignal": "",
+      "playerKills": 4,
+      "owner": {
+        "value": null
+      },
+      "spawnerName": null,
+      "faction": {
+        "value": null
+      },
+      "cooldowns": {}
+    }
+  }
+}

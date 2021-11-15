@@ -1,0 +1,89 @@
+menu_title: '&0Pets'
+open_command:
+- Pets
+- Pet
+size: 9
+open_commands:
+- '[sound] CHEST_OPEN 2 0'
+items:
+  'ListPet':
+    material: barrel
+    slot: 1
+    display_name: '&bYour pets'
+    lore:
+    - ''
+    - '&7Click to see your pets'
+    left_click_commands:
+    - '[player] petswitch'
+    - '[close]'
+    right_click_commands:
+    - '[player] petswitch'
+    - '[close]'
+  'Skills':
+    material: beacon
+    slot: 2
+    display_name: '&bAbilities'
+    left_click_commands:
+    - '[player] petchooseskilltree'
+    - '[close]'
+    right_click_commands:
+    - '[player] petchooseskilltree'
+    - '[close]'
+  'Name':
+    material: paper
+    slot: 3
+    display_name: '&bThe pet is name'
+    left_click_commands:
+    - '[player] petname &e⚉ &f%player_name%´s &apet'
+    - '[message] &cIf you want to name your pet, use &c/petname &e<name>'
+    - '[close]'
+    right_click_commands:
+    - '[player] petname &e⚉ &f%player_name%´s &apet'
+    - '[message] &cIf you want to name your pet, use &c/petname &e<name>'
+    - '[close]'
+  'Lead':
+    material: lead
+    slot: 4
+    display_name: '&bHow to capture a pet?'
+    left_click_commands:
+    - '[message] &cIf you want to capture a pet, kill it with a lead'
+    - '[close]'
+    right_click_commands:
+    - '[message] &cIf you want to capture a pet, kill it with a lead'
+    - '[close]'
+  'Rod':
+    material: bell
+    slot: 5
+    display_name: '&bCall your pet'
+    left_click_commands:
+    - '[player] petcall'
+    - '[close]'
+    right_click_commands:
+    - '[player] petcall'
+    - '[close]'
+  'paper':
+    material: BOOK
+    slot: 6
+    display_name: '&9Your Pet Information'
+    left_click_commands:
+    - '[player] petinfo'
+    - '[close]'
+    right_click_commands:
+    - '[player] petinfo'
+    - '[close]'
+  'feather':
+    material: red_dye
+    slot: 7
+    display_name: '&cKeep your pet away'
+    left_click_commands:
+    - '[player] petsa'
+    - '[close]'
+    right_click_commands:
+    - '[player] petsa'
+    - '[close]'
+  '1':
+    material: white_stained_glass_pane
+    data: 15
+    slots:
+    - 0
+    - 8

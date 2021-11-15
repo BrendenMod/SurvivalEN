@@ -1,0 +1,20 @@
+name: g-essentials_vip5
+permissions:
+- essentials.feed.others
+- essentials.kits.Vip1:
+    value: false
+- essentials.kits.Vip2:
+    value: false
+- essentials.kits.Vip3:
+    value: false
+- essentials.kits.Vip4:
+    value: false
+- essentials.kits.Vip5
+- essentials.kittycannon
+- essentials.repair.all
+- essentials.repair.armor
+- essentials.repair.enchanted
+- essentials.sell
+- essentials.sell.bulk
+- essentials.sethome.multiple
+- essentials.sethome.multiple.vip5

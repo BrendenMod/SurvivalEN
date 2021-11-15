@@ -1,0 +1,14 @@
+max-tries: 10
+disallowed-materials:
+  - AIR
+  - LAVA
+  - STATIONARY_LAVA
+
+distance:
+  minimum: 0
+  maximum: 6000
+
+messages:
+  teleporting: "&b&lRTP &8» &7Teleporting to the coordinates &a%x% %z%&7"
+  teleported: "&b&lRTP &8» &7 &7You have teleported successfully!"
+  cannot-teleport: "&b&lRTP &8» &7 &cNo safe zone found."

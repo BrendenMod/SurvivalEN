@@ -1,0 +1,140 @@
+blocks:
+  name: '&0&bBlocks&r'
+  rows: 3
+  command: 'blocks'
+  items:
+  - stone 120 2
+  - granite 120 2
+  - diorite 120 2
+  - andesite 120 2
+  - grass_block 180 5
+  - dirt 80 0
+  - coarse_dirt 110 0
+  - podzol 110 0
+  - crimson_nylium 150 0
+  - warped_nylium 150 0
+  - oak_log 500 5
+  - spruce_log 500 5
+  - birch_log 500 5
+  - jungle_log 500 5
+  - acacia_log 500 5
+  - dark_oak_log 500 5
+  - sponge 4000 2500
+  - white_wool 550 10
+  - ''
+  - bricks 750 20
+  - bookshelf 5000 0
+  - mossy_cobblestone 275 0
+  - obsidian 8000 0
+  - purpur_block 550 0
+  - purpur_pillar 550 0
+  - snow_block 300 0
+  - ice 500 0
+  - packed_ice 130 0
+  - prismarine 1000 0
+  - sea_lantern 750 0
+  - nether_brick 200 1
+  - netherrack 150 0.25
+  - soul_sand 750 10
+  - glowstone 500 20
+  - quartz_block 2250 0
+  - prismarine 1000 0
+mobdrops:
+  name: '&0&nMobs Drops&r'
+  rows: 3
+  command: 'mobdrops'
+  items:
+  - BONE 1250 20
+  - ARROW 800 20
+  - ROTTEN_FLESH 200 4
+  - GUNPOWDER 600 12
+  - STRING 70 3
+  - SPIDER_EYE 500 6
+  - BLAZE_ROD 8000 10
+  - ENDER_PEARL 9000 15
+  - SLIME_BALL 5000 9
+  - MAGMA_CREAM 5000 9
+  - GHAST_TEAR 15000 50
+  - PRISMARINE_SHARD 500 3
+  - LEATHER 500 3
+  - FEATHER 200 2
+  - RABBIT_FOOT 500 12
+equip:
+  name: '&0Armor/Tools/Weapons&r'
+  rows: 3
+  items:
+  - stone_pickaxe 500 0
+  - stone_axe 500 0
+  - stone_shovel 500 0
+  - iron_pickaxe 1200 0
+  - iron_axe 1200 0
+  - iron_shovel 1200 0
+  - diamond_pickaxe 4000 0
+  - diamond_axe 4000 0
+  - diamond_shovel 4000 0
+  - '$pic1 5500 0'
+  - '$pic2 12500 0'
+  - '$pic3 25000 0'
+  - '$axe1 7500 0'
+  - '$axe2 14500 0'
+  - '$axe3 125000 0'
+  - '$sho1 3500 0'
+  - '$sho2 6500 0'
+  - '$sho3 12500 0'
+  - ''
+  - iron_helmet 6000 0 
+  - iron_chestplate 8000 0
+  - iron_leggings 7000 0
+  - iron_boots 5000 0
+  - diamond_helmet 16000 0
+  - diamond_chestplate 18000 0
+  - diamond_leggings 17000 0
+  - diamond_boots 15000 0
+  - '$sword1 25000 0'
+  - '$ar1 25000 0'
+  - '$ar2 30000 0'
+  - '$ar3 30000 0'
+  - '$ar4 20000 0'
+  - '$diamon1 195000 0'
+  - '$diamon2 620000 0'
+  - '$diamon3 400000 0'
+  - '$diamon4 200000 0'
+  - '$sword2 550000 0'
+Dyes:
+  name: '&0&nDyes&r'
+  rows: 3
+  command: 'Dyes'
+  items:
+  - white_dye 125 12
+  - orange_dye 125 12
+  - magenta_dye 125 12
+  - light_blue_dye 125 12
+  - yellow_dye 125 12
+  - lime_dye 125 12
+  - pink_dye 125 12
+  - gray_dye 125 12
+  - light_gray_dye 125 12
+  - cyan_dye 125 12
+  - purple_dye 125 12
+  - blue_dye 125 12
+  - brown_dye 125 12
+  - green_dye 125 12
+  - red_dye 125 12
+  - black_dye 125 12
+Miner:
+  name: '&0&bMiner&r'
+  rows: 3
+  command: 'Dyes'
+  items:
+  - stone 0 6
+  - cobblestone 0 4
+  - coal 120 20
+  - iron_ore 250 47
+  - iron_ingot 375 54
+  - gold_ore 350 55
+  - gold_ingot 450 63
+  - diamond 950 120
+  - emerald 1250 150
+  - redstone 125 35
+  - lapis_lazuli 150 30
+  

@@ -1,0 +1,21 @@
+name: jmod
+permissions:
+- autorank.exclude
+- djp.VIP4:
+    value: false
+- djp.VIP5:
+    value: false
+- djp.aquiles:
+    value: false
+- djp.glifo:
+    value: false
+- djp.pegaso:
+    value: false
+parents:
+- g-bukkit_default
+- g-essentials_administrador
+- g-groupmanager_default
+- mod
+prefixes:
+- '&a&lJ-MOD &f':
+    priority: 52

@@ -1,0 +1,9 @@
+name: yt
+parents:
+- g-bukkit_default
+- g-essentials_vip2
+- g-groupmanager_default
+- vip2
+prefixes:
+- '&4&lY&f&lT &f':
+    priority: 42

@@ -1,0 +1,49 @@
+# EZRanksPro 1.8.0 main configuration file
+# Created by extended_clip
+check_updates: false
+debug: false
+check_primary_group_for_available_rankup: false
+chat_prefix_enabled: true
+log_rankups_to_file: false
+confirm_to_rankup:
+  enabled: false
+  time: 10
+rankup_cooldown:
+  enabled: true
+  time: 30
+ranks_command_enabled: true
+ranks:
+  use_custom_message: false
+  custom_message:
+  - '&8&m------------------------------'
+  header:
+  - '&8&m------------------------------'
+  format_previous_ranks: '&e%rank% &aa &6%rankto%: &aComplete!'
+  format_current_rank: '&e%rank% &aa &6%rankto%: &a$%cost%!'
+  format_incomplete_ranks: '&e%rank% &aa &6%rankto%: &a$%cost%!'
+  format_last_rank: '%lastrankprefix%: &cLast rank!'
+  format_is_last_rank: '%lastrankprefix%: &cYou already find the last rank!'
+  footer:
+  - '&8&m------------------------------'
+money:
+  use_custom_format: false
+  custom_format: '#,###.00'
+  thousands_format: k
+  millions_format: M
+  billions_format: B
+  trillions_format: T
+  quadrillions_format: Q
+progress_bar:
+  has_color: '&a'
+  needs_color: '&8'
+  end_color: '&e'
+  left_character: '['
+  bar_character: ':'
+  right_character: ']'
+  is_full: '&a/rankup'
+placeholders:
+  rank_completed: completed
+  rank_not_completed: incompleted
+autorankup:
+  enabled: false
+  check_interval: 60

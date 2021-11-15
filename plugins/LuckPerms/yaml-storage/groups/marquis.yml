@@ -1,0 +1,14 @@
+name: marquis
+permissions:
+- ezranks.rank.Marquis
+- preciousstones.limit3:
+    value: false
+- preciousstones.limit4
+parents:
+- count
+- g-bukkit_default
+- g-essentials_default
+- g-groupmanager_default
+prefixes:
+- '&f':
+    priority: 24

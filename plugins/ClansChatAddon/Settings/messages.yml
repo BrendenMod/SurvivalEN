@@ -1,0 +1,8 @@
+Prefix: '&b&lCLANS &8»'
+Commands:
+  DisplayChat: '%prefix% /clan %command% <message> | &eSend a Clan Message'
+  DisplayToggleChat: '%prefix% /clan %command% | &eToggle your Private Chat'
+Chat:
+  MessageFormat: '&7[%clan%&7] &f<&e%player%&f> &7:&f %message%'
+  ToggleEnabled: '%prefix% &7Your Private Clan Chat has been &aEnabled'
+  ToggleDisabled: '%prefix% &7Your Private Clan Chat has been &cDisabled'

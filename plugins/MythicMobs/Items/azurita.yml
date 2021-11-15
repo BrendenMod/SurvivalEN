@@ -1,0 +1,14 @@
+azurita:
+  Id: BLUE_DYE
+  Data: 0
+  Display: '&b&lAzurite'
+  Lore:
+  - '&8══════&c❋&8══════'
+  - '&e➤ &f&oRarity:&r &5&oEpic'
+  - '&e➤ &f&oType: &b&oVigor'
+  - '&8═════════════'
+  - '&e➤ &f&oDescription:'
+  - '&e➤ &c&oStone worth'
+  - '&c&oexchange in store'
+  - '&c&oof spawn dungeons.'
+  - '&8══════&c❋&8══════'

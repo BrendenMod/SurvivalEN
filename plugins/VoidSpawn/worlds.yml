@@ -1,0 +1,10 @@
+version: 2
+lobby:
+  spawn:
+    x: 21.405045255568883
+    y: 113.0
+    z: 6.571921375244866
+    pitch: 2.5576708
+    yaw: 181.04541
+    world: lobby
+  mode: spawn

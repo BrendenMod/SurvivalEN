@@ -1,0 +1,699 @@
+---
+economy:
+  error:
+    nomoney: 'No queda dinero en las arcas del reino.'
+limitedItem:
+  error:
+    levelup: '&cPara usar esto necesitas aumentar el nivel de profesión de [jobname].'
+general:
+  Spawner: '&rEngendrador de [type]'
+  info:
+    toplineseparator: '&7*********************** &6%playername% &7***********************'
+    separator: '&7*******************************************************'
+    time:
+      days: '&7%days% &6días '
+      hours: '&7%hours% &6horas '
+      mins: '&7%mins% &6minutos '
+      secs: '&7%secs% &6segundos '
+    invalidPage: '&cPágina no válida'
+    'true': '&2Veritat'
+    'false': '&cFals'
+  admin:
+    error: '&cSe ha producido un error al aplicar el conjuro.'
+    success: '&7El conjuro ha sido aplicado.'
+  error:
+    noHelpPage: '&c¡No existe este número de página de ayuda!'
+    notNumber: '&7Por favor, utiliza números.'
+    job: '&cEl trabajo que has seleccionado no existe o no formas parte de él'
+    noCommand: '&c¡No hay ningún conjuro con este nombre!'
+    permission: '&cNo tienes permiso para hacer esto.'
+    noinfo: '&cNo se ha encontrado información.'
+    noinfoByPlayer: '&cNo se a encontrado información sobre [%playername%].'
+    ingame: '&cEsto es un conjuro y solo puede ser usado por un jugador.'
+    fromconsole: '&cEsto es un comando y solo puede ser usado desde la consola.'
+    worldisdisabled: '&cNo puedes usar este conjuro en este mundo.'
+    newFurnaceRegistration: '&7Se ha registrado un nuevo propietario del Horno &7[current]&7/&f[max]'
+    newBrewingRegistration: '&7Se ha registrado un nuevo propietario del Soporte para Pociones &7[current]&7/&f[max]'
+    noFurnaceRegistration: '&c¡Has alcanzado el número máximo de Hornos!'
+    noBrewingRegistration: '&c¡Has alcanzado el número máximo de Soportes de Pociones!'
+command:
+  help:
+    output:
+      info: Escribe /jobs [command] ? para obtener más información sobre el conjuro.
+      cmdUsage: '&2Usa: &7[command]'
+      label: Jobs
+      cmdInfoFormat: '[command] &f- &2[description]'
+      cmdFormat: '&7/[command] &f[arguments]'
+      helpPageDescription: '&2* [description]'
+      title: '&7-------&7 ======= &6PROFESIONES &7======= &7-------'
+      page: '&7-----&7 ====== Página &6[1] &7de &6[2] &7====== &7-----'
+      fliperSimbols: '&7----------'
+      prevPage: '&2----<< &6Anterior '
+      prevPageOff: '&7----<< Anterior '
+      nextPage: '&6 Siguiente &2>>----'
+      nextPageOff: '&7 Siguiente >>----'
+      pageCount: '&2[current]/[total]'
+      pageCountHover: '&7[totalEntries] entradas'
+      prevPageGui: '&6Página anterior '
+      nextPageGui: '&6Siguiente Página'
+  moneyboost:
+    help:
+      info: Aumentar el salario de todos los jugadores
+      args: '[jobname]/all/reset [rate]/all'
+    output:
+      allreset: Se han anulado el aumento de salario
+      jobsboostreset: Se ha anulado el aumento de salario de la profesión %jobname%
+      nothingtoreset: No hay nada que reiniciar.
+      boostalladded: '¡Se ha aumentado el salario de todas las profesiones al %boost%!'
+      boostadded: '¡Se a aumentado el salario al &7%boost% &ade la profesión &7%jobname%!'
+      infostats: '&c-----> &aSalario actual x%boost%&c <-------'
+  pointboost:
+    help:
+      info: Aumentar los puntos de todos los jugadores
+      args: '[jobname]/all/reset [rate]/all'
+    output:
+      allreset: Se ha anulado el aumento de puntos
+      jobsboostreset: Se ha anulado el aumento de puntos de la profesión %jobname%
+      nothingtoreset: No hay nada que reiniciar.
+      boostalladded: '¡Se ha aumentado los puntos de todos las profesiones al %boost%!'
+      boostadded: '¡Se han aumentado los puntos al &7%boost% &ade la profesión &7%jobname%!'
+      infostats: '&c-----> &aPuntos actual x%boost%&c <-------'
+  expboost:
+    help:
+      info: Aumentar la Experiencia de todos los jugadores
+      args: '[jobname]/all/reset [rate]/all'
+    output:
+      allreset: Se ha anulado el aumento de experiencia
+      jobsboostreset: Se ha anulado el aumento de Experiencia para la profesión de %jobname%
+      nothingtoreset: No hay nada que reiniciar.
+      boostalladded: '¡Se ha aumentado la Experiencia de todos las profesiones al %boost%!'
+      boostadded: '¡Se ha aumentado la Experiencia de &7%boost% &ade la profesión &7%jobname%!'
+      infostats: '&c-----> &aExperiencia actual x%boost%&c <-------'
+  itembonus:
+    help:
+      info: Comprobar bonificación de artículo
+      args: ''
+    output:
+      list: '&7[jobname]: %money% %points% %exp%'
+      notAplyingList: '&7[jobname]: %money% %points% %exp%'
+      hover: '&7%itemtype%'
+      hoverLevelLimits: "&7Desde el nivel: %from% \n&7Hasta el nivel: %until%"
+  edititembonus:
+    help:
+      info: Editar bonificación de impulso de artículo
+      args: list/add/remove [jobname] [itemBoostName]
+  bonus:
+    help:
+      info: Muestra las primas de la profesión
+      args: '[jobname]'
+    output:
+      topline: '&7**************** &2[money] &6[points] &7[exp] &7****************'
+      permission: ' &7Bonus permanente: &2%money% &6%points% &7%exp%'
+      item: ' &7Item bonus: &2%money% &6%points% &7%exp%'
+      global: ' &7Global bonus: &2%money% &6%points% &7%exp%'
+      dynamic: ' &7Dynamic bonus: &2%money% &6%points% &7%exp%'
+      nearspawner: ' &7Spawner bonus: &2%money% &6%points% &7%exp%'
+      petpay: ' &7PetPay bonus: &2%money% &6%points% &7%exp%'
+      area: ' &7Area bonus: &2%money% &6%points% &7%exp%'
+      mcmmo: ' &7McMMO bonus: &2%money% &6%points% &7%exp%'
+      final: ' &7Final bonus: &2%money% &6%points% &7%exp%'
+      finalExplanation: ' &7No se incluye la prima de Mascota o la penalización de proximidad de spawner.'
+  convert:
+    help:
+      info: Convierte el sistema de base de datos en otro tipo. De SQLite a MySQL o viceversa.
+      args: ''
+  limit:
+    help:
+      info: Muestra el limite de pago por cada profesión.
+      args: '[playername]'
+    output:
+      moneytime: '&7Tiempo restante hasta que el Salario vuelva a la normalidad: &2%time%'
+      moneyLimit: '&7Límite de Pago: &2%current%&7/&2%total%'
+      exptime: '&7Tiempo restante hasta que la Experiencia vuelva a la normalidad: &2%time%'
+      expLimit: '&7Límite de Experiencia: &2%current%&7/&2%total%'
+      pointstime: '&7Tiempo restante hasta que los Puntos vuelvan a la normalidad: &2%time%'
+      pointsLimit: '&7Límite de Puntos: &2%current%&7/&2%total%'
+      reachedmoneylimit: '&4¡Has alcanzado el salario máximo permitido por minuto!'
+      reachedmoneylimit2: '&7Puedes comprobar el límite con el conjuro &2/jobs limit'
+      reachedmoneylimit3: '&7El dinero ganado ahora se reduce exponencialmente... ¡Pero aún ganas un poco!'
+      reachedexplimit: '&4Has alcanzado el límite de Experiencia obtenida por minuto!'
+      reachedexplimit2: '&7Puedes comprobar el límite con el conjuro &2/jobs limit'
+      reachedpointslimit: '&4Haz alcanzado el límite de Puntos obtenidos por minuto!'
+      reachedpointslimit2: '&7Puedes comprobar el límite con el conjuro &2/jobs limit'
+      notenabled: '&7La función de limitación de pagos está desactivada.'
+  resetlimit:
+    help:
+      info: Reinicia los límites de pago de jugadores.
+      args: '[playername]'
+    output:
+      reseted: '&7Se ha reiniciado el límite de pago de &2%playername%'
+  resetquest:
+    help:
+      info: Restablece la búsqueda de un jugador
+      args: '[playername] [jobname]'
+    output:
+      reseted: '&7La misión se ha reiniciado para: &2%playername%'
+      noQuests: '&7No se han encontrado misiones'
+  points:
+    help:
+      info: Muestra cuantos puntos tiene el jugador.
+      args: '[playername]'
+    currentpoints: ' &7Puntos de la profesión actual: &6%currentpoints%'
+    totalpoints: ' &7Puntos de la profesión conseguidos en total: &6%totalpoints%'
+  editpoints:
+    help:
+      info: Modifica los puntos del jugador.
+      args: set/add/take [playername] [amount]
+    output:
+      set: '&7Se ha establecido la cantidad de &6%amount% &7puntos (a &6%playername%&7)'
+      add: '&Se han añadido &6%amount%&7 puntos a &6%playername%&7. Total: &6%total%'
+      take: '&7El jugador (&6%playername%&7) ha perdido &6%amount% &7puntos. Ahora tiene &6%total%'
+  editjobs:
+    help:
+      info: Modificar la profesión actual.
+      args: ''
+      list:
+        job: '&7Profesiones:'
+        jobs: '  -> [&7%jobname%&r]'
+        actions: '    -> [&7%actionname%&r]'
+        material: '      -> [&7%materialname%&r]      '
+        materialRemove: '&c[X]'
+        materialAdd: '      -> &7[&2+&7]'
+        money: '        -> &7Dinero: &6%amount%'
+        exp: '        -> &7Experiencia: &6%amount%'
+        points: '        -> &7Puntos: &6%amount%'
+      modify:
+        newValue: '&7Introduce el nuevo valor'
+        enter: '&7Introduce un nombre nuevo o click '
+        hand: '&6IZQUIERDO '
+        handHover: '&6click izquierdo para obtener información sobre el objeto de tu mano'
+        or: '&7o '
+        look: '&6MIRALO'
+        lookHover: '&6click izquierdo para obtener información sobre el bloque que estás mirando'
+  editquests:
+    help:
+      info: Edit current quests.
+      args: ''
+      list:
+        quest: '&7Misiones:'
+        jobs: '  -> [&7%jobname%&r]'
+        quests: '  -> [&7%questname%&r]'
+        actions: '    -> [&7%actionname%&r]'
+        objectives: '      -> [&7%objectivename%&r]'
+        objectiveRemove: '&c[X]'
+        objectiveAdd: '      -> &7[&2+&7]'
+      modify:
+        newValue: '&7Ingresa nuevo valor'
+        enter: '&7Enter new name or press '
+        hand: '&6HAND '
+        handHover: '&6Press to grab info from item in your hand'
+        or: '&7or '
+        look: '&6LOOKING AT'
+        lookHover: '&6Press to grab info from block you are looking'
+  blockinfo:
+    help:
+      info: Muestra información sobre el bloque que estas mirando.
+      args: ''
+    output:
+      name: ' &7Nombre del bloque: &6%blockname%'
+      id: ' &7Id del bloque: &6%blockid%'
+      data: ' &7Datos del bloque: &6%blockdata%'
+      usage: ' &7Usa: &6%first% &7o &6%second%'
+  iteminfo:
+    help:
+      info: Muestra información del objetos que sujetas.
+      args: ''
+    output:
+      name: ' &7Nombre del Objeto: &6%itemname%'
+      id: ' &7Id del Objeto: &6%itemid%'
+      data: ' &7Datos del Objeto: &6%itemdata%'
+      usage: ' &7Usa: &6%first% &7or &6%second%'
+  placeholders:
+    help:
+      info: Listar todos los marcadores de posición
+      args: (analizar) (marcador de posición)
+    output:
+      list: '&7[place]. &7[placeholder]'
+      outputResult: ' &7resultado: &7[result]'
+      parse: '&6[placeholder] &7por [source] &6resultado &8|&f[result]&8|'
+  entitylist:
+    help:
+      info: Muestra una lista de todas las entidades que puedes usar.
+      args: ''
+  stats:
+    help:
+      info: Muestra el nivel en el que te encuentras de cada profesión.
+      args: '[playername]'
+    error:
+      nojob: Debes trabajar primero en una profesión.
+    output: '&bNivel &3%joblevel% &bde &r%jobname%. &aExperiencia &2%jobxp% &ade &2%jobmaxxp%'
+    bossBarOutput: 'Lvl %joblevel% %jobname%: %jobxp%/%jobmaxxp% xp%gain%'
+    bossBarGain: ' &7(&f%gain%&7)'
+  shop:
+    help:
+      info: Accede a la tienda especial de la profesión.
+      args: ''
+    info:
+      title: '&7------- &8TIENDA DE PROFESIONES &7-------'
+      currentPoints: '&7Tienes: &6%currentpoints%'
+      price: '&7Precio: &6%price%'
+      reqJobs: '&7Profesiones que necesitas:'
+      reqJobsList: '  &6%jobsname%&7: &7%level% lvl'
+      reqTotalLevel: '&6Nivel total que necesitas: &7%totalLevel%'
+      reqJobsColor: '&c'
+      reqJobsLevelColor: '&4'
+      reqTotalLevelColor: '&4'
+      cantOpen: '&cNo se puede abrir esta página'
+      NoPermForItem: '&c¡No tienes permiso para obtener este objeto!'
+      NoPermToBuy: '&cNo tienes permiso para comprar este objeto.'
+      NoJobReqForitem: '&cNo estás en la profesión necesaria (&6%jobname%&7) y no tienes el nivel (&6%joblevel%&7) necesario.'
+      NoPoints: '&cNo tienes puntos suficientes.'
+      NoTotalLevel: '&cEl nivel de la profesión es demasiado bajo (%totalLevel%)&c.'
+      Paid: '&7Has pagado &6%amount% &7por este objeto.'
+  archive:
+    help:
+      info: Muestra las profesiones guardadas por el usuario.
+      args: '[playername]'
+    error:
+      nojob: No hay profesiones guardadas.
+  give:
+    help:
+      info: Obtener el objeto a partir del nombre o la categoría. El nombre de jugador es opcional.
+      args: '[playername] [jobname] [items/limiteditems] [jobitemname]'
+    output:
+      notonline: '&4¡El jugador con ese nombre no está conectado!'
+      noitem: '&4No se han encontrado jugadores con ese nombre.'
+  info:
+    help:
+      title: '&6●&f●&e● &7PROFESIONES&2 &e●&f●&6●'
+      info: Muestra los detalles de la profesión.
+      penalty: '&7Trabajar en esta profesión conlleva una penalización del &c[penalty]% &7porque hay muchos trabajadores.'
+      bonus: '&7Trabajar en esta profesión implica obtener una prima del &2[bonus]% &7porque hay pocos trabajadores.'
+      args: '[jobname] [action]'
+      actions: '&8✦ &7Cómo ganarás dinero: &f%actions%'
+      max: ' - &7nivel máximo:&f '
+      newMax: '&8» &7Nivel Máximo: &f[max]'
+      material: '&7%material%'
+      levelRange: ' &a(&7%levelFrom% &a- &7%levelUntil% &aniveles)'
+      levelFrom: ' &a(desde &7%levelFrom% &aniveles)'
+      levelUntil: ' &a(hasta &7%levelUntil% &aniveles)'
+      money: ' $&6%money% &7|'
+      points: ' &3%points% &bP &7|'
+      exp: ' &2%exp% &aXP'
+    gui:
+      pickjob: '&0Escoje una profesión'
+      jobinfo: '&7[jobname] información'
+      actions: '&8✦ &7Ganarás dinero:'
+      leftClick: '&e¡Click izquierdo para información!'
+      middleClick: '&c¡Click central para abandonar trabajo!'
+      rightClick: '&e¡Click derecho para trabajar!'
+      leftSlots: '&7Puestos libres:&f '
+      working: '&7Trabajando actualmente'
+      cantJoin: '&cNo puedes ingresar a este trabajo'
+      max: '&7Nivel máximo:&f '
+      back: '&7Volver'
+      next: '&7Siguiente'
+    output:
+      break:
+        info: '&b● &7Romper'
+        none: 'Con la profesión de %jobname% no vas a recibir dinero por romper bloques.'
+      tntbreak:
+        info: '&b● &7TNT'
+        none: 'Con la profesión de %jobname% no vas a recibir dinero por estallar bloques con dinamita.'
+      place:
+        info: '&b● &7Colocar'
+        none: 'Con la profesión de %jobname% no vas a recibir dinero por colocar bloques.'
+      striplogs:
+        info: '&b● &7Tira de registros'
+        none: '%jobname% no recibe dinero por pelar troncos.'
+      kill:
+        info: '&b● &7Asesinar'
+        none: 'Con la profesión de %jobname% no vas a recibir dinero por matar monstruos.'
+      mmkill:
+        info: '&b● &7MMKill'
+        none: 'Con la profesión de %jobname% no vas a recibir dinero por matar monstruos míticos.'
+      fish:
+        info: '&b● &7Pescar'
+        none: 'Con la profesión de %jobname% no vas a recibir dinero por pescar peces.'
+      craft:
+        info: '&b● &7Crear'
+        none: 'Con la profesión de %jobname% no vas a recibir dinero por fabricar objetos.'
+      smelt:
+        info: '&b● &7Fundición'
+        none: 'Con la profesión de %jobname% no vas a recibir dinero por hornear.'
+      brew:
+        info: '&b● &7Alquimia'
+        none: 'Con la profesión de %jobname% no vas a recibir dinero por destilar pociones.'
+      eat:
+        info: '&b● &7Comer'
+        none: 'Con la profesión de %jobname% no vas a recibir dinero por comer.'
+      dye:
+        info: '&b● &7Teñir'
+        none: 'Con la profesión de %jobname% no vas a recibir dinero por teñir ropa.'
+      enchant:
+        info: '&b● &7Encantar'
+        none: 'Con la profesión de %jobname% no vas a recibir dinero por encantar herramientas.'
+      vtrade:
+        info: '&b● &7Comercio de aldeanos'
+        none: '%jobname% does not get money for trading a villager.'
+      repair:
+        info: '&b● &7Reparar'
+        none: 'Con la profesión de %jobname% no vas a recibir dinero por reparar.'
+      breed:
+        info: '&b● &7Criar'
+        none: 'Con la profesión de %jobname% no vas a recibir dinero por criar animales.'
+      tame:
+        info: '&b● &7Domesticar'
+        none: 'Con la profesión de %jobname% no vas a recibir dinero por domar animales.'
+      milk:
+        info: '&b● &7Ordeñar'
+        none: 'Con la profesión de %jobname% no vas a recibir dinero por ordeñar vacas.'
+      shear:
+        info: '&b● &7Esquilar'
+        none: 'Con la profesión de %jobname% no vas a recibir dinero por esquilar ovejas.'
+      explore:
+        info: '&b● &7Explorar'
+        none: 'Con la profesión de %jobname% no vas a recibir dinero por explorar el mundo.'
+      custom-kill:
+        info: '&b● &7Asesinatos personalizados'
+        none: 'Con la profesión de %jobname% no vas a recibir dinero por asesinar jugadores específicos.'
+      collect:
+        info: '&b● &7Recoger'
+        none: '%jobname% does not get money for collecting blocks.'
+      bake:
+        info: '&b● &7Hornear'
+        none: '%jobname% no recibe dinero por cocinar alimentos.'
+  playerinfo:
+    help:
+      info: Muestra cuanto se paga a alguien y por que acción.
+      args: '[playername] [jobname] [action]'
+  join:
+    help:
+      info: Trabajar en la profesión.
+      args: '[jobname]'
+    error:
+      alreadyin: Ya estás trabajando de %jobname%.
+      fullslots: No puedes trabajar en la profesión de %jobname%, ya que no hay puestos libres.
+      maxjobs: No puedes trabajar en más profesiones.
+      rejoin: '&cNo te puedes volver a trabajar en esta profesión. Debes esperar [time]'
+    rejoin: '&aHaz click para unirte a este trabajo: '
+    success: Ahora trabajas de %jobname%.
+    confirm: '&2click aquí para trabajar en la profesión de &7[jobname]&2.'
+  leave:
+    help:
+      info: Abandonar la profesión.
+      args: '[oldplayerjob]'
+    success: Has abandonado la profesión de %jobname%.
+    confirmationNeed: '&cAre you sure you want to leave from&7 [jobname]&c job? Type the command again within&6 [time] seconds &cto confirm!'
+  leaveall:
+    help:
+      info: Abandonar todas las profesiones.
+    error:
+      nojobs: No tienes ninguna profesión que abandonar
+    success: Has abandonado todas tus profesiones.
+    confirmationNeed: '&cAre you sure you want to leave from all jobs? Type the command again within&6 [time] seconds &cto confirm!'
+  explored:
+    help:
+      info: Comprobar quien ha visitado este chunk
+    error:
+      noexplore: Nadie a visitado este chunk
+    fullExplore: '&aThis chunk is fully explored'
+    list: '&7%place%. %playername%'
+  browse:
+    help:
+      info: Muestra la lista de profesiones disponibles.
+    error:
+      nojobs: No hay profesiones en las que puedas trabajar.
+    output:
+      header: 'Puedes trabajar en las siguientes profesiones:'
+      footer: Para mas información escribe /jobs info [JobName]
+      totalWorkers: ' &7Trabajadores: &7[amount]'
+      penalty: ' &4Penalización: &c[amount]%'
+      bonus: ' &2Prima: &a[amount]%'
+      newHeader: '&2========== [amount] PROFESIONES DISPONIBLES ========='
+      description: '[description]'
+      list: '    &8[place]. &7[jobname]'
+      console:
+        newHeader: '&2========== [amount] Trabajos Disponibles ========='
+        description: '[description]'
+        totalWorkers: ' &7Trabajadores: &7[amount]'
+        penalty: ' &4Penalización: &c[amount]%'
+        bonus: ' &2Bonus: &a[amount]%'
+        list: ' &6[jobname]'
+        newMax: ' &7Nivel Máx: &f[max]'
+      click: '&b¡click en la profesión para obtener más información!'
+      detailed: '&bclick aquí para mostrar los detalles de la profesión.'
+      jobHeader: '&2========== [jobname] ========='
+      chooseJob: '&7&n&oTrabajar en esta profesión'
+      chooseJobHover: '&7click aquí para trabajar en esta profesión'
+  clearownership:
+    help:
+      info: Eliminar propietarios.
+      args: '[playername]'
+    output:
+      cleared: '&2Se han eliminado &7[furnaces] &2hornos y &7[brewing] &2Soportes para Pociones'
+  skipquest:
+    help:
+      info: Skip defined quest and get new one
+      args: '[jobname] [questname] (playerName)'
+    output:
+      questSkipForCost: '&2You skipped the quest and paid:&7 %amount%$'
+  quests:
+    help:
+      info: Ver la lista de misiones disponibles.
+      args: '[playername]'
+    error:
+      noquests: 'No hay misiones.'
+    toplineseparator: '&7*********************** &6[playerName] &2(&f[questsDone]&2) &7***********************'
+    status:
+      changed: '&2The quests status has been changed to&r %status%'
+      started: '&aStarted'
+      stopped: '&cStopped'
+    output:
+      completed: '&2      !Completado!&r      '
+      questLine: '[progress] &7[questName] &f[done]&7/&8[required]'
+      skip: '&7click to skip this quest'
+      skips: '&7Left skips: &f[skips]'
+      hover: "&f[jobName] \n[desc] \n&7Nueva misión en: [time]"
+  fire:
+    help:
+      info: Fire the player from the job.
+      args: '[playername] [jobname]'
+    error:
+      nojob: Player does not have the job %jobname%.
+    output:
+      target: You have been fired from %jobname%.
+  fireall:
+    help:
+      info: Fire player from all their jobs.
+      args: '[playername]/all'
+    error:
+      nojobs: Player does not have any jobs to be fired from!
+    output:
+      target: You have been fired from all your jobs.
+  employ:
+    help:
+      info: Employ the player to the job.
+      args: '[playername] [jobname]'
+    error:
+      alreadyin: Player is already in the job %jobname%.
+      fullslots: You cannot join the job %jobname%, there are no slots available.
+    output:
+      target: You have been employed as a %jobname%.
+  top:
+    help:
+      info: Shows top players by jobs name.
+      args: '[jobname]'
+    error:
+      nojob: Can't find any job with this name.
+    output:
+      topline: '&aTop&7 %amount% &aplayers by &7%jobname% &ajob'
+      list: '&7%number%&a. &7%playername% &alvl &7%level% &awith&7 %exp% &aexp'
+      prev: '&7<<<<< Prev page &2|'
+      next: '&2|&7 Next Page >>>>'
+      show: '&2Show from &7[from] &2until &7[until] &2top list'
+  gtop:
+    help:
+      info: Shows top players by global jobs level.
+      args: ''
+    error:
+      nojob: Can't find any information.
+    output:
+      topline: '&aTop&7 %amount% &aplayers by global job level'
+      list: '&7%number%&a. &7%playername% &alvl &7%level% &awith&7 %exp% &aexp'
+      prev: '&7<<<<< Prev page &2|'
+      next: '&2|&7 Next Page >>>>'
+      show: '&2Show from &7[from] &2until &7[until] &2global top list'
+  area:
+    help:
+      info: Modify restricted areas.
+      args: add/remove/info/list
+      addUsage: '&7Usage: &6/Jobs area add [areaName/wg:worldGuardAreaName] [bonus]'
+      removeUsage: '&7Usage: &6/Jobs area remove [areaName]'
+    output:
+      addedNew: '&7Added a new restricted area with &6%bonus% &7bonus'
+      removed: '&7Removed the restricted area &6%name%'
+      list: '&7%number%&a. &7%areaname% &7%worldname% (&a%x1%:%y1%:%z1%/&7%x2%:%y2%:%z2%) &6%bonus%'
+      wgList: '&7%number%&a. WorldGuard: &7%areaname% &6%bonus%'
+      noAreas: '&7There are no saved restricted areas'
+      noAreasByLoc: '&7There are no restricted areas in this location'
+      areaList: '&7Restricted areas by your location: &6%list%'
+      selected1: '&7Selected the first point: &6%x%:%y%:%z%'
+      selected2: '&7Selected the second point: &6%x%:%y%:%z%'
+      select: '&7Select 2 points with the selection tool (%tool%)'
+      exist: '&7Restriction area by this name already exists'
+      dontExist: '&7Restriction area by this name does not exist'
+      wgDontExist: '&7WorldGuard area by this name does not exist'
+  log:
+    help:
+      info: Shows statistics.
+      args: '[playername]'
+    output:
+      topline: '&7************************* &6%playername% &7*************************'
+      ls: '&7* &6%number%. &3%action%: &6%item% &7cantidad: %qty% %money%%exp%%points%'
+      money: '&6dinero: %amount% '
+      exp: '&7exp: %amount% '
+      points: '&6puntos: %amount%'
+      totalIncomes: '    &6Total money:&2 %money%&6, Total exp:&2 %exp%&6, Total points:&2 %points%'
+      bottomline: '&7***********************************************************'
+      prev: '&7<<<<< Prev page &2|'
+      next: '&2|&7 Next Page >>>>'
+      nodata: '&cDatos no encontrados'
+  glog:
+    help:
+      info: Shows global statistics.
+      args: ''
+    output:
+      topline: '&7*********************** &6Global statistics &7***********************'
+      ls: '&7* &6%number%. &3%action%: &6%item% &7qty: %qty% %money%%exp%%points%'
+      money: '&6dinero: %amount% '
+      exp: '&7exp: %amount% '
+      points: '&6puntos: %amount%'
+      totalIncomes: '    &6Total money:&2 %money%&6, Total exp:&2 %exp%&6, Total points:&2 %points%'
+      bottomline: '&7**************************************************************'
+      nodata: '&cDatos no encontrados'
+  transfer:
+    help:
+      info: Transfer a player's job from an old job to a new job.
+      args: '[playername] [oldjob] [newjob]'
+    output:
+      target: You have been transferred from %oldjobname% to %newjobname%.
+  promote:
+    help:
+      info: Promote the player X levels in a job.
+      args: '[playername] [jobname] [levels]'
+    output:
+      target: You have been promoted %levelsgained% levels in %jobname%.
+  exp:
+    help:
+      info: Change the player exp for job.
+      args: '[playername] [jobname] set/add/take [amount]'
+    error:
+      nojob: '&cThis player must first join a job.'
+    output:
+      target: '&7Your exp was changed for %jobname% &7and now you at &6%level%lvl &7and with &6%exp%exp.'
+  level:
+    help:
+      info: Change the player's level in a job.
+      args: '[playername] [jobname] set/add/take [amount]'
+    error:
+      nojob: '&cThis player must first join a job.'
+    output:
+      target: '&7Your level was changed for %jobname% &7and now you at &6%level%lvl &7and with &6%exp%exp.'
+  demote:
+    help:
+      info: Demote the player X levels in a job.
+      args: '[playername] [jobname] [levels]'
+    output:
+      target: You have been demoted %levelslost% levels in %jobname%.
+  grantxp:
+    help:
+      info: Grants the player X experience in a job.
+      args: '[playername] [jobname] [xp]'
+    output:
+      target: You have been granted %xpgained% experience in %jobname%.
+  removexp:
+    help:
+      info: Remove X experience from the player in a job.
+      args: '[playername] [jobname] [xp]'
+    output:
+      target: You have lost %xplost% experience in %jobname%.
+  signupdate:
+    help:
+      info: Manually updates a sign by its name
+      args: '[jobname]'
+  bp:
+    help:
+      info: Shows block protections around you in 10 block radius
+      args: ''
+    output:
+      found: '&7Found &6%amount% &7protected blocks around you'
+      notFound: '&7No protected blocks found around you'
+  reload:
+    help:
+      info: Reload configurations.
+  toggle:
+    help:
+      info: Toggles payment output on action bar or bossbar.
+      args: actionbar/bossbar
+    output:
+      turnedoff: '&4This feature is turned off!'
+      paid:
+        main: '&aYou got:'
+        money: '&7[amount] dinero'
+        exp: '&7[exp] exp'
+        points: '&6[points] puntos'
+      'on': '&aToggled: &aON'
+      'off': '&aToggled: &4OFF'
+message:
+  skillup:
+    broadcast: '%playername% has been promoted to a %titlename% %jobname%.'
+    nobroadcast: Congratulations, you have been promoted to a %titlename% %jobname%.
+  levelup:
+    broadcast: '%playername% is now a level %joblevel% %jobname%.'
+    nobroadcast: You are now level %joblevel% %jobname%.
+  leveldown:
+    message: '&cYou lost level&7 %lostLevel%&c in&7 %jobname%&c job! Level:&6 %joblevel%&c.'
+  cowtimer: '&7You still need to wait &6%time% &7sec to get paid for this job.'
+  blocktimer: '&7You need to wait &3[time] &7sec more to get paid for this!'
+  placeblocktimer: '&7You can''t place blocks faster than &6[time] &7sec in the same place!'
+  taxes: '&3[amount] &7server taxes were transferred to this account'
+  boostStarted: '&7Jobs boost time have been started!'
+  boostStoped: '&7Jobs boost time have been ended!'
+  crafting:
+    fullinventory: '&cYour inventory is full!'
+signs:
+  List: '&0[number].&8[player]&7:&4[level]'
+  questList: '&0[number].&8[player]&7:&4[quests]'
+  SpecialList:
+    p1: '&b** &8First &b**'
+    p2: '&b** &8Second &b**'
+    p3: '&b** &8Third &b**'
+    p4: '&b** &8Fourth &b**'
+    p5: '&b** &8Fifth &b**'
+    p6: '&b** &8Sixth &b**'
+    p7: '&b** &8Seventh &b**'
+    p8: '&b** &8Eight &b**'
+    p9: '&b** &8Ninth &b**'
+    p10: '&b** &8Tenth &b**'
+    name: '&9[player]'
+    level: '&8nivel [level]'
+    quests: '&8misiones [quests]'
+    bottom: '&b************'
+  cantcreate: '&4You can''t create this sign!'
+  cantdestroy: '&4You can''t destroy this sign!'
+  topline: '&0[Jobs]'
+  secondline:
+    join: '&0Unirse'
+    leave: '&0Salir'
+    toggle: '&0Toggle'
+    top: '&0Top'
+    browse: '&0Navegar'
+    stats: '&0Stats'
+    limit: '&0Limit'
+    info: '&0Información'
+    archive: '&0Archive'
+scoreboard:
+  topline: '&2Top &7%jobname%'
+  gtopline: '&2Global top list'
+  line: '&2%number%. &7%playername% (&6%level%&7)'

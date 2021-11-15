@@ -1,0 +1,1420 @@
+menu_title: '&0Prestige List'
+open_command:
+- prestige
+- prestiges
+size: 45
+items:
+  'Glasses':
+    material: black_stained_glass_pane
+    display_name: '&e'
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 17
+    - 18
+    - 26
+    - 27
+    - 35
+    - 36
+    - 37
+    - 38
+    - 39
+    - 41
+    - 42
+    - 43
+    - 44
+  'Glasses2':
+    material: gray_stained_glass_pane
+    display_name: '&e'
+    slots:
+    - 10
+    - 16
+    - 28
+    - 34
+  'menu':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmZhMTFmZGQ3ZTZkNGQyMjIxZmU3ZTQ4OTQyZTJiMzdiMTU3MmY2M2UxNGI4MDMwOTk2Zjg2MWE2ODJjMzA0YSJ9fX0==
+    slot: 40
+    display_name: '&bMenu'
+    lore:
+    - ''
+    - '&7You will return to the Menu'
+    - '&7of the modality!'
+    - ''
+    - '&eClick to open this menu!'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[openguimenu] menu'
+    right_click_commands:
+    - '[close]'
+    - '[openguimenu] menu'      
+  'info':
+    material: paper
+    slot: 4
+    priority: 1
+    display_name: '&bInformation'
+    lore:
+    - '&6⋘&6&m────────────&r &e∗ ⋅◈⋅ ∗ &6&m───────────&r&6⋙'
+    - '&7Welcome to the Menu of prestige here'
+    - '&7you will be able to prestige once you arrive'
+    - '&7to the level &8[&265&8], &7remember that by giving yourself prestige'
+    - '&7you will return to the level &8[&20&8]&7, every prestige'
+    - '&7will give you better rewards than the previous one'
+    - '&7to get points only kill entities'
+    - '&7all over the world and you can level up!'
+    - '&6⋘&6&m────────────&r &e∗ ⋅◈⋅ ∗ &6&m───────────&r&6⋙'
+  'prestige1':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjhmZmYyMmM2ZTY1NDZkMGQ4ZWI3Zjk3NjMzOTg0MDdkZDJhYjgwZjc0ZmUzZDE2YjEwYTk4M2VjYWYzNDdlIn19fQ==
+    slot: 11
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: ezprestige.prestige.1    
+    priority: 1
+    display_name: '&bPrestige 1 &6⇒ &8[&e✇&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x2 &7Keys &bstrange'
+    - '&2$75.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &a&lCOMPLETED'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+  'prestige1reclamado':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjFlOTMxZGRjMTk3OTMxOTFlM2JiMzgxYzg0ZTZlZDY5NTVjZDkzNTM2YmE3YmUxMDhkNzg2NGUzOWFkYmRlIn19fQ==
+    slot: 11
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: prestigio
+        permiso2:
+          type: has permission
+          permission: ezprestige.prestige.0  
+    priority: 2
+    display_name: '&bPrestige 1 &6⇒ &8[&e✇&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x2 &7Keys &bstrange'
+    - '&2$75.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &a&lCLAIM'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙' 
+    left_click_commands:
+    - '[console] crate give to %player_name% strange 2'
+    - '[console] eco give %player_name% 75000'
+    - '[console] lp user %player% permission set ezprestige.prestige.1'
+    - '[console] lp user %player% meta setsuffix "&f &8[&e✇&8]"'
+    - '[console] lp user %player% permission unset prestigio'
+    - '[console] battlelevels reset %player_name%'
+    - '[console] me &b&lPRESTIGE &8» &e&o%player_name% &c&oIt has been prestigious! &6⇒ &bPrestige 1 &6⇒ &8[&e✇&8]'
+    - '[close]'    
+  'prestige1CURSING':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzY0MTY4MmY0MzYwNmM1YzlhZDI2YmM3ZWE4YTMwZWU0NzU0N2M5ZGZkM2M2Y2RhNDllMWMxYTI4MTZjZjBiYSJ9fX0=
+    slot: 11
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: ezprestige.prestige.0
+    priority: 3
+    display_name: '&bPrestige 1 &6⇒ &8[&e✇&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x2 &7Keys &bstrange'
+    - '&2$75.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &6&lCURSING'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'     
+  'prestige1nodisponible':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWZkZTNiZmNlMmQ4Y2I3MjRkZTg1NTZlNWVjMjFiN2YxNWY1ODQ2ODRhYjc4NTIxNGFkZDE2NGJlNzYyNGIifX19
+    slot: 11
+    priority: 4
+    display_name: '&bPrestige 1 &6⇒ &8[&e✇&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x2 &7Keys &bstrange'
+    - '&2$75.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &4&lNOT AVAILABLE'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'     
+  'prestige2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjhmZmYyMmM2ZTY1NDZkMGQ4ZWI3Zjk3NjMzOTg0MDdkZDJhYjgwZjc0ZmUzZDE2YjEwYTk4M2VjYWYzNDdlIn19fQ==
+    slot: 12
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: ezprestige.prestige.2
+    priority: 1
+    display_name: '&bPrestige 2 &6⇒ &8[&b☯&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x5 &7Keys &bstrange'
+    - '&2$125.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &a&lCOMPLETED'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+  'prestige2reclamado':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjFlOTMxZGRjMTk3OTMxOTFlM2JiMzgxYzg0ZTZlZDY5NTVjZDkzNTM2YmE3YmUxMDhkNzg2NGUzOWFkYmRlIn19fQ==
+    slot: 12
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: prestigio
+        permiso2:
+          type: has permission
+          permission: ezprestige.prestige.1
+    priority: 2
+    display_name: '&bPrestige 2 &6⇒ &8[&b☯&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x5 &7Keys &bstrange'
+    - '&2$125.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &a&lCLAIM'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙' 
+    left_click_commands:
+    - '[console] crate give to %player_name% strange 5'
+    - '[console] eco give %player_name% 125000'
+    - '[console] lp user %player% permission set ezprestige.prestige.2'
+    - '[console] lp user %player% meta setsuffix "&f &8[&b☯&8]"'
+    - '[console] lp user %player% permission unset prestigio'
+    - '[console] battlelevels reset %player_name%'
+    - '[console] me &b&lPRESTIGE &8» &e&o%player_name% &c&oIt has been prestigious! &6⇒ &bPrestige 2 &6⇒ &8[&b☯&8]'
+    - '[close]'    
+  'prestige2CURSING':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzY0MTY4MmY0MzYwNmM1YzlhZDI2YmM3ZWE4YTMwZWU0NzU0N2M5ZGZkM2M2Y2RhNDllMWMxYTI4MTZjZjBiYSJ9fX0=
+    slot: 12
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: ezprestige.prestige.1
+    priority: 3
+    display_name: '&bPrestige 2 &6⇒ &8[&b☯&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x5 &7Keys &bstrange'
+    - '&2$125.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &6&lCURSING'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'     
+  'prestige2nodisponible':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWZkZTNiZmNlMmQ4Y2I3MjRkZTg1NTZlNWVjMjFiN2YxNWY1ODQ2ODRhYjc4NTIxNGFkZDE2NGJlNzYyNGIifX19
+    slot: 12
+    priority: 4
+    display_name: '&bPrestige 2 &6⇒ &8[&b☯&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x5 &7Keys &bstrange'
+    - '&2$125.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &4&lNOT AVAILABLE'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'      
+  'prestige3':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjhmZmYyMmM2ZTY1NDZkMGQ4ZWI3Zjk3NjMzOTg0MDdkZDJhYjgwZjc0ZmUzZDE2YjEwYTk4M2VjYWYzNDdlIn19fQ==
+    slot: 13
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: ezprestige.prestige.3
+    priority: 1
+    display_name: '&bPrestige 3 &6⇒ &8[&3❁&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x7 &7Keys &bstrange'
+    - '&2$175.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &a&lCOMPLETED'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+  'prestige3reclamado':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjFlOTMxZGRjMTk3OTMxOTFlM2JiMzgxYzg0ZTZlZDY5NTVjZDkzNTM2YmE3YmUxMDhkNzg2NGUzOWFkYmRlIn19fQ==
+    slot: 13
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: prestigio
+        permiso2:
+          type: has permission
+          permission: ezprestige.prestige.2
+    priority: 2
+    display_name: '&bPrestige 3 &6⇒ &8[&3❁&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x7 &7Keys &bstrange'
+    - '&2$175.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &a&lCLAIM'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙' 
+    left_click_commands:
+    - '[console] crate give to %player_name% strange 7'
+    - '[console] eco give %player_name% 175000'
+    - '[console] lp user %player% permission set ezprestige.prestige.3'
+    - '[console] lp user %player% meta setsuffix "&f &8[&3❁&8]"'
+    - '[console] lp user %player% permission unset prestigio'
+    - '[console] battlelevels reset %player_name%'
+    - '[console] me &b&lPRESTIGE &8» &e&o%player_name% &c&oIt has been prestigious! &6⇒ &bPrestige 3 &6⇒ &8[&3❁&8]'
+    - '[close]'
+  'prestige3CURSING':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzY0MTY4MmY0MzYwNmM1YzlhZDI2YmM3ZWE4YTMwZWU0NzU0N2M5ZGZkM2M2Y2RhNDllMWMxYTI4MTZjZjBiYSJ9fX0=
+    slot: 13
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: ezprestige.prestige.2
+    priority: 3
+    display_name: '&bPrestige 3 &6⇒ &8[&3❁&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x7 &7Keys &bstrange'
+    - '&2$175.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &6&lCURSING'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'     
+  'prestige3nodisponible':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWZkZTNiZmNlMmQ4Y2I3MjRkZTg1NTZlNWVjMjFiN2YxNWY1ODQ2ODRhYjc4NTIxNGFkZDE2NGJlNzYyNGIifX19
+    slot: 13
+    priority: 4
+    display_name: '&bPrestige 3 &6⇒ &8[&3❁&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x7 &7Keys &bstrange'
+    - '&2$175.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &4&lNOT AVAILABLE'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'    
+  'prestige4':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjhmZmYyMmM2ZTY1NDZkMGQ4ZWI3Zjk3NjMzOTg0MDdkZDJhYjgwZjc0ZmUzZDE2YjEwYTk4M2VjYWYzNDdlIn19fQ==
+    slot: 14
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: ezprestige.prestige.4
+    priority: 1
+    display_name: '&bPrestige 4 &6⇒ &8[&9❈&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x3 &7Keys &bstrange'
+    - '&7x1 &7Key &4rare'
+    - '&2$250.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &a&lCOMPLETED'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'    
+  'prestige4reclamado':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjFlOTMxZGRjMTk3OTMxOTFlM2JiMzgxYzg0ZTZlZDY5NTVjZDkzNTM2YmE3YmUxMDhkNzg2NGUzOWFkYmRlIn19fQ==
+    slot: 14
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: prestigio
+        permiso2:
+          type: has permission
+          permission: ezprestige.prestige.3
+    priority: 2
+    display_name: '&bPrestige 4 &6⇒ &8[&9❈&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x3 &7Keys &bstrange'
+    - '&7x1 &7Key &4rare'
+    - '&2$250.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &a&lCLAIM'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙' 
+    left_click_commands:
+    - '[console] crate give to %player_name% strange 3'
+    - '[console] crate give to %player_name% rare 1'
+    - '[console] eco give %player_name% 250000'
+    - '[console] lp user %player% permission set ezprestige.prestige.4'
+    - '[console] lp user %player% meta setsuffix "&f &8[&9❈&8]"'
+    - '[console] lp user %player% permission unset prestigio'
+    - '[console] battlelevels reset %player_name%'
+    - '[console] me &b&lPRESTIGE &8» &e&o%player_name% &c&oIt has been prestigious! &6⇒ &bPrestige 4 &6⇒ &8[&9❈&8]'
+    - '[close]'
+  'prestige4CURSING':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzY0MTY4MmY0MzYwNmM1YzlhZDI2YmM3ZWE4YTMwZWU0NzU0N2M5ZGZkM2M2Y2RhNDllMWMxYTI4MTZjZjBiYSJ9fX0=
+    slot: 14
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: ezprestige.prestige.3
+    priority: 3
+    display_name: '&bPrestige 4 &6⇒ &8[&9❈&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x3 &7Keys &bstrange'
+    - '&7x1 &7Key &4rare'
+    - '&2$250.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &6&lCURSING'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'     
+  'prestige4nodisponible':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWZkZTNiZmNlMmQ4Y2I3MjRkZTg1NTZlNWVjMjFiN2YxNWY1ODQ2ODRhYjc4NTIxNGFkZDE2NGJlNzYyNGIifX19
+    slot: 14
+    priority: 4
+    display_name: '&bPrestige 4 &6⇒ &8[&9❈&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x3 &7Keys &bstrange'
+    - '&7x1 &7Key &4rare'
+    - '&2$250.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &4&lNOT AVAILABLE'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+  'prestige5':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjhmZmYyMmM2ZTY1NDZkMGQ4ZWI3Zjk3NjMzOTg0MDdkZDJhYjgwZjc0ZmUzZDE2YjEwYTk4M2VjYWYzNDdlIn19fQ==
+    slot: 15
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: ezprestige.prestige.5
+    priority: 1
+    display_name: '&bPrestige 5 &6⇒ &8[&a❀&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x4 &7Keys &bstrange'
+    - '&7x2 &7Keys &4rare'
+    - '&2$325.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &a&lCOMPLETED'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'   
+  'prestige5reclamado':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjFlOTMxZGRjMTk3OTMxOTFlM2JiMzgxYzg0ZTZlZDY5NTVjZDkzNTM2YmE3YmUxMDhkNzg2NGUzOWFkYmRlIn19fQ==
+    slot: 15
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: prestigio
+        permiso2:
+          type: has permission
+          permission: ezprestige.prestige.4
+    priority: 2 
+    display_name: '&bPrestige 5 &6⇒ &8[&a❀&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x4 &7Keys &bstrange'
+    - '&7x2 &7Keys &4rare'
+    - '&2$325.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &a&lCLAIM'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙' 
+    left_click_commands:
+    - '[console] crate give to %player_name% strange 4'
+    - '[console] crate give to %player_name% rare 2'
+    - '[console] eco give %player_name% 325000'
+    - '[console] lp user %player% permission unset prestigio'
+    - '[console] lp user %player% permission set ezprestige.prestige.5'
+    - '[console] lp user %player% meta setsuffix "&f &8[&a❀&8]"'
+    - '[console] battlelevels reset %player_name%'
+    - '[console] me &b&lPRESTIGE &8» &e&o%player_name% &c&oIt has been prestigious! &6⇒ &bPrestige 5 &6⇒ &8[&a❀&8]'
+    - '[close]'
+  'prestige5CURSING':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzY0MTY4MmY0MzYwNmM1YzlhZDI2YmM3ZWE4YTMwZWU0NzU0N2M5ZGZkM2M2Y2RhNDllMWMxYTI4MTZjZjBiYSJ9fX0=
+    slot: 15
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: ezprestige.prestige.4
+    priority: 3
+    display_name: '&bPrestige 5 &6⇒ &8[&a❀&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x4 &7Keys &bstrange'
+    - '&7x2 &7Keys &4rare'
+    - '&2$325.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &6&lCURSING'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'     
+  'prestige5nodisponible':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWZkZTNiZmNlMmQ4Y2I3MjRkZTg1NTZlNWVjMjFiN2YxNWY1ODQ2ODRhYjc4NTIxNGFkZDE2NGJlNzYyNGIifX19
+    slot: 15
+    priority: 4
+    display_name: '&bPrestige 5 &6⇒ &8[&a❀&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x4 &7Keys &bstrange'
+    - '&7x2 &7Keys &4rare'
+    - '&2$325.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &4&lNOT AVAILABLE'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'    
+  'prestige6':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjhmZmYyMmM2ZTY1NDZkMGQ4ZWI3Zjk3NjMzOTg0MDdkZDJhYjgwZjc0ZmUzZDE2YjEwYTk4M2VjYWYzNDdlIn19fQ==
+    slot: 19
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: ezprestige.prestige.6
+    priority: 1
+    display_name: '&bPrestige 6 &6⇒ &8[&2✳&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x5 &7Keys &bstrange'
+    - '&7x3 &7Keys &4rare'
+    - '&2$350.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &a&lCOMPLETED'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙' 
+  'prestige6reclamado':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjFlOTMxZGRjMTk3OTMxOTFlM2JiMzgxYzg0ZTZlZDY5NTVjZDkzNTM2YmE3YmUxMDhkNzg2NGUzOWFkYmRlIn19fQ==
+    slot: 19
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: prestigio
+        permiso2:
+          type: has permission
+          permission: ezprestige.prestige.5
+    priority: 2 
+    display_name: '&bPrestige 6 &6⇒ &8[&2✳&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x5 &7Keys &bstrange'
+    - '&7x3 &7Keys &4rare'
+    - '&2$350.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &a&lCLAIM'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙' 
+    left_click_commands:
+    - '[console] crate give to %player_name% strange 5'
+    - '[console] crate give to %player_name% rare 3'
+    - '[console] eco give %player_name% 350000'
+    - '[console] lp user %player% permission set ezprestige.prestige.6'
+    - '[console] lp user %player% permission unset prestigio'
+    - '[console] lp user %player% meta setsuffix "&f &8[&2✳&8]"'
+    - '[console] battlelevels reset %player_name%'
+    - '[console] me &b&lPRESTIGE &8» &e&o%player_name% &c&oIt has been prestigious! &6⇒ &bPrestige 6 &6⇒ &8[&2✳&8]'
+    - '[close]'
+  'prestige6CURSING':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzY0MTY4MmY0MzYwNmM1YzlhZDI2YmM3ZWE4YTMwZWU0NzU0N2M5ZGZkM2M2Y2RhNDllMWMxYTI4MTZjZjBiYSJ9fX0=
+    slot: 19
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: ezprestige.prestige.5
+    priority: 3
+    display_name: '&bPrestige 6 &6⇒ &8[&2✳&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x5 &7Keys &bstrange'
+    - '&7x3 &7Keys &4rare'
+    - '&2$350.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &6&lCURSING'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'     
+  'prestige6nodisponible':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWZkZTNiZmNlMmQ4Y2I3MjRkZTg1NTZlNWVjMjFiN2YxNWY1ODQ2ODRhYjc4NTIxNGFkZDE2NGJlNzYyNGIifX19
+    slot: 19
+    priority: 4
+    display_name: '&bPrestige 6 &6⇒ &8[&2✳&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x5 &7Keys &bstrange'
+    - '&7x3 &7Keys &4rare'
+    - '&2$350.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &4&lNOT AVAILABLE'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'     
+  'prestige7':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjhmZmYyMmM2ZTY1NDZkMGQ4ZWI3Zjk3NjMzOTg0MDdkZDJhYjgwZjc0ZmUzZDE2YjEwYTk4M2VjYWYzNDdlIn19fQ==
+    slot: 20
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: ezprestige.prestige.7
+    priority: 1
+    display_name: '&bPrestige 7 &6⇒ &8[&d❉&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x4 &7Keys &4rare'
+    - '&2$425.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &a&lCOMPLETED'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'     
+  'prestige7reclamado':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjFlOTMxZGRjMTk3OTMxOTFlM2JiMzgxYzg0ZTZlZDY5NTVjZDkzNTM2YmE3YmUxMDhkNzg2NGUzOWFkYmRlIn19fQ==
+    slot: 20
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: prestigio
+        permiso2:
+          type: has permission
+          permission: ezprestige.prestige.6
+    priority: 2 
+    display_name: '&bPrestige 7 &6⇒ &8[&d❉&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x4 &7Keys &4rare'
+    - '&2$425.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &a&lCLAIM'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙' 
+    left_click_commands:
+    - '[console] crate give to %player_name% rare 4'
+    - '[console] eco give %player_name% 425000'
+    - '[console] lp user %player% permission set ezprestige.prestige.7'
+    - '[console] lp user %player% permission unset prestigio'
+    - '[console] lp user %player% meta setsuffix "&f &8[&2✳&8]"'
+    - '[console] battlelevels reset %player_name%'
+    - '[console] me &b&lPRESTIGE &8» &e&o%player_name% &c&oIt has been prestigious! &6⇒ &bPrestige 7 &6⇒ &8[&d❉&8]'
+    - '[close]'
+  'prestige7CURSING':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzY0MTY4MmY0MzYwNmM1YzlhZDI2YmM3ZWE4YTMwZWU0NzU0N2M5ZGZkM2M2Y2RhNDllMWMxYTI4MTZjZjBiYSJ9fX0=
+    slot: 20
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: ezprestige.prestige.6
+    priority: 3
+    display_name: '&bPrestige 7 &6⇒ &8[&d❉&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x4 &7Keys &4rare'
+    - '&2$425.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &6&lCURSING'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'     
+  'prestige7nodisponible':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWZkZTNiZmNlMmQ4Y2I3MjRkZTg1NTZlNWVjMjFiN2YxNWY1ODQ2ODRhYjc4NTIxNGFkZDE2NGJlNzYyNGIifX19
+    slot: 20
+    priority: 4
+    display_name: '&bPrestige 7 &6⇒ &8[&d❉&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x4 &7Keys &4rare'
+    - '&2$425.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &4&lNOT AVAILABLE'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'       
+  'prestige8':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjhmZmYyMmM2ZTY1NDZkMGQ4ZWI3Zjk3NjMzOTg0MDdkZDJhYjgwZjc0ZmUzZDE2YjEwYTk4M2VjYWYzNDdlIn19fQ==
+    slot: 21
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: ezprestige.prestige.8
+    priority: 1
+    display_name: '&bPrestige 8 &6⇒ &8[&5✵&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x4 &7Keys &4rare'
+    - '&2$465.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &a&lCOMPLETED'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'  
+  'prestige8reclamado':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjFlOTMxZGRjMTk3OTMxOTFlM2JiMzgxYzg0ZTZlZDY5NTVjZDkzNTM2YmE3YmUxMDhkNzg2NGUzOWFkYmRlIn19fQ==
+    slot: 21
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: prestigio
+        permiso2:
+          type: has permission
+          permission: ezprestige.prestige.7
+    priority: 2 
+    display_name: '&bPrestige 8 &6⇒ &8[&5✵&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x4 &7Keys &4rare'
+    - '&2$465.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &a&lCLAIM'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙' 
+    left_click_commands:
+    - '[console] crate give to %player_name% rare 4'
+    - '[console] eco give %player_name% 465000'
+    - '[console] lp user %player% permission set ezprestige.prestige.8'
+    - '[console] lp user %player% permission unset prestigio'
+    - '[console] lp user %player% meta setsuffix "&f &8[&5✵&8]"'
+    - '[console] battlelevels reset %player_name%'
+    - '[console] me &b&lPRESTIGE &8» &e&o%player_name% &c&oIt has been prestigious! &6⇒ &bPrestige 8 &6⇒ &8[&5✵&8]'
+    - '[close]'
+  'prestige8CURSING':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzY0MTY4MmY0MzYwNmM1YzlhZDI2YmM3ZWE4YTMwZWU0NzU0N2M5ZGZkM2M2Y2RhNDllMWMxYTI4MTZjZjBiYSJ9fX0=
+    slot: 21
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: ezprestige.prestige.7
+    priority: 3
+    display_name: '&bPrestige 8 &6⇒ &8[&5✵&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x4 &7Keys &4rare'
+    - '&2$465.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &6&lCURSING'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'     
+  'prestige8nodisponible':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWZkZTNiZmNlMmQ4Y2I3MjRkZTg1NTZlNWVjMjFiN2YxNWY1ODQ2ODRhYjc4NTIxNGFkZDE2NGJlNzYyNGIifX19
+    slot: 21
+    priority: 4
+    display_name: '&bPrestige 8 &6⇒ &8[&5✵&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x4 &7Keys &4rare'
+    - '&2$465.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &4&lNOT AVAILABLE'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'       
+  'prestige9':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjhmZmYyMmM2ZTY1NDZkMGQ4ZWI3Zjk3NjMzOTg0MDdkZDJhYjgwZjc0ZmUzZDE2YjEwYTk4M2VjYWYzNDdlIn19fQ==
+    slot: 22
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: ezprestige.prestige.9
+    priority: 1
+    display_name: '&bPrestige 9 &6⇒ &8[&c❋&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x5 &7Keys &4rare'
+    - '&2$495.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &a&lCOMPLETED'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'   
+  'prestige9reclamado':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjFlOTMxZGRjMTk3OTMxOTFlM2JiMzgxYzg0ZTZlZDY5NTVjZDkzNTM2YmE3YmUxMDhkNzg2NGUzOWFkYmRlIn19fQ==
+    slot: 22
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: prestigio
+        permiso2:
+          type: has permission
+          permission: ezprestige.prestige.8
+    priority: 2 
+    display_name: '&bPrestige 9 &6⇒ &8[&c❋&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x5 &7Keys &4rare'
+    - '&2$495.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &a&lCLAIM'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙' 
+    left_click_commands:
+    - '[console] crate give to %player_name% rare 5'
+    - '[console] eco give %player_name% 495000'
+    - '[console] lp user %player% permission set ezprestige.prestige.9'
+    - '[console] lp user %player% permission unset prestigio'
+    - '[console] lp user %player% meta setsuffix "&f &8[&c❋&8]"'
+    - '[console] battlelevels reset %player_name%'
+    - '[console] me &b&lPRESTIGE &8» &e&o%player_name% &c&oIt has been prestigious! &6⇒ &bPrestige 9 &6⇒ &8[&c❋&8]'
+    - '[close]'
+  'prestige9CURSING':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzY0MTY4MmY0MzYwNmM1YzlhZDI2YmM3ZWE4YTMwZWU0NzU0N2M5ZGZkM2M2Y2RhNDllMWMxYTI4MTZjZjBiYSJ9fX0=
+    slot: 22
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: ezprestige.prestige.8
+    priority: 3
+    display_name: '&bPrestige 9 &6⇒ &8[&c❋&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x5 &7Keys &4rare'
+    - '&2$495.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &6&lCURSING'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'     
+  'prestige9nodisponible':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWZkZTNiZmNlMmQ4Y2I3MjRkZTg1NTZlNWVjMjFiN2YxNWY1ODQ2ODRhYjc4NTIxNGFkZDE2NGJlNzYyNGIifX19
+    slot: 22
+    priority: 4
+    display_name: '&bPrestige 9 &6⇒ &8[&c❋&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x5 &7Keys &4rare'
+    - '&2$495.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &4&lNOT AVAILABLE'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'      
+  'prestige10':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjhmZmYyMmM2ZTY1NDZkMGQ4ZWI3Zjk3NjMzOTg0MDdkZDJhYjgwZjc0ZmUzZDE2YjEwYTk4M2VjYWYzNDdlIn19fQ==
+    slot: 23
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: ezprestige.prestige.10
+    priority: 1
+    display_name: '&bPrestige 10 &6⇒ &8[&4✴&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x5 &7Keys &4rare'
+    - '&2$565.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &a&lCOMPLETED'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙' 
+  'prestige10reclamado':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjFlOTMxZGRjMTk3OTMxOTFlM2JiMzgxYzg0ZTZlZDY5NTVjZDkzNTM2YmE3YmUxMDhkNzg2NGUzOWFkYmRlIn19fQ==
+    slot: 23
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: prestigio
+        permiso2:
+          type: has permission
+          permission: ezprestige.prestige.9
+    priority: 2 
+    display_name: '&bPrestige 10 &6⇒ &8[&4✴&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x5 &7Keys &4rare'
+    - '&2$565.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &a&lCLAIM'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙' 
+    left_click_commands:
+    - '[console] crate give to %player_name% rare 5'
+    - '[console] eco give %player_name% 565000'
+    - '[console] lp user %player% permission set ezprestige.prestige.10'
+    - '[console] lp user %player% permission unset prestigio'
+    - '[console] lp user %player% meta setsuffix "&f &8[&4✴&8]"'
+    - '[console] battlelevels reset %player_name%'
+    - '[console] me &b&lPRESTIGE &8» &e&o%player_name% &c&oIt has been prestigious! &6⇒ &bPrestige 10 &6⇒ &8[&4✴&8]'
+    - '[close]'
+  'prestige10CURSING':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzY0MTY4MmY0MzYwNmM1YzlhZDI2YmM3ZWE4YTMwZWU0NzU0N2M5ZGZkM2M2Y2RhNDllMWMxYTI4MTZjZjBiYSJ9fX0=
+    slot: 23
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: ezprestige.prestige.9
+    priority: 3
+    display_name: '&bPrestige 10 &6⇒ &8[&4✴&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x5 &7Keys &4rare'
+    - '&2$565.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &6&lCURSING'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'     
+  'prestige10nodisponible':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWZkZTNiZmNlMmQ4Y2I3MjRkZTg1NTZlNWVjMjFiN2YxNWY1ODQ2ODRhYjc4NTIxNGFkZDE2NGJlNzYyNGIifX19
+    slot: 23
+    priority: 4
+    display_name: '&bPrestige 10 &6⇒ &8[&4✴&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x5 &7Keys &4rare'
+    - '&2$565.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &4&lNOT AVAILABLE'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'        
+  'prestige11':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjhmZmYyMmM2ZTY1NDZkMGQ4ZWI3Zjk3NjMzOTg0MDdkZDJhYjgwZjc0ZmUzZDE2YjEwYTk4M2VjYWYzNDdlIn19fQ==
+    slot: 24
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: ezprestige.prestige.11
+    priority: 1
+    display_name: '&bPrestige 11 &6⇒ &8[&6✇&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&2$625.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &a&lCOMPLETED'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙' 
+  'prestige11reclamado':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjFlOTMxZGRjMTk3OTMxOTFlM2JiMzgxYzg0ZTZlZDY5NTVjZDkzNTM2YmE3YmUxMDhkNzg2NGUzOWFkYmRlIn19fQ==
+    slot: 24
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: prestigio
+        permiso2:
+          type: has permission
+          permission: ezprestige.prestige.10
+    priority: 2 
+    display_name: '&bPrestige 11 &6⇒ &8[&6✇&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&2$625.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &a&lCLAIM'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙' 
+    left_click_commands:
+    - '[console] eco give %player_name% 650000'
+    - '[console] lp user %player% permission set ezprestige.prestige.11'
+    - '[console] lp user %player% permission unset prestigio'
+    - '[console] lp user %player% meta setsuffix "&f &8[&6✇&8]"'
+    - '[console] battlelevels reset %player_name%'
+    - '[console] me &b&lPRESTIGE &8» &e&o%player_name% &c&oIt has been prestigious! &6⇒ &bPrestige 11 &6⇒ &8[&6✇&8]'
+    - '[close]'
+  'prestige11CURSING':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzY0MTY4MmY0MzYwNmM1YzlhZDI2YmM3ZWE4YTMwZWU0NzU0N2M5ZGZkM2M2Y2RhNDllMWMxYTI4MTZjZjBiYSJ9fX0=
+    slot: 24
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: ezprestige.prestige.10
+    priority: 3
+    display_name: '&bPrestige 11 &6⇒ &8[&6✇&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&2$625.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &6&lCURSING'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'     
+  'prestige11nodisponible':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWZkZTNiZmNlMmQ4Y2I3MjRkZTg1NTZlNWVjMjFiN2YxNWY1ODQ2ODRhYjc4NTIxNGFkZDE2NGJlNzYyNGIifX19
+    slot: 24
+    priority: 4
+    display_name: '&bPrestige 11 &6⇒ &8[&6✇&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&2$625.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &4&lNOT AVAILABLE'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'    
+  'prestige12':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjhmZmYyMmM2ZTY1NDZkMGQ4ZWI3Zjk3NjMzOTg0MDdkZDJhYjgwZjc0ZmUzZDE2YjEwYTk4M2VjYWYzNDdlIn19fQ==
+    slot: 25
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: ezprestige.prestige.12
+    priority: 1
+    display_name: '&bPrestige 12 &6⇒ &8[&6☄&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&2$685.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &a&lCOMPLETED'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙' 
+  'prestige12reclamado':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjFlOTMxZGRjMTk3OTMxOTFlM2JiMzgxYzg0ZTZlZDY5NTVjZDkzNTM2YmE3YmUxMDhkNzg2NGUzOWFkYmRlIn19fQ==
+    slot: 25
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: prestigio
+        permiso2:
+          type: has permission
+          permission: ezprestige.prestige.11
+    priority: 2 
+    display_name: '&bPrestige 12 &6⇒ &8[&6☄&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&2$685.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &a&lCLAIM'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙' 
+    left_click_commands:
+    - '[console] eco give %player_name% 685000'
+    - '[console] lp user %player% permission set ezprestige.prestige.12'
+    - '[console] lp user %player% permission unset prestigio'
+    - '[console] lp user %player% meta setsuffix "&f &8[&6☄&8]"'
+    - '[console] battlelevels reset %player_name%'
+    - '[console] me &b&lPRESTIGE &8» &e&o%player_name% &c&oIt has been prestigious! &6⇒ &bPrestige 12 &6⇒ &8[&6☄&8]'
+    - '[close]'
+  'prestige12CURSING':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzY0MTY4MmY0MzYwNmM1YzlhZDI2YmM3ZWE4YTMwZWU0NzU0N2M5ZGZkM2M2Y2RhNDllMWMxYTI4MTZjZjBiYSJ9fX0=
+    slot: 25
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: ezprestige.prestige.11
+    priority: 3
+    display_name: '&bPrestige 12 &6⇒ &8[&6☄&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&2$685.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &6&lCURSING'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'     
+  'prestige12nodisponible':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWZkZTNiZmNlMmQ4Y2I3MjRkZTg1NTZlNWVjMjFiN2YxNWY1ODQ2ODRhYjc4NTIxNGFkZDE2NGJlNzYyNGIifX19
+    slot: 25
+    priority: 4
+    display_name: '&bPrestige 12 &6⇒ &8[&6☄&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&2$685.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &4&lNOT AVAILABLE'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'        
+  'prestige13':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjhmZmYyMmM2ZTY1NDZkMGQ4ZWI3Zjk3NjMzOTg0MDdkZDJhYjgwZjc0ZmUzZDE2YjEwYTk4M2VjYWYzNDdlIn19fQ==
+    slot: 29
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: ezprestige.prestige.13
+    priority: 1
+    display_name: '&bPrestige 13 &6⇒ &8[&6❁&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x1 &7Key &5epic'
+    - '&2$725.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &a&lCOMPLETED'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'   
+  'prestige13reclamado':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjFlOTMxZGRjMTk3OTMxOTFlM2JiMzgxYzg0ZTZlZDY5NTVjZDkzNTM2YmE3YmUxMDhkNzg2NGUzOWFkYmRlIn19fQ==
+    slot: 29
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: prestigio
+        permiso2:
+          type: has permission
+          permission: ezprestige.prestige.12
+    priority: 2 
+    display_name: '&bPrestige 13 &6⇒ &8[&6❁&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x1 &7Key &5epic'
+    - '&2$725.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &a&lCLAIM'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙' 
+    left_click_commands:
+    - '[console] eco give %player_name% 725000'
+    - '[console] crate give to %player_name% epico 1'
+    - '[console] lp user %player% permission set ezprestige.prestige.13'
+    - '[console] lp user %player% permission unset prestigio'
+    - '[console] lp user %player% meta setsuffix "&f &8[&6❁&8]"'
+    - '[console] battlelevels reset %player_name%'
+    - '[console] me &b&lPRESTIGE &8» &e&o%player_name% &c&oIt has been prestigious! &6⇒ &bPrestige 13 &6⇒ &8[&6❁&8]'
+    - '[close]'
+  'prestige13CURSING':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzY0MTY4MmY0MzYwNmM1YzlhZDI2YmM3ZWE4YTMwZWU0NzU0N2M5ZGZkM2M2Y2RhNDllMWMxYTI4MTZjZjBiYSJ9fX0=
+    slot: 29
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: ezprestige.prestige.12
+    priority: 3
+    display_name: '&bPrestige 13 &6⇒ &8[&6❁&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x1 &7Key &5epic'
+    - '&2$725.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &6&lCURSING'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'     
+  'prestige13nodisponible':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWZkZTNiZmNlMmQ4Y2I3MjRkZTg1NTZlNWVjMjFiN2YxNWY1ODQ2ODRhYjc4NTIxNGFkZDE2NGJlNzYyNGIifX19
+    slot: 29
+    priority: 4
+    display_name: '&bPrestige 13 &6⇒ &8[&6❁&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x1 &7Key &5epic'
+    - '&2$725.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &4&lNOT AVAILABLE'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+  'prestige14':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjhmZmYyMmM2ZTY1NDZkMGQ4ZWI3Zjk3NjMzOTg0MDdkZDJhYjgwZjc0ZmUzZDE2YjEwYTk4M2VjYWYzNDdlIn19fQ==
+    slot: 30
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: ezprestige.prestige.14
+    priority: 1
+    display_name: '&bPrestige 14 &6⇒ &8[&6❈&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x1 &7Key &5epic'
+    - '&2$765.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &a&lCOMPLETED'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'  
+  'prestige14reclamado':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjFlOTMxZGRjMTk3OTMxOTFlM2JiMzgxYzg0ZTZlZDY5NTVjZDkzNTM2YmE3YmUxMDhkNzg2NGUzOWFkYmRlIn19fQ==
+    slot: 30
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: prestigio
+        permiso2:
+          type: has permission
+          permission: ezprestige.prestige.13
+    priority: 2 
+    display_name: '&bPrestige 14 &6⇒ &8[&6❈&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x1 &7Key &5epic'
+    - '&2$765.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &a&lCLAIM'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙' 
+    left_click_commands:
+    - '[console] eco give %player_name% 765000'
+    - '[console] crate give to %player_name% epico 1'
+    - '[console] lp user %player% permission set ezprestige.prestige.14'
+    - '[console] lp user %player% permission unset prestigio'
+    - '[console] lp user %player% meta setsuffix "&f &8[&6❈&8]"'
+    - '[console] battlelevels reset %player_name%'
+    - '[console] me &b&lPRESTIGE &8» &e&o%player_name% &c&oIt has been prestigious! &6⇒ &bPrestige 14 &6⇒ &8[&6❈&8]'
+    - '[close]'
+  'prestige14CURSING':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzY0MTY4MmY0MzYwNmM1YzlhZDI2YmM3ZWE4YTMwZWU0NzU0N2M5ZGZkM2M2Y2RhNDllMWMxYTI4MTZjZjBiYSJ9fX0=
+    slot: 30
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: ezprestige.prestige.13
+    priority: 3
+    display_name: '&bPrestige 14 &6⇒ &8[&6❈&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x1 &7Key &5epic'
+    - '&2$765.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &6&lCURSING'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'     
+  'prestige14nodisponible':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWZkZTNiZmNlMmQ4Y2I3MjRkZTg1NTZlNWVjMjFiN2YxNWY1ODQ2ODRhYjc4NTIxNGFkZDE2NGJlNzYyNGIifX19
+    slot: 30
+    priority: 4
+    display_name: '&bPrestige 14 &6⇒ &8[&6❈&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x1 &7Key &5epic'
+    - '&2$765.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &4&lNOT AVAILABLE'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'    
+  'prestige15':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjhmZmYyMmM2ZTY1NDZkMGQ4ZWI3Zjk3NjMzOTg0MDdkZDJhYjgwZjc0ZmUzZDE2YjEwYTk4M2VjYWYzNDdlIn19fQ==
+    slot: 31
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: ezprestige.prestige.15
+    priority: 1
+    display_name: '&bPrestige 15 &6⇒ &8[&6❀&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x1 &7Key &5epic'
+    - '&2$800.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &a&lCOMPLETED'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'  
+  'prestige15reclamado':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjFlOTMxZGRjMTk3OTMxOTFlM2JiMzgxYzg0ZTZlZDY5NTVjZDkzNTM2YmE3YmUxMDhkNzg2NGUzOWFkYmRlIn19fQ==
+    slot: 31
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: prestigio
+        permiso2:
+          type: has permission
+          permission: ezprestige.prestige.14
+    priority: 2 
+    display_name: '&bPrestige 15 &6⇒ &8[&6❀&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x1 &7Key &5epic'
+    - '&2$800.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &a&lCLAIM'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙' 
+    left_click_commands:
+    - '[console] eco give %player_name% 800000'
+    - '[console] crate give to %player_name% epico 1'
+    - '[console] lp user %player% permission set ezprestige.prestige.15'
+    - '[console] lp user %player% permission unset prestigio'
+    - '[console] lp user %player% meta setsuffix "&f &8[&6❀&8]"'
+    - '[console] battlelevels reset %player_name%'
+    - '[console] me &b&lPRESTIGE &8» &e&o%player_name% &c&oIt has been prestigious! &6⇒ &bPrestige 15 &6⇒ &8[&6❀&8]'
+    - '[close]'
+  'prestige15CURSING':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzY0MTY4MmY0MzYwNmM1YzlhZDI2YmM3ZWE4YTMwZWU0NzU0N2M5ZGZkM2M2Y2RhNDllMWMxYTI4MTZjZjBiYSJ9fX0=
+    slot: 31
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: ezprestige.prestige.14
+    priority: 3
+    display_name: '&bPrestige 15 &6⇒ &8[&6❀&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x1 &7Key &5epic'
+    - '&2$800.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &6&lCURSING'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'     
+  'prestige15nodisponible':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWZkZTNiZmNlMmQ4Y2I3MjRkZTg1NTZlNWVjMjFiN2YxNWY1ODQ2ODRhYjc4NTIxNGFkZDE2NGJlNzYyNGIifX19
+    slot: 31
+    priority: 4
+    display_name: '&bPrestige 15 &6⇒ &8[&6❀&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x1 &7Key &5epic'
+    - '&2$800.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &4&lNOT AVAILABLE'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'      
+  'prestige16':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjhmZmYyMmM2ZTY1NDZkMGQ4ZWI3Zjk3NjMzOTg0MDdkZDJhYjgwZjc0ZmUzZDE2YjEwYTk4M2VjYWYzNDdlIn19fQ==
+    slot: 32
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: ezprestige.prestige.16
+    priority: 1
+    display_name: '&bPrestige 16 &6⇒ &8[&6✳&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x2 &7Keys &5epics'
+    - '&2$850.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &a&lCOMPLETED'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙' 
+  'prestige16reclamado':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjFlOTMxZGRjMTk3OTMxOTFlM2JiMzgxYzg0ZTZlZDY5NTVjZDkzNTM2YmE3YmUxMDhkNzg2NGUzOWFkYmRlIn19fQ==
+    slot: 32
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: prestigio
+        permiso2:
+          type: has permission
+          permission: ezprestige.prestige.15
+    priority: 2 
+    display_name: '&bPrestige 16 &6⇒ &8[&6✳&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x2 &7Keys &5epics'
+    - '&2$850.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &a&lCLAIM'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙' 
+    left_click_commands:
+    - '[console] eco give %player_name% 850000'
+    - '[console] crate give to %player_name% epico 2'
+    - '[console] lp user %player% permission set ezprestige.prestige.16'
+    - '[console] lp user %player% permission unset prestigio'
+    - '[console] lp user %player% meta setsuffix "&f &8[&6✳&8]"'
+    - '[console] battlelevels reset %player_name%'
+    - '[console] me &b&lPRESTIGE &8» &e&o%player_name% &c&oIt has been prestigious! &6⇒ &bPrestige 16 &6⇒ &8[&6✳&8]'
+    - '[close]'
+  'prestige16CURSING':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzY0MTY4MmY0MzYwNmM1YzlhZDI2YmM3ZWE4YTMwZWU0NzU0N2M5ZGZkM2M2Y2RhNDllMWMxYTI4MTZjZjBiYSJ9fX0=
+    slot: 32
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: ezprestige.prestige.15
+    priority: 3
+    display_name: '&bPrestige 16 &6⇒ &8[&6✳&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x2 &7Keys &5epics'
+    - '&2$850.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &6&lCURSING'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'     
+  'prestige16nodisponible':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWZkZTNiZmNlMmQ4Y2I3MjRkZTg1NTZlNWVjMjFiN2YxNWY1ODQ2ODRhYjc4NTIxNGFkZDE2NGJlNzYyNGIifX19
+    slot: 32
+    priority: 4
+    display_name: '&bPrestige 16 &6⇒ &8[&6✳&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x2 &7Keys &5epics'
+    - '&2$850.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &4&lNOT AVAILABLE'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'      
+  'prestige17':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjhmZmYyMmM2ZTY1NDZkMGQ4ZWI3Zjk3NjMzOTg0MDdkZDJhYjgwZjc0ZmUzZDE2YjEwYTk4M2VjYWYzNDdlIn19fQ==
+    slot: 33
+    priority: 1
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: ezprestige.prestige.17
+    display_name: '&bPrestige 17 &6⇒ &8[&6❉&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x2 &7Keys &5epics'
+    - '&2$900.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &a&lCOMPLETED'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+  'prestige17reclamado':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjFlOTMxZGRjMTk3OTMxOTFlM2JiMzgxYzg0ZTZlZDY5NTVjZDkzNTM2YmE3YmUxMDhkNzg2NGUzOWFkYmRlIn19fQ==
+    slot: 33
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: prestigio
+        permiso2:
+          type: has permission
+          permission: ezprestige.prestige.16
+    priority: 2 
+    display_name: '&bPrestige 17 &6⇒ &8[&6❉&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x2 &7Keys &5epics'
+    - '&2$900.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &a&lCLAIM'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙' 
+    left_click_commands:
+    - '[console] eco give %player_name% 900000'
+    - '[console] crate give to %player_name% epico 2'
+    - '[console] lp user %player% permission set ezprestige.prestige.17'
+    - '[console] lp user %player% permission unset prestigio'
+    - '[console] lp user %player% meta setsuffix "&f &8[&6❉&8]"'
+    - '[console] battlelevels reset %player_name%'
+    - '[console] me &b&lPRESTIGE &8» &e&o%player_name% &c&oIt has been prestigious! &6⇒ &bPrestige 17 &6⇒ &8[&6❉&8]'
+    - '[close]'
+  'prestige17CURSING':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzY0MTY4MmY0MzYwNmM1YzlhZDI2YmM3ZWE4YTMwZWU0NzU0N2M5ZGZkM2M2Y2RhNDllMWMxYTI4MTZjZjBiYSJ9fX0=
+    slot: 33
+    view_requirement:
+      requirements:
+        permiso:
+          type: has permission
+          permission: ezprestige.prestige.16
+    priority: 3
+    display_name: '&bPrestige 17 &6⇒ &8[&6❉&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x2 &7Keys &5epics'
+    - '&2$900.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &6&lCURSING'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'     
+  'prestige17nodisponible':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWZkZTNiZmNlMmQ4Y2I3MjRkZTg1NTZlNWVjMjFiN2YxNWY1ODQ2ODRhYjc4NTIxNGFkZDE2NGJlNzYyNGIifX19
+    slot: 33
+    priority: 4
+    display_name: '&bPrestige 17 &6⇒ &8[&6❉&8]'
+    lore:    
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Rewards:'
+    - '&7x2 &7Keys &5epics'
+    - '&2$900.000'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'
+    - '&7Status: &4&lNOT AVAILABLE'
+    - '&6⋘&6&m─────&r &e∗ ⋅◈⋅ ∗ &6&m─────&r&6⋙'     

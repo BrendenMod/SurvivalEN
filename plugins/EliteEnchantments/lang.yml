@@ -1,0 +1,99 @@
+COMMAND:
+  RELOAD: '&f&l(&6&lElite&e&lEnchantments&f&l)&e Configuration Files have been reloaded!'
+  LEVEL_MORE_THAN_MAX: '&f&l(&6&lElite&e&lEnchantments&f&l)&e This level is more than
+    the max for this enchantment'
+  BLESS: '&e&lBLESSED!'
+ENCHANTMENT:
+  INVALID: '&f&l(&6&lElite&e&lEnchantments&f&l)&e That is an invalid enchantment!'
+  SLOTS_FULL: '&f&l(&6&lElite&e&lEnchantments&f&l)&e You cannot exceed the max amount
+    of slots on this item! Please use a upgrade orb to continue adding enchantments'
+  POTION_MESSAGE: '&b&l[+] &b%name% %level%:&7 Applying %potion-name% %potion-level%'
+  POTION_MESSAGE_DEACTIVATE: '&c&l[-] &c%name% %level%:&7 Removing %potion-name% %potion-level%'
+  WRONG_ARMOR: '&f&l(&6&lElite&e&lEnchantments&f&l)&e You cannot apply this enchantment
+    to that item!'
+  HAS_ENCHANTMENT: '&f&l(&6&lElite&e&lEnchantments&f&l)&e This item already has this
+    enchantment or higher'
+  INVALID_GROUP: '&f&l(&6&lElite&e&lEnchantments&f&l)&e This group is an invalid group!'
+  RIGHT_CLICK: |-
+    &f&l(&6&lElite&e&lEnchantments&f&l)&e To apply this enchantment to an item, simply drag n' drop
+    &ethe book onto the item you'd like to enchant in your inventory!
+    &7The &bSuccess Rate &7is the chance of the book successfully
+    &7being applied to your equipment. The &bDestruction Chance&7 is
+    &7the percent chance of your piece of equipment being
+    &7&nDESTROYED&7 if the book fails to apply
+  BLACKLIST_ENCHANT: '&f&l(&6&lElite&e&lEnchantments&f&l)&e This enchantment cannot
+    be applied to an item that has the enchant ''{ENCHANT}'''
+  APPLY: '&f&l(&6&lElite&e&lEnchantments&f&l)&e You have successfully applied {ENCHANT}
+    {LEVEL}!'
+  FAILED: '&f&l(&6&lElite&e&lEnchantments&f&l)&e You have failed to apply {ENCHANT}
+    {LEVEL}!'
+  WHITESCROLL_SAVED: '&f&l(&6&lElite&e&lEnchantments&f&l)&e Your item would have been
+    destroyed but your whitescroll saved it'
+  SLOT_RANK_FULL: |-
+    &f&l(&6&lElite&e&lEnchantments&f&l)&e You are not skilled enough to add another enchantment to this item.
+    &7Purchase a Rank (or an Enchantment Orb) at &cbuy.server.com &7to increase your max custom enchants per item!
+ENCHANTER:
+  CANT_AFFORD: '&f&l(&6&lElite&e&lEnchantments&f&l)&e You cannot afford that!'
+  ERROR: '&f&l(&6&lElite&e&lEnchantments&f&l)&e Error has occurred, please try again'
+SOUL:
+  ACTIVATED: |-
+    &a&l** SOUL MODE: &nON&a&l **
+    &7Active soul enchantments will now drain soul gems.
+  DEACTIVATED: |-
+    &c&l** SOUL MODE: &nOFF&c&l **
+    &7Soul enchantments will no longer drain soul gems.
+  AMOUNT: '&e&l** SOULS: &n%amount%&e&l **'
+  REQUIRED_GEM: '&f&l(&6&lElite&e&lEnchantments&f&l)&e You need to have a soul gem
+    in your hand to execute that command!'
+  NUMBER_LOW: '&f&l(&6&lElite&e&lEnchantments&f&l)&e You need to have a higher value
+    to split souls'
+ATTRIBUTE:
+  INVALID: '&f&l(&6&lElite&e&lEnchantments&f&l)&e That is not a valid attribute!'
+  IS_ALREADY_MAX: '&f&l(&6&lElite&e&lEnchantments&f&l)&e This item already has a maxed
+    attribute'
+  ALREADY_HAS_ATTRIBUTE: '&f&l(&6&lElite&e&lEnchantments&f&l)&e This item already
+    has an attribute!'
+ITEMS:
+  CANT_APPLY: '&f&l(&6&lElite&e&lEnchantments&f&l)&e You cannot apply this item to
+    that item type!'
+  HOLY_WHITESCROLL:
+    ERROR: '&f&l(&6&lElite&e&lEnchantments&f&l)&e This item does not contain a &eWhite
+      Scroll. &cPlease apply one and try again!'
+  ITEM_NAMETAG:
+    ACTIVATION: |2
+
+      &6&lItemtag Usage
+      &61. &7Hold the ITEM you''d like to rename
+      &62. &7Send the new name as a chat message with & color codes
+      &63. &7Confirm the preview of the new name that is displayed
+    INVALID: |-
+      &cHold the ITEM you''d like to rename.
+      &7Type ''&ccancel&7'' &7to unqueue this operation
+    SUCCESS: '&f&l(&6&lElite&e&lEnchantments&f&l)&e You have successfully renamed
+      your item to ''''{NAME}&a''''!'
+    CANCELLED: '&f&l(&6&lElite&e&lEnchantments&f&l)&e You have successfully cancelled
+      renaming your item!'
+    BLACKLISTED: '&f&l(&6&lElite&e&lEnchantments&f&l)&e You cannot contain blacklisted
+      words!'
+  BLACKSCROLL:
+    NO_ENCHANTS: '&f&l(&6&lElite&e&lEnchantments&f&l)&e There are no valid enchantments
+      on this item'
+  ERROR:
+    'NULL': '&f&l(&6&lElite&e&lEnchantments&f&l)&e You cannot apply enchantments to
+      air!'
+    CANNOT_APPLY: '&f&l(&6&lElite&e&lEnchantments&f&l)&e You cannot apply this item
+      to that item!'
+ALCHEMIST:
+  NOT_ENOUGH_XP: '&f&l(&6&lElite&e&lEnchantments&f&l)&e You do not have enough EXP
+    to combine these items!'
+  CANT_COMBINE: '&f&l(&6&lElite&e&lEnchantments&f&l)&e These items cannot be combined!'
+  SLOTS_FULL: '&f&l(&6&lElite&e&lEnchantments&f&l)&e All slots are full!'
+TINKERER:
+  SUCCESS: '&f&l(&6&lElite&e&lEnchantments&f&l)&e Transaction Completed'
+  FULL: '&f&l(&6&lElite&e&lEnchantments&f&l)&e Tinkerer is currently full!'
+  INVALID_ITEM: '&f&l(&6&lElite&e&lEnchantments&f&l)&e This item cannot be used in
+    the tinkerer!'
+INVENTORY_FULL: '&f&l(&6&lElite&e&lEnchantments&f&l)&e You cannot do this since your
+  inventory is full!'
+RANK_CHANCE_INCREASE: '&f&l(&6&lElite&e&lEnchantments&f&l)&e Due to your rank you
+  have added &a{AMOUNT}&e% to your enchantment!'

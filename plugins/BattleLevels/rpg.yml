@@ -1,0 +1,295 @@
+enabled: true
+enable-mobs-from-mobspawner: false
+show-message: true
+killmessage: '&8► &7You murdered a &e{name} &8[&a+&8] &a{amount}'
+debug: false
+custom-mobs:
+  testname:
+    points: 5.0
+    random-enabled: false
+    upper-limit: 7.0
+values:
+  elder_guardian:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  wither_skeleton:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  stray:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  husk:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  zombie_villager:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  skeleton_horse:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  zombie_horse:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  armor_stand:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  donkey:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  mule:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  evoker:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  vex:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  vindicator:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  illusioner:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  creeper:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  skeleton:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  spider:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  giant:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  zombie:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  slime:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  ghast:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  zombified_piglin:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  enderman:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  cave_spider:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  silverfish:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  blaze:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  magma_cube:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  ender_dragon:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  wither:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  bat:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  witch:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  endermite:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  guardian:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  shulker:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  pig:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  sheep:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  cow:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  chicken:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  squid:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  wolf:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  mushroom_cow:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  snowman:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  ocelot:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  iron_golem:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  horse:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  rabbit:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  polar_bear:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  llama:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  parrot:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  villager:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  turtle:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  phantom:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  cod:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  salmon:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  pufferfish:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  tropical_fish:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  drowned:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  dolphin:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  cat:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  panda:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  pillager:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  ravager:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  trader_llama:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  wandering_trader:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  fox:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  bee:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  hoglin:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  piglin:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  strider:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  zoglin:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0
+  piglin_brute:
+    points: 1.0
+    random-enabled: false
+    upper-limit: 2.0

@@ -1,0 +1,45 @@
+permissions: []
+permissionMessage: ''
+cancelPermission: ''
+cancelPermissionMessage: ''
+world: catacumbas
+X: 229
+Y: 146
+Z: -9
+price: 0.0
+exp: 0
+cooldown: 0
+globalCooldown: 300
+lastGlobalUse: 1609689041620
+confirmation: false
+confirmationMessage: ''
+cancel_mode: ALWAYS
+commands:
+  '0':
+    command: /give <player> 322:0 1
+    type: SERVER_COMMAND
+    delay: 0
+    grantPerms: []
+    alwaysPersisted: false
+    interactValue: 0
+grantPermissions: []
+priceItems: []
+heldItems: []
+pi_criteria:
+  enchants: false
+  name: false
+  lores: false
+  durability: false
+hi_criteria:
+  enchants: false
+  name: false
+  lores: false
+  durability: false
+loops: -1
+loop_delay: 1
+uses_limit: 0
+uses_tally: 10
+protectedBlocks: []
+displayInternalMessages: true
+timeLimitMaximum: 0
+timeLimitMinimum: 0

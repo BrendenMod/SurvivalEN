@@ -1,0 +1,27 @@
+&c▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+&e&nSurvival&r &e&l1.16.4&b!
+&7Server rules:
+&4[1] &7The use of hacks / clients that give you advantages over other users are prohibited.
+&4[2] &7Tapping areas with lava / water protection is illegal.
+&4[3] &7Abusing a bug without reporting it to a STAFF can lead to IP banning.
+&4[4] &7You can have a maximum of 10 spawners in a farm, if you exceed this we will remove them.
+&4[5] &7Scamming is legal, be careful who you trust.
+&4[6] &7Excessive capitalization / profanity / flood / spam may cause temporary mutation.
+&4[7] &7Saving / sethome in houses in which you do not have permissions is not allowed.
+&4[8] &7Insulting a family member of a user / staff is a reason for mute.
+&4[9] &7Do not ask for items / rank from STAFF, if you do it many times you can be sanctioned.
+&4[10] &7The use of the map that does not show players on it is legal.
+&4[11] &7The tpakill is legal, be careful who you accept tpa from.
+&4[12] &7Destroying the world without any meaning can be punishable do not build randomly
+&4[13] &7If you are a VIP and give users items with personalized VIP enchantment limits, you may be penalized
+&4[14] &7Marking home in foreign protections, cities without permission is cause for temporary ban.
+&4[15] &7Entering a shelter with enderpearl or coral fruit is illegal.
+&4[16] &7Afk farms are illegal, both for fishing and for time. (You can get banned for it)
+&4[17] &7To use the turrets in a good way use them within your protection, if they are not they will be removed
+&4[18] &7Selling objects for real money to other users is a reason for banip.
+&4[19] &7Abusing server errors regarding mobs, events and others is cause for temporary ban.
+&4[20] &7Using autoclick is illegal, if you do it you will be temporarily banned
+&4[21] &7Auctioning old objects without any operation is a reason for banning
+&4[22] &7Using villagers meaninglessly and only to give lag is cause for temporary ban
+&e&o**Congratulations you have read all the rules of this modality**
+&c▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄

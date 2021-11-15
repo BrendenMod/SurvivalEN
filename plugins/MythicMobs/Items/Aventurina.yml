@@ -1,0 +1,13 @@
+Aventurina:
+  Id: SLIME_BALL
+  Data: 0
+  Display: '&a&lAventurine'
+  Lore:
+  - '&8══════&c❋&8══════'
+  - '&e➤ &f&oRarity:&r &5&oEpic'
+  - '&8═════════════'
+  - '&e➤ &f&oDescription:'
+  - '&e➤ &c&oStone worth'
+  - '&c&oexchange in store'
+  - '&c&oof spawn dungeons.'
+  - '&8══════&c❋&8══════'

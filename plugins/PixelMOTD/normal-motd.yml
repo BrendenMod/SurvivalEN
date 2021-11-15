@@ -1,0 +1,45 @@
+normal:
+  exampleMotd1:
+    line1: ' &a&lSURVIVAL SETUP &7&l|&r 1.16.5 &7&l| &r&2THE BEST SETUP &4❤'
+    line2: '&e★ &fJoin the discord &9https://discord.gg/C9K7UQJ8sD'
+    otherSettings:
+      customHover:
+        toggle: true
+        hover:
+        - '&e&lSURVIVAL SETUP &b&n[2.0]'
+        - '&7&m----------'
+        - ''
+        - '&e★ &fPrestiges'
+        - '&e★ &fRankUP'
+        - '&e★ &fMythicMobs'
+        - '&e★ &fTrades'
+        - '&e★ &fUpgrades'
+        - '&e★ &fEliteEnchants'
+        - '&e★ &fRewards'
+        - '&e★ &fMines'
+        - '&e★ &fSkills'
+        - '&e★ &fEnchants'
+        - '&e★ &fMinePvP'
+        - ''
+        - '&7&m----------'
+      customIcon:
+        toggle: true
+        customFile: false
+      customProtocol:
+        toggle: true
+        changeProtocolVersion: false
+        protocol: PixelMotd System
+      customHexMotd:
+        toggle: false
+        line1: '&b&lPixelMOTD v%plugin_version%'
+        line2: '&f&oThis motd only appear for 1.16+'
+      customOnlinePlayers:
+        toggle: true
+        mode: HALF-ADD
+        values: &id002
+        - 30
+        - 30
+      customMaxPlayers:
+        toggle: true
+        mode: HALF-ADD
+        values: *id002

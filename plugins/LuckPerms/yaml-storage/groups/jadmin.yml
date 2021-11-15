@@ -1,0 +1,25 @@
+name: jadmin
+permissions:
+- DenyTP.override.all
+- autorank.exclude
+- djp.VIP4:
+    value: false
+- djp.VIP5:
+    value: false
+- djp.aquiles:
+    value: false
+- djp.glifo:
+    value: false
+- djp.pegaso:
+    value: false
+- litebans.dupeip.viewip
+- multicommand.use.prohibido
+- staffnotes.remove
+parents:
+- admin
+- g-bukkit_default
+- g-essentials_administrador
+- g-groupmanager_default
+prefixes:
+- '&c&lJ-ADMIN &f':
+    priority: 54

@@ -1,0 +1,48 @@
+permissions: []
+permissionMessage: ''
+cancelPermission: ''
+cancelPermissionMessage: ''
+world: catacumbas
+X: -330
+Y: 91
+Z: -158
+price: 0.0
+exp: 0
+cooldown: 5
+globalCooldown: 0
+lastGlobalUse: 0
+lastUse: {}
+confirmation: false
+confirmationMessage: ''
+cancel_mode: ALWAYS
+commands:
+  '0':
+    command: /tp <player> 97 25 -442
+    type: SERVER_COMMAND
+    delay: 0
+    grantPerms: []
+    alwaysPersisted: false
+    interactValue: 0
+grantPermissions:
+- DenyTP.override.all
+priceItems: []
+heldItems: []
+pi_criteria:
+  enchants: false
+  name: false
+  lores: false
+  durability: false
+hi_criteria:
+  enchants: false
+  name: false
+  lores: false
+  durability: false
+loops: -1
+loop_delay: 1
+uses_limit: 0
+uses_tally: 13
+protectedBlocks:
+- catacumbas,-330,91,-159
+displayInternalMessages: true
+timeLimitMaximum: 0
+timeLimitMinimum: 0

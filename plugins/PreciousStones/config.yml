@@ -1,0 +1,793 @@
+unbreakable-blocks: []
+force-field-blocks:
+- title: small
+  block: coal_ore
+  radius: 20
+  meta-name: '&eSmall Protection'
+  meta-autoset: false
+  meta-lore:
+  - '&8---------[&cDescription&8]---------'
+  - '&f● &eThis stone of protection'
+  - '&e  will protect all your things'
+  - '&e  in an area of: &c20x20x20'
+  - '&8-----------------------------'
+  prevent-use:
+  - crimson_fence_gate
+  - warped_fence_gate
+  - crimson_door
+  - warped_door
+  - warped_trapdoor
+  - crimson_trapdoor
+  - oak_trapdoor
+  - spruce_trapdoor
+  - birch_trapdoor
+  - jungle_trapdoor
+  - acacia_trapdoor
+  - dark_oak_trapdoor
+  - oak_door
+  - iron_door
+  - spruce_door
+  - birch_door
+  - jungle_door
+  - acacia_door
+  - dark_oak_door
+  - oak_fence_gate
+  - spruce_fence_gate
+  - birch_fence_gate
+  - jungle_fence_gate
+  - acacia_fence_gate
+  - dark_oak_fence_gate
+  - chest
+  - trapped_chest
+  - anvil
+  - jukebox
+  - flower_pot
+  - potted_acacia_sapling
+  - potted_allium
+  - potted_azure_bluet
+  - potted_birch_sapling
+  - potted_blue_orchid
+  - potted_brown_mushroom
+  - potted_cactus
+  - potted_dandelion
+  - potted_dark_oak_sapling
+  - potted_dead_bush
+  - potted_fern
+  - potted_jungle_sapling
+  - potted_oak_sapling
+  - potted_orange_tulip
+  - potted_oxeye_daisy
+  - potted_pink_tulip
+  - potted_poppy
+  - potted_red_mushroom
+  - potted_red_tulip
+  - potted_spruce_sapling
+  - potted_white_tulip
+  prevent-fire: true
+  prevent-place: true
+  prevent-destroy: true
+  prevent-vehicle-destroy: true
+  prevent-enderman-destroy: true
+  prevent-explosions: true
+  prevent-unprotectable: true
+  protect-mobs: false
+  prevent-item-frame-take: true
+  protect-armor-stands: true
+  prevent-pvp: false
+  prevent-flow: true
+  protect-crops: true
+  protect-inventories: true
+  welcome-message: true
+  protect-villagers: true
+  farewell-message: true
+  command-blacklisting: false
+  can-change-owner: true
+  enable-on-src: true
+  mixing-group: 1
+  rentable: false
+  rents-limit: 5
+  buyable: false
+  cuboid: true
+  mask-on-disabled: 80
+  limits:
+  - 1
+  - 1
+  - 1
+  - 1
+  - 3
+  - 3
+  - 3
+  - 3
+  - 4
+  - 20
+  - 10
+- title: Medium
+  block: lapis_ore
+  radius: 30
+  meta-name: '&6Medium Protection'
+  meta-autoset: false
+  meta-lore:
+  - '&8---------[&cDescription&8]---------'
+  - '&f● &eThis stone of protection'
+  - '&e  will protect all your things'
+  - '&e  in an area of: &c30x30x30'
+  - '&8-----------------------------'
+  prevent-use:
+  - crimson_fence_gate
+  - warped_fence_gate
+  - crimson_door
+  - warped_door
+  - warped_trapdoor
+  - crimson_trapdoor
+  - oak_trapdoor
+  - spruce_trapdoor
+  - birch_trapdoor
+  - jungle_trapdoor
+  - acacia_trapdoor
+  - dark_oak_trapdoor
+  - oak_door
+  - iron_door
+  - spruce_door
+  - birch_door
+  - jungle_door
+  - acacia_door
+  - dark_oak_door
+  - oak_fence_gate
+  - spruce_fence_gate
+  - birch_fence_gate
+  - jungle_fence_gate
+  - acacia_fence_gate
+  - dark_oak_fence_gate
+  - chest
+  - trapped_chest
+  - anvil
+  - jukebox
+  - flower_pot
+  - potted_acacia_sapling
+  - potted_allium
+  - potted_azure_bluet
+  - potted_birch_sapling
+  - potted_blue_orchid
+  - potted_brown_mushroom
+  - potted_cactus
+  - potted_dandelion
+  - potted_dark_oak_sapling
+  - potted_dead_bush
+  - potted_fern
+  - potted_jungle_sapling
+  - potted_oak_sapling
+  - potted_orange_tulip
+  - potted_oxeye_daisy
+  - potted_pink_tulip
+  - potted_poppy
+  - potted_red_mushroom
+  - potted_red_tulip
+  - potted_spruce_sapling
+  - potted_white_tulip
+  prevent-fire: true
+  prevent-place: true
+  prevent-destroy: true
+  prevent-vehicle-destroy: true
+  prevent-enderman-destroy: true
+  prevent-explosions: true
+  prevent-unprotectable: true
+  protect-mobs: false
+  prevent-item-frame-take: true
+  protect-armor-stands: true
+  prevent-flow: true
+  protect-crops: true
+  protect-inventories: true
+  welcome-message: true
+  protect-villagers: true
+  farewell-message: true
+  prevent-pvp: false
+  command-blacklisting: false
+  can-change-owner: true
+  enable-on-src: true
+  mixing-group: 1
+  rentable: false
+  rents-limit: 5
+  buyable: false
+  cuboid: true
+  mask-on-disabled: 80
+  limits:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 3
+  - 3
+  - 4
+  - 4
+  - 5
+  - 20
+  - 7
+- title: Big
+  block: diamond_ore
+  radius: 40
+  meta-name: '&cBig Protection'
+  meta-autoset: false
+  meta-lore:
+  - '&8---------[&cDescription&8]---------'
+  - '&f● &eThis stone of protection'
+  - '&e  will protect all your things'
+  - '&e  in an area of: &c40x40x40'
+  - '&8-----------------------------'
+  prevent-use:
+  - crimson_fence_gate
+  - warped_fence_gate
+  - crimson_door
+  - warped_door
+  - warped_trapdoor
+  - crimson_trapdoor
+  - oak_trapdoor
+  - spruce_trapdoor
+  - birch_trapdoor
+  - jungle_trapdoor
+  - acacia_trapdoor
+  - dark_oak_trapdoor
+  - oak_door
+  - iron_door
+  - spruce_door
+  - birch_door
+  - jungle_door
+  - acacia_door
+  - dark_oak_door
+  - oak_fence_gate
+  - spruce_fence_gate
+  - birch_fence_gate
+  - jungle_fence_gate
+  - acacia_fence_gate
+  - dark_oak_fence_gate
+  - chest
+  - trapped_chest
+  - anvil
+  - jukebox
+  - flower_pot
+  - potted_acacia_sapling
+  - potted_allium
+  - potted_azure_bluet
+  - potted_birch_sapling
+  - potted_blue_orchid
+  - potted_brown_mushroom
+  - potted_cactus
+  - potted_dandelion
+  - potted_dark_oak_sapling
+  - potted_dead_bush
+  - potted_fern
+  - potted_jungle_sapling
+  - potted_oak_sapling
+  - potted_orange_tulip
+  - potted_oxeye_daisy
+  - potted_pink_tulip
+  - potted_poppy
+  - potted_red_mushroom
+  - potted_red_tulip
+  - potted_spruce_sapling
+  - potted_white_tulip
+  prevent-fire: true
+  prevent-place: true
+  prevent-destroy: true
+  prevent-vehicle-destroy: true
+  prevent-enderman-destroy: true
+  prevent-explosions: true
+  prevent-unprotectable: true
+  protect-mobs: false
+  prevent-item-frame-take: true
+  protect-armor-stands: true
+  prevent-flow: true
+  protect-crops: true
+  prevent-pvp: false
+  protect-inventories: true
+  welcome-message: true
+  protect-villagers: true
+  farewell-message: true
+  command-blacklisting: false
+  can-change-owner: true
+  enable-on-src: true
+  mixing-group: 1
+  rentable: false
+  rents-limit: 5
+  buyable: false
+  cuboid: true
+  mask-on-disabled: 80
+  limits:
+  - 0
+  - 1
+  - 1
+  - 2
+  - 2
+  - 3
+  - 3
+  - 4
+  - 4
+  - 20
+  - 6
+- title: Inmense
+  block: emerald_ore
+  radius: 60
+  meta-name: '&4Immense Protection'
+  meta-autoset: false
+  meta-lore:
+  - '&8---------[&cDescription&8]---------'
+  - '&f● &eThis stone of protection'
+  - '&e  will protect all your things'
+  - '&e  in an area of: &c60x60x60'
+  - '&8-----------------------------'
+  prevent-use:
+  - crimson_fence_gate
+  - warped_fence_gate
+  - crimson_door
+  - warped_door
+  - warped_trapdoor
+  - crimson_trapdoor
+  - oak_trapdoor
+  - spruce_trapdoor
+  - birch_trapdoor
+  - jungle_trapdoor
+  - acacia_trapdoor
+  - dark_oak_trapdoor
+  - oak_door
+  - iron_door
+  - spruce_door
+  - birch_door
+  - jungle_door
+  - acacia_door
+  - dark_oak_door
+  - oak_fence_gate
+  - spruce_fence_gate
+  - birch_fence_gate
+  - jungle_fence_gate
+  - acacia_fence_gate
+  - dark_oak_fence_gate
+  - chest
+  - trapped_chest
+  - anvil
+  - jukebox
+  - flower_pot
+  - potted_acacia_sapling
+  - potted_allium
+  - potted_azure_bluet
+  - potted_birch_sapling
+  - potted_blue_orchid
+  - potted_brown_mushroom
+  - potted_cactus
+  - potted_dandelion
+  - potted_dark_oak_sapling
+  - potted_dead_bush
+  - potted_fern
+  - potted_jungle_sapling
+  - potted_oak_sapling
+  - potted_orange_tulip
+  - potted_oxeye_daisy
+  - potted_pink_tulip
+  - potted_poppy
+  - potted_red_mushroom
+  - potted_red_tulip
+  - potted_spruce_sapling
+  - potted_white_tulip
+  prevent-fire: true
+  prevent-place: true
+  prevent-destroy: true
+  prevent-vehicle-destroy: true
+  prevent-enderman-destroy: true
+  prevent-explosions: true
+  prevent-unprotectable: true
+  protect-mobs: false
+  prevent-item-frame-take: true
+  prevent-pvp: false
+  protect-armor-stands: true
+  prevent-flow: true
+  protect-crops: true
+  protect-inventories: true
+  welcome-message: true
+  protect-villagers: true
+  farewell-message: true
+  command-blacklisting: false
+  can-change-owner: true
+  enable-on-src: true
+  mixing-group: 1
+  rentable: false
+  rents-limit: 5
+  buyable: false
+  cuboid: true
+  mask-on-disabled: 80
+  limits:
+  - 0
+  - 0
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 2
+  - 3
+  - 20
+  - 5
+- title: Renegade
+  block: redstone_ore
+  radius: 20
+  meta-name: '&bRenegade Stone'
+  meta-autoset: false
+  meta-lore:
+  - '&8---------[&cDescription&8]---------'
+  - '&f● &eThis stone will &cdeny&e the'
+  - '&e  entry to any player'
+  - '&e  in an area of: &c20x20x20'
+  - '&8-----------------------------'
+  welcome-message: true
+  farewell-message: true
+  prevent-entry: true
+  prevent-unprotectable: true
+  prevent-flow: true
+  enable-on-src: true
+  can-change-owner: false
+  cuboid: true
+  mixing-group: 2
+  mask-on-disabled: 80
+  limits:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 1
+  - 2
+- title: Mystical
+  block: iron_ore
+  radius: 10
+  damage: 1
+  meta-name: '&3Mystic Stone'
+  meta-autoset: false
+  meta-lore:
+  - '&8---------[&cDescription&8]---------'
+  - '&f● &eThis stone will &cdamage&e per second'
+  - '&e  to each nearby player in a'
+  - '&e  area of: &c10x10x10'
+  - '&8-----------------------------'
+  welcome-message: true
+  farewell-message: true
+  no-conflict: true
+  sneaking-bypass: false
+  no-player-place: true
+  mixing-group: 2
+  mask-on-disabled: 80
+  limits:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 1
+  - 2
+  - 2
+  - 3
+- title: Energetics
+  block: sponge
+  radius: 2
+  custom-volume: 30
+  meta-name: '&5Energy Stone'
+  meta-autoset: false
+  meta-lore:
+  - '&8---------[&cDescription&8]---------'
+  - '&f● &eThis stone will &claunch&e to fly'
+  - '&e  to allowed players who'
+  - '&e  step on the stone.'
+  - '&f● &7Looking up > &aFast'
+  - '&f● &7Looking down > &cSlow'
+  - '&8-----------------------------'
+  welcome-message: true
+  farewell-message: true
+  launch: true
+  no-conflict: true
+  sneaking-bypass: true
+  mixing-group: 2
+  cuboid: true
+  mask-on-disabled: 80
+  limits:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 1
+  - 2
+  - 2
+  - 3
+  - 4
+- title: Gravitational
+  block: soul_sand
+  radius: 2
+  custom-volume: 20
+  meta-name: '&9Gravitational Stone'
+  meta-autoset: false
+  meta-lore:
+  - '&8---------[&cDescription&8]---------'
+  - '&f● &eThis stone will &craise&e to all'
+  - '&e  allowed players who'
+  - '&e  step on the stone.'
+  - '&f● &7Looking up > &aFast'
+  - '&f● &7Looking down > &cSlow'
+  - '&8-----------------------------'
+  sneaking-bypass: true
+  welcome-message: true
+  farewell-message: true
+  cannon: true
+  no-conflict: true
+  mixing-group: 2
+  cuboid: true
+  enable-with-redstone: false
+  mask-on-disabled: 80
+  limits:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 1
+  - 2
+  - 3
+- title: Imperial
+  block: bone_blockuy
+  radius: 15
+  meta-name: '&aImperial Stone'
+  meta-autoset: false
+  meta-lore:
+  - '&8---------[&cDescription&8]---------'
+  - '&f● &eThis stone &cheal, feed and'
+  - '&c  neutralize potions&e to all'
+  - '&e  allowed players, in a'
+  - '&e  area of &c15x15x15'
+  - '&8-----------------------------'
+  heal: 3
+  feed: 2
+  repair: 0
+  neutralize-potions:
+  - HARM
+  - CONFUSION
+  - BLINDNESS
+  - HUNGER
+  - WEAKNESS
+  - POISON
+  - SLOW
+  welcome-message: true
+  farewell-message: true
+  no-conflict: true
+  mixing-group: 2
+  cuboid: true
+  mask-on-disabled: 80
+  limits:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 1
+bypass-blocks: []
+unprotectable-blocks: []
+hiding-mask-blocks:
+- STONE
+- GRASS_BLOCK
+- DIRT
+- COBBLESTONE
+- OAK_PLANKS
+- BEDROCK
+- SAND
+- GRAVEL
+- OAK_LOG
+- OAK_LEAVES
+- GLASS
+- SANDSTONE
+- WHITE_WOOL
+- STONE_SLAB
+- BRICKS
+- BOOKSHELF
+- MOSSY_COBBLESTONE
+- OBSIDIAN
+- OAK_STAIRS
+- FARMLAND
+- COBBLESTONE_STAIRS
+- SNOW_BLOCK
+- CACTUS
+- CLAY
+- NETHERRACK
+- SOUL_SAND
+- GLOWSTONE
+- BROWN_MUSHROOM_BLOCK
+- RED_MUSHROOM_BLOCK
+- BRICK_STAIRS
+- STONE_BRICK_STAIRS
+- MYCELIUM
+- REDSTONE_LAMP
+- REDSTONE_LAMP
+- OAK_SLAB
+- SANDSTONE_STAIRS
+- SPRUCE_STAIRS
+- BIRCH_STAIRS
+- JUNGLE_STAIRS
+tool-items:
+- IRON_SHOVEL
+- IRON_PICKAXE
+- IRON_AXE
+- WOODEN_SHOVEL
+- WOODEN_PICKAXE
+- STONE_SHOVEL
+- STONE_PICKAXE
+- DIAMOND_SHOVEL
+- DIAMOND_PICKAXE
+- GOLDEN_SHOVEL
+- GOLDEN_PICKAXE
+repairable-items:
+- IRON_SHOVEL
+- IRON_PICKAXE
+- IRON_AXE
+- FLINT_AND_STEEL
+- BOW
+- IRON_SWORD
+- WOODEN_SWORD
+- WOODEN_SHOVEL
+- WOODEN_PICKAXE
+- WOODEN_AXE
+- STONE_SWORD
+- STONE_SHOVEL
+- STONE_PICKAXE
+- STONE_AXE
+- DIAMOND_SWORD
+- DIAMOND_SHOVEL
+- DIAMOND_PICKAXE
+- DIAMOND_AXE
+- GOLDEN_SWORD
+- GOLDEN_SHOVEL
+- GOLDEN_PICKAXE
+- GOLDEN_AXE
+- WOODEN_HOE
+- STONE_HOE
+- IRON_HOE
+- DIAMOND_HOE
+- GOLDEN_HOE
+- LEATHER_HELMET
+- LEATHER_CHESTPLATE
+- LEATHER_LEGGINGS
+- LEATHER_BOOTS
+- CHAINMAIL_HELMET
+- CHAINMAIL_CHESTPLATE
+- CHAINMAIL_LEGGINGS
+- CHAINMAIL_BOOTS
+- IRON_HELMET
+- IRON_CHESTPLATE
+- IRON_LEGGINGS
+- IRON_BOOTS
+- DIAMOND_HELMET
+- DIAMOND_CHESTPLATE
+- DIAMOND_LEGGINGS
+- DIAMOND_BOOTS
+- GOLDEN_HELMET
+- GOLDEN_CHESTPLATE
+- GOLDEN_LEGGINGS
+- GOLDEN_BOOTS
+- FISHING_ROD
+- SHEARS
+- TRIDENT
+- CROSSBOW
+- SHIELD
+log:
+  translocation: false
+  rollback: false
+  fire: false
+  entry: false
+  place: false
+  use: false
+  pvp: false
+  destroy: false
+  destroy-area: false
+  place-area: false
+  unprotectable: false
+  bypass-pvp: false
+  bypass-delete: false
+  bypass-place: false
+  bypass-destroy: false
+  conflict-place: false
+  rents-and-purchases: false
+notify:
+  translocation: false
+  rollback: false
+  place: false
+  destroy: false
+  bypass-unprotectable: false
+  bypass-pvp: false
+  bypass-place: false
+  bypass-destroy: false
+  fly-zones: false
+warn:
+  instant-heal: false
+  slow-heal: false
+  slow-damage: false
+  slow-feeding: false
+  slow-repair: false
+  fast-damage: false
+  air: false
+  fire: false
+  entry: false
+  place: false
+  use: false
+  pvp: false
+  destroy: false
+  destroy-area: false
+  unprotectable: false
+  launch: false
+  cannon: false
+  mine: false
+settings:
+  prevent-removal-if-player-in-field: true
+  use-commands-to-rent: true
+  disable-simpleclans-hook: false
+  disable-worldedit-hook: true
+  max-size-translocation: 100000
+  max-size-translocation-for-redstone: 1000
+  version: 14
+  prevent-place-everywhere:
+  - creative_world
+  prevent-destroy-everywhere:
+  - creative_world
+  show-default-welcome-farewell-messages: true
+  sneak-to-place-field: false
+  sneak-to-place-normal-block: false
+  disable-ground-info: false
+  global-field-limit: 1000000
+  no-refund-for-fields: false
+  public-block-details: false
+  drop-on-delete: true
+  disable-alerts-for-admins: true
+  disable-bypass-alerts-for-admins: false
+  off-by-default: false
+  lines-per-page: 100
+  show-debug-info: false
+  blacklisted-worlds:
+  - catacumbas
+  auto-allow-clan-on-fields: true
+  auto-allow-team-on-fields: false
+  check-once-per-block-on-move: false
+  use-blockids-in-snitches: false
+  fence-max-depth: 50
+  max-target-distance: 100
+  default-item-currency: GOLD_INGOT
+  disable-field-place-while-creative: false
+  disable-field-break-while-creative: false
+  prevent-breaking-hidden: false
+cuboid:
+  defining-blocktype: obsidian
+  visualization-blocktype: glass
+cleanup:
+  player-inactivity-purge-days: 15
+  purge-banned-players: true
+saving:
+  frequency-seconds: 1
+  max-records-per-snitch: 50
+visualization:
+  frame-block-type: glass
+  block-type: glass
+  seconds: 30
+  new-dotted-style: true
+  end-on-player-move: false
+  mark-block-type: obsidian
+  default-density: 8
+  blocks-to-send: 100
+  max-fields-to-visualize-at-once: 5
+  ticks-between-sends: 10
+  visualize-on-expand: true
+grief-revert:
+  min-interval-secs: 30
+  black-list:
+  - CAKE
+mysql:
+  enable: false
+  host: localhost
+  port: 3306
+  database: minecraft
+  username: ''
+  password: ''

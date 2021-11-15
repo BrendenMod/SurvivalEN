@@ -1,0 +1,57 @@
+amountPattern: '1-64'
+ignoreColoredDisplay: true
+
+nextPage:
+  slot: 5
+  id: 'lime_dye'
+  inactiveId: 'gray_dye'
+  name: '&6&l* &eNext page'
+  inactiveName: '&7Nothing'
+previousPage:
+  slot: 3
+  id: 'red_dye'
+  inactiveId: 'gray_dye'
+  name: '&6&l* &ePrevious page'
+  inactiveName: '&7Nothing'
+
+iconsLore:
+- ' '
+- "&8▪ &7Purchase price:&r &e${buy_price} &a⛁"
+- "&8▪ &7Sale price:&r &e${sell_price} &a⛁"
+- ' '
+- "&6&l* &eLeft click to buy"
+- "&6&l* &aRight click to sell"
+
+pageSuffix: ' &f(Pag &a{page}&f)'
+
+# These items will be added in the last row
+changeAmount:
+  enable: true
+  slot: 8
+  id: paper
+  name: '&e&lChange the amount'
+  lore:
+  - '&7Select the amount'
+  - '&7which you want'
+  - '&7to buy or sell'
+  - '&7'
+  - '&e&l* &aLeft click to increase'
+  - '&e&l* &aRight click to decrease'
+customNodes:
+
+messages:
+  noItem: '&e&lSHOP &8» &cYou don not have &4x{amount} &cof &4{item}'
+  noMoney: '&e&lSHOP &8» &cYou do not have enough money'
+  bought: '&e&lSHOP &8» &7You have bought &ex{amount} {item} &7for &e{money} ⛁'
+  sold: '&e&lSHOP &8» &7You sold &ex{amount} {item} &7for &e{money} ⛁'
+
+# Sound names can be found here hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+sounds:
+  bought: ENTITY_EXPERIENCE_ORB_PICKUP
+  sold: ENTITY_EXPERIENCE_ORB_PICKUP
+  noMoney: BLOCK_ANVIL_BREAK
+  noItem: BLOCK_ANVIL_BREAK
+
+
+
+configVersion: '1.5'

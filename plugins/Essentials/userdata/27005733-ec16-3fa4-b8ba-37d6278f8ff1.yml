@@ -1,0 +1,21 @@
+lastAccountName: iJuanP
+timestamps:
+  login: 1614876340774
+  logout: 1614876698871
+  lastteleport: 1614876697263
+ipAddress: 127.0.0.1
+lastlocation:
+  world: catacumbas
+  x: -100.5
+  y: 75.0
+  z: -259.5
+  yaw: 19.381598
+  pitch: 5.217478
+money: '1002500.0'
+logoutlocation:
+  world: spawn
+  x: 22.060911800446352
+  y: 60.9375
+  z: 54.00066511579004
+  yaw: 198.96758
+  pitch: 3.826894

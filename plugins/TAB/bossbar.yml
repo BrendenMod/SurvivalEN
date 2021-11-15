@@ -1,0 +1,17 @@
+bossbar-enabled: false
+bossbar-toggle-command: /bossbar
+remember-toggle-choice: false
+default-bars:
+- info1
+per-world:
+  testworld:
+  - world
+bars:
+  info1:
+    permission-required: false
+    refresh: 1000
+    style: PROGRESS
+    color: '%animation:barcolors%'
+    progress: '100'
+    text: '&4&l❤ &c&lSPACE TEAM -> &7Thanks for your purchase'
+permission-required-to-toggle: false

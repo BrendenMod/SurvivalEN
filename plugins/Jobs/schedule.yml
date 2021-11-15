@@ -1,0 +1,72 @@
+# Enabled - with this false this schedule will be ignored
+# From and Until is in 24 hours format with : signs to separate minutes and seconds
+# Exp and Money determines how big is boost, to reset it. keep it at 1.0. so if you use 2.0 that means all money/exp is doubled
+# Days variables: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday, All
+# Jobs can be any of your settup job or use All to give for all jobs at once
+# BroadcastOnStart or BroadcastOnStop - set it false to disable message when boost starts/stops
+# MessageOnStart or MessageOnStop - optional messages, if not given, then message from locale file will be shown
+# BroadcastInterval - how often in minutes to broadcast message about money/exp boost for jobs
+# BroadcastMessage - message to show every x minutes
+
+Boost:
+  NightBoost:
+    Enabled: true
+    From: '19:00:00'
+    Until: '5:00:00'
+    Exp: 2.0
+    Money: 2.0
+    Days:
+    - All
+    Jobs:
+    - All
+    BroadcastOnStart: true
+    MessageOnStart:
+    - ''
+    - '      &6●&f●&e● &b&lNIGHT ENHANCER &e●&f●&6●'
+    - ''
+    - '    &f¡All jobs will give &b&lx2&r &bEXP &fand &2Money&f!'
+    - '           &e&o(Only for a limited time!)'    
+    - ''
+    BroadcastOnStop: true
+    MessageOnStop:
+    - ''
+    - '      &6●&f●&e● &b&lNIGHT ENHANCER &e●&f●&6●'
+    - '    &cEl potenciador nocturno ha terminado.'
+    - '         &eEverything goes back to normal!'
+    - ''
+    BroadcastInterval: 15
+    BroadcastMessage:
+    - ''
+    - '      &6●&f●&e● &b&lNIGHT ENHANCER &e●&f●&6●'
+    - '    &eGain &b&l&nx2&e in all the &ljobs &euntil &6[until]'
+    - ''
+  ShortMoneyBoost:
+    Enabled: false
+    From: '07:00:00'
+    Until: '08:00:00'
+    Exp: 1.0
+    Money: 2.0
+    Days:
+    - Sunday
+    - Saturday
+    Jobs:
+    - Miner
+    - Woodcutter
+    BroadcastOnStart: true
+    MessageOnStart:
+    - '&e***********************************************'
+    - '&e* Miner and Woodcutter got 2x rate for money!'
+    - '&e* Until 8AM!'    
+    - '&e***********************************************'
+    BroadcastOnStop: true
+    MessageOnStop:
+    - '&e***********************************************'
+    - '&e* Boost time for Miner and Woodcutter have beed stoped'
+    - '&e* Money rates reseted to original ones'
+    - '&e***********************************************'
+    BroadcastInterval: 15
+    BroadcastMessage:
+    - '&e******************************************************'
+    - '&e* 2x money boost time for Miner and Woodcutter jobs'
+    - '&e* Is activated until [until]'
+    - '&e******************************************************'

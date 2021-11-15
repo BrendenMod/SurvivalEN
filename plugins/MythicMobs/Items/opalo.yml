@@ -1,0 +1,14 @@
+opalo:
+  Id: PINK_DYE
+  Display: '&d&lOpal'
+  Data: 0
+  Lore:
+  - '&8══════&c❋&8══════'
+  - '&e➤ &f&oRarity:&r &a&oRare'
+  - '&e➤ &f&oType: &d&oJustice'
+  - '&8═════════════'
+  - '&e➤ &f&oDescription:'
+  - '&e➤ &c&oStone worth'
+  - '&c&oexchange in store'
+  - '&c&oof spawn dungeons.'
+  - '&8══════&c❋&8══════'

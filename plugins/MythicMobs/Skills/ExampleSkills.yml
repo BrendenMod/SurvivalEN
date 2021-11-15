@@ -1,0 +1,139 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+SmashAttack:
+  Cooldown: 8
+  Conditions:
+  - targetwithin 25
+  Skills:
+  - effect:sound{s=mob.endermen.portal;volume=1.0;pitch=0.5}
+  - damage{amount=19;ignorearmor=false} @PlayersInRadius{r=5}
+  - throw{velocity=8;velocityY=4} @PlayersInRadius{r=5}
+  - effect:explosion @Self
+SmashAttack2:
+  Cooldown: 15
+  Conditions:
+  - targetwithin 25
+  Skills:
+  - effect:sound{s=mob.endermen.portal;volume=1.0;pitch=0.5}
+  - damage{amount=16;ignorearmor=false} @PlayersInRadius{r=5}
+  - throw{velocity=5;velocityY=3} @PlayersInRadius{r=5}
+  - effect:explosion @Self
+wither:
+  Cooldown: 15
+  Skills:
+  - potion{type=WITHER;duration=120;level=1}
+blindness:
+  Cooldown: 15
+  Skills:
+  - potion{type=blindness;duration=160;level=1}
+slow:
+  Cooldown: 15
+  Skills:
+  - potion{type=slow;duration=140;level=1}
+ignicion:
+  Cooldown: 20
+  Skills:
+  - effect:flames @self
+  - sound{s=mob.endermen.scream} @self
+  - ignite{ticks=100} @trigger ~onAttack
+FTSmash:
+  Cooldown: 30
+  Conditions:
+  - offgcd true
+  Skills:
+  - GCD{ticks=100} @Self
+  - jump{velocity=2}
+  - delay 45
+  - effect:sound{sound=random.explode;volume=2;p=1} @Self >0 1
+  - effect:particlering{particle=explode;radius=15;points=32;amount=30;hS=1;vS=0} @target
+  - effect:particlering{particle=hugeexplosion;radius=15;points=32;amount=1;hS=1;vS=0} @target
+  - effect:particlering{particle=hugeexplosion;radius=14;points=32;amount=1;hS=1;vS=0} @target
+  - effect:particlering{particle=hugeexplosion;radius=13;points=32;amount=1;hS=1;vS=0} @target
+  - effect:particlering{particle=hugeexplosion;radius=12;points=32;amount=1;hS=1;vS=0} @target
+  - effect:particlering{particle=hugeexplosion;radius=11;points=32;amount=1;hS=1;vS=0} @target
+  - effect:particlering{particle=hugeexplosion;radius=10;points=32;amount=1;hS=1;vS=0} @target
+  - effect:particlering{particle=hugeexplosion;radius=9;points=32;amount=1;hS=1;vS=0} @target
+  - effect:particlering{particle=hugeexplosion;radius=8;points=32;amount=1;hS=1;vS=0} @target
+  - throw{velocity=20;velocityY=25} @LivingEntitiesInRadius{r=15}
+FleshBolt:
+  Cooldown: 15
+  Skills:
+  - delay 120
+  - effect:sound{s=mob.enderdragon.growl;volume=0.3;pitch=1.0}
+  - effect:itemspray{item=rotten_flesh;duration=100;amount=20;force=3;velocity=5} @Self 
+  - delay 120
+  - projectile{onTick=FleshBolt-Tick;onHit=FleshBolt-Hit;v=8;i=1;hR=1;vR=1}
+FleshBolt-Tick:
+  Skills:
+     - effect:itemspray{item=rotten_flesh;duration=100;amount=3;velcoity=0.75} @origin
+FleshBolt-Hit:
+  Skills:
+     - effect:sound{sound=mob.zombie.death;volume=1;p=0.7} @Self >0
+     - damage{a=10;i=false}
+JefeMundialAttack:
+  Cooldown: 15
+  Conditions:
+  - targetwithin 25
+  Skills:
+  - effect:sound{s=mob.endermen.portal;volume=1.0;pitch=0.5}
+  - delay 10
+  - damage{amount=12;ignorearmor=true} @PlayersInRadius{r=5}
+  - throw{velocity=10;velocityY=5} @PlayersInRadius{r=5}
+  - effect:explosion @Self
+Jefecegado:
+  Cooldown: 10
+  Skills:
+  - potion{type=BLINDNESS;duration=90;level=2}
+  - potion{type=CONFUSION;duration=80;level=2}
+  - damage{amount=8}
+PeligroJefe:
+  Cooldown: 15
+  Conditions:
+  - targetwithin 20
+  Skills:
+  - command{c="tm message <target.name> &4&lBOSS ALERT!<nl>&e&lGET AWAY!"} @PlayersInRadius{r=8} ~onDamage 1
+  - sound{s=mob.wither.spawn;p=0.0;v=0.5} @origin
+  - delay 20
+  - command{c="tm message <target.name> &4&lBOSS ALERT!<nl>&e&lGET AWAY!"} @PlayersInRadius{r=8} ~onDamage 1
+  - sound{s=mob.wither.spawn;p=0.0;v=0.5} @origin
+  - delay 20
+  - command{c="tm message <target.name> &4&lBOSS ALERT!<nl>&e&lGET AWAY!"} @PlayersInRadius{r=8} ~onDamage 1
+  - sound{s=mob.wither.spawn;p=0.0;v=0.5} @origin
+  - delay 20
+  - damage{a=25;ignorearmor=true;} @PlayersInRadius{r=8}
+  - effect:particles{particle=hugeexplosion;amount=1;vSpread=0;hSpread=0;Speed=1;yOffset=0}
+  - effect:sound{sound=random.explode;volume=2;p=1} @Self >0 1
+HP:
+  Cooldown: 0.25
+  Skills:
+  - sendactionmessage{msg=“&f&lBOSS<&sp>&2&lHP<&co><&sp>&2<mob.hp>”} @PlayersInRadius{r=5} =100%-80% 1
+  - sendactionmessage{msg=“&f&lBOSS<&sp>&a&lHP<&co><&sp>&a<mob.hp>”} @PlayersInRadius{r=5} =80%-60% 1
+  - sendactionmessage{msg=“&f&lBOSS<&sp>&6&lHP<&co><&sp>&6<mob.hp>”} @PlayersInRadius{r=5} =60%-40% 1
+  - sendactionmessage{msg=“&f&lBOSS<&sp>&e&lHP<&co><&sp>&e<mob.hp>”} @PlayersInRadius{r=5} =40%-20% 1
+  - sendactionmessage{msg=“&f&lBOSS<&sp>&c&lHP<&co><&sp>&c<mob.hp>”} @PlayersInRadius{r=5} =20%-10% 1
+  - sendactionmessage{msg=“&f&lBOSS<&sp>&4&lHP<&co><&sp>&4<mob.hp>”} @PlayersInRadius{r=5} =10%-0% 1
+SummonVincator:
+  Cooldown: 30
+  Skills:
+  - summon{mob=Vindicator;amount=3;noise=5} @Self
+  - delay 20
+  - summon{mob=Vindicator;amount=2;noise=5} @Self
+  - delay 20
+  - summon{mob=Vindicator;amount=1;noise=5} @Self
+SummonZombie:
+  Cooldown: 30
+  Skills:
+  - summon{mob=Zombie;amount=3;noise=5} @Self
+  - delay 20
+  - summon{mob=Zombie;amount=2;noise=5} @Self
+  - delay 20
+  - summon{mob=Zombie;amount=1;noise=5} @Self
+SummonSkeleton:
+  Cooldown: 30
+  Skills:
+  - summon{mob=Skeleton;amount=3;noise=5} @Self
+  - delay 20
+  - summon{mob=Skeleton;amount=2;noise=5} @Self
+  - delay 20
+  - summon{mob=Skeleton;amount=1;noise=5} @Self

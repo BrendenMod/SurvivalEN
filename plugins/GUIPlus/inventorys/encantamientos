@@ -1,0 +1,753 @@
+inv:
+  size: 45
+  alias: encantamientos
+  id: Enchants
+  title: §0Enchants OP
+  targetPlayerOption: DISABLED
+  items:
+    '0':
+      '849123563752765264':
+        item:
+          v: 2578
+          type: BLACK_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '1':
+      '3802676239821505015':
+        item:
+          v: 2578
+          type: BLACK_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '2':
+      '5014057063343154396':
+        item:
+          v: 2578
+          type: BLACK_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '3':
+      '2313769995098126674':
+        item:
+          v: 2578
+          type: BLACK_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '4':
+      '8863923574133058215':
+        item:
+          v: 2578
+          type: BLACK_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '5':
+      '-4042023770405490292':
+        item:
+          v: 2578
+          type: BLACK_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '6':
+      '2742442141541782298':
+        item:
+          v: 2578
+          type: BLACK_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '7':
+      '3973394449147988202':
+        item:
+          v: 2578
+          type: BLACK_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '8':
+      '8984148814922207620':
+        item:
+          v: 2578
+          type: BLACK_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '9':
+      '4880735601562480849':
+        item:
+          v: 2578
+          type: BLACK_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '10':
+      '-6091192879028247057':
+        item:
+          v: 2578
+          type: PLAYER_HEAD
+          meta:
+            ==: ItemMeta
+            meta-type: SKULL
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"●"},{"italic":false,"color":"white","text":"●"},{"italic":false,"color":"yellow","text":"●
+              "},{"italic":false,"color":"aqua","text":"Enchant "},{"bold":true,"italic":false,"color":"gray","text":"SIMPLE
+              "},{"bold":false,"italic":false,"color":"yellow","text":"●"},{"italic":false,"color":"white","text":"●"},{"italic":false,"color":"gold","text":"●"}],"text":""}'
+            lore:
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"⋘"},{"italic":false,"strikethrough":true,"color":"gold","text":"────"},{"italic":false,"strikethrough":false,"text":"
+              "},{"italic":false,"color":"yellow","text":"∗ ⋅◈⋅ ∗ "},{"italic":false,"strikethrough":true,"color":"gold","text":"────"},{"italic":false,"strikethrough":false,"color":"gold","text":"⋙"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Get
+              your book of enchantment"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"in
+              this place, these books"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"they
+              will give you different effects!"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+              "},{"italic":false,"color":"gray","text":"Price: "},{"italic":false,"color":"dark_green","text":"75.000
+              "},{"italic":false,"color":"green","text":"⛁"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+              "},{"italic":false,"underlined":true,"color":"gold","text":"6"},{"italic":false,"underlined":false,"color":"gray","text":"
+              Gold "},{"italic":false,"color":"red","text":"Coints"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"⋘"},{"italic":false,"strikethrough":true,"color":"gold","text":"────"},{"italic":false,"strikethrough":false,"text":"
+              "},{"italic":false,"color":"yellow","text":"∗ ⋅◈⋅ ∗ "},{"italic":false,"strikethrough":true,"color":"gold","text":"────"},{"italic":false,"strikethrough":false,"color":"gold","text":"⋙"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+            Damage: 3
+            internal: H4sIAAAAAAAAAE3PQVKDMBgF4F8HZyp6CW9AweJ04YJptQ1Tgm0JkOxoSQUaaoeCNTmFB+jKpRs33sRTeAuzdPfevG/zTAATrpfbToin5mVTCm6CqdOeN23JD5fQa/lb2zX8YALAWQ8u4kx0HL659C2WFlae+mItkat7tLREiKr9HdrFcjVCLqr1PvXcmRz+s4M2SwaCOn7BdvNuVcfWzFkIPl301zV5pQk6BuOiwGOvH05YGVSeohE50orKQG1lUJFbqliJk7mD1bOtnR3UxMFRXoQJsXFFFVYPEk9YzSLihJF2I3+4Sa17gCs4R7k+YhjG6f3n9/Hm9AXw+SEzgD/bz0drCgEAAA==
+        leftaction:
+          price:
+            lvl: false
+            money: 75000.0
+            xp: 0
+            items:
+            - v: 2578
+              type: PRISMARINE_CRYSTALS
+              amount: 6
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Gold
+                  coin!"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Coin worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            checkDurability: true
+          cooldown: 200
+          closeInv: true
+          commands:
+          - <server>giveunopenedbook <player> SIMPLE
+          - <server>Msg <player> §7You successfully traded a book of §bEnchant §7§lSIMPLE§7!
+    '11':
+      '-5002239984529663573':
+        item:
+          v: 2578
+          type: GRAY_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '12':
+      '8642953070901989734':
+        item:
+          v: 2578
+          type: PLAYER_HEAD
+          meta:
+            ==: ItemMeta
+            meta-type: SKULL
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"●"},{"italic":false,"color":"white","text":"●"},{"italic":false,"color":"yellow","text":"●
+              "},{"italic":false,"color":"aqua","text":"Enchant "},{"bold":true,"italic":false,"color":"green","text":"UNIQUE
+              "},{"bold":false,"italic":false,"color":"yellow","text":"●"},{"italic":false,"color":"white","text":"●"},{"italic":false,"color":"gold","text":"●"}],"text":""}'
+            lore:
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"⋘"},{"italic":false,"strikethrough":true,"color":"gold","text":"────"},{"italic":false,"strikethrough":false,"text":"
+              "},{"italic":false,"color":"yellow","text":"∗ ⋅◈⋅ ∗ "},{"italic":false,"strikethrough":true,"color":"gold","text":"────"},{"italic":false,"strikethrough":false,"color":"gold","text":"⋙"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Get
+              your Enchant book"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"in
+              this place, these books"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"they
+              will give you different effects!"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+              "},{"italic":false,"color":"gray","text":"Price: "},{"italic":false,"color":"dark_green","text":"175.000
+              "},{"italic":false,"color":"green","text":"⛁"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+              "},{"italic":false,"underlined":true,"color":"gold","text":"12"},{"italic":false,"underlined":false,"color":"gray","text":"
+              Gold "},{"italic":false,"color":"red","text":"Coints"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"⋘"},{"italic":false,"strikethrough":true,"color":"gold","text":"────"},{"italic":false,"strikethrough":false,"text":"
+              "},{"italic":false,"color":"yellow","text":"∗ ⋅◈⋅ ∗ "},{"italic":false,"strikethrough":true,"color":"gold","text":"────"},{"italic":false,"strikethrough":false,"color":"gold","text":"⋙"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+            Damage: 3
+            internal: H4sIAAAAAAAAAE2PO07DQBiEf5CRguES3GBjy0YpKCKMnV1l1yR+b5fHBj92Q+TYCLun5wCpKGlouAmn4Ba4pJvRN18xOoAO10HVSvlYP+8KKXTQh3QQdVOI4yWMGvHatLU46gBwNoKLeCVbAd+iI4inOdqmRG46bA89DJD0cXm4xfu4W99jG6uBz6b2vJv821rNKrFkZpKc7xftWsVobi6lmC3HGxW9MOOh417W0zAumEPHvsMKGj5ZrMQ9TbDJjMEL3ZyFU5N7pGJGhKjhVr7DS5owlamoz0pS+F6saL/oqRdZPCCTXYruAK7gHG+HI5qmnd5/ft2b0xfA5wd+A/gDku1aHQoBAAA=
+        leftaction:
+          price:
+            lvl: false
+            money: 175000.0
+            xp: 0
+            items:
+            - v: 2578
+              type: PRISMARINE_CRYSTALS
+              amount: 12
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Gold
+                  coin!"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Coin worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            checkDurability: true
+          cooldown: 200
+          closeInv: true
+          commands:
+          - <server>giveunopenedbook <player> UNIQUE
+          - <server>Msg <player> §7You successfully traded a book of §bEnchant §a§lUNIQUE§7!
+    '13':
+      '-310893964502734435':
+        item:
+          v: 2578
+          type: GRAY_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '14':
+      '6985559780078278296':
+        item:
+          v: 2578
+          type: PLAYER_HEAD
+          meta:
+            ==: ItemMeta
+            meta-type: SKULL
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"●"},{"italic":false,"color":"white","text":"●"},{"italic":false,"color":"yellow","text":"●
+              "},{"italic":false,"color":"aqua","text":"Enchant "},{"bold":true,"italic":false,"color":"aqua","text":"ELITE
+              "},{"bold":false,"italic":false,"color":"yellow","text":"●"},{"italic":false,"color":"white","text":"●"},{"italic":false,"color":"gold","text":"●"}],"text":""}'
+            lore:
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"⋘"},{"italic":false,"strikethrough":true,"color":"gold","text":"────"},{"italic":false,"strikethrough":false,"text":"
+              "},{"italic":false,"color":"yellow","text":"∗ ⋅◈⋅ ∗ "},{"italic":false,"strikethrough":true,"color":"gold","text":"────"},{"italic":false,"strikethrough":false,"color":"gold","text":"⋙"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Get
+              your Enchant book"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"in
+              this place, these books"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"they
+              will give you different effects!"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+              "},{"italic":false,"color":"gray","text":"Price: "},{"italic":false,"color":"dark_green","text":"350.000
+              "},{"italic":false,"color":"green","text":"⛁"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+              "},{"italic":false,"underlined":true,"color":"gold","text":"18"},{"italic":false,"underlined":false,"color":"gray","text":"
+              Gold "},{"italic":false,"color":"red","text":"Coints"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"⋘"},{"italic":false,"strikethrough":true,"color":"gold","text":"────"},{"italic":false,"strikethrough":false,"text":"
+              "},{"italic":false,"color":"yellow","text":"∗ ⋅◈⋅ ∗ "},{"italic":false,"strikethrough":true,"color":"gold","text":"────"},{"italic":false,"strikethrough":false,"color":"gold","text":"⋙"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+            Damage: 3
+            internal: H4sIAAAAAAAAAE2PPU7DQBSEHyhIwXAJbrCOiVEKiggZslbWxj/Y3u0SZ6PEvA2RYydeWi7AAVJR0tBwE07BLdiSbuab0UhjAVhwmTy3iI/1y3KN0gLLqK2sm7XcnUO/kV3T1nJnAcBJH86yGbYSvqX2iShWZFH4WGrqGp8mBENabW/oJtPzO+pSZfLJ2J3q0b/usJnlQ+SOvxKbqJ2rjEydGOUktkv1tBfV2GbKR5azQ6A8wlOmg9TTYR4NRBV1XNHr4IEfRO51fOAZhiqoELmKlVCcsFfD0pKwKrLNhhPmTLPEHy0LcgtwAad0YY70er3j+8/v/dXxC+Dzg74B/AE0bzj9CgEAAA==
+        leftaction:
+          price:
+            lvl: false
+            money: 350000.0
+            xp: 0
+            items:
+            - v: 2578
+              type: PRISMARINE_CRYSTALS
+              amount: 18
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Gold
+                  coin!"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Coin worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            checkDurability: true
+          cooldown: 200
+          closeInv: false
+          commands:
+          - <server>giveunopenedbook <player> ELITE
+          - <server>Msg <player> §7You successfully traded a book of §bEnchant §b§lÉLITE§7!
+    '15':
+      '5550817305951396470':
+        item:
+          v: 2578
+          type: GRAY_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '16':
+      '5812629623004371207':
+        item:
+          v: 2578
+          type: PLAYER_HEAD
+          meta:
+            ==: ItemMeta
+            meta-type: SKULL
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"●"},{"italic":false,"color":"white","text":"●"},{"italic":false,"color":"yellow","text":"●
+              "},{"italic":false,"color":"aqua","text":"Enchant "},{"bold":true,"italic":false,"color":"yellow","text":"ULTIMATE
+              "},{"bold":false,"italic":false,"color":"yellow","text":"●"},{"italic":false,"color":"white","text":"●"},{"italic":false,"color":"gold","text":"●"}],"text":""}'
+            lore:
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"⋘"},{"italic":false,"strikethrough":true,"color":"gold","text":"────"},{"italic":false,"strikethrough":false,"text":"
+              "},{"italic":false,"color":"yellow","text":"∗ ⋅◈⋅ ∗ "},{"italic":false,"strikethrough":true,"color":"gold","text":"────"},{"italic":false,"strikethrough":false,"color":"gold","text":"⋙"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Get
+              your Enchant book"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"in
+              this place, these books"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"they
+              will give you different effects!"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+              "},{"italic":false,"color":"gray","text":"Price: "},{"italic":false,"color":"dark_green","text":"700.000
+              "},{"italic":false,"color":"green","text":"⛁"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+              "},{"italic":false,"underlined":true,"color":"gold","text":"25"},{"italic":false,"underlined":false,"color":"gray","text":"
+              Gold "},{"italic":false,"color":"red","text":"Coints"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"⋘"},{"italic":false,"strikethrough":true,"color":"gold","text":"────"},{"italic":false,"strikethrough":false,"text":"
+              "},{"italic":false,"color":"yellow","text":"∗ ⋅◈⋅ ∗ "},{"italic":false,"strikethrough":true,"color":"gold","text":"────"},{"italic":false,"strikethrough":false,"color":"gold","text":"⋙"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+            Damage: 3
+            internal: H4sIAAAAAAAAAE2PP1KDQBxGfzo4E9FLeINFBCeFRTSRLJMFSZY/S5eQTWBZYiYBw1p6Ag+QytLGxpt4Cm8hpd335r3m0wF0uJyVjZRPu+dVIbkOere2fFcXfH8OvZq3dbPjex0ATnpwFs1lw+GbKxelSY6WiSszhe2O6QxJH4vtLd5EavGAbVx1fjywJ6r/r7XqeWxJZrp5ugmaRRWhiTmVfDw1sip8Yde4ZXFoMhqYhGbKp8wgMTY8wUwm1q0nSpTSwCJiffAdYpBheWCvbkEou0nFfe7TkUWctCTDgUrj0CDOSHmF218l6A7gAk7xsjuiadrx/ef38er4BfD5gd8A/gD0gy3UCgEAAA==
+        leftaction:
+          price:
+            lvl: false
+            money: 700000.0
+            xp: 0
+            items:
+            - v: 2578
+              type: PRISMARINE_CRYSTALS
+              amount: 25
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Gold
+                  coin!"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Coin worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            checkDurability: true
+          cooldown: 200
+          closeInv: false
+          commands:
+          - <server>giveunopenedbook <player> ULTIMATE
+          - <server>Msg <player> §7You successfully traded a book of §bEnchant §e§lULTIMATE§7!
+    '17':
+      '6148200030927542004':
+        item:
+          v: 2578
+          type: BLACK_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '18':
+      '3204415319323837342':
+        item:
+          v: 2578
+          type: BLACK_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '19':
+      '3948914106520818030':
+        item:
+          v: 2578
+          type: GRAY_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '20':
+      '5860393078789824800':
+        item:
+          v: 2578
+          type: GRAY_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '21':
+      '7314490707627169742':
+        item:
+          v: 2578
+          type: GRAY_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '22':
+      '2697126265278910729':
+        item:
+          v: 2578
+          type: GRAY_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '23':
+      '-4590548221520206516':
+        item:
+          v: 2578
+          type: GRAY_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '24':
+      '6326056959020447734':
+        item:
+          v: 2578
+          type: GRAY_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '25':
+      '5492599075184921234':
+        item:
+          v: 2578
+          type: GRAY_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '26':
+      '-3970398444751234040':
+        item:
+          v: 2578
+          type: BLACK_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '27':
+      '-5981647906285185139':
+        item:
+          v: 2578
+          type: BLACK_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '28':
+      '-520507903008113987':
+        item:
+          v: 2578
+          type: PLAYER_HEAD
+          meta:
+            ==: ItemMeta
+            meta-type: SKULL
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"●"},{"italic":false,"color":"white","text":"●"},{"italic":false,"color":"yellow","text":"●
+              "},{"italic":false,"color":"aqua","text":"Enchant "},{"bold":true,"italic":false,"color":"gold","text":"LEGENDARY
+              "},{"bold":false,"italic":false,"color":"yellow","text":"●"},{"italic":false,"color":"white","text":"●"},{"italic":false,"color":"gold","text":"●"}],"text":""}'
+            lore:
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"⋘"},{"italic":false,"strikethrough":true,"color":"gold","text":"────"},{"italic":false,"strikethrough":false,"text":"
+              "},{"italic":false,"color":"yellow","text":"∗ ⋅◈⋅ ∗ "},{"italic":false,"strikethrough":true,"color":"gold","text":"────"},{"italic":false,"strikethrough":false,"color":"gold","text":"⋙"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Get
+              your Enchant book"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"in
+              this place, these books"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"they
+              will give you different effects!"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+              "},{"italic":false,"color":"gray","text":"Price: "},{"italic":false,"color":"dark_green","text":"1.250.000
+              "},{"italic":false,"color":"green","text":"⛁"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+              "},{"italic":false,"underlined":true,"color":"gold","text":"37"},{"italic":false,"underlined":false,"color":"gray","text":"
+              Gold "},{"italic":false,"color":"red","text":"Coints"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"⋘"},{"italic":false,"strikethrough":true,"color":"gold","text":"────"},{"italic":false,"strikethrough":false,"text":"
+              "},{"italic":false,"color":"yellow","text":"∗ ⋅◈⋅ ∗ "},{"italic":false,"strikethrough":true,"color":"gold","text":"────"},{"italic":false,"strikethrough":false,"color":"gold","text":"⋙"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+            Damage: 3
+            internal: H4sIAAAAAAAAAE2PQU7CQBiFf01NsHoJbzDQtIaFC0NLmQltLdROZ3ZQBimdQVJaZLiAWw/AyqUbN97EU3gL687FS97L922eCWDC9bRspHyonpeFFCaYbduKqi7E7hI6tTjUTSV2JgCcdeAinclGwJfQBPFshRYZkbnGTruTKZIRXm9v8SbV8wF2sGr56N4Z6/4/165n1JbMIiu+iZu5StHYmkgxmnRz9bjnNFVBwjT3UxW5cZdR78j9wOJu3GO9+CXyPYspZoeUFNznZXAkbZ4Owdr7c1FAieJqWIYJ1qGL7cjNdTQg/WWG7gCu4Bwv2iOGYZzevn+GN6dPgI93/ArwC5udPdIKAQAA
+        leftaction:
+          price:
+            lvl: false
+            money: 1250000.0
+            xp: 0
+            items:
+            - v: 2578
+              type: PRISMARINE_CRYSTALS
+              amount: 37
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"bold":true,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Gold
+                  coin!"}],"text":""}'
+                lore:
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"white","text":"Description:"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"➤
+                  "},{"italic":true,"color":"red","text":"Coin worth"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"exchange
+                  in store"}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"of
+                  spawn dungeons."}],"text":""}'
+                - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"══════"},{"italic":false,"color":"red","text":"❋"},{"italic":false,"color":"dark_gray","text":"══════"}],"text":""}'
+            checkDurability: true
+          cooldown: 200
+          closeInv: false
+          commands:
+          - <server>giveunopenedbook <player> LEGENDARY
+          - <server>Msg <player> §7You successfully traded a book of §bEnchant §6§lLEGENDARY§7!
+    '29':
+      '-6023218455918573794':
+        item:
+          v: 2578
+          type: GRAY_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '30':
+      '1498710163904708104':
+        item:
+          v: 2578
+          type: PLAYER_HEAD
+          meta:
+            ==: ItemMeta
+            meta-type: SKULL
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"●"},{"italic":false,"color":"white","text":"●"},{"italic":false,"color":"yellow","text":"●
+              "},{"italic":false,"color":"aqua","text":"Enchant "},{"bold":true,"italic":false,"color":"red","text":"SOUL
+              "},{"bold":false,"italic":false,"color":"yellow","text":"●"},{"italic":false,"color":"white","text":"●"},{"italic":false,"color":"gold","text":"●"}],"text":""}'
+            lore:
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"⋘"},{"italic":false,"strikethrough":true,"color":"gold","text":"────"},{"italic":false,"strikethrough":false,"text":"
+              "},{"italic":false,"color":"yellow","text":"∗ ⋅◈⋅ ∗ "},{"italic":false,"strikethrough":true,"color":"gold","text":"────"},{"italic":false,"strikethrough":false,"color":"gold","text":"⋙"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Get
+              your Enchant book"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"in
+              this place, these books"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"they
+              will give you different effects!"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+              "},{"italic":false,"color":"gray","text":"Available in:"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+              "},{"italic":false,"underlined":true,"color":"light_purple","clickEvent":{"action":"open_url","value":"http://server.buycraft.net"},"text":"server.buycraft.net"},{"italic":false,"underlined":true,"color":"light_purple","text":""}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"⋘"},{"italic":false,"strikethrough":true,"color":"gold","text":"────"},{"italic":false,"strikethrough":false,"text":"
+              "},{"italic":false,"color":"yellow","text":"∗ ⋅◈⋅ ∗ "},{"italic":false,"strikethrough":true,"color":"gold","text":"────"},{"italic":false,"strikethrough":false,"color":"gold","text":"⋙"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+            Damage: 3
+            internal: H4sIAAAAAAAAAE2PP1KDQByFfzo4E9FLeINFBpwUFkaQLJNdEoKEpcufzUDYjRkCyuYUjnWqlDY23sRTeAu3tPve+17zTAATrqdVK8S4flmXgptgatrxuin5/hJ6De+atuZ7EwDOenCRzkXL4ZurEOVZgVZZKJYKuzonUyQivNnd4W2qFo/YxVL74YM7Uv1/W6eZzxzB7LDIt5N2IVM0smPBh7G1lM+vNAmr3PO7PPDfqIctIplNJb6NEoKYJIpuWKc7iwZMcyzJYSDy2cSmQSwjr3Ko5yviCUGSqmMyLdlhUJAy7K8zdA9wBed4pY8YhnF8//l9ujl+AXye8AfAH2VMN0gKAQAA
+    '31':
+      '-1243356834074824478':
+        item:
+          v: 2578
+          type: GRAY_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '32':
+      '-4347014173041363845':
+        item:
+          v: 2578
+          type: PLAYER_HEAD
+          meta:
+            ==: ItemMeta
+            meta-type: SKULL
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"●"},{"italic":false,"color":"white","text":"●"},{"italic":false,"color":"yellow","text":"●
+              "},{"italic":false,"color":"aqua","text":"Enchant "},{"bold":true,"italic":false,"color":"light_purple","text":"HEROIC
+              "},{"bold":false,"italic":false,"color":"yellow","text":"●"},{"italic":false,"color":"white","text":"●"},{"italic":false,"color":"gold","text":"●"}],"text":""}'
+            lore:
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"⋘"},{"italic":false,"strikethrough":true,"color":"gold","text":"────"},{"italic":false,"strikethrough":false,"text":"
+              "},{"italic":false,"color":"yellow","text":"∗ ⋅◈⋅ ∗ "},{"italic":false,"strikethrough":true,"color":"gold","text":"────"},{"italic":false,"strikethrough":false,"color":"gold","text":"⋙"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Get
+              your Enchant book"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"in
+              this place, these books"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"they
+              will give you different effects!"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+              "},{"italic":false,"color":"gray","text":"Available in:"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+              "},{"italic":false,"underlined":true,"color":"light_purple","clickEvent":{"action":"open_url","value":"http://server.buycraft.net"},"text":"server.buycraft.net"},{"italic":false,"underlined":true,"color":"light_purple","text":""}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"⋘"},{"italic":false,"strikethrough":true,"color":"gold","text":"────"},{"italic":false,"strikethrough":false,"text":"
+              "},{"italic":false,"color":"yellow","text":"∗ ⋅◈⋅ ∗ "},{"italic":false,"strikethrough":true,"color":"gold","text":"────"},{"italic":false,"strikethrough":false,"color":"gold","text":"⋙"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+            Damage: 3
+            internal: H4sIAAAAAAAAAE2PO07DQBRFH8hIwbAJdjCJPygFBcIhGSueIcnEn+nymcifNyFy7ChmBZQsIBUlDQ07YRXsAtPR3aN7bnFNABOuZ0WN+FQ+bzJUJpht2qmyytT+EjqVOlZ1qfYmAJx14CJcYK3gSzU+kXFK1rGPq4a6LYsZQU7z3S3dhs3ygbpUt/3o3h03/X+uUy0iBxPLT+V2Ui91SMbWFNVo2l3p+YENE5uJeRPoELk36EpvcAy8uc16UksdWOyPewkJBBZcUIeJwpaCEpazjA8Z8mjywiOWJgJ1krebPEyTzO9vYnIHcAXndN0eMQzj9Pb983hz+gT4eKevAL+ndPKICgEAAA==
+    '33':
+      '-190638315806233144':
+        item:
+          v: 2578
+          type: GRAY_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '34':
+      '-8675576477170233741':
+        item:
+          v: 2578
+          type: PLAYER_HEAD
+          meta:
+            ==: ItemMeta
+            meta-type: SKULL
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"●"},{"italic":false,"color":"white","text":"●"},{"italic":false,"color":"yellow","text":"●
+              "},{"italic":false,"color":"aqua","text":"Enchant "},{"bold":true,"italic":false,"color":"dark_red","text":"MASTERY
+              "},{"bold":false,"italic":false,"color":"yellow","text":"●"},{"italic":false,"color":"white","text":"●"},{"italic":false,"color":"gold","text":"●"}],"text":""}'
+            lore:
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"⋘"},{"italic":false,"strikethrough":true,"color":"gold","text":"────"},{"italic":false,"strikethrough":false,"text":"
+              "},{"italic":false,"color":"yellow","text":"∗ ⋅◈⋅ ∗ "},{"italic":false,"strikethrough":true,"color":"gold","text":"────"},{"italic":false,"strikethrough":false,"color":"gold","text":"⋙"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Get
+              your Enchant book"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"in
+              this place, these books"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"they
+              will give you different effects!"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+              "},{"italic":false,"color":"gray","text":"Available in:"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"»
+              "},{"italic":false,"underlined":true,"color":"light_purple","clickEvent":{"action":"open_url","value":"http://server.buycraft.net"},"text":"server.buycraft.net"},{"italic":false,"underlined":true,"color":"light_purple","text":""}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"⋘"},{"italic":false,"strikethrough":true,"color":"gold","text":"────"},{"italic":false,"strikethrough":false,"text":"
+              "},{"italic":false,"color":"yellow","text":"∗ ⋅◈⋅ ∗ "},{"italic":false,"strikethrough":true,"color":"gold","text":"────"},{"italic":false,"strikethrough":false,"color":"gold","text":"⋙"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+            Damage: 3
+            internal: H4sIAAAAAAAAAE1QTVKDMBj9dHCmopfQEwRrcbrooiODDdOkliKU7FpIJTTBTgsdwik8QE/gxo038RTewrhz9X4379kANlwvto2Uz/u3jZDcBtuwHd/Xgh8uoVfztm72/GADwFkPLuKVbDh8cR0gtixQvgxkprFrdLRAcobL3QOuYr1+xC5WJp+M3ake/usO6lUykGk/KFg1b9YqRtN+KPkkdDL1cmTKL2k0bskd1qTMC+ptEUtISxUx6Ks0wS0rXxF7igsaZZolTBCVdmkXCpqQjqn0fuZh58+jESuIFwhcOcPNfDQCuIJznJshlmWd3r9//JvTpzng41YA/AII6CWoCgEAAA==
+    '35':
+      '-1138665011838292727':
+        item:
+          v: 2578
+          type: BLACK_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '36':
+      '933266459637093438':
+        item:
+          v: 2578
+          type: BLACK_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '37':
+      '-3070849974641103736':
+        item:
+          v: 2578
+          type: BLACK_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '38':
+      '2004712390098376817':
+        item:
+          v: 2578
+          type: BLACK_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '39':
+      '-2239223918092917133':
+        item:
+          v: 2578
+          type: BLACK_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '40':
+      '-5203188927070643357':
+        item:
+          v: 2578
+          type: BLACK_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '41':
+      '2160229215339352937':
+        item:
+          v: 2578
+          type: BLACK_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '42':
+      '-6516238344907262333':
+        item:
+          v: 2578
+          type: BLACK_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '43':
+      '-2039118137746004009':
+        item:
+          v: 2578
+          type: BLACK_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+    '44':
+      '1573753498852750008':
+        item:
+          v: 2578
+          type: BLACK_STAINED_GLASS_PANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'

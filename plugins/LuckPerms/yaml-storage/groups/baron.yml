@@ -1,0 +1,11 @@
+name: baron
+permissions:
+- ezranks.rank.Baron
+parents:
+- g-bukkit_default
+- g-essentials_default
+- g-groupmanager_default
+- leader
+prefixes:
+- '&f':
+    priority: 21

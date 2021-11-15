@@ -1,0 +1,928 @@
+inv:
+  size: 45
+  alias: tradeos2
+  id: tradeos2
+  title: §0Dungeon Shop
+  targetPlayerOption: DISABLED
+  items:
+    '0':
+      '6497803973059824713':
+        item:
+          v: 2586
+          type: BLACK_STAINED_GLASS_PANE
+    '1':
+      '4224009002761398619':
+        item:
+          v: 2586
+          type: BLACK_STAINED_GLASS_PANE
+    '2':
+      '-5183404685775826343':
+        item:
+          v: 2586
+          type: BLACK_STAINED_GLASS_PANE
+    '3':
+      '7244128084239439296':
+        item:
+          v: 2586
+          type: BLACK_STAINED_GLASS_PANE
+    '4':
+      '-4691344199582909718':
+        item:
+          v: 2586
+          type: BLACK_STAINED_GLASS_PANE
+    '5':
+      '-1877819357323532210':
+        item:
+          v: 2586
+          type: DIAMOND_HELMET
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Helmet
+              "},{"italic":false,"color":"dark_green","text":"Catacombs"}],"text":""}'
+            lore:
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Requirements:"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x42
+              "},{"italic":false,"color":"gold","text":"Calcite"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x16
+              "},{"italic":false,"color":"yellow","text":"Epidote"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x6
+              "},{"italic":false,"color":"red","text":"Gold coins"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            enchants:
+              WATER_WORKER: 6
+              PROTECTION_EXPLOSIONS: 9
+              PROTECTION_FIRE: 9
+              MENDING: 6
+              PROTECTION_PROJECTILE: 9
+              PROTECTION_ENVIRONMENTAL: 9
+              DURABILITY: 8
+        leftaction:
+          price:
+            lvl: false
+            money: 0.0
+            xp: 0
+            economy: Vault
+            items:
+            - v: 2586
+              type: ORANGE_DYE
+              amount: 48
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"text":"§6§lCalcite"}'
+                lore:
+                - '{"text":"§8══════§c❋§8══════"}'
+                - '{"text":"§e➤ §f§oRarity:§r §5§oEpic"}'
+                - '{"text":"§8═════════════"}'
+                - '{"text":"§e➤ §f§oDescription:"}'
+                - '{"text":"§e➤ §c§oStone with value of"}'
+                - '{"text":"§c§oexchange in store"}'
+                - '{"text":"§c§oof spawn dungeons."}'
+                - '{"text":"§8══════§c❋§8══════"}'
+            - v: 2586
+              type: YELLOW_DYE
+              amount: 16
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"text":"§e§lEpidote"}'
+                lore:
+                - '{"text":"§8══════§c❋§8══════"}'
+                - '{"text":"§e➤ §f§oRarity:§r §6§oLegendary"}'
+                - '{"text":"§8═════════════"}'
+                - '{"text":"§e➤ §f§oDescription:"}'
+                - '{"text":"§e➤ §c§oStone with value of"}'
+                - '{"text":"§c§oexchange in store"}'
+                - '{"text":"§c§oof spawn dungeons."}'
+                - '{"text":"§8══════§c❋§8══════"}'
+            - v: 2586
+              type: PRISMARINE_CRYSTALS
+              amount: 6
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"text":"§c§l§oGold coin!"}'
+                lore:
+                - '{"text":"§8══════§c❋§8══════"}'
+                - '{"text":"§e➤ §f§oDescription:"}'
+                - '{"text":"§e➤ §c§oCoin with a value of"}'
+                - '{"text":"§c§oexchange in store"}'
+                - '{"text":"§c§oof spawn dungeons."}'
+                - '{"text":"§8══════§c❋§8══════"}'
+            checkDurability: true
+          cooldown: 200
+          closeInv: true
+          commands:
+          - <server>serveritem give c1 1 <player>
+    '6':
+      '7604883483043729391':
+        item:
+          v: 2586
+          type: WHITE_STAINED_GLASS_PANE
+    '7':
+      '2383391215083509982':
+        item:
+          v: 2586
+          type: WHITE_STAINED_GLASS_PANE
+    '8':
+      '3727024747506248500':
+        item:
+          v: 2586
+          type: BLACK_STAINED_GLASS_PANE
+    '9':
+      '-6088396886676702201':
+        item:
+          v: 2586
+          type: BLACK_STAINED_GLASS_PANE
+    '10':
+      '-5637089131456211996':
+        item:
+          v: 2586
+          type: DIAMOND_SWORD
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Sword
+              "},{"italic":false,"color":"dark_green","text":"Catacombs"}],"text":""}'
+            lore:
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Requirements:"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x64
+              "},{"italic":false,"color":"white","text":"Quartz"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x48
+              "},{"italic":false,"color":"red","text":"Andesina"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x12
+              "},{"italic":false,"color":"red","text":"Gold coins"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            enchants:
+              DAMAGE_ARTHROPODS: 8
+              FIRE_ASPECT: 5
+              LOOT_BONUS_MOBS: 6
+              MENDING: 5
+              DAMAGE_ALL: 8
+              DAMAGE_UNDEAD: 8
+              DURABILITY: 6
+        leftaction:
+          price:
+            lvl: false
+            money: 0.0
+            xp: 0
+            economy: Vault
+            items:
+            - v: 2586
+              type: WHITE_DYE
+              amount: 64
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"text":"§f§lQuartz"}'
+                lore:
+                - '{"text":"§8══════§c❋§8══════"}'
+                - '{"text":"§e➤ §f§oRarity:§r §7§oComún"}'
+                - '{"text":"§8═════════════"}'
+                - '{"text":"§e➤ §f§oDescription:"}'
+                - '{"text":"§e➤ §c§oStone with value of"}'
+                - '{"text":"§c§oexchange in store"}'
+                - '{"text":"§c§oof spawn dungeons."}'
+                - '{"text":"§8══════§c❋§8══════"}'
+            - v: 2586
+              type: PRISMARINE_CRYSTALS
+              amount: 12
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"text":"§c§l§oGold coin!"}'
+                lore:
+                - '{"text":"§8══════§c❋§8══════"}'
+                - '{"text":"§e➤ §f§oDescription:"}'
+                - '{"text":"§e➤ §c§oCoin with a value of"}'
+                - '{"text":"§c§oexchange in store"}'
+                - '{"text":"§c§oof spawn dungeons."}'
+                - '{"text":"§8══════§c❋§8══════"}'
+            - v: 2586
+              type: RED_DYE
+              amount: 48
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"text":"§c§lAndesina"}'
+                lore:
+                - '{"text":"§8══════§c❋§8══════"}'
+                - '{"text":"§e➤ §f§oRarity:§r §a§oPoco Común"}'
+                - '{"text":"§8═════════════"}'
+                - '{"text":"§e➤ §f§oDescription:"}'
+                - '{"text":"§e➤ §c§oStone with value of"}'
+                - '{"text":"§c§oexchange in store"}'
+                - '{"text":"§c§oof spawn dungeons."}'
+                - '{"text":"§8══════§c❋§8══════"}'
+            checkDurability: true
+          cooldown: 200
+          closeInv: true
+          commands:
+          - <server>serveritem give c5 1 <player>
+    '11':
+      '2581020586058192543':
+        item:
+          v: 2586
+          type: DIAMOND_AXE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Axe
+              "},{"italic":false,"color":"dark_green","text":"Catacombs"}],"text":""}'
+            lore:
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Requirements:"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x32
+              "},{"italic":false,"color":"white","text":"Quartz"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x16
+              "},{"italic":false,"color":"red","text":"Andesina"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x8
+              "},{"italic":false,"color":"red","text":"Gold coins"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            enchants:
+              DIG_SPEED: 8
+              MENDING: 5
+              SILK_TOUCH: 1
+              DURABILITY: 6
+        leftaction:
+          price:
+            lvl: false
+            money: 0.0
+            xp: 0
+            economy: Vault
+            items:
+            - v: 2586
+              type: WHITE_DYE
+              amount: 32
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"text":"§f§lQuartz"}'
+                lore:
+                - '{"text":"§8══════§c❋§8══════"}'
+                - '{"text":"§e➤ §f§oRarity:§r §7§oComún"}'
+                - '{"text":"§8═════════════"}'
+                - '{"text":"§e➤ §f§oDescription:"}'
+                - '{"text":"§e➤ §c§oStone with value of"}'
+                - '{"text":"§c§oexchange in store"}'
+                - '{"text":"§c§oof spawn dungeons."}'
+                - '{"text":"§8══════§c❋§8══════"}'
+            - v: 2586
+              type: RED_DYE
+              amount: 16
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"text":"§c§lAndesina"}'
+                lore:
+                - '{"text":"§8══════§c❋§8══════"}'
+                - '{"text":"§e➤ §f§oRarity:§r §a§oPoco Común"}'
+                - '{"text":"§8═════════════"}'
+                - '{"text":"§e➤ §f§oDescription:"}'
+                - '{"text":"§e➤ §c§oStone with value of"}'
+                - '{"text":"§c§oexchange in store"}'
+                - '{"text":"§c§oof spawn dungeons."}'
+                - '{"text":"§8══════§c❋§8══════"}'
+            - v: 2586
+              type: PRISMARINE_CRYSTALS
+              amount: 8
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"text":"§c§l§oGold coin!"}'
+                lore:
+                - '{"text":"§8══════§c❋§8══════"}'
+                - '{"text":"§e➤ §f§oDescription:"}'
+                - '{"text":"§e➤ §c§oCoin with a value of"}'
+                - '{"text":"§c§oexchange in store"}'
+                - '{"text":"§c§oof spawn dungeons."}'
+                - '{"text":"§8══════§c❋§8══════"}'
+            checkDurability: true
+          cooldown: 200
+          closeInv: true
+          commands:
+          - <server>serveritem give c6 1 <player>
+    '12':
+      '5923961633392401403':
+        item:
+          v: 2586
+          type: DIAMOND_PICKAXE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Pickaxe
+              "},{"italic":false,"color":"dark_green","text":"Catacombs"}],"text":""}'
+            lore:
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Requirements:"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x48
+              "},{"italic":false,"color":"white","text":"Quartz"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x32
+              "},{"italic":false,"color":"red","text":"Andesina"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x10
+              "},{"italic":false,"color":"red","text":"Gold coins"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            enchants:
+              DIG_SPEED: 8
+              LOOT_BONUS_BLOCKS: 5
+              MENDING: 5
+              DURABILITY: 6
+        leftaction:
+          price:
+            lvl: false
+            money: 0.0
+            xp: 0
+            economy: Vault
+            items:
+            - v: 2586
+              type: WHITE_DYE
+              amount: 48
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"text":"§f§lQuartz"}'
+                lore:
+                - '{"text":"§8══════§c❋§8══════"}'
+                - '{"text":"§e➤ §f§oRarity:§r §7§oComún"}'
+                - '{"text":"§8═════════════"}'
+                - '{"text":"§e➤ §f§oDescription:"}'
+                - '{"text":"§e➤ §c§oStone with value of"}'
+                - '{"text":"§c§oexchange in store"}'
+                - '{"text":"§c§oof spawn dungeons."}'
+                - '{"text":"§8══════§c❋§8══════"}'
+            - v: 2586
+              type: RED_DYE
+              amount: 32
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"text":"§c§lAndesina"}'
+                lore:
+                - '{"text":"§8══════§c❋§8══════"}'
+                - '{"text":"§e➤ §f§oRarity:§r §a§oPoco Común"}'
+                - '{"text":"§8═════════════"}'
+                - '{"text":"§e➤ §f§oDescription:"}'
+                - '{"text":"§e➤ §c§oStone with value of"}'
+                - '{"text":"§c§oexchange in store"}'
+                - '{"text":"§c§oof spawn dungeons."}'
+                - '{"text":"§8══════§c❋§8══════"}'
+            - v: 2586
+              type: PRISMARINE_CRYSTALS
+              amount: 10
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"text":"§c§l§oGold coin!"}'
+                lore:
+                - '{"text":"§8══════§c❋§8══════"}'
+                - '{"text":"§e➤ §f§oDescription:"}'
+                - '{"text":"§e➤ §c§oCoin with a value of"}'
+                - '{"text":"§c§oexchange in store"}'
+                - '{"text":"§c§oof spawn dungeons."}'
+                - '{"text":"§8══════§c❋§8══════"}'
+            checkDurability: true
+          cooldown: 200
+          closeInv: true
+          commands:
+          - <server>serveritem give c7 1 <player>
+    '13':
+      '-1087639866038457075':
+        item:
+          v: 2586
+          type: BLACK_STAINED_GLASS_PANE
+    '14':
+      '5173381231687258854':
+        item:
+          v: 2586
+          type: DIAMOND_CHESTPLATE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Chestplate
+              "},{"italic":false,"color":"dark_green","text":"Catacombs"}],"text":""}'
+            lore:
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Requirements:"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x64
+              "},{"italic":false,"color":"gold","text":"Calcite"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x48
+              "},{"italic":false,"color":"yellow","text":"Epidote"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x10
+              "},{"italic":false,"color":"red","text":"Gold coins"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            enchants:
+              PROTECTION_EXPLOSIONS: 9
+              PROTECTION_FIRE: 9
+              MENDING: 6
+              PROTECTION_PROJECTILE: 9
+              PROTECTION_ENVIRONMENTAL: 9
+              DURABILITY: 8
+        leftaction:
+          price:
+            lvl: false
+            money: 0.0
+            xp: 0
+            economy: Vault
+            items:
+            - v: 2586
+              type: ORANGE_DYE
+              amount: 64
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"text":"§6§lCalcite"}'
+                lore:
+                - '{"text":"§8══════§c❋§8══════"}'
+                - '{"text":"§e➤ §f§oRarity:§r §5§oEpic"}'
+                - '{"text":"§8═════════════"}'
+                - '{"text":"§e➤ §f§oDescription:"}'
+                - '{"text":"§e➤ §c§oStone with value of"}'
+                - '{"text":"§c§oexchange in store"}'
+                - '{"text":"§c§oof spawn dungeons."}'
+                - '{"text":"§8══════§c❋§8══════"}'
+            - v: 2586
+              type: YELLOW_DYE
+              amount: 48
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"text":"§e§lEpidote"}'
+                lore:
+                - '{"text":"§8══════§c❋§8══════"}'
+                - '{"text":"§e➤ §f§oRarity:§r §6§oLegendary"}'
+                - '{"text":"§8═════════════"}'
+                - '{"text":"§e➤ §f§oDescription:"}'
+                - '{"text":"§e➤ §c§oStone with value of"}'
+                - '{"text":"§c§oexchange in store"}'
+                - '{"text":"§c§oof spawn dungeons."}'
+                - '{"text":"§8══════§c❋§8══════"}'
+            - v: 2586
+              type: PRISMARINE_CRYSTALS
+              amount: 10
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"text":"§c§l§oGold coin!"}'
+                lore:
+                - '{"text":"§8══════§c❋§8══════"}'
+                - '{"text":"§e➤ §f§oDescription:"}'
+                - '{"text":"§e➤ §c§oCoin with a value of"}'
+                - '{"text":"§c§oexchange in store"}'
+                - '{"text":"§c§oof spawn dungeons."}'
+                - '{"text":"§8══════§c❋§8══════"}'
+            checkDurability: true
+          cooldown: 200
+          closeInv: true
+          commands:
+          - <server>serveritem give c2 1 <player>
+    '15':
+      '2072496142833759406':
+        item:
+          v: 2586
+          type: WHITE_STAINED_GLASS_PANE
+    '16':
+      '7204640807827966721':
+        item:
+          v: 2586
+          type: WHITE_STAINED_GLASS_PANE
+    '17':
+      '5305207155489534721':
+        item:
+          v: 2586
+          type: BLACK_STAINED_GLASS_PANE
+    '18':
+      '8068007796216906636':
+        item:
+          v: 2586
+          type: BLACK_STAINED_GLASS_PANE
+    '19':
+      '6563107605339096433':
+        item:
+          v: 2586
+          type: SHIELD
+          meta:
+            ==: ItemMeta
+            meta-type: TILE_ENTITY
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Overpower
+              "},{"italic":false,"color":"gold","text":"Shield"}],"text":""}'
+            lore:
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x48
+              "},{"italic":false,"color":"blue","text":"Sapphire"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x48
+              "},{"italic":false,"color":"dark_gray","text":"Onix"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x32
+              "},{"italic":false,"color":"green","text":"Aventurine"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x32
+              "},{"italic":false,"color":"yellow","text":"Alexandrite"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+            enchants:
+              MENDING: 6
+              DURABILITY: 4
+            blockMaterial: SHIELD
+        leftaction:
+          price:
+            lvl: false
+            money: 0.0
+            xp: 0
+            economy: Vault
+            items:
+            - v: 2586
+              type: CYAN_DYE
+              amount: 48
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"text":"§9§lSapphire"}'
+                lore:
+                - '{"text":"§8══════§c❋§8══════"}'
+                - '{"text":"§e➤ §f§oRarity:§r §9§oRaro"}'
+                - '{"text":"§e➤ §f§oTipo: §9§oValor"}'
+                - '{"text":"§8═════════════"}'
+                - '{"text":"§e➤ §f§oDescription:"}'
+                - '{"text":"§e➤ §c§oStone with value of"}'
+                - '{"text":"§c§oexchange in store"}'
+                - '{"text":"§c§oof spawn dungeons."}'
+                - '{"text":"§8══════§c❋§8══════"}'
+            - v: 2586
+              type: LIGHT_GRAY_DYE
+              amount: 48
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"text":"§8§lOnix"}'
+                lore:
+                - '{"text":"§8══════§c❋§8══════"}'
+                - '{"text":"§e➤ §f§oRarity:§r §a§oPoco Común"}'
+                - '{"text":"§e➤ §f§oTipo: §8§oTemor"}'
+                - '{"text":"§8═════════════"}'
+                - '{"text":"§e➤ §f§oDescription:"}'
+                - '{"text":"§e➤ §c§oStone with value of"}'
+                - '{"text":"§c§oexchange in store"}'
+                - '{"text":"§c§oof spawn dungeons."}'
+                - '{"text":"§8══════§c❋§8══════"}'
+            - v: 2586
+              type: GLOWSTONE_DUST
+              amount: 32
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"text":"§e§lAlexandrite"}'
+                lore:
+                - '{"text":"§8══════§c❋§8══════"}'
+                - '{"text":"§e➤ §f§oRarity:§r §9§oRaro"}'
+                - '{"text":"§8═════════════"}'
+                - '{"text":"§e➤ §f§oDescription:"}'
+                - '{"text":"§e➤ §c§oStone with value of"}'
+                - '{"text":"§c§oexchange in store"}'
+                - '{"text":"§c§oof spawn dungeons."}'
+                - '{"text":"§8══════§c❋§8══════"}'
+            - v: 2586
+              type: SLIME_BALL
+              amount: 32
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"text":"§a§lAventurine"}'
+                lore:
+                - '{"text":"§8══════§c❋§8══════"}'
+                - '{"text":"§e➤ §f§oRarity:§r §5§oEpic"}'
+                - '{"text":"§8═════════════"}'
+                - '{"text":"§e➤ §f§oDescription:"}'
+                - '{"text":"§e➤ §c§oStone with value of"}'
+                - '{"text":"§c§oexchange in store"}'
+                - '{"text":"§c§oof spawn dungeons."}'
+                - '{"text":"§8══════§c❋§8══════"}'
+            checkDurability: true
+          cooldown: 200
+          closeInv: true
+          commands:
+          - <server>serveritem give c9 1 <player>
+    '20':
+      '7798206483156373313':
+        item:
+          v: 2586
+          type: WHITE_STAINED_GLASS_PANE
+    '21':
+      '-864693932544894824':
+        item:
+          v: 2586
+          type: WHITE_STAINED_GLASS_PANE
+    '22':
+      '2589903629236907215':
+        item:
+          v: 2586
+          type: BLACK_STAINED_GLASS_PANE
+    '23':
+      '3314640311520377050':
+        item:
+          v: 2586
+          type: DIAMOND_LEGGINGS
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Leggings
+              "},{"italic":false,"color":"dark_green","text":"Catacombs"}],"text":""}'
+            lore:
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Requirements:"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x48
+              "},{"italic":false,"color":"gold","text":"Calcite"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x32
+              "},{"italic":false,"color":"yellow","text":"Epidote"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x8
+              "},{"italic":false,"color":"red","text":"Gold coins"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            enchants:
+              PROTECTION_EXPLOSIONS: 9
+              PROTECTION_FIRE: 9
+              MENDING: 6
+              PROTECTION_PROJECTILE: 9
+              PROTECTION_ENVIRONMENTAL: 9
+              DURABILITY: 8
+        leftaction:
+          price:
+            lvl: false
+            money: 0.0
+            xp: 0
+            economy: Vault
+            items:
+            - v: 2586
+              type: ORANGE_DYE
+              amount: 48
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"text":"§6§lCalcite"}'
+                lore:
+                - '{"text":"§8══════§c❋§8══════"}'
+                - '{"text":"§e➤ §f§oRarity:§r §5§oEpic"}'
+                - '{"text":"§8═════════════"}'
+                - '{"text":"§e➤ §f§oDescription:"}'
+                - '{"text":"§e➤ §c§oStone with value of"}'
+                - '{"text":"§c§oexchange in store"}'
+                - '{"text":"§c§oof spawn dungeons."}'
+                - '{"text":"§8══════§c❋§8══════"}'
+            - v: 2586
+              type: YELLOW_DYE
+              amount: 32
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"text":"§e§lEpidote"}'
+                lore:
+                - '{"text":"§8══════§c❋§8══════"}'
+                - '{"text":"§e➤ §f§oRarity:§r §6§oLegendary"}'
+                - '{"text":"§8═════════════"}'
+                - '{"text":"§e➤ §f§oDescription:"}'
+                - '{"text":"§e➤ §c§oStone with value of"}'
+                - '{"text":"§c§oexchange in store"}'
+                - '{"text":"§c§oof spawn dungeons."}'
+                - '{"text":"§8══════§c❋§8══════"}'
+            - v: 2586
+              type: PRISMARINE_CRYSTALS
+              amount: 8
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"text":"§c§l§oGold coin!"}'
+                lore:
+                - '{"text":"§8══════§c❋§8══════"}'
+                - '{"text":"§e➤ §f§oDescription:"}'
+                - '{"text":"§e➤ §c§oCoin with a value of"}'
+                - '{"text":"§c§oexchange in store"}'
+                - '{"text":"§c§oof spawn dungeons."}'
+                - '{"text":"§8══════§c❋§8══════"}'
+            checkDurability: true
+          cooldown: 200
+          closeInv: false
+          commands:
+          - <server>serveritem give c3 1 <player>
+    '24':
+      '-3895049874982673247':
+        item:
+          v: 2586
+          type: WHITE_STAINED_GLASS_PANE
+    '25':
+      '2055938656420444499':
+        item:
+          v: 2586
+          type: WHITE_STAINED_GLASS_PANE
+    '26':
+      '-8281014907965095266':
+        item:
+          v: 2586
+          type: BLACK_STAINED_GLASS_PANE
+    '27':
+      '2985998811585442812':
+        item:
+          v: 2586
+          type: BLACK_STAINED_GLASS_PANE
+    '28':
+      '-7891288417763184968':
+        item:
+          v: 2586
+          type: WHITE_STAINED_GLASS_PANE
+    '29':
+      '-7104694811845227818':
+        item:
+          v: 2586
+          type: WHITE_STAINED_GLASS_PANE
+    '30':
+      '4377376535222825854':
+        item:
+          v: 2586
+          type: WHITE_STAINED_GLASS_PANE
+    '31':
+      '-5425651470745720849':
+        item:
+          v: 2586
+          type: BLACK_STAINED_GLASS_PANE
+    '32':
+      '4912218293295054284':
+        item:
+          v: 2586
+          type: DIAMOND_BOOTS
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Boots
+              "},{"italic":false,"color":"dark_green","text":"Catacombs"}],"text":""}'
+            lore:
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Requirements:"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x32
+              "},{"italic":false,"color":"gold","text":"Calcite"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x8
+              "},{"italic":false,"color":"yellow","text":"Epidote"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"x4
+              "},{"italic":false,"color":"red","text":"Gold coins"}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"---------------"}],"text":""}'
+            enchants:
+              PROTECTION_EXPLOSIONS: 9
+              PROTECTION_FALL: 7
+              PROTECTION_FIRE: 9
+              MENDING: 6
+              PROTECTION_PROJECTILE: 9
+              PROTECTION_ENVIRONMENTAL: 9
+              SOUL_SPEED: 5
+              DURABILITY: 8
+        leftaction:
+          price:
+            lvl: false
+            money: 0.0
+            xp: 0
+            economy: Vault
+            items:
+            - v: 2586
+              type: ORANGE_DYE
+              amount: 32
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"text":"§6§lCalcite"}'
+                lore:
+                - '{"text":"§8══════§c❋§8══════"}'
+                - '{"text":"§e➤ §f§oRarity:§r §5§oEpic"}'
+                - '{"text":"§8═════════════"}'
+                - '{"text":"§e➤ §f§oDescription:"}'
+                - '{"text":"§e➤ §c§oStone with value of"}'
+                - '{"text":"§c§oexchange in store"}'
+                - '{"text":"§c§oof spawn dungeons."}'
+                - '{"text":"§8══════§c❋§8══════"}'
+            - v: 2586
+              type: YELLOW_DYE
+              amount: 8
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"text":"§e§lEpidote"}'
+                lore:
+                - '{"text":"§8══════§c❋§8══════"}'
+                - '{"text":"§e➤ §f§oRarity:§r §6§oLegendary"}'
+                - '{"text":"§8═════════════"}'
+                - '{"text":"§e➤ §f§oDescription:"}'
+                - '{"text":"§e➤ §c§oStone with value of"}'
+                - '{"text":"§c§oexchange in store"}'
+                - '{"text":"§c§oof spawn dungeons."}'
+                - '{"text":"§8══════§c❋§8══════"}'
+            - v: 2586
+              type: PRISMARINE_CRYSTALS
+              amount: 4
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"text":"§c§l§oGold coin!"}'
+                lore:
+                - '{"text":"§8══════§c❋§8══════"}'
+                - '{"text":"§e➤ §f§oDescription:"}'
+                - '{"text":"§e➤ §c§oCoin with a value of"}'
+                - '{"text":"§c§oexchange in store"}'
+                - '{"text":"§c§oof spawn dungeons."}'
+                - '{"text":"§8══════§c❋§8══════"}'
+            checkDurability: true
+          cooldown: 200
+          closeInv: true
+          commands:
+          - <server>serveritem give c4 1 <player>
+    '33':
+      '5863704427404812117':
+        item:
+          v: 2586
+          type: WHITE_STAINED_GLASS_PANE
+    '34':
+      '2766207133159581607':
+        item:
+          v: 2586
+          type: WHITE_STAINED_GLASS_PANE
+    '35':
+      '8577788329587328503':
+        item:
+          v: 2586
+          type: BLACK_STAINED_GLASS_PANE
+    '36':
+      '6888331904068512692':
+        item:
+          v: 2586
+          type: BLACK_STAINED_GLASS_PANE
+    '37':
+      '2661972957997727396':
+        item:
+          v: 2586
+          type: BLACK_STAINED_GLASS_PANE
+    '38':
+      '5728230716679244773':
+        item:
+          v: 2586
+          type: PLAYER_HEAD
+          meta:
+            ==: ItemMeta
+            meta-type: SKULL
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Previous
+              Page"}],"text":""}'
+            internal: H4sIAAAAAAAAAE2QS1KDQBiEfy20EL2EN+BRYGXhIhWIGSoDeRBeO0Im8hhiioAycwKXHiAncOPGm3gKb+EsXfSi++tNtwKgwN267ildtC/7khIZJC9rCFwvaMZIq4AiwJG0XUlONyB3ZOj6lpwUALiQ4SrMaE/gmzBXTeNC3cUuzRmyhA/WKvVRdXxAh5BtJ8hCjeCzsTVno39ds8sikyaGW6SHZb9tQnVurCiZrbS82bz6tqOnkcO9J0dPgpQmPKywvRnSIDExdxscYdXj09Lj4wE3iPlBUWMuFORmWoncfjYSvhywnmg4qDU/8mpv4o72sfoIcAuXaCeGSJJ0/vj5nd6fv8Qfn2/vAH/FDuMZGQEAAA==
+            skull-owner: Player
+        leftaction:
+          price:
+            lvl: false
+            money: 0.0
+            xp: 0
+            economy: Vault
+            items: []
+            checkDurability: true
+          cooldown: 200
+          closeInv: false
+          commands:
+          - tradeos
+        rightaction:
+          price:
+            lvl: false
+            money: 0.0
+            xp: 0
+            economy: Vault
+            items: []
+            checkDurability: true
+          cooldown: 200
+          closeInv: false
+    '39':
+      '-5503626876448924756':
+        item:
+          v: 2586
+          type: BLACK_STAINED_GLASS_PANE
+    '40':
+      '-6981078086389133746':
+        item:
+          v: 2586
+          type: BLACK_STAINED_GLASS_PANE
+    '41':
+      '-1270126066217430271':
+        item:
+          v: 2586
+          type: BLACK_STAINED_GLASS_PANE
+    '42':
+      '4259017375620336900':
+        item:
+          v: 2586
+          type: BLACK_STAINED_GLASS_PANE
+    '43':
+      '-5058867046131725264':
+        item:
+          v: 2586
+          type: BLACK_STAINED_GLASS_PANE
+    '44':
+      '-3056330503983846867':
+        item:
+          v: 2586
+          type: BLACK_STAINED_GLASS_PANE

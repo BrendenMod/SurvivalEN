@@ -1,0 +1,11 @@
+cobre:
+  Id: PRISMARINE_CRYSTALS
+  Data: 0
+  Display: '&e&l&oCopper Coin!'
+  Lore:
+  - '&8══════&c❋&8══════'
+  - '&e➤ &f&oDescription:'
+  - '&e➤ &c&oCoin worth'
+  - '&c&oexchange in store'
+  - '&c&oof spawn dungeons.'
+  - '&8══════&c❋&8══════'

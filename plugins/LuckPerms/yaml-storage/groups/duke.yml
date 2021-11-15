@@ -1,0 +1,14 @@
+name: duke
+permissions:
+- ezranks.rank.Duke
+- morehearts.group.Extra6:
+    value: false
+- morehearts.group.Extra7
+parents:
+- g-bukkit_default
+- g-essentials_default
+- g-groupmanager_default
+- prince
+prefixes:
+- '&f':
+    priority: 27

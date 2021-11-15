@@ -1,0 +1,40 @@
+EXP:
+  name: "&a&lExperience Bottle &7(Throw)"
+  lore:
+    - '&dValue &f%amount% XP'
+    - '&dEnchanter &fCosmic PvP'
+  message: "&a&l+ %amount% EXP"
+
+Panes:
+  middle:
+    material: "GLASS_PANE"
+  accept:
+    material: "RED_STAINED_GLASS_PANE"
+    name: "&eClick to ACCEPT trade"
+    lore:
+      - ''
+
+blacklist:
+  - 'SOUL'
+  - 'HEROIC'
+  - 'MASTERY'
+
+amount-per-enchant: 100
+
+Dust:
+  SIMPLE:
+    min-percent: 1
+    max-percent: 20
+  UNIQUE:
+    min-percent: 1
+    max-percent: 20
+  ELITE:
+    min-percent: 1
+    max-percent: 20
+  ULTIMATE:
+    min-percent: 1
+    max-percent: 20
+  LEGENDARY:
+    min-percent: 1
+    max-percent: 20
+

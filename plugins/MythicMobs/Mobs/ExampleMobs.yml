@@ -1,0 +1,643 @@
+# For more information, check out the plugin manual or join us on Discord:
+# http://www.mythicmobs.net
+#
+Hielo1:
+  Type: Skeleton
+  Display: '&b&lCandy Stick &8&l[&a&l1&8&l]'
+  Health: 150
+  Damage: 15
+  Faction: Hielo
+  AIGoalSelectors:
+  - 0 clear
+  - 1 arrowattack
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 hurtbytarget
+  - 2 players
+  Equipment:
+  - GOLD_CHESTPLATE CHEST
+  - BOW HAND
+  Drops:
+  - cobre 1-3 0.45
+  - Piedras
+  Skills:
+  - sound{s=mob.bat.death;p=2.0;v=0.1} @self ~onDeath 1
+  - command{c="eco give <target.name> 2500"} @trigger ~onDeath 1
+  Modules:
+    ThreatTable: true
+  Options:
+    MovementSpeed: 0.25
+    FollowRange: 20
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+Hielo2:
+  Type: Zombie
+  Display: '&b&lZombie Ice Cream &8&l[&e&l2&8&l]'
+  Health: 225
+  Damage: 17
+  Faction: Hielo
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 hurtbytarget
+  - 2 players
+  Equipment:
+  - GOLD_CHESTPLATE CHEST
+  - GOLD_BOOTS FEET
+  - STONE_SWORD HAND
+  Drops:
+  - cobre 1-3 0.55
+  - plata 1-3 0.09
+  - Piedras2
+  Skills:
+  - sound{s=mob.bat.death;p=2.0;v=0.1} @self ~onDeath 1
+  - command{c="eco give <target.name> 3500"} @trigger ~onDeath 1
+  Modules:
+    ThreatTable: true
+  Options:
+    MovementSpeed: 0.25
+    FollowRange: 20
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+Hielo3:
+  Type: Skeleton
+  Display: '&b&lCold Archer &8&l[&6&l3&8&l]'
+  Health: 275
+  Damage: 18
+  Faction: Hielo
+  AIGoalSelectors:
+  - 0 clear
+  - 1 arrowattack
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 hurtbytarget
+  - 2 players
+  Equipment:
+  - CHAINMAIL_CHESTPLATE CHEST
+  - CHAINMAIL_LEGGINGS LEGS
+  - CHAINMAIL_BOOTS FEET
+  - BOW HAND
+  Drops:
+  - cobre 1-3 0.65
+  - plata 1 0.09
+  - Piedras3
+  Skills:
+  - sound{s=mob.bat.death;p=2.0;v=0.1} @self ~onDeath 1
+  - command{c="eco give <target.name> 4500"} @trigger ~onDeath 1
+  Modules:
+    ThreatTable: true
+  Options:
+    MovementSpeed: 0.27
+    FollowRange: 20
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+Hielo4:
+  Type: Zombie
+  Display: '&b&lGlacial Explorer &8&l[&c&l4&8&l]'
+  Health: 325
+  Damage: 18
+  Faction: Hielo
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 hurtbytarget
+  - 2 players
+  Equipment:
+  - GOLD_HELMET HEAD
+  - IRON_LEGGINGS LEGS
+  - STONE_SWORD HAND
+  Drops:
+  - cobre 1-3 0.7
+  - plata 1 0.15
+  - Piedras3
+  Skills:
+  - sound{s=mob.bat.death;p=2.0;v=0.1} @self ~onDeath 1
+  - command{c="eco give <target.name> 5500"} @trigger ~onDeath 1
+  Modules:
+    ThreatTable: true
+  Options:
+    MovementSpeed: 0.26
+    FollowRange: 20
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+Hielo5:
+  Type: Zombie
+  Display: '&b&lLost miner &8&l[&c&l4&8&l]'
+  Health: 375
+  Damage: 19
+  Faction: Hielo
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 hurtbytarget
+  - 2 players
+  Equipment:
+  - IRON_CHESTPLATE CHEST
+  - CHAINMAIL_BOOTS FEET
+  - GOLD_PICKAXE HAND
+  Drops:
+  - cobre 1-3 0.75
+  - plata 1 0.2
+  - oro 1 0.01
+  - Piedras3
+  Skills:
+  - sound{s=mob.bat.death;p=2.0;v=0.1} @self ~onDeath 1
+  - command{c="eco give <target.name> 6500"} @trigger ~onDeath 1
+  Modules:
+    ThreatTable: true
+  Options:
+    MovementSpeed: 0.28
+    FollowRange: 20
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+HieloBoss:
+  Type: POLAR_BEAR
+  Display: '&c&lFinal boss!'
+  Health: 3000
+  Damage: 20
+  Faction: Hielo
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 hurtbytarget
+  - 2 players
+  Drops:
+  - cobre 4-5 0.85
+  - plata 3-6 1
+  - oro 1-2 1
+  - Piedras4
+  Skills:
+  - skill{s=slow} @PlayersInRadius{r=12} <80% 0.4
+  - skill{s=blindness} @PlayersInRadius{r=12} <80% 0.2
+  - skill{s=SmashAttack2} @trigger <70% 0.1
+  - effect:lightning @self ~onSpawn 1
+  - skill{skill=PeligroJefe} @Self ~onDamaged =66%
+  - skill{skill=PeligroJefe} @Self ~onDamaged =33%
+  - skill{skill=PeligroJefe} @Self ~onDamaged =1%
+  - sound{s=mob.wither.death;p=0.0;v=0.2} @self ~onDeath 1
+  - command{c="eco give <target.name> 35000"} @PlayersInRadius{r=12} ~onDeath 1
+  - command{c="eco give <target.name> 85000"} @trigger ~onDeath 1
+  - command{c="me &8&m---------&r &4&l&4&lDUNGEONS &8&m---------"} @Self ~onDeath 1
+  - command{c="me &e&l          <target.name>"} @trigger ~onDeath 1
+  - command{c="me &4&l                &a&l✖"} @Self ~onDeath 1
+  - command{c="me &a&l      &b&lFrozen Titan &8&l[&4&l5&8&l]"} @Self ~onDeath 1
+  - command{c="me &e&l           &e&o(Dungeon 1)"} @Self ~onDeath 1
+  - command{c="me &8&m-----------------------------"} @Self ~onDeath 1
+  Modules:
+    ThreatTable: true
+  Options:
+    MovementSpeed: 0.3
+    KnockbackResistance: 2
+    FollowRange: 20
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+Volcan1:
+  Type: Blaze
+  Display: '&4&lElement of Fire &8&l[&a&l1&8&l]'
+  Health: 325
+  Damage: 9
+  Faction: Volcan
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 arrowattack
+  - 3 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 hurtbytarget
+  - 2 players
+  Drops:
+  - cobre 1-4 0.75
+  - plata 1 0.20
+  - PiedrasNUV
+  Skills:
+  - sound{s=mob.blaze.death;p=2.0;v=0.1} @self ~onDeath 1
+  - command{c="eco give <target.name> 3000"} @trigger ~onDeath 1
+  Modules:
+    ThreatTable: true
+  Options:
+    MovementSpeed: 0.25
+    FollowRange: 20
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+Volcan2:
+  Type: WitherSkeleton
+  Display: '&c&lInfernal Squire &8&l[&e&l2&8&l]'
+  Health: 325
+  Damage: 7
+  Faction: Volcan
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 hurtbytarget
+  - 2 players
+  Equipment:
+  - GOLD_CHESTPLATE CHEST
+  - GOLD_BOOTS FEET
+  - STONE_SWORD HAND
+  Drops:
+  - cobre 1-4 0.85
+  - plata 1 0.3
+  - oro 1 0.05
+  - PiedrasNUV2
+  Skills:
+  - skill{s=wither} @trigger <90% 0.2
+  - sound{s=mob.blaze.death;p=2.0;v=0.1} @self ~onDeath 1
+  - command{c="eco give <target.name> 4500"} @trigger ~onDeath 1
+  Modules:
+    ThreatTable: true
+  Options:
+    MovementSpeed: 0.25
+    FollowRange: 20
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+Volcan3:
+  Type: Zombie
+  Display: '&4&lMagma Zombie &8&l[&6&l3&8&l]'
+  Health: 375
+  Damage: 8
+  Faction: Volcan
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 hurtbytarget
+  - 2 players
+  Equipment:
+  - IRON_CHESTPLATE CHEST
+  - GOLD_BOOTS FEET
+  - STONE_SWORD HAND
+  Drops:
+  - cobre 1-4 0.9
+  - plata 1 0.2
+  - oro 1 0.1
+  - PiedrasNUV3
+  Skills:
+  - sound{s=mob.blaze.death;p=2.0;v=0.1} @self ~onDeath 1
+  - command{c="eco give <target.name> 5500"} @trigger ~onDeath 1
+  Modules:
+    ThreatTable: true
+  Options:
+    MovementSpeed: 0.48
+    FollowRange: 20
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+Volcan4:
+  Type: MagmaCube
+  Display: '&c&lSticky Guardian &8&l[&c&l4&8&l]'
+  Health: 425
+  Damage: 9
+  Faction: Volcan
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 hurtbytarget
+  - 2 players
+  Drops:
+  - cobre 1-4 0.95
+  - plata 1 0.4
+  - oro 1 0.03
+  - PiedrasNUV3
+  Skills:
+  - sound{s=mob.blaze.death;p=2.0;v=0.1} @self ~onDeath 1
+  - command{c="eco give <target.name> 6500"} @trigger ~onDeath 1
+  Modules:
+    ThreatTable: true
+  Options:
+    MovementSpeed: 0.38
+    FollowRange: 20
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+Volcan5:
+  Type: WitherSkeleton
+  Display: '&4&lBurnt bones &8&l[&c&l5&8&l]'
+  Health: 475
+  Damage: 10
+  Faction: Volcan
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 hurtbytarget
+  - 2 players
+  Equipment:
+  - IRON_CHESTPLATE CHEST
+  - IRON_LEGGINGS LEGS
+  - CHAINMAIL_BOOTS FEET
+  - STONE_SWORD HAND
+  Drops:
+  - cobre 1-4 1
+  - plata 1 0.5
+  - oro 1 0.4
+  - PiedrasNUV3
+  Skills:
+  - skill{s=wither} @trigger <90% 0.33
+  - sound{s=mob.blaze.death;p=2.0;v=0.1} @self ~onDeath 1
+  - command{c="eco give <target.name> 7500"} @trigger ~onDeath 1
+  Modules:
+    ThreatTable: true
+  Options:
+    MovementSpeed: 0.28
+    FollowRange: 20
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+VolcanBoss:
+  Type: WitherSkeleton
+  Display: '&c&lKing in Flames &8&l[&4&l5&8&l]'
+  Health: 4000
+  Damage: 13
+  Disguise:
+    Type: player
+    Skin: 'Goliath'
+    Player: '&c&lFinal boss!'
+    Burning: true
+    Blocking: true
+    Invisible: false
+    ShowName: false
+    Sneaking: true
+    Sprinting: true
+    ModifyBoundingBox: false
+  Faction: Volcan
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 hurtbytarget
+  - 2 players
+  Equipment:
+  - CHAINMAIL_HELMET HEAD
+  - IRON_CHESTPLATE CHEST
+  - CHAINMAIL_LEGGINGS LEGS
+  - IRON_BOOTS FEET
+  - IRON_SWORD HAND
+  Skills:
+  - skill{s=ignicion} @PlayersInRadius{r=12} <80% 0.2
+  - skill{s=slow} @PlayersInRadius{r=12} <80% 0.2
+  - skill{s=wither} @PlayersInRadius{r=12} <80% 0.2
+  - skill{s=SmashAttack} @trigger <70% 0.1
+  - effect:lightning @self ~onSpawn 1
+  - sound{s=mob.wither.death;p=0.0;v=0.2} @self ~onDeath 1
+  - command{c="eco give <target.name> 45000"} @PlayersInRadius{r=12} ~onDeath 1
+  - command{c="eco give <target.name> 95000"} @trigger ~onDeath 1
+  - command{c="me &8&m---------&r &4&l&4&lDUNGEONS &8&m---------"} @Self ~onDeath 1
+  - command{c="me &e&l          <target.name>"} @trigger ~onDeath 1
+  - command{c="me &4&l                &a&l✖"} @Self ~onDeath 1
+  - command{c="me &a&l       &c&lKing in Flames &8&l[&4&l5&8&l]"} @Self ~onDeath 1
+  - command{c="me &e&l           &e&o(Dungeon 2)"} @Self ~onDeath 1
+  - command{c="me &8&m-----------------------------"} @Self ~onDeath 1
+  Drops:
+  - cobre 5-6 1
+  - plata 4-8 1
+  - oro 2-3 1
+  - PiedrasNUV4
+  Modules:
+    ThreatTable: true
+  Options:
+    MovementSpeed: 0.3
+    KnockbackResistance: 2
+    FollowRange: 40
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    Despawn: false
+Catacumbas1:
+  Type: ZOMBIE
+  Display: '&a&lMeat Seeker &8&l[&a&l1&8&l]'
+  Health: 550
+  Damage: 9
+  Faction: Catacumbas
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 hurtbytarget
+  - 2 players
+  Equipment:
+  - LEATHER_CHESTPLATE CHEST
+  Drops:
+  - cobre 1 0.1
+  - PiedrasNUV5
+  Skills:
+  - sound{s=mob.horse.death;p=2.0;v=0.1} @self ~onDeath 1
+  - command{c="eco give <target.name> 12000"} @trigger ~onDeath 1
+  Modules:
+    ThreatTable: true
+  Options:
+    MovementSpeed: 0.30
+    FollowRange: 20
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+Catacumbas2:
+  Type: ZOMBIE
+  Display: '&a&lFallen Zombie &2✵ &8&l[&e&l2&8&l]'
+  Health: 650
+  Damage: 10
+  Faction: Catacumbas
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 hurtbytarget
+  - 2 players
+  Equipment:
+  - LEATHER_HELMET HEAD
+  - LEATHER_CHESTPLATE CHEST
+  Drops:
+  - cobre 1 0.15
+  - PiedrasNUV5
+  Skills:
+  - sound{s=mob.horse.death;p=2.0;v=0.1} @self ~onDeath 1
+  - command{c="eco give <target.name> 15000"} @trigger ~onDeath 1
+  Modules:
+    ThreatTable: true
+  Options:
+    MovementSpeed: 0.25
+    FollowRange: 20
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+Catacumbas3:
+  Type: ZOMBIE
+  Display: '&a&lBrain swallow &8&l[&6&l3&8&l]'
+  Health: 750
+  Damage: 11
+  Faction: Catacumbas
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 hurtbytarget
+  - 2 players
+  Equipment:
+  - LEATHER_HELMET HEAD
+  - GOLD_CHESTPLATE CHEST
+  - LEATHER_BOOTS FEET
+  Drops:
+  - cobre 1 0.2
+  - PiedrasNUV5
+  Skills:
+  - sound{s=mob.horse.death;p=2.0;v=0.1} @self ~onDeath 1
+  - command{c="eco give <target.name> 17000"} @trigger ~onDeath 1
+  Modules:
+    ThreatTable: true
+  Options:
+    MovementSpeed: 0.35
+    FollowRange: 20
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+Catacumbas4:
+  Type: SKELETON
+  Display: '&f&lBones &8&l[&c&l4&8&l]'
+  Health: 950
+  Damage: 10
+  Faction: Catacumbas
+  AIGoalSelectors:
+  - 0 clear
+  - 1 arrowattack
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 hurtbytarget
+  - 2 players
+  Equipment:
+  - LEATHER_HELMET HEAD
+  - GOLD_CHESTPLATE CHEST
+  - LEATHER_LEGGINGS LEGS
+  - LEATHER_BOOTS FEET
+  - BOW HAND
+  Drops:
+  - cobre 1 0.25
+  - plata 1 0.03
+  - PiedrasNUV5
+  Skills:
+  - sound{s=mob.horse.death;p=2.0;v=0.1} @self ~onDeath 1
+  - command{c="eco give <target.name> 20000"} @trigger ~onDeath 1
+  Modules:
+    ThreatTable: true
+  Options:
+    MovementSpeed: 0.38
+    FollowRange: 20
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+CataBoss:
+  Type: WITHER_SKELETON
+  Display: '&4&lDark Skeleton &8&l[&4&l5&8&l]'
+  Health: 8000
+  Damage: 12
+  Faction: Catacumbas
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 hurtbytarget
+  - 2 players
+  Equipment:
+  - GOLD_HELMET HEAD
+  - GOLD_CHESTPLATE CHEST
+  - GOLD_LEGGINGS LEGS
+  - GOLD_BOOTS FEET
+  - STONE_SWORD HAND
+  Drops:
+  - PiedrasNUV6
+  Skills:
+  - skill{skill=HP} @PlayersInRadius{r=5} ~onDamaged 1
+  - skill{s=wither} @PlayersInRadius{r=12} <80% 0.3
+  - effect:lightning @self ~onSpawn 1
+  - sound{s=mob.wither.death;p=0.0;v=0.2} @self ~onDeath 1
+  - command{c="eco give <target.name> 90000"} @PlayersInRadius{r=12} ~onDeath 1
+  - command{c="eco give <target.name> 125000"} @trigger ~onDeath 1
+  - command{c="bc &8&m---------&r &4&l&4&lDUNGEONS &8&m---------"} @Self ~onDeath 1
+  - command{c="bc &e&l          <target.name>"} @trigger ~onDeath 1
+  - command{c="bc &4&l                &a&l✖"} @Self ~onDeath 1
+  - command{c="bc &a&l     &4&lDark Skeleton &8&l[&4&l5&8&l]"} @Self ~onDeath 1
+  - command{c="bc &e&l           &e&o(Dungeon 3)"} @Self ~onDeath 1
+  - command{c="bc &8&m-----------------------------"} @Self ~onDeath 1
+  Modules:
+    ThreatTable: true
+  Options:
+    MovementSpeed: 0.40
+    KnockbackResistance: 2
+    FollowRange: 35
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    Despawn: false

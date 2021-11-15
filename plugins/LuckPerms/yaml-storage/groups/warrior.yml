@@ -1,0 +1,12 @@
+name: warrior
+permissions:
+- emotes.grin
+- ezranks.rank.Warrior
+parents:
+- g-bukkit_default
+- g-essentials_default
+- g-groupmanager_default
+- noble
+prefixes:
+- '&f':
+    priority: 17

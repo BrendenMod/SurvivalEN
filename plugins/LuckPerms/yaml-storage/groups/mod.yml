@@ -1,0 +1,48 @@
+name: mod
+permissions:
+- adminchat.channel.adminchat
+- adminnotes.admin
+- adminnotes.mod
+- autorank.exclude
+- chatcolor.aqua
+- chatcolor.yellow:
+    value: false
+- chatformat.VIP
+- chatformat.default:
+    value: false
+- deluxechat.filter.bypass
+- deluxechat.pm.url
+- deluxechat.url
+- djp.VIP4:
+    value: false
+- djp.VIP5:
+    value: false
+- djp.aquiles:
+    value: false
+- djp.glifo:
+    value: false
+- djp.pegaso:
+    value: false
+- essentials.broadcast
+- essentials.jail
+- essentials.jail.exempt
+- essentials.jails
+- essentials.mute
+- essentials.togglejail.offline
+- multicommand.use.discord
+- multicommand.use.libre
+- multicommand.use.ocu
+- multicommand.use.sal
+- multicommand.use.tienda
+- nocheatplus.shortcut.bypass
+- staffnotes.add
+- staffnotes.show
+parents:
+- default
+- g-bukkit_default
+- g-essentials_moderador
+- g-groupmanager_default
+- helper
+prefixes:
+- '&3&lMOD &f':
+    priority: 51

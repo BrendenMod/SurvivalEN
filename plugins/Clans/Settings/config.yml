@@ -1,0 +1,88 @@
+ClanNameLength: 5
+ChatFormatEnabled: false
+ChatFormat: '%clan% &8* %player%&7: &f%message%'
+CustomChatFormatEnabled: false
+PermissionEnabled: true
+Permission: clans.*
+PermissionClanCreate: clans.create
+PermissionClanInvite: clans.invite
+PermissionClanAccept: clans.accept
+PermissionClanKick: clans.kick
+PermissionClanStats: clans.stats
+PermissionClanTopStats: clans.topstats
+PermissionClanBase: clans.base
+PermissionClanSetBase: clans.setbase
+PermissionClanLeave: clans.leave
+PermissionClanDelete: clans.delete
+PermissionClanList: clans.list
+PermissionClansReload: clans.reload
+DamageEnabled: false
+SelfDamageEnabled: false
+ClanColors:
+- 0-9:&f✦ &f
+- 10-49:&7✦ &f
+- 50-99:&d✦ &f
+- 100-199:&5✦ &f
+- 200-299:&2✦ &f
+- 300-399:&3✦ &f
+- 400-499:&9✦ &f
+- 500-599:&b✦ &f
+- 600-699:&e✦ &f
+- 700-799:&6✦ &f
+- 800-899:&4✦ &f
+- 900-1199:&f✳ &e
+- 1200-1299:&7✳ &e
+- 1300-1399:&d✳ &e
+- 1400-1499:&5✳ &e
+- 1500-1599:&2✳ &e
+- 1600-1699:&3✳ &e
+- 1700-1799:&9✳ &e
+- 1800-1899:&b✳ &e
+- 1900-1999:&e✳ &e
+- 2000-2099:&6✳ &e
+- 2100-2199:&4✳ &e
+- 2200-2299:&f✤ &6
+- 2300-2399:&7✤ &6
+- 2400-2499:&d✤ &6
+- 2500-2599:&5✤ &6
+- 2600-2699:&2✤ &6
+- 2700-2799:&3✤ &6
+- 2800-2899:&9✤ &6
+- 2900-2999:&b✤ &6
+- 3000-3099:&e✤ &6
+- 3100-3199:&6✤ &6
+- 3200:&4✤ &6
+BaseTeleportEnabled: true
+BaseTeleportMoveEnabled: false
+SetBaseEnabled: true
+BaseTeleportCooldown: 5
+SetBaseCooldown: 600
+ClanLimitEnabled: true
+ClanLimit: 20
+ClanNameMatcher: ^[a-zA-Z0-9]*$
+VaultSupport:
+  Enabled: false
+  ClanCreatePrice: 100.0
+Sounds:
+  Enabled: true
+  ClanEnter: BLOCK_IRON_DOOR_OPEN
+  ClanLeave: BLOCK_IRON_DOOR_CLOSE
+  ClanRankup: ENTITY_PLAYER_LEVELUP
+  BaseTeleport: BLOCK_PORTAL_AMBIENT
+SpecificWorlds:
+  Enabled: true
+  List:
+  - spawn
+  - world
+  - world_nether
+  - world_the_end
+BlacklistedClanNames:
+- racist
+- fuck
+- puto
+- puta
+- perra
+- mrk
+- mama
+- papa
+OnlineMode: false

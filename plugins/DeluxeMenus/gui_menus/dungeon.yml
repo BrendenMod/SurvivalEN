@@ -1,0 +1,127 @@
+menu_title: '&0Dungeon Zones'
+open_command:
+- DUNGEON123124123
+size: 36
+items:
+  'Decoration-1':
+    display_name: '&7'
+    material: black_stained_glass_pane
+    slots:
+    - 0 
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 17
+    - 18
+    - 26
+    - 27
+    - 28
+    - 29
+    - 30
+    - 31
+    - 32
+    - 33
+    - 34
+    - 35
+  'Decoration-2':
+    display_name: '&7'
+    material: gray_stained_glass_pane
+    slots:
+    - 10
+    - 12
+    - 14
+    - 16
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+  Frost:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGFmODE4ZjNmNGNjMmI3YzhlNzBmOGJlYWY4MGY3OWU5MjY1YjMzZmJmZDcxNzZjN2MzMzQ5ZDRiNzZiIn19fQ==
+    slot: 11
+    priority: 1
+    display_name: '&b&lFrost&r &bDungeon &8[&a&l1&8]'
+    lore:
+    - ''
+    - '&7Visit the frozen dungeon'
+    - '&7and get items for trade!'
+    - ''
+    - '&8» &7Rank: &8[&eFarmer&8]'
+    - ''
+    - '&eClick to teleport!'
+    - ''
+    left_click_requirement:
+      requirements:    
+        permiso1:
+          type: has permission
+          permission: acceso.dungeon1
+      deny_commands:
+      - '[close]'
+      - '[message] &b&lDUNGEON &8» &cSorry, you do not have enough rank to teleport to this area'
+    left_click_commands:
+    - '[close]'
+    - '[console] mv tp %player_name% catacumbas'
+    - '[console] tp %player_name% -100.459 75 -259.209<delay=1>'
+    - '[message] &b&lDUNGEON &8» &fYou have been teleported to the selected dungeon. &7(You do not have access to any command in this area)'
+  Volcano:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjhmZjRlNDYxN2U1NTFhMDY2NjkzNmI1NzVkYjFjMmYzYzIxMzBlYzVkMjdjOTY1OWE4NDcyMDFjNDAzOWZiIn19fQ==
+    slot: 13
+    priority: 1
+    display_name: '&4&lVolcano &bDungeon &8[&e&l2&8]'
+    lore:
+    - ''
+    - '&7Visit the volcano dungeon'
+    - '&7and get items for trade!'
+    - ''
+    - '&8» &7Rank: &8[&6Bourgeois&8]'
+    - ''
+    - '&eClick to teleport!'
+    - ''
+    left_click_requirement:
+      requirements:    
+        permiso1:
+          type: has permission
+          permission: acceso.dungeon2
+      deny_commands:
+      - '[close]'
+      - '[message] &b&lDUNGEON &8» &cSorry, you do not have enough rank to teleport to this area'
+    left_click_commands:
+    - '[close]'
+    - '[console] mv tp %player_name% catacumbas'
+    - '[console] tp %player_name% 225.630 160 -5.613<delay=1>'
+    - '[message] &b&lDUNGEON &8» &fYou have been teleported to the selected dungeon. &7(You do not have access to any command in this area)'
+  Catacombs:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWIyYmExNWNiYWNkNzZkOWU2NDFkZDM4NTk4MTZmMjIyYTgyYzljODhjYzUwMzVhNTBlNDcwNWJiZTczNTRlZiJ9fX0=
+    slot: 15
+    priority: 1
+    display_name: '&2&lCatacombs &bDungeon &8[&e&l3&8]'
+    lore:
+    - ''
+    - '&7Visit the volcano dungeon'
+    - '&7and get items for trade!'
+    - ''
+    - '&8» &7Rank: &8[&aPriest&8]'
+    - ''
+    - '&eClick to teleport!'
+    - ''
+    left_click_requirement:
+      requirements:    
+        permiso1:
+          type: has permission
+          permission: acceso.dungeon3
+      deny_commands:
+      - '[close]'
+      - '[message] &b&lDUNGEON &8» &cSorry, you do not have enough rank to teleport to this area'
+    left_click_commands:
+    - '[close]'
+    - '[console] mv tp %player_name% catacumbas'
+    - '[console] tp %player_name% 204 43 -352<delay=1>'
+    - '[message] &b&lDUNGEON &8» &fYou have been teleported to the selected dungeon. &7(You do not have access to any command in this area)'

@@ -1,0 +1,47 @@
+# BlockRegen
+# 
+# Developer(s): Aurorion & Wertik1206
+# Version: 3.5.8
+#
+# Material list: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+
+# Note: You can remove a part of the section to ignore it's function.
+# Note no.2: Most Strings (commands, names, lores) allow PlaceholderAPI placeholders.
+# Note no.3: Most Amounts (money, regen-delay, amount) support dynamic amounts (random) with a low and high.
+
+Blocks:
+  COAL_ORE:
+    replace-block: BEDROCK
+    regenerate-into: COAL_ORE
+    regen-delay: 20
+    drop-naturally: true
+  REDSTONE_ORE:
+    replace-block: BEDROCK
+    regenerate-into: REDSTONE_ORE
+    regen-delay: 30
+    drop-naturally: true
+  LAPIS_ORE:
+    replace-block: BEDROCK
+    regenerate-into: LAPIS_ORE
+    regen-delay: 45
+    drop-naturally: true
+  IRON_ORE:
+    replace-block: BEDROCK
+    regenerate-into: GOLD_ORE
+    regen-delay: 45
+    drop-naturally: true
+  GOLD_ORE:
+    replace-block: BEDROCK
+    regenerate-into: COAL_ORE
+    regen-delay: 60
+    drop-naturally: true
+  DIAMOND_ORE:
+    replace-block: BEDROCK
+    regenerate-into: DIAMOND_ORE
+    regen-delay: 75
+    drop-naturally: true
+  EMERALD_ORE:
+    replace-block: BEDROCK
+    regenerate-into: EMERALD_ORE
+    regen-delay: 90
+    drop-naturally: true

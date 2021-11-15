@@ -1,0 +1,16 @@
+name: g-essentials_vip3
+permissions:
+- essentials.ext
+- essentials.feed
+- essentials.kits.Vip1:
+    value: false
+- essentials.kits.Vip2:
+    value: false
+- essentials.kits.Vip3
+- essentials.me
+- essentials.pweather
+- essentials.sell
+- essentials.sell.hand
+- essentials.sethome.multiple
+- essentials.sethome.multiple.vip3
+- essentials.suicide

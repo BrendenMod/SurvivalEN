@@ -1,0 +1,14 @@
+ambar:
+  Id: ORANGE_DYE
+  Data: 0
+  Display: '&6&lAmber'
+  Lore:
+  - '&8══════&c❋&8══════'
+  - '&e➤ &f&oRarity:&r &a&oRare'
+  - '&e➤ &f&oType: &e&oIntellect'
+  - '&8═════════════'
+  - '&e➤ &f&oDescription:'
+  - '&e➤ &c&oStone worth'
+  - '&c&oexchange in store'
+  - '&c&oof spawn dungeons.'
+  - '&8══════&c❋&8══════'
